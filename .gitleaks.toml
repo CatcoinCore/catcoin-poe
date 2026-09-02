@@ -1,0 +1,5 @@
+# Real google-services.json is gitignored; template uses non-secret placeholders.
+[allowlist]
+paths = [
+  "cat_poe/android/app/google-services.json.example",
+]

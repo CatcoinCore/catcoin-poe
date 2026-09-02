@@ -1,0 +1,4 @@
+New features and improvements!
+- Added social verification schema and profile screen updates.
+- Added total earnings tracking and configuration updates.
+- Bug fixes and performance improvements.

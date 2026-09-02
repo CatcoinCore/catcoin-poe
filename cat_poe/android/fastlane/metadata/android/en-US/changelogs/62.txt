@@ -1,0 +1,3 @@
+- Additional runner game asset optimizations for better performance.
+- General app stability and UI fixes.
+- Improved backend synchronization.

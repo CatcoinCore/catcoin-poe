@@ -1,0 +1,4 @@
+- Localization (l10n) support for multiple languages.
+- Significant enhancements to the Runner game mechanics and assets.
+- Major UI/UX overhaul for improved user experience.
+- Performance and stability improvements.

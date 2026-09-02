@@ -1,0 +1,1 @@
+1.11.0: Android 16 (API 36) ready; stability and compatibility improvements. Update for the best experience.

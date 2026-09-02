@@ -1,0 +1,546 @@
+
+CATCOIN RUNNER – ART PRODUCTION PIPELINE
+========================================
+
+Purpose
+-------
+Define a practical production pipeline for creating, validating, organizing,
+and integrating all CatCoin Runner visual assets so that:
+- the CatCoin mascot remains consistent
+- generated sprites are usable in Flutter + Flame
+- the team can iterate safely
+- broken sprite sheets are caught early
+- downloadable game packs remain organized and updateable
+
+Project Context
+---------------
+Game: CatCoin Runner
+Main App: Existing CatCoin mining application
+Frontend: Flutter
+Game Engine: Flame
+Backend: Python FastAPI
+
+Important Product Rule
+----------------------
+The game is an add-on module.
+Art assets should be packaged into downloadable game content and should not
+unnecessarily bloat the main app package.
+
+Core Visual Goals
+-----------------
+The game must feel like a natural extension of the existing CatCoin ecosystem.
+
+Visual priorities:
+1. Official mascot consistency
+2. Mobile readability
+3. Clean animation silhouettes
+4. Transparent-background PNG compatibility
+5. Flame-ready sprite sheets
+
+Official Mascot Consistency Rules
+---------------------------------
+The CatCoin mascot is the visual anchor of the game.
+
+Mandatory consistency rules:
+- Do NOT redesign the mascot
+- Preserve head shape
+- Preserve eye shape and eye spacing
+- Preserve muzzle proportions
+- Preserve ear size and ear placement
+- Preserve body proportions
+- Preserve tail silhouette
+- Preserve collar / accessories if officially included
+- Preserve orange / white color blocking
+- Preserve character personality
+
+If multiple artists or AI tools are used, all outputs must be checked against
+the official reference set before approval.
+
+Reference Asset Policy
+----------------------
+Maintain a dedicated folder containing official references only.
+
+Recommended structure:
+
+references/
+  official_mascot/
+    catcoin_ref_front.png
+    catcoin_ref_side.png
+    catcoin_ref_expression_01.png
+    catcoin_ref_expression_02.png
+
+Only approved reference files should be used as source guidance for all
+character generation work.
+
+Recommended Art Pipeline Stages
+-------------------------------
+
+Stage 1 – Style Lock
+- Define official mascot reference set
+- Lock color palette
+- Lock body proportions
+- Lock approved accessories
+- Lock frame size rules
+- Lock silhouette rules
+
+Stage 2 – Concept Approval
+- Create rough animation or pose sheets
+- Review side profile readability
+- Review mascot consistency
+- Approve before full sprite production
+
+Stage 3 – Production Generation
+- Generate final sprite frames or sprite sheets
+- Keep each animation in its own strip
+- Export true transparent PNG
+- Use naming conventions consistently
+
+Stage 4 – Validation
+- Check transparency
+- Check frame size
+- Check baseline alignment
+- Check animation continuity
+- Check Flame compatibility
+
+Stage 5 – Packaging
+- Move approved assets into production folders
+- Create downloadable asset pack structure
+- Version the assets
+- Generate changelog
+
+Stage 6 – Integration
+- Load into Flame
+- Test in device builds
+- Validate scale and readability in actual gameplay
+
+Asset Categories
+----------------
+All assets should be organized by category.
+
+Recommended folders:
+
+assets_source/
+  character/
+    idle/
+    run/
+    turbo/
+    jump/
+    double_jump/
+    fall/
+    land/
+    collect/
+    damage/
+    victory/
+
+  enemies/
+    drone/
+    dog/
+    vacuum/
+
+  collectibles/
+    catcoin/
+    super_catcoin/
+    fish/
+    milk/
+
+  environment/
+    tiles/
+    rooftops/
+    platforms/
+    background/
+
+  fx/
+    coin_sparkle/
+    jump_dust/
+    turbo_trail/
+    damage_stars/
+
+Production Output Structure
+---------------------------
+Approved export structure:
+
+assets_game_pack/
+  sprites/
+    character/
+    enemies/
+    collectibles/
+    obstacles/
+    environment/
+    effects/
+
+  backgrounds/
+  audio/
+  config/
+
+Naming Convention
+-----------------
+Use clear, deterministic naming.
+
+Character:
+- cat_idle.png
+- cat_run.png
+- cat_turbo.png
+- cat_jump.png
+- cat_double_jump.png
+- cat_fall.png
+- cat_land.png
+- cat_collect.png
+- cat_damage.png
+- cat_victory.png
+
+Enemies:
+- drone_hover.png
+- drone_attack.png
+- dog_run.png
+- vacuum_move.png
+
+Collectibles:
+- catcoin_spin.png
+- super_catcoin_spin.png
+- fish_powerup.png
+- milk_powerup.png
+
+Effects:
+- coin_sparkle.png
+- jump_dust.png
+- turbo_trail.png
+- damage_stars.png
+
+Versioning Rules
+----------------
+Every approved asset pack should carry a version.
+
+Recommended format:
+v1.0.0
+v1.0.1
+v1.1.0
+
+Example downloadable pack:
+catcoin_runner_assets_v1.0.0.zip
+
+Increment policy:
+- Patch: visual fixes only
+- Minor: new assets or animation improvements
+- Major: style overhaul or large content release
+
+Sprite Sheet Standards
+----------------------
+All animation strips must follow strict technical standards.
+
+Character frame size:
+256 x 256
+
+Enemy frame sizes:
+192 x 192 or 256 x 256 depending on type
+
+Coin / powerup frames:
+128 x 128
+
+FX:
+64 x 64 or 128 x 64
+
+Sprite sheet layout:
+Horizontal strip only
+
+Example:
+[frame1][frame2][frame3][frame4]
+
+No padding between frames unless explicitly documented.
+No baked background.
+No checkerboard pattern.
+
+Transparency Rules
+------------------
+All game sprites must use:
+- PNG
+- True alpha transparency
+- Clean edges
+
+Never allow:
+- white background
+- gray background
+- checkerboard texture baked into image
+- JPEG exports
+- anti-aliased halo caused by incorrect background export
+
+If the generation tool cannot output true alpha, use a temporary chroma key
+background only for internal cleanup, then convert to transparent PNG before
+approval.
+
+Baseline Alignment Rules
+------------------------
+For character animations, the feet baseline must remain consistent across frames.
+
+This is critical for:
+- smooth running
+- no visual jitter
+- predictable hitbox alignment
+
+Validation check:
+1. Overlay all frames
+2. Verify feet sit on same ground line
+3. Ensure head height changes only when intended by animation
+4. Ensure tail is never clipped
+
+Character Animation Quality Checklist
+-------------------------------------
+Before approving an animation:
+
+- Is the mascot still recognizably the CatCoin mascot?
+- Are proportions consistent frame to frame?
+- Are eyes aligned consistently?
+- Is the tail silhouette readable?
+- Is there enough motion difference between frames?
+- Is the run cycle physically believable?
+- Are gather and extension poses clearly visible?
+- Is the baseline consistent?
+- Does the animation loop smoothly?
+- Is the background truly transparent?
+
+Run Cycle Validation Rules
+--------------------------
+The run cycle must clearly include:
+- contact
+- compression
+- gather start
+- full gather
+- lift
+- front reach
+- full extension
+- flight
+- rear contact
+- push
+- gather
+- loop
+
+If the generated run animation shows only small leg shifts with no compression,
+it is NOT approved.
+
+Enemy Animation Rules
+---------------------
+Enemies must match the same visual world.
+
+Drone:
+- compact readable silhouette
+- simple hover motion
+- easy-to-read attack state
+
+Dog:
+- threatening but cartoon-safe
+- readable run silhouette
+- clear bark / attack pose
+
+Vacuum:
+- robotic but playful
+- readable movement
+- not overly detailed
+
+Collectible Rules
+-----------------
+Collectibles must be readable in motion.
+
+CatCoin:
+- bright gold
+- visible symbol
+- clear spin
+
+Super CatCoin:
+- stronger glow
+- visually distinct from regular CatCoin
+
+Fish / Milk:
+- distinct silhouette
+- instantly recognizable during fast gameplay
+
+Environment Rules
+-----------------
+Environment assets must support gameplay readability first.
+
+Platforms and obstacles must:
+- have clear collision silhouettes
+- avoid noisy detail
+- visually separate from background
+
+Background layers must:
+- support parallax
+- avoid distracting the player
+- preserve foreground readability
+
+AI Generation Workflow
+----------------------
+When using AI tools:
+
+Step 1:
+Provide official mascot references
+
+Step 2:
+Use locked prompt with:
+- mascot consistency rules
+- transparent background rules
+- exact frame counts
+- exact frame sizes
+- exact side-view requirements
+
+Step 3:
+Generate small batch first
+Do not generate the entire pack blindly.
+
+Step 4:
+Review outputs manually
+
+Step 5:
+Reject any frame set with:
+- character redesign
+- inconsistent anatomy
+- wrong palette
+- wrong pose logic
+- non-transparent background
+
+Step 6:
+Only then generate final batches
+
+Prompt Management Policy
+------------------------
+Maintain one approved prompt per asset category.
+
+Recommended prompt files:
+- character_animation_prompt.txt
+- world_assets_prompt.txt
+- sprite_size_layout_prompt.txt
+
+Do not let multiple conflicting prompts circulate in production.
+
+Asset Review Roles
+------------------
+Recommended review flow:
+
+AI / Artist generates asset
+→ Art review
+→ Technical review
+→ Integration test
+→ Approval
+→ Pack into downloadable module
+
+Art review checks:
+- style
+- mascot consistency
+- appeal
+- readability
+
+Technical review checks:
+- dimensions
+- transparency
+- naming
+- frame count
+- sprite alignment
+- Flame compatibility
+
+Flame Compatibility Checks
+--------------------------
+Every approved sprite sheet must be test-loaded in Flame.
+
+Validation:
+- image loads successfully
+- frame count is correct
+- textureSize matches expected frame dimensions
+- animation loops properly
+- no frame offset issues
+- no clipping during gameplay scale
+
+Recommended test harness:
+Create a small Flame scene that:
+- loads each animation
+- plays it on loop
+- shows frame boundaries
+- allows quick visual QA
+
+Automated Validation Suggestions
+--------------------------------
+If possible, build a simple asset validation script that checks:
+- file extension is PNG
+- transparency channel exists
+- width is divisible by frame width
+- expected frame count matches
+- filename matches naming standard
+
+Example checks:
+cat_run.png width must equal 3072 if using 12 x 256 frames
+cat_idle.png width must equal 1536 if using 6 x 256 frames
+
+Download Pack Packaging
+-----------------------
+Approved assets should be packaged into versioned downloadable packs.
+
+Recommended pack structure:
+
+catcoin_runner_assets_v1.0.0/
+  sprites/
+    character/
+    enemies/
+    collectibles/
+    environment/
+    effects/
+  backgrounds/
+  metadata/
+    manifest.json
+    changelog.txt
+
+Manifest should contain:
+- version
+- asset list
+- frame sizes
+- animation frame counts
+- compatibility notes
+
+Changelog Policy
+----------------
+Each pack release should include:
+- new assets added
+- assets changed
+- bug fixes
+- known issues
+
+Performance Guidelines
+----------------------
+To keep the downloadable game pack efficient:
+- avoid oversized frames
+- avoid duplicate exports
+- compress zip pack properly
+- remove rejected source variants from release pack
+- keep only production-approved files
+
+Estimated asset pack target:
+35–50 MB preferred for initial game release
+
+Failure Cases to Reject
+-----------------------
+Reject any asset set that has:
+- non-transparent backgrounds
+- mascot redesign
+- inconsistent head shape
+- misaligned baselines
+- frame clipping
+- inconsistent frame sizes
+- unreadable silhouettes
+- poor run-cycle variance
+- impossible animation continuity
+- filenames that do not match standard
+
+Definition of Done
+------------------
+An asset is production-ready only when:
+- it matches the official CatCoin visual identity
+- it uses the correct frame size
+- it has true transparency
+- it follows naming convention
+- it passes Flame loading tests
+- it is included in versioned downloadable pack structure
+
+End Goal
+--------
+Create a reliable art production system where:
+- the CatCoin mascot remains consistent
+- assets are easy to generate and review
+- Flame integration is predictable
+- downloadable content updates stay organized
+- the game can scale without visual chaos

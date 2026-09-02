@@ -1,0 +1,519 @@
+{
+  "name": "CatCoin ComfyUI Node Graph Template",
+  "purpose": "Template workflow for generating CatCoin mascot sprite animations for a Flutter + Flame landscape hybrid auto-runner game.",
+  "notes": [
+    "This is a logical node graph template, not a guaranteed one-click final production workflow.",
+    "For best consistency, generate one animation state at a time.",
+    "For highest character consistency, first generate a master mascot reference image, then reuse it through IPAdapter / Image Prompt / Reference-only conditioning.",
+    "Most models do not output true alpha transparency natively. Generate on pure magenta background RGB(255,0,255), then remove background in post or with a mask workflow.",
+    "Recommended first target: cat_run.png"
+  ],
+  "recommended_models": {
+    "checkpoint": "SDXL illustration/cartoon model or Flux-dev style workflow",
+    "optional_lora": "character consistency LoRA if later trained for CatCoin mascot",
+    "optional_ipadapter": "IPAdapter Plus / image prompt adapter"
+  },
+  "global_parameters": {
+    "width_per_frame": 256,
+    "height_per_frame": 256,
+    "strip_frames": 12,
+    "sheet_width": 3072,
+    "sheet_height": 256,
+    "steps": 32,
+    "cfg": 6.5,
+    "sampler": "dpmpp_2m_karras",
+    "scheduler": "karras",
+    "seed_strategy": "fixed seed for consistency, vary only if pose breaks",
+    "background_rule": "pure magenta RGB(255,0,255)"
+  },
+  "graph_overview": [
+    {
+      "phase": "A. Create reference mascot image",
+      "goal": "Produce one clean side-view master reference of the CatCoin mascot."
+    },
+    {
+      "phase": "B. Generate key poses",
+      "goal": "Generate 4 critical run poses first: contact, full gather, full extension, rear contact."
+    },
+    {
+      "phase": "C. Generate remaining in-between frames",
+      "goal": "Use img2img / reference-guided generation to fill the rest of the run cycle."
+    },
+    {
+      "phase": "D. Assemble strip",
+      "goal": "Combine all frames horizontally into one sprite strip."
+    },
+    {
+      "phase": "E. Remove magenta background",
+      "goal": "Convert solid magenta background to transparency."
+    }
+  ],
+  "node_graph_template": {
+    "A_reference_generation": [
+      {
+        "id": "1",
+        "type": "CheckpointLoaderSimple",
+        "inputs": {
+          "ckpt_name": "YOUR_SDXL_OR_CARTOON_MODEL.safetensors"
+        },
+        "outputs": ["MODEL", "CLIP", "VAE"]
+      },
+      {
+        "id": "2",
+        "type": "CLIPTextEncode",
+        "label": "Positive Prompt - Reference Mascot",
+        "inputs": {
+          "clip": ["1", 1],
+          "text": "CatCoin mascot, official CatCoin mining app mascot design language, 2D cartoon game character reference, orange and white cat, expressive eyes, cute playful face, soft rounded shapes, minimal outlines, side view character reference for mobile game, full body visible, tail visible, consistent proportions, centered on solid pure magenta background RGB(255,0,255), clean production-ready sprite art, simple shading, readable silhouette, game asset concept"
+        },
+        "outputs": ["CONDITIONING"]
+      },
+      {
+        "id": "3",
+        "type": "CLIPTextEncode",
+        "label": "Negative Prompt",
+        "inputs": {
+          "clip": ["1", 1],
+          "text": "photorealistic, realistic fur, 3d render, realistic anatomy, extra legs, extra tail, extra ears, duplicated limbs, mutated paws, deformed face, inconsistent character, inconsistent eyes, inconsistent colors, cropped body, cropped tail, cropped ears, cut off feet, motion blur, background scenery, room, street, grass field, shadows on background, checkerboard pattern, text, watermark, logo, caption, frame labels, multiple characters, front view, top view, perspective distortion, strong gradients, painterly style, sketch, rough lineart, low resolution, blurry edges"
+        },
+        "outputs": ["CONDITIONING"]
+      },
+      {
+        "id": "4",
+        "type": "EmptyLatentImage",
+        "inputs": {
+          "width": 1024,
+          "height": 1024,
+          "batch_size": 1
+        },
+        "outputs": ["LATENT"]
+      },
+      {
+        "id": "5",
+        "type": "KSampler",
+        "inputs": {
+          "model": ["1", 0],
+          "positive": ["2", 0],
+          "negative": ["3", 0],
+          "latent_image": ["4", 0],
+          "seed": 123456789,
+          "steps": 32,
+          "cfg": 6.5,
+          "sampler_name": "dpmpp_2m",
+          "scheduler": "karras",
+          "denoise": 1.0
+        },
+        "outputs": ["LATENT"]
+      },
+      {
+        "id": "6",
+        "type": "VAEDecode",
+        "inputs": {
+          "samples": ["5", 0],
+          "vae": ["1", 2]
+        },
+        "outputs": ["IMAGE"]
+      },
+      {
+        "id": "7",
+        "type": "SaveImage",
+        "inputs": {
+          "images": ["6", 0],
+          "filename_prefix": "catcoin_reference"
+        }
+      }
+    ],
+    "B_key_pose_generation": [
+      {
+        "id": "10",
+        "type": "LoadImage",
+        "label": "Load master reference",
+        "inputs": {
+          "image": "catcoin_reference.png"
+        },
+        "outputs": ["IMAGE", "MASK"]
+      },
+      {
+        "id": "11",
+        "type": "IPAdapterModelLoader",
+        "optional": true,
+        "inputs": {
+          "ipadapter_file": "YOUR_IPADAPTER_MODEL.bin"
+        },
+        "outputs": ["IPADAPTER"]
+      },
+      {
+        "id": "12",
+        "type": "CLIPVisionLoader",
+        "optional": true,
+        "inputs": {
+          "clip_name": "YOUR_CLIP_VISION_MODEL.safetensors"
+        },
+        "outputs": ["CLIP_VISION"]
+      },
+      {
+        "id": "13",
+        "type": "IPAdapterApply",
+        "optional": true,
+        "label": "Apply mascot reference consistency",
+        "inputs": {
+          "ipadapter": ["11", 0],
+          "image": ["10", 0],
+          "clip_vision": ["12", 0],
+          "model": ["1", 0],
+          "weight": 0.75
+        },
+        "outputs": ["MODEL"]
+      },
+      {
+        "id": "14",
+        "type": "CLIPTextEncode",
+        "label": "Positive Prompt - Key Pose",
+        "inputs": {
+          "clip": ["1", 1],
+          "text": "CatCoin mascot, official CatCoin mining app mascot design language, 2D cartoon mobile game sprite, side view, full body visible, orange and white cat, expressive eyes, soft rounded shapes, minimal outlines, consistent proportions, centered character, pure magenta background RGB(255,0,255), physically correct feline run pose, FRAME_POSE_PLACEHOLDER, polished sprite art, game-ready"
+        },
+        "outputs": ["CONDITIONING"]
+      },
+      {
+        "id": "15",
+        "type": "CLIPTextEncode",
+        "label": "Negative Prompt",
+        "inputs": {
+          "clip": ["1", 1],
+          "text": "photorealistic, realistic fur, 3d render, extra legs, extra tail, extra ears, duplicated limbs, deformed paws, bad anatomy, inconsistent colors, cropped tail, cropped ears, checkerboard pattern, text, watermark, multiple characters, scenery, perspective distortion, blurry edges"
+        },
+        "outputs": ["CONDITIONING"]
+      },
+      {
+        "id": "16",
+        "type": "EmptyLatentImage",
+        "inputs": {
+          "width": 512,
+          "height": 512,
+          "batch_size": 1
+        },
+        "outputs": ["LATENT"]
+      },
+      {
+        "id": "17",
+        "type": "KSampler",
+        "label": "Generate one key pose",
+        "inputs": {
+          "model": ["13", 0],
+          "positive": ["14", 0],
+          "negative": ["15", 0],
+          "latent_image": ["16", 0],
+          "seed": 123456789,
+          "steps": 30,
+          "cfg": 6.5,
+          "sampler_name": "dpmpp_2m",
+          "scheduler": "karras",
+          "denoise": 1.0
+        },
+        "outputs": ["LATENT"]
+      },
+      {
+        "id": "18",
+        "type": "VAEDecode",
+        "inputs": {
+          "samples": ["17", 0],
+          "vae": ["1", 2]
+        },
+        "outputs": ["IMAGE"]
+      },
+      {
+        "id": "19",
+        "type": "SaveImage",
+        "inputs": {
+          "images": ["18", 0],
+          "filename_prefix": "cat_run_keypose_PLACEHOLDER"
+        }
+      }
+    ],
+    "C_inbetween_generation_img2img": [
+      {
+        "id": "30",
+        "type": "LoadImage",
+        "label": "Load chosen key pose image",
+        "inputs": {
+          "image": "cat_run_keypose_selected.png"
+        },
+        "outputs": ["IMAGE", "MASK"]
+      },
+      {
+        "id": "31",
+        "type": "VAEEncode",
+        "inputs": {
+          "pixels": ["30", 0],
+          "vae": ["1", 2]
+        },
+        "outputs": ["LATENT"]
+      },
+      {
+        "id": "32",
+        "type": "CLIPTextEncode",
+        "label": "Positive Prompt - Inbetween Frame",
+        "inputs": {
+          "clip": ["1", 1],
+          "text": "CatCoin mascot, official CatCoin mining app mascot design language, 2D cartoon game sprite, side view, full body visible, orange and white cat, expressive eyes, soft rounded shapes, minimal outlines, centered, pure magenta background RGB(255,0,255), physically correct feline run in-between frame, BETWEEN_CONTACT_AND_GATHER_PLACEHOLDER, polished sprite art"
+        },
+        "outputs": ["CONDITIONING"]
+      },
+      {
+        "id": "33",
+        "type": "CLIPTextEncode",
+        "label": "Negative Prompt",
+        "inputs": {
+          "clip": ["1", 1],
+          "text": "photorealistic, extra limbs, checkerboard pattern, bad anatomy, multiple characters, cropped body, blurry edges, text, watermark"
+        },
+        "outputs": ["CONDITIONING"]
+      },
+      {
+        "id": "34",
+        "type": "KSampler",
+        "label": "Img2img for in-between frame",
+        "inputs": {
+          "model": ["13", 0],
+          "positive": ["32", 0],
+          "negative": ["33", 0],
+          "latent_image": ["31", 0],
+          "seed": 123456790,
+          "steps": 24,
+          "cfg": 6.0,
+          "sampler_name": "dpmpp_2m",
+          "scheduler": "karras",
+          "denoise": 0.35
+        },
+        "outputs": ["LATENT"]
+      },
+      {
+        "id": "35",
+        "type": "VAEDecode",
+        "inputs": {
+          "samples": ["34", 0],
+          "vae": ["1", 2]
+        },
+        "outputs": ["IMAGE"]
+      },
+      {
+        "id": "36",
+        "type": "SaveImage",
+        "inputs": {
+          "images": ["35", 0],
+          "filename_prefix": "cat_run_inbetween_PLACEHOLDER"
+        }
+      }
+    ],
+    "D_strip_assembly": [
+      {
+        "id": "50",
+        "type": "LoadImage",
+        "inputs": {
+          "image": "frame_01.png"
+        },
+        "outputs": ["IMAGE", "MASK"]
+      },
+      {
+        "id": "51",
+        "type": "LoadImage",
+        "inputs": {
+          "image": "frame_02.png"
+        },
+        "outputs": ["IMAGE", "MASK"]
+      },
+      {
+        "id": "52",
+        "type": "LoadImage",
+        "inputs": {
+          "image": "frame_03.png"
+        },
+        "outputs": ["IMAGE", "MASK"]
+      },
+      {
+        "id": "53",
+        "type": "ImageBatch",
+        "label": "Batch frames in order",
+        "inputs": {
+          "images": [
+            ["50", 0],
+            ["51", 0],
+            ["52", 0]
+          ]
+        },
+        "outputs": ["IMAGE_BATCH"]
+      },
+      {
+        "id": "54",
+        "type": "ImageTile",
+        "label": "Assemble horizontal strip",
+        "inputs": {
+          "images": ["53", 0],
+          "columns": 12,
+          "rows": 1
+        },
+        "outputs": ["IMAGE"]
+      },
+      {
+        "id": "55",
+        "type": "SaveImage",
+        "inputs": {
+          "images": ["54", 0],
+          "filename_prefix": "cat_run_strip_magenta"
+        }
+      }
+    ],
+    "E_background_removal_magenta_to_alpha": [
+      {
+        "id": "70",
+        "type": "LoadImage",
+        "inputs": {
+          "image": "cat_run_strip_magenta.png"
+        },
+        "outputs": ["IMAGE", "MASK"]
+      },
+      {
+        "id": "71",
+        "type": "ColorToMask",
+        "label": "Select pure magenta",
+        "inputs": {
+          "image": ["70", 0],
+          "target_r": 255,
+          "target_g": 0,
+          "target_b": 255,
+          "threshold": 8
+        },
+        "outputs": ["MASK"]
+      },
+      {
+        "id": "72",
+        "type": "InvertMask",
+        "inputs": {
+          "mask": ["71", 0]
+        },
+        "outputs": ["MASK"]
+      },
+      {
+        "id": "73",
+        "type": "ApplyMaskToImage",
+        "label": "Convert magenta to transparency",
+        "inputs": {
+          "image": ["70", 0],
+          "mask": ["72", 0]
+        },
+        "outputs": ["IMAGE"]
+      },
+      {
+        "id": "74",
+        "type": "SaveImage",
+        "inputs": {
+          "images": ["73", 0],
+          "filename_prefix": "cat_run_final_transparent"
+        }
+      }
+    ]
+  },
+  "recommended_prompt_replacements": {
+    "FRAME_POSE_PLACEHOLDER_values_for_run_keyposes": [
+      "front paw contact pose",
+      "full gather pose, all legs tucked under body, spine compressed",
+      "full extension pose, front legs forward, back legs backward, spine stretched",
+      "rear contact pose"
+    ],
+    "BETWEEN_CONTACT_AND_GATHER_PLACEHOLDER_examples": [
+      "transitioning from contact to compression",
+      "transitioning from compression to gather",
+      "transitioning from gather to lift",
+      "transitioning from extension to rear contact"
+    ]
+  },
+  "best_practice_execution_order": [
+    "1. Generate mascot reference",
+    "2. Generate run key poses",
+    "3. Choose best pose set manually",
+    "4. Generate run in-between frames with img2img/reference guidance",
+    "5. Assemble run strip",
+    "6. Remove magenta background to alpha PNG",
+    "7. Repeat same workflow for idle, jump, fall, land, damage, victory, turbo"
+  ],
+  "animation_specs_for_your_game": {
+    "idle": {
+      "frames": 6,
+      "layout": "horizontal strip",
+      "frame_size": "256x256"
+    },
+    "run": {
+      "frames": 12,
+      "layout": "horizontal strip",
+      "frame_size": "256x256"
+    },
+    "turbo_run": {
+      "frames": 12,
+      "layout": "horizontal strip",
+      "frame_size": "256x256"
+    },
+    "jump": {
+      "frames": 6,
+      "layout": "horizontal strip",
+      "frame_size": "256x256"
+    },
+    "double_jump": {
+      "frames": 6,
+      "layout": "horizontal strip",
+      "frame_size": "256x256"
+    },
+    "fall": {
+      "frames": 4,
+      "layout": "horizontal strip",
+      "frame_size": "256x256"
+    },
+    "land": {
+      "frames": 5,
+      "layout": "horizontal strip",
+      "frame_size": "256x256"
+    },
+    "coin_collect": {
+      "frames": 6,
+      "layout": "horizontal strip",
+      "frame_size": "256x256"
+    },
+    "damage": {
+      "frames": 6,
+      "layout": "horizontal strip",
+      "frame_size": "256x256"
+    },
+    "victory": {
+      "frames": 8,
+      "layout": "horizontal strip",
+      "frame_size": "256x256"
+    }
+  },
+  "optional_extensions": {
+    "pose_control": [
+      "OpenPose Editor",
+      "DWpose",
+      "ControlNet OpenPose"
+    ],
+    "consistency": [
+      "IPAdapter",
+      "Reference-only node",
+      "same seed + img2img refinement"
+    ],
+    "cleanup": [
+      "background removal node",
+      "alpha matting node",
+      "external cleanup in Krita/Photoshop/GIMP"
+    ]
+  },
+  "simple_minimal_graph_if_you_want_to_start_fast": [
+    "CheckpointLoaderSimple",
+    "CLIPTextEncode (positive)",
+    "CLIPTextEncode (negative)",
+    "EmptyLatentImage",
+    "KSampler",
+    "VAEDecode",
+    "SaveImage"
+  ],
+  "practical_recommendation": "Start with one animation only: RUN. First build reference -> key poses -> in-betweens -> strip -> alpha cleanup. Once that works, duplicate the workflow for the other states."
+}

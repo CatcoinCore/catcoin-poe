@@ -1,0 +1,4 @@
+Improvements to boosters and rewarded ads.
+- Boosters badge reflects time, referral, and unused game boosts more clearly
+- Safer rewarded flow: no reward if the ad fails to show; auto-credit on ad no-fill when eligible
+- Logging tweaks for easier diagnostics

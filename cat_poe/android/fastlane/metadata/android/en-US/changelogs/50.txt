@@ -1,0 +1,4 @@
+- Added payout history screen for better transaction tracking.
+- Improved admin mission management with additional validation.
+- Enhanced game stats and session management for better stability.
+- Backend schema updates for upcoming features.

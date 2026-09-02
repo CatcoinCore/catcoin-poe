@@ -1,0 +1,4 @@
+Performance and polish.
+- Faster dashboard with lazy-loaded balance details
+- Clearer Boosters screen and time-boost presentation
+- More consistent mini-game session checks across games

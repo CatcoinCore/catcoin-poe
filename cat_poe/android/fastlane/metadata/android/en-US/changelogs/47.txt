@@ -1,0 +1,5 @@
+Bug fixes and refinements for the cat rewards system.
+- Improved wallet transaction stability.
+- Runner game obstacle tuning.
+- Enhanced profile data security.
+- Updated mission reward balancing.

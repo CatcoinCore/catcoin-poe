@@ -1,0 +1,24 @@
+{
+  "version": "1.1.0",
+  "name": "Mini Game Assets",
+  "assets": [
+    {"path": "cat_1.png", "size": 1141833},
+    {"path": "cat_2.png", "size": 948960},
+    {"path": "cat_3.png", "size": 1108762},
+    {"path": "cat_4.png", "size": 1062149},
+    {"path": "cat_5.png", "size": 1056565},
+    {"path": "cat_6.png", "size": 1034186},
+    {"path": "cat_7.png", "size": 1054493},
+    {"path": "cat_8.png", "size": 1064955},
+    {"path": "cat_9.png", "size": 1062594},
+    {"path": "cat_10.png", "size": 1071700},
+    {"path": "sounds/tap.mp3", "size": 8455},
+    {"path": "sounds/soft_tap.mp3", "size": 8455},
+    {"path": "sounds/slide.mp3", "size": 313365},
+    {"path": "sounds/bump.mp3", "size": 51781},
+    {"path": "sounds/merge.mp3", "size": 63471},
+    {"path": "sounds/win.mp3", "size": 57416},
+    {"path": "sounds/lose.mp3", "size": 103871},
+    {"path": "sounds/coin.mp3", "size": 34652}
+  ]
+}

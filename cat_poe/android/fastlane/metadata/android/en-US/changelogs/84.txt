@@ -1,0 +1,5 @@
+Bug fixes and feature improvements.
+- Added Firebase support to Android & iOS builds.
+- Upgraded Admin panel layout with AdMob control toggles.
+- Fixed backend integration for Sudoku and Image Collage games.
+- Resolved game launch database error (Internal Server Error 500).

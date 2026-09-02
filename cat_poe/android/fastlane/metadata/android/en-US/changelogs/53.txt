@@ -1,0 +1,3 @@
+- Additional game system refinements for smoother gameplay.
+- General app stability and UI fixes.
+- Improved backend performance.

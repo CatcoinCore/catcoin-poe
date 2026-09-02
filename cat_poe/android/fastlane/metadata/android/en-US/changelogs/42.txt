@@ -1,0 +1,6 @@
+- Added Catcoin Runner game with procedural level generation
+- Implemented new leaderboard with fraud detection and flag system
+- Enhanced profile security (password changes, social ID verification)
+- Improved wallet and referral screens
+- Added various admin management screens for missions, users, and mining
+- UI/UX improvements across the app

@@ -1,0 +1,7 @@
+v1.9.2 - UX & Stability
+- Overlay blocks all dashboard interactions until mining starts
+- Bottom navigation locked until a session is active
+- Rewards tab now shows count of unclaimed missions
+- Game leaderboards accessible directly from each game card
+- Fixed backend: game_reward_config column migration
+- Fixed build errors in DashboardScreen and localization

@@ -1,0 +1,5 @@
+Bug fixes and performance improvements.
+- Fixed Game Boost yield calculation issues.
+- Added proactive database migrations for smoother updates.
+- Improved backend deployment resilience.
+- Fixed minor administrative and authentication errors.

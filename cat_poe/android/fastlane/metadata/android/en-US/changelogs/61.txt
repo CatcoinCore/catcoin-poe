@@ -1,0 +1,3 @@
+- Additional balancing for the runner game.
+- Improved app performance and responsiveness.
+- General stability fixes and minor UI corrections.

@@ -1,0 +1,1145 @@
+{
+  "@@locale": "zh",
+  "appTitle": "Catcoin",
+  "navHome": "首页",
+  "navGames": "游戏",
+  "navLeaders": "排行榜",
+  "navWallet": "钱包",
+  "navRewards": "奖励",
+  "navProfile": "个人资料",
+  "commonCancel": "取消",
+  "commonSave": "保存",
+  "commonOk": "确定",
+  "commonError": "错误",
+  "commonAppName": "Catcoin",
+  "commonLoading": "加载中...",
+  "commonRetry": "重试",
+  "commonClose": "关闭",
+  "commonNone": "无",
+  "commonGallery": "相册",
+  "commonCamera": "相机",
+  "commonRemovePhoto": "删除照片",
+  "commonRequired": "必填",
+  "commonUnlockEdit": "解锁并编辑",
+  "loginTitle": "登录",
+  "loginEmailOrUsername": "邮箱或用户名",
+  "loginEmailHint": "your.email@example.com 或 900123456",
+  "loginPassword": "密码",
+  "loginButton": "登录",
+  "loginCreateAccount": "创建账号",
+  "loginForgotPassword": "忘记密码？",
+  "loginUseEmailForVerification": "请使用邮箱登录以完成验证。",
+  "signupTitle": "注册",
+  "signupEmail": "邮箱",
+  "signupEmailHint": "your.email@example.com",
+  "signupPassword": "密码",
+  "signupConfirmPassword": "确认密码",
+  "signupReferralCode": "推荐码（可选）",
+  "signupReferralCodeHint": "如有推荐码请输入",
+  "signupButton": "注册",
+  "forgotPasswordTitle": "忘记密码",
+  "forgotPasswordEmail": "邮箱",
+  "forgotPasswordSendCode": "发送重置码",
+  "forgotPasswordBackToLogin": "返回登录",
+  "emailVerificationTitle": "邮箱验证",
+  "emailVerificationInstruction": "请输入发送到以下邮箱的验证码：",
+  "emailVerificationCode": "验证码",
+  "emailVerificationVerify": "验证",
+  "emailVerificationResend": "重新发送",
+  "resetPasswordTitle": "重置密码",
+  "resetPasswordNewPassword": "新密码",
+  "resetPasswordConfirm": "确认新密码",
+  "resetPasswordButton": "重置密码",
+  "profileSetupTitle": "设置个人资料",
+  "splashLoading": "加载中...",
+  "dashboardTotalBalance": "总余额",
+  "dashboardCatoshi": "卡托希",
+  "dashboardCatoshiLabel": "卡托希",
+  "dashboardNotMining": "未在挖矿",
+  "dashboardStartMining": "开始挖矿",
+  "dashboardRewardRate": "奖励率：{rate} Catoshi/秒",
+  "dashboardCurrentDuration": "当前时长：{hours}h / 最大 {maxHours}h",
+  "boostersTitle": "加速器",
+  "boostersCardTitle": "加速器",
+  "boostersCardDescription": "提高挖矿速度并延长挖矿时长！",
+  "boostersOpenScreen": "查看加速器",
+  "leaderboardTitle": "排行榜",
+  "leaderboardTopMiners": "顶级矿工",
+  "leaderboardRank": "排名",
+  "leaderboardUser": "用户",
+  "leaderboardBalance": "余额",
+  "leaderboardYou": "你",
+  "leaderboardGlobal": "全球",
+  "leaderboardRegional": "地区",
+  "leaderboardGames": "游戏",
+  "leaderboardAwards": "奖项",
+  "leaderboardChallengers": "挑战者",
+  "leaderboardNoGlobal": "未发现全球矿工。",
+  "leaderboardNoRegional": "未发现地区矿工。",
+  "leaderboardComingSoon": "即将推出 — 参加小游戏竞赛！",
+  "leaderboardNoAwards": "暂无奖项",
+  "leaderboardKeepMining": "继续挖矿以登上领奖台！",
+  "walletTitle": "钱包",
+  "walletAddress": "钱包地址",
+  "walletBalance": "余额",
+  "walletCopy": "复制",
+  "walletCopied": "已复制！",
+  "walletSend": "发送",
+  "walletReceive": "接收",
+  "walletTransactions": "交易",
+  "walletNoTransactions": "暂无交易",
+  "walletConnectWallet": "连接钱包",
+  "walletDisconnect": "断开连接",
+  "walletSolanaAddress": "Solana 地址",
+  "walletEnterAddress": "输入 Solana 地址",
+  "walletSaveAddress": "保存地址",
+  "walletAddressSaved": "地址已保存！",
+  "walletInvalidAddress": "无效的 Solana 地址",
+  "walletMyWallets": "我的钱包",
+  "walletAddExisting": "添加现有地址",
+  "walletCatcoinAddress": "Catcoin 地址",
+  "walletPasteHint": "在此粘贴地址",
+  "walletSetPrimary": "设为主要地址",
+  "walletInvalidAddressComplex": "地址无效。必须是有效的 BEP20 (0x...)、Solana 或 Catcoin（以 9 开头）地址。",
+  "walletRecoverTitle": "恢复钱包",
+  "walletRecoverInstruction": "输入您的 24 位助记词以恢复钱包。",
+  "walletSecretPhrase": "助记词",
+  "walletSecretPhraseHint": "单词1 单词2 ... 单词24",
+  "walletInvalidPhrase": "助记词无效。必须正好是 24 个单词。",
+  "walletDeleteTitle": "删除钱包",
+  "walletDeleteConfirmMessage": "您确定要删除钱包 {address} 吗？如果您没有私钥/助记词，此操作将无法撤销。",
+  "walletDeletedSuccess": "钱包已成功删除",
+  "walletAddedSuccess": "钱包已成功添加",
+  "walletGenerateTitle": "生成新钱包",
+  "walletBackupTitle": "生成成功！请备份您的钱包",
+  "walletBackupWarning": "重要提示：请按顺序记下这 24 个单词并安全保存。没有它们，您将无法找回资金！",
+  "walletGenerateInstruction": "这将为您创建一个新的 Catcoin 钱包。生成后请务必立即备份您的助记词！",
+  "walletGenerating": "正在生成密钥...",
+  "walletBackedUp": "我已备份",
+  "walletRecoverFromPhrase": "通过助记词恢复",
+  "walletSetDefault": "设为默认",
+  "walletSettingPrimary": "正在将钱包设置为主要钱包...",
+  "walletPrimary": "主要",
+  "walletSourceGenerated": "已生成",
+  "walletSourceRecovered": "已恢复",
+  "walletSourceManual": "手动输入地址",
+  "walletDaysHeld": "持有天数：{days}",
+  "walletCalculating": "正在计算...",
+  "rewardsTitle": "奖励",
+  "rewardsClaim": "领取",
+  "rewardsClaimed": "已领取",
+  "rewardsAvailable": "可用",
+  "rewardsNoRewards": "暂无奖励",
+  "rewardsSocialTasks": "社交任务",
+  "rewardsXTasks": "X 任务",
+  "rewardsTelegramTasks": "Telegram",
+  "rewardsDiscordTasks": "Discord",
+  "rewardsAllMissions": "所有任务",
+  "rewardsNoMissions": "暂无进行中的任务。",
+  "rewardsError": "错误: {error}",
+  "gamesTitle": "游戏",
+  "gamesPlay": "开始",
+  "gamesRunner": "猫咪跑酷",
+  "gamesRunnerDescription": "奔跑、跳跃、收集硬币！",
+  "gamesNoGames": "暂无游戏",
+  "referralTitle": "我的推荐",
+  "referralCode": "你的推荐码",
+  "referralCopyCode": "复制推荐码",
+  "referralShareLink": "分享链接",
+  "referralActiveReferrals": "有效推荐",
+  "referralNoReferrals": "暂无推荐",
+  "referralBoost": "加速",
+  "referralBoosted": "已加速",
+  "referralInviteFriends": "邀请好友",
+  "balanceDetailTitle": "余额详情",
+  "payoutHistoryTitle": "提现记录",
+  "payoutHistoryNone": "暂无提现记录",
+  "awardsTitle": "荣誉",
+  "socialMissionsTitle": "社交任务",
+  "profileTitle": "个人资料",
+  "profileAccountDetails": "账号详情",
+  "profileReferredBy": "推荐人",
+  "profileMyReferrals": "我的推荐",
+  "profileSocialProfiles": "社交账号验证",
+  "profileDiscord": "Discord 用户名",
+  "profileTelegram": "Telegram 用户 ID（数字）",
+  "profileTelegramHint": "如：123456789",
+  "profileX": "X (Twitter) 账号",
+  "profileFacebook": "Facebook 链接/ID",
+  "profileWhatsapp": "WhatsApp 号码",
+  "profileSaveSocialIds": "保存社交 ID",
+  "profileUpdatedSuccess": "个人资料更新成功！",
+  "profileSettings": "设置",
+  "profileAppearance": "外观",
+  "profileThemeSystem": "跟随系统",
+  "profileThemeLight": "浅色",
+  "profileThemeDark": "深色",
+  "profilePayoutHistory": "提现记录",
+  "profileChangePassword": "修改密码",
+  "profileLanguage": "语言",
+  "profileLogout": "退出登录",
+  "profileDeleteAccount": "删除账号",
+  "profileDiscordHint": "输入你的 Discord 用户名",
+  "profileVerified": "已验证。点击 🔒 编辑（将撤销奖励）。",
+  "changePasswordTitle": "修改密码",
+  "changePasswordCurrent": "当前密码",
+  "changePasswordNew": "新密码",
+  "changePasswordConfirm": "确认新密码",
+  "changePasswordMin6": "最少 6 个字符",
+  "changePasswordMismatch": "两次密码不一致",
+  "changePasswordSuccess": "密码修改成功！",
+  "deleteAccountTitle": "删除账号？",
+  "deleteAccountMessage": "此操作不可撤销。\n\n你的所有挖矿进度、余额和推荐关系将永久消失。",
+  "deleteAccountConfirm": "永久删除",
+  "deleteAccountFailed": "删除失败：{error}",
+  "resetSocialTitle": "编辑 {platform} ID？",
+  "resetSocialMessage": "更改已验证的社交 ID 将撤销 100,000 卡托希任务奖励，直到新 ID 通过验证。\n\n确认继续？",
+  "resetSocialUnlocked": "已解锁，可以编辑。",
+  "resetSocialFailed": "解锁失败：{error}",
+  "languageSelectTitle": "选择语言",
+  "languageEnglish": "English",
+  "languageVietnamese": "Tiếng Việt",
+  "languageChinese": "中文",
+  "languageSpanish": "Español",
+  "languageHindi": "हिन्दी",
+  "languageTelugu": "తెలుగు",
+  "languageTamil": "தமிழ்",
+  "telegramHelpTitle": "如何查找你的 Telegram ID",
+  "telegramHelpStep1": "打开 Telegram，搜索 @userinfobot",
+  "telegramHelpStep2": "与机器人开始对话",
+  "telegramHelpStep3": "机器人将回复你的数字用户 ID",
+  "missionComplete": "完成",
+  "missionCompleted": "已完成",
+  "missionClaim": "领取",
+  "missionClaimed": "已领取",
+  "missionGo": "前往",
+  "failedPickImage": "选择图片失败：{error}",
+  "awardsNoAwards": "暂无任何荣誉奖励。",
+  "awardsKeepMining": "继续挖矿并提升排名！",
+  "balanceSummary": "概览",
+  "balanceEarnings": "收益",
+  "balancePayouts": "提现",
+  "balanceLoadError": "余额详情加载失败。",
+  "balanceWithdrawSoon": "敬请期待 — 提现功能即将开启！",
+  "balanceTotal": "总余额",
+  "balanceNotWithdrawable": "不可提现",
+  "balanceBreakdown": "收益构成",
+  "balanceMining": "挖矿收益",
+  "balanceReferral": "推荐收益",
+  "balanceMission": "任务收益",
+  "balanceGame": "游戏收益",
+  "balanceWithdraw": "提现",
+  "balanceWithdrawSubmitted": "提现申请已提交！",
+  "balanceNoHistory": "暂无收益记录。",
+  "balanceNoPayouts": "暂无提现记录。",
+  "boostersActiveModifiers": "当前生效修正项",
+  "boostersCurrentReferralBonus": "当前推荐奖励: +{bonus}%",
+  "boostersAvailableModifiers": "可用修正器",
+  "boostersApplyExtensions": "为当前挖矿会话应用时间延长和激活推荐奖励。",
+  "boostersStartMiningPrompt": "请在仪表盘开始挖矿以解锁修正器！",
+  "boostersNoBoosters": "目前暂无倍增器。",
+  "boostersTimeBoostTitle": "{hours}小时时间加速",
+  "boostersCooldown": "冷却时间: {duration}",
+  "boostersSessionMaxed": "会话已达24小时上限。",
+  "boostersExtendBy": "延长会话 {hours}小时 (最大容量)",
+  "boostersExtendBySimple": "延长会话 {hours}小时",
+  "boostersApply": "应用",
+  "boostersReferralBoosting": "正在为你加速！(生效中) (+{boost}%)",
+  "boostersReferralMaxed": "推荐容量已满。",
+  "boostersReferralActiveMiner": "活跃矿工！应用可获得 +{boost}% 奖励。",
+  "boostersActive": "生效中",
+  "boostersErrorMustMine": "请先开始挖矿！",
+  "boostersEnergyPotionConsumed": "能量药水使用成功！",
+  "boostersErrorFailedToExtend": "会话延长失败: {error}",
+  "boostersReferralActivated": "推荐加速已成功激活！",
+  "gamesRunnerTitle": "Cat Runner",
+  "gamesRunnerDesc": "奔跑、跳跃，赚取卡托希！",
+  "gamesComingSoon": "敬请期待...",
+  "referralsTitle": "推介",
+  "referralsInvitedBy": "邀请人",
+  "referralsNoOneYet": "暂无",
+  "referralsYourCode": "你的推荐码",
+  "referralsCopied": "已复制到剪贴板",
+  "referralsShareMessage": "快来加入 Catcoin PoE！使用我的邀请码 {code} 领取奖励。\n\n链接: https://poe.catcoin.in/invite/{code}",
+  "referralsTotal": "总计",
+  "referralsActiveCount": "活跃",
+  "referralsBoostPercentage": "加速百分比",
+  "referralsYourReferrals": "你的推荐",
+  "referralsActiveLast24h": "活跃 (最近24小时)",
+  "referralsInactive": "不活跃",
+  "referralsEnterInviterCode": "输入邀请码",
+  "referralsInviterCodeInstruction": "如果你是由他人邀请的，请在此输入他们的推荐码以绑定账号。",
+  "referralsInviterCodeLabel": "推荐码",
+  "referralsInviterCodeUpdated": "邀请码更新成功！",
+  "referralMilestoneBonusTitle": "推荐里程碑奖励",
+  "referralMilestoneBonusSubtitle": "每次邀请一次性奖励 {amount} 卡托希",
+  "referralBonusRewardAmountNote": "奖励金额由服务器配置，管理员可更新。",
+  "referralBonusDetailAppTitle": "推荐奖励",
+  "referralBonusStatusHeading": "推荐奖励状态",
+  "referralBonusRewardForReferrer": "您（推荐人）的奖励：{amount} 卡托希",
+  "referralBonusRewardCredited": "奖励已到账（{amount} 卡托希）。",
+  "referralBonusConditionsProgress": "3 项条件中已完成 {met} 项",
+  "referralBonusListAmount": "推荐奖励：{amount} 卡托希",
+  "referralBonusDatesLine": "加入 {joined} · 推荐 {referred}",
+  "referralBonusConditionMinedDays": "挖矿天数",
+  "referralBonusConditionMiningReward": "挖矿奖励（基础）",
+  "referralBonusConditionGameReward": "游戏奖励",
+  "referralBonusStatePending": "条件未完成",
+  "referralBonusStateEligible": "符合领奖条件",
+  "referralBonusStateRewarded": "奖励已发放",
+  "referralBonusStateUnderReview": "管理员审核中",
+  "referralBonusStateRejected": "已拒绝",
+  "profileSetupSkip": "跳过",
+  "profileSetupGallery": "相册",
+  "profileSetupCamera": "相机",
+  "profileSetupFailedImage": "图片选择失败: {error}",
+  "profileSetupDisplayNameLabel": "显示名称 (可选)",
+  "profileSetupDisplayNameHint": "我们该如何称呼你？",
+  "profileSetupSaveContinue": "保存并继续",
+  "profileSetupFailedSave": "资料保存失败: {error}",
+  "socialMissionsCategory": "类别",
+  "socialMissionsStatusActive": "活跃",
+  "socialMissionsStatusCompleted": "已完成",
+  "socialNoMissions": "目前没有可用的 {title}。",
+  "payoutHistoryScreenTitle": "支付历史",
+  "payoutNoHistory": "未找到支付历史。",
+  "payoutViewTx": "查看交易",
+  "payoutAddressTo": "至: {address}",
+  "commonAdd": "添加",
+  "commonEdit": "编辑",
+  "missionVerifyTitle": "需要验证",
+  "missionVerifyDiscord": "请输入您的 Discord 用户名，以便我们验证您是否已加入：",
+  "missionVerifyTelegram": "请输入您的数字 Telegram ID：",
+  "missionVerifyGeneric": "请输入您的用户名/句柄以进行验证：",
+  "missionHintDiscord": "输入 Discord 用户名",
+  "missionHintTelegram": "输入数字 ID",
+  "missionHintGeneric": "输入用户名/句柄",
+  "missionHelpGetId": "如何获取 ID？",
+  "missionSaveContinue": "保存并继续",
+  "missionVerificationStarted": "验证已开始！请完成任务。",
+  "missionClaimedSuccess": "已领取 {amount} Catoshi！",
+  "missionFailed": "失败：{error}",
+  "missionExpired": "已过期",
+  "missionExpiresInDays": "{days} 天后过期",
+  "missionExpiresInHours": "{hours} 小时后过期",
+  "missionReward": "+{amount} Catoshi",
+  "missionStatusVerifying": "正在验证...",
+  "missionBtnClaim": "领取",
+  "telegramHelpInstructions": "1. 打开 Telegram。\n2. 搜索 @userinfobot（或扫描下方二维码）。\n3. 点击开始（或发送 /start）。\n4. 它会回复您的详细信息。寻找 \"Id\"。\n5. 复制该数字并将其粘贴到此处。",
+  "telegramHelpBtnOpen": "打开 @userinfobot",
+  "telegramHelpQrLabel": "或扫描二维码：",
+  "telegramHelpQrError": "未找到二维码。\n(添加 assets/images/telegram_qr.png)",
+  "resetPasswordSuccess": "密码重置成功。请登录。",
+  "resetPasswordFailed": "密码重置失败",
+  "resetPasswordInstruction": "输入发送至 {email} 的 6 位代码及您的新密码。",
+  "emailVerificationCodeSent": "验证码已发送至您的邮箱！",
+  "gameLauncherTitle": "Cat Runner",
+  "gameLauncherDownloading": "正在下载游戏资源...",
+  "gameLauncherReady": "引擎就绪",
+  "gameLauncherRequired": "由于需要游戏资源",
+  "gameLauncherDownloadBtn": "下载资源 (~{size})",
+  "gameLauncherStartBtn": "开始游戏",
+  "gameLauncherResetBtn": "重置资源",
+  "gameGameOverTitle": "游戏结束",
+  "gameStatScore": "得分",
+  "gameStatDistance": "距离",
+  "gameStatCoins": "硬币",
+  "gameStatCatoshiEarned": "赚取的 Catoshi",
+  "gamePlayAgain": "再玩一次",
+  "gameExit": "退出",
+  "gamePausedTitle": "已暂停",
+  "gameResume": "继续",
+  "gameQuit": "退出",
+  "updateTitle": "有可用更新",
+  "updateLater": "稍后",
+  "updateNow": "现在更新",
+  "updateUrlError": "无法启动更新 URL",
+  "balancePayoutTo": "至：{address}",
+  "boostersSubtitle": "超强制您的采矿速度并延长会话！",
+  "commonVersion": "版本",
+  "commonUser": "用户",
+  "profileVerifiedTooltip": "已验证。点击解锁并编辑。",
+  "walletAddressLabel": "地址：{address}",
+  "walletGenerationError": "生成错误：{error}",
+  "walletDeleteWallet": "删除钱包",
+  "commonGenerate": "生成",
+  "badgeWeeklyTop": "每周之星",
+  "badgeMonthlyTop": "每月之星",
+  "badgeAllTimeTop": "历史之星",
+  "badgeVerified": "已验证用户",
+  "updateAvailable": "新版本 ({version}) 已发布。",
+  "updateMandatory": "此更新是强制性的，才能继续使用该应用程序。",
+  "@appTitle": {
+    "description": "App title"
+  },
+  "@navHome": {
+    "description": "Bottom nav: Home"
+  },
+  "@navGames": {
+    "description": "Bottom nav: Games"
+  },
+  "@navLeaders": {
+    "description": "Bottom nav: Leaderboard"
+  },
+  "@navWallet": {
+    "description": "Bottom nav: Wallet"
+  },
+  "@navRewards": {
+    "description": "Bottom nav: Rewards"
+  },
+  "@navProfile": {
+    "description": "Bottom nav: Profile"
+  },
+  "@commonCancel": {},
+  "@commonSave": {},
+  "@commonOk": {},
+  "@commonError": {},
+  "@commonLoading": {},
+  "@commonRetry": {},
+  "@commonClose": {},
+  "@commonNone": {},
+  "@commonGallery": {},
+  "@commonCamera": {},
+  "@commonRemovePhoto": {},
+  "@commonRequired": {},
+  "@commonUnlockEdit": {},
+  "@loginTitle": {},
+  "@loginEmailOrUsername": {},
+  "@loginEmailHint": {},
+  "@loginPassword": {},
+  "@loginButton": {},
+  "@loginCreateAccount": {},
+  "@loginForgotPassword": {},
+  "@loginUseEmailForVerification": {},
+  "@signupTitle": {},
+  "@signupEmail": {},
+  "@signupEmailHint": {},
+  "@signupPassword": {},
+  "@signupConfirmPassword": {},
+  "@signupReferralCode": {},
+  "@signupReferralCodeHint": {},
+  "@signupButton": {},
+  "@forgotPasswordTitle": {},
+  "@forgotPasswordEmail": {},
+  "@forgotPasswordSendCode": {},
+  "@forgotPasswordBackToLogin": {},
+  "@emailVerificationTitle": {},
+  "@emailVerificationInstruction": {},
+  "@emailVerificationCode": {},
+  "@emailVerificationVerify": {},
+  "@emailVerificationResend": {},
+  "@resetPasswordTitle": {},
+  "@resetPasswordNewPassword": {},
+  "@resetPasswordConfirm": {},
+  "@resetPasswordButton": {},
+  "@profileSetupTitle": {},
+  "@splashLoading": {},
+  "@dashboardTotalBalance": {},
+  "@dashboardCatoshi": {},
+  "@dashboardCatoshiLabel": {},
+  "@dashboardNotMining": {},
+  "@dashboardStartMining": {},
+  "@dashboardRewardRate": {
+    "placeholders": {
+      "rate": {}
+    }
+  },
+  "@dashboardCurrentDuration": {
+    "placeholders": {
+      "hours": {},
+      "maxHours": {}
+    }
+  },
+  "@boostersTitle": {},
+  "@boostersCardTitle": {},
+  "@boostersOpenScreen": {},
+  "@leaderboardTitle": {},
+  "@leaderboardTopMiners": {},
+  "@leaderboardRank": {},
+  "@leaderboardUser": {},
+  "@leaderboardBalance": {},
+  "@leaderboardYou": {},
+  "@leaderboardGlobal": {},
+  "@leaderboardRegional": {},
+  "@leaderboardGames": {},
+  "@leaderboardAwards": {},
+  "@leaderboardChallengers": {},
+  "@leaderboardNoGlobal": {},
+  "@leaderboardNoRegional": {},
+  "@leaderboardComingSoon": {},
+  "@leaderboardNoAwards": {},
+  "@leaderboardKeepMining": {},
+  "@walletTitle": {},
+  "@walletAddress": {},
+  "@walletBalance": {},
+  "@walletCopy": {},
+  "@walletCopied": {},
+  "@walletSend": {},
+  "@walletReceive": {},
+  "@walletTransactions": {},
+  "@walletNoTransactions": {},
+  "@walletConnectWallet": {},
+  "@walletDisconnect": {},
+  "@walletSolanaAddress": {},
+  "@walletEnterAddress": {},
+  "@walletSaveAddress": {},
+  "@walletAddressSaved": {},
+  "@walletInvalidAddress": {},
+  "@walletMyWallets": {},
+  "@walletAddExisting": {},
+  "@walletCatcoinAddress": {},
+  "@walletPasteHint": {},
+  "@walletSetPrimary": {},
+  "@walletInvalidAddressComplex": {},
+  "@walletRecoverTitle": {},
+  "@walletRecoverInstruction": {},
+  "@walletSecretPhrase": {},
+  "@walletSecretPhraseHint": {},
+  "@walletInvalidPhrase": {},
+  "@walletDeleteTitle": {},
+  "@walletDeleteConfirmMessage": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "@walletDeletedSuccess": {},
+  "@walletAddedSuccess": {},
+  "@walletGenerateTitle": {},
+  "@walletBackupTitle": {},
+  "@walletBackupWarning": {},
+  "@walletGenerateInstruction": {},
+  "@walletGenerating": {},
+  "@walletBackedUp": {},
+  "@walletRecoverFromPhrase": {},
+  "@walletSetDefault": {},
+  "@walletSettingPrimary": {},
+  "@walletPrimary": {},
+  "@walletSourceGenerated": {},
+  "@walletSourceRecovered": {},
+  "@walletSourceManual": {},
+  "@walletDaysHeld": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "@walletCalculating": {},
+  "@rewardsTitle": {},
+  "@rewardsClaim": {},
+  "@rewardsClaimed": {},
+  "@rewardsAvailable": {},
+  "@rewardsNoRewards": {},
+  "@rewardsSocialTasks": {},
+  "@rewardsXTasks": {},
+  "@rewardsTelegramTasks": {},
+  "@rewardsDiscordTasks": {},
+  "@rewardsAllMissions": {},
+  "@rewardsNoMissions": {},
+  "@rewardsError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@gamesTitle": {},
+  "@gamesPlay": {},
+  "@gamesRunner": {},
+  "@gamesRunnerDescription": {},
+  "@gamesNoGames": {},
+  "@referralTitle": {},
+  "@referralCode": {},
+  "@referralCopyCode": {},
+  "@referralShareLink": {},
+  "@referralActiveReferrals": {},
+  "@referralNoReferrals": {},
+  "@referralBoost": {},
+  "@referralBoosted": {},
+  "@referralInviteFriends": {},
+  "@balanceDetailTitle": {},
+  "@payoutHistoryTitle": {},
+  "@payoutHistoryNone": {},
+  "@awardsTitle": {},
+  "@socialMissionsTitle": {},
+  "@profileTitle": {},
+  "@profileAccountDetails": {},
+  "@profileReferredBy": {},
+  "@profileMyReferrals": {},
+  "@profileSocialProfiles": {},
+  "@profileDiscord": {},
+  "@profileTelegram": {},
+  "@profileTelegramHint": {},
+  "@profileX": {},
+  "@profileFacebook": {},
+  "@profileWhatsapp": {},
+  "@profileSaveSocialIds": {},
+  "@profileUpdatedSuccess": {},
+  "@profileSettings": {},
+  "@profileAppearance": {},
+  "@profileThemeSystem": {},
+  "@profileThemeLight": {},
+  "@profileThemeDark": {},
+  "@profilePayoutHistory": {},
+  "@profileChangePassword": {},
+  "@profileLanguage": {},
+  "@profileLogout": {},
+  "@profileDeleteAccount": {},
+  "@profileDiscordHint": {},
+  "@profileVerified": {},
+  "@changePasswordTitle": {},
+  "@changePasswordCurrent": {},
+  "@changePasswordNew": {},
+  "@changePasswordConfirm": {},
+  "@changePasswordMin6": {},
+  "@changePasswordMismatch": {},
+  "@changePasswordSuccess": {},
+  "@deleteAccountTitle": {},
+  "@deleteAccountMessage": {},
+  "@deleteAccountConfirm": {},
+  "@deleteAccountFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@resetSocialTitle": {
+    "placeholders": {
+      "platform": {
+        "type": "String"
+      }
+    }
+  },
+  "@resetSocialMessage": {},
+  "@resetSocialUnlocked": {},
+  "@resetSocialFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@languageSelectTitle": {},
+  "@languageEnglish": {},
+  "@languageVietnamese": {},
+  "@languageChinese": {},
+  "@languageSpanish": {},
+  "@languageHindi": {},
+  "@languageTelugu": {},
+  "@languageTamil": {},
+  "languageRussian": "Русский",
+  "@languageRussian": {},
+  "languageJapanese": "日本語",
+  "@languageJapanese": {},
+  "languageMalay": "Bahasa Melayu",
+  "@languageMalay": {},
+  "languageIndonesian": "Bahasa Indonesia",
+  "@languageIndonesian": {},
+  "languageKorean": "한국어",
+  "@languageKorean": {},
+  "languageArabic": "العربية",
+  "@languageArabic": {},
+  "languageFrench": "Français",
+  "@languageFrench": {},
+  "languageGujarati": "ગુજરાતી",
+  "@languageGujarati": {},
+  "languageOdia": "ଓଡ଼િଆ",
+  "@languageOdia": {},
+  "@telegramHelpTitle": {},
+  "@telegramHelpStep1": {},
+  "@telegramHelpStep2": {},
+  "@telegramHelpStep3": {},
+  "@missionComplete": {},
+  "@missionCompleted": {},
+  "@missionClaim": {},
+  "@missionClaimed": {},
+  "@missionGo": {},
+  "@failedPickImage": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@awardsNoAwards": {},
+  "@awardsKeepMining": {},
+  "@balanceSummary": {},
+  "@balanceEarnings": {},
+  "@balancePayouts": {},
+  "@balanceLoadError": {},
+  "@balanceWithdrawSoon": {},
+  "@balanceTotal": {},
+  "@balanceNotWithdrawable": {},
+  "@balanceBreakdown": {},
+  "@balanceMining": {},
+  "@balanceReferral": {},
+  "@balanceMission": {},
+  "@balanceGame": {},
+  "@balanceWithdraw": {},
+  "@balanceWithdrawSubmitted": {},
+  "@balanceNoHistory": {},
+  "@balanceNoPayouts": {},
+  "@boostersActiveModifiers": {},
+  "@boostersCurrentReferralBonus": {
+    "placeholders": {
+      "bonus": {}
+    }
+  },
+  "@boostersAvailableModifiers": {},
+  "@boostersApplyExtensions": {},
+  "@boostersStartMiningPrompt": {},
+  "@boostersNoBoosters": {},
+  "@boostersTimeBoostTitle": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "@boostersCooldown": {
+    "placeholders": {
+      "duration": {}
+    }
+  },
+  "@boostersSessionMaxed": {},
+  "@boostersExtendBy": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "@boostersExtendBySimple": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "@boostersApply": {},
+  "@boostersReferralBoosting": {
+    "placeholders": {
+      "boost": {}
+    }
+  },
+  "@boostersReferralMaxed": {},
+  "@boostersReferralActiveMiner": {
+    "placeholders": {
+      "boost": {}
+    }
+  },
+  "@boostersActive": {},
+  "@boostersErrorMustMine": {},
+  "@boostersEnergyPotionConsumed": {},
+  "@boostersErrorFailedToExtend": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@boostersReferralActivated": {},
+  "@gamesRunnerTitle": {},
+  "@gamesRunnerDesc": {},
+  "gamesTictactoeTitle": "Tic Tac Toe",
+  "@gamesTictactoeTitle": {},
+  "gamesTictactoeDesc": "Get three in a row to win!",
+  "@gamesTictactoeDesc": {},
+  "gamesSudokuTitle": "Sudoku",
+  "@gamesSudokuTitle": {},
+  "gamesSudokuDesc": "Fill the grid with numbers 1-9.",
+  "@gamesSudokuDesc": {},
+  "gamesCollageTitle": "Image Collage",
+  "@gamesCollageTitle": {},
+  "gamesCollageDesc": "Arrange the cat pieces to solve the puzzle.",
+  "@gamesCollageDesc": {},
+  "@gamesComingSoon": {},
+  "@referralsTitle": {},
+  "@referralsInvitedBy": {},
+  "@referralsNoOneYet": {},
+  "@referralsYourCode": {},
+  "@referralsCopied": {},
+  "@referralsShareMessage": {
+    "placeholders": {
+      "code": {}
+    }
+  },
+  "@referralsTotal": {},
+  "@referralsActiveCount": {},
+  "@referralsBoostPercentage": {},
+  "@referralsYourReferrals": {},
+  "referralsNoReferrals": "No referrals yet",
+  "@referralsNoReferrals": {},
+  "referralsSharePrompt": "Share your referral code to earn bonuses!",
+  "@referralsSharePrompt": {},
+  "@referralsActiveLast24h": {},
+  "@referralsInactive": {},
+  "@referralsEnterInviterCode": {},
+  "@referralsInviterCodeInstruction": {},
+  "@referralsInviterCodeLabel": {},
+  "@referralsInviterCodeUpdated": {},
+  "@referralMilestoneBonusTitle": {},
+  "@referralMilestoneBonusSubtitle": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "@referralBonusRewardAmountNote": {},
+  "@referralBonusDetailAppTitle": {},
+  "@referralBonusStatusHeading": {},
+  "@referralBonusRewardForReferrer": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "@referralBonusRewardCredited": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "@referralBonusConditionsProgress": {
+    "placeholders": {
+      "met": {}
+    }
+  },
+  "@referralBonusListAmount": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "@referralBonusDatesLine": {
+    "placeholders": {
+      "joined": {},
+      "referred": {}
+    }
+  },
+  "@referralBonusConditionMinedDays": {},
+  "@referralBonusConditionMiningReward": {},
+  "@referralBonusConditionGameReward": {},
+  "@referralBonusStatePending": {},
+  "@referralBonusStateEligible": {},
+  "@referralBonusStateRewarded": {},
+  "@referralBonusStateUnderReview": {},
+  "@referralBonusStateRejected": {},
+  "@profileSetupSkip": {},
+  "@profileSetupGallery": {},
+  "@profileSetupCamera": {},
+  "@profileSetupFailedImage": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@profileSetupDisplayNameLabel": {},
+  "@profileSetupDisplayNameHint": {},
+  "@profileSetupSaveContinue": {},
+  "@profileSetupFailedSave": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@socialNoMissions": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "@payoutHistoryScreenTitle": {},
+  "@payoutNoHistory": {},
+  "@payoutViewTx": {},
+  "@payoutAddressTo": {
+    "placeholders": {
+      "address": {}
+    }
+  },
+  "@commonAdd": {},
+  "@commonEdit": {},
+  "@missionVerifyTitle": {},
+  "@missionVerifyDiscord": {},
+  "@missionVerifyTelegram": {},
+  "@missionVerifyGeneric": {},
+  "@missionHintDiscord": {},
+  "@missionHintTelegram": {},
+  "@missionHintGeneric": {},
+  "@missionHelpGetId": {},
+  "@missionSaveContinue": {},
+  "@missionVerificationStarted": {},
+  "@missionClaimedSuccess": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "@missionFailed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@missionExpired": {},
+  "@missionExpiresInDays": {
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "@missionExpiresInHours": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "@missionReward": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "@missionStatusVerifying": {},
+  "@missionBtnClaim": {},
+  "@telegramHelpInstructions": {},
+  "@telegramHelpBtnOpen": {},
+  "@telegramHelpQrLabel": {},
+  "@telegramHelpQrError": {},
+  "@resetPasswordSuccess": {},
+  "@resetPasswordFailed": {},
+  "@resetPasswordInstruction": {
+    "placeholders": {
+      "email": {}
+    }
+  },
+  "@emailVerificationCodeSent": {},
+  "@gameLauncherTitle": {},
+  "@gameLauncherDownloading": {},
+  "@gameLauncherReady": {},
+  "@gameLauncherRequired": {},
+  "@gameLauncherDownloadBtn": {
+    "placeholders": {
+      "size": {}
+    }
+  },
+  "@gameLauncherStartBtn": {},
+  "@gameLauncherResetBtn": {},
+  "@gameGameOverTitle": {},
+  "@gameStatScore": {},
+  "@gameStatDistance": {},
+  "@gameStatCoins": {},
+  "@gameStatCatoshiEarned": {},
+  "@gamePlayAgain": {},
+  "@gameExit": {},
+  "@gamePausedTitle": {},
+  "@gameResume": {},
+  "@gameQuit": {},
+  "@updateTitle": {},
+  "@updateLater": {},
+  "@updateNow": {},
+  "@updateUrlError": {},
+  "@balancePayoutTo": {
+    "placeholders": {
+      "address": {}
+    }
+  },
+  "@boostersSubtitle": {},
+  "@commonVersion": {},
+  "@commonUser": {},
+  "@profileVerifiedTooltip": {},
+  "@walletAddressLabel": {
+    "placeholders": {
+      "address": {}
+    }
+  },
+  "@walletGenerationError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@walletDeleteWallet": {},
+  "@commonGenerate": {},
+  "@badgeWeeklyTop": {},
+  "@badgeMonthlyTop": {},
+  "@badgeAllTimeTop": {},
+  "@badgeVerified": {},
+  "@updateAvailable": {
+    "placeholders": {
+      "version": {}
+    }
+  },
+  "@updateMandatory": {},
+  "boostersGameBoostTitle": "Game Boost +{percentage}%",
+  "@boostersGameBoostTitle": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "boostersGameBoostDuration": "Duration: {hours}h {minutes}m",
+  "@boostersGameBoostDuration": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "boostersActivate": "Activate",
+  "@boostersActivate": {},
+  "boostersGameBoostSuccess": "Game Boost activated successfully!",
+  "@boostersGameBoostSuccess": {},
+  "boostersGameBoostError": "Failed to activate boost: {error}",
+  "@boostersGameBoostError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "languageGroupInternational": "国际",
+  "@languageGroupInternational": {},
+  "languageGroupIndian": "印度",
+  "@languageGroupIndian": {},
+  "gameNewGame": "New Game",
+  "@gameNewGame": {},
+  "gameYouWin": "You Win!",
+  "@gameYouWin": {},
+  "gameCpuWins": "CPU Wins!",
+  "@gameCpuWins": {},
+  "gameDraw": "Draw!",
+  "@gameDraw": {},
+  "gameYourTurnX": "Your Turn (X)",
+  "@gameYourTurnX": {},
+  "gameYourTurnO": "Your Turn (O)",
+  "@gameYourTurnO": {},
+  "gameSudokuSuccess": "Awesome! You solved the Sudoku and earned {amount} Catoshi!",
+  "@gameSudokuSuccess": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "gameTictactoeSuccess": "Congratulations! You earned {amount} Catoshi!",
+  "@gameTictactoeSuccess": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "gamePuzzleSuccess": "Fantastic! You solved the puzzle and earned {amount} Catoshi!",
+  "@gamePuzzleSuccess": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "gameMinerTitle": "CatCoin Miner",
+  "@gameMinerTitle": {},
+  "gamesTunnelMinerTitle": "Tunnel Miner",
+  "@gamesTunnelMinerTitle": {},
+  "gamesTunnelMinerDesc": "Mine downward, reach the green extraction pad, and avoid hazards.",
+  "@gamesTunnelMinerDesc": {},
+  "gameRewardMinerSummary": "You earned {amount} Catoshi!",
+  "@gameRewardMinerSummary": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "tunnelMinerHudDepth": "Depth",
+  "@tunnelMinerHudDepth": {},
+  "tunnelMinerHudEnergy": "Energy",
+  "@tunnelMinerHudEnergy": {},
+  "tunnelMinerHudShards": "Shards",
+  "@tunnelMinerHudShards": {},
+  "tunnelMinerDigHint": "Dig",
+  "@tunnelMinerDigHint": {},
+  "tunnelMinerLoading": "Loading Tunnel Miner...",
+  "@tunnelMinerLoading": {},
+  "tunnelMinerIntroTitle": "Tunnel Miner",
+  "@tunnelMinerIntroTitle": {},
+  "tunnelMinerHowToPlayTitle": "How to play",
+  "@tunnelMinerHowToPlayTitle": {},
+  "tunnelMinerGoal": "Descend the tunnel, dig through brown dirt, collect gold ore, and stand on the green extraction pad to finish successfully. Loose dirt, ore, and lava fall downward through air while grey rock stays put. Hazards or running out of energy ends the run.",
+  "@tunnelMinerGoal": {},
+  "tunnelMinerDoHeading": "What to do",
+  "@tunnelMinerDoHeading": {},
+  "tunnelMinerDoBody": "• Move left or right into open space: air, gold ore, or the green extraction pad.\n• Dig straight down through brown dirt only. Each dig uses drill energy.\n• Walk onto ore to collect shards (they add to your score).\n• Reach and stand on the green extraction pad to complete a good run.\n• Brown dirt or grey rock beside you? Press left or right toward it again to mine sideways (grey rock costs double energy).",
+  "@tunnelMinerDoBody": {},
+  "tunnelMinerDontHeading": "What not to do",
+  "@tunnelMinerDontHeading": {},
+  "tunnelMinerDontBody": "• Do not step on red lava — you lose immediately.\n• Do not stand under loose dirt, ore, or lava when there is only air beneath them — they fall; grey rock does not move and acts as a shelf. Falling ore is usually collectible; dirt or lava landing on you ends the run.\n• Do not try to dig grey rock — it cannot be broken; move around it.\n• Do not spend all energy — when energy reaches zero, the run ends.",
+  "@tunnelMinerDontBody": {},
+  "tunnelMinerControlsHeading": "Controls",
+  "@tunnelMinerControlsHeading": {},
+  "tunnelMinerControlsBody": "Bottom row: move left, dig down, move right.\nYou can also tap the left third, center, or right third of the mine area for the same actions.\nToward brown dirt or grey rock on your side, tap that direction again to chip through (grey rock uses extra energy).\nKeyboard: A or Left Arrow, D or Right Arrow to move; Space, S, or Down Arrow to dig.\nPause: tap the pause icon at the top.",
+  "@tunnelMinerControlsBody": {},
+  "tunnelMinerIntroTap": "Read the notes above, then tap Start when you are ready.",
+  "@tunnelMinerIntroTap": {},
+  "tunnelMinerStartButton": "Start mining",
+  "@tunnelMinerStartButton": {},
+  "tunnelMinerWhatHappened": "What happened",
+  "@tunnelMinerWhatHappened": {},
+  "tunnelMinerLossExplainLava": "You stepped on or fell into lava.",
+  "@tunnelMinerLossExplainLava": {},
+  "tunnelMinerLossExplainBoulder": "Something heavy fell on you.",
+  "@tunnelMinerLossExplainBoulder": {},
+  "tunnelMinerLossExplainEnergy": "Your drill ran out of power.",
+  "@tunnelMinerLossExplainEnergy": {},
+  "tunnelMinerLossExplainUnknown": "The run ended before extraction.",
+  "@tunnelMinerLossExplainUnknown": {},
+  "tunnelMinerReviewMap": "Review map",
+  "@tunnelMinerReviewMap": {},
+  "tunnelMinerBackToSummary": "Back to summary",
+  "@tunnelMinerBackToSummary": {},
+  "tunnelMinerMapReviewHint": "Study the field. Return to the summary for Play again or Exit.",
+  "@tunnelMinerMapReviewHint": {},
+  "tunnelMinerResultExtracted": "EXTRACTED",
+  "@tunnelMinerResultExtracted": {},
+  "tunnelMinerResultReason": "Outcome",
+  "@tunnelMinerResultReason": {},
+  "tunnelMinerReasonEnergy": "Drill out of power",
+  "@tunnelMinerReasonEnergy": {},
+  "tunnelMinerReasonHazard": "Hazard",
+  "@tunnelMinerReasonHazard": {},
+  "tunnelMinerReasonExtracted": "Reached extraction",
+  "@tunnelMinerReasonExtracted": {},
+  "gamesArrowTitle": "Arrow Reaction",
+  "@gamesArrowTitle": {},
+  "gamesArrowDesc": "Tap or swipe the matching direction before time runs out!",
+  "@gamesArrowDesc": {},
+  "gameArrowScore": "Score {current}/{target}",
+  "@gameArrowScore": {
+    "placeholders": {
+      "current": {},
+      "target": {}
+    }
+  },
+  "gameArrowLives": "Lives {lives}",
+  "@gameArrowLives": {
+    "placeholders": {
+      "lives": {}
+    }
+  },
+  "gameArrowGameOver": "Game Over",
+  "@gameArrowGameOver": {},
+  "gameArrowFinalScore": "Final score: {score}",
+  "@gameArrowFinalScore": {
+    "placeholders": {
+      "score": {}
+    }
+  },
+  "gameArrowSuccess": "Sharp reflexes! You earned {amount} Catoshi!",
+  "@gameArrowSuccess": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "gamesTwenty48Title": "2048",
+  "@gamesTwenty48Title": {},
+  "gamesTwenty48Desc": "Combine tiles, hit 2048 — keep going for higher scores!",
+  "@gamesTwenty48Desc": {},
+  "gameTwenty48Score": "SCORE",
+  "@gameTwenty48Score": {},
+  "gameTwenty48Best": "BEST TILE",
+  "@gameTwenty48Best": {},
+  "gameTwenty48Reached2048": "2048 reached â€” keep merging for a bigger payout at game over!",
+  "@gameTwenty48Reached2048": {},
+  "gameTwenty48GameOver": "No more moves!",
+  "@gameTwenty48GameOver": {},
+  "gameTwenty48Restart": "RESTART",
+  "@gameTwenty48Restart": {},
+  "gameTwenty48SwipeHint": "Swipe up, down, left or right to slide tiles.",
+  "@gameTwenty48SwipeHint": {},
+  "gameTwenty48Success": "You earned {amount} Catoshi!",
+  "@gameTwenty48Success": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "gameTwenty48KeepGoing": "Keep playing for an even higher score before the board fills up."
+}

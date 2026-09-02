@@ -1,0 +1,48 @@
+.vs/
+.vs
+screenshots/
+
+# Secrets and local env
+.env
+.env.*
+!.env.example
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Logs and dumps
+*.log
+logs/
+backups/
+
+# TLS and signing (never commit real keys)
+cat_poe_backend/ssl/*.pem
+cat_poe_backend/ssl/*.key
+*.jks
+*.keystore
+*.p12
+
+# Flutter / Android
+cat_poe/.dart_tool/
+cat_poe/build/
+cat_poe/**/key.properties
+cat_poe/**/*.keystore
+
+# AI assistant scratch / staging mirrors (never commit; regenerate locally)
+.gemini/
+**/temp_deploy_staging/
+
+
+# certbot webroot mounted into nginx for ACME renewals (transient tokens)
+cat_poe_backend/certbot-www/

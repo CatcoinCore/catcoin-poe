@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.env.*
+!.env.example
+!.env.production.example
+.venv
+env/
+venv/
+.idea/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+
+# TLS private material (see ssl/README.md)
+ssl/*.pem
+ssl/*.key
+
+# Android / signing
+*.jks
+*.keystore
+*.p12
+
+# Ignore logs, backups, and deployments
+logs/
+backups/
+*.zip
+*.tar.gz

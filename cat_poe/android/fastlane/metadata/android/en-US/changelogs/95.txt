@@ -1,0 +1,3 @@
+Stability and games polish.
+- Fixed a rare Android startup crash
+- Smoother game cooldown flow and clearer rewarded-ad handling after games

@@ -1,0 +1,4 @@
+Awards and leaderboards.
+- Awards shows global, regional, and game winners with clearer badge details
+- Leaderboard and mini-game polish
+- More translations and small UI fixes

@@ -1,0 +1,1 @@
+1.12.0: smaller, faster app with build optimizations; stability improvements. Update for the best experience.

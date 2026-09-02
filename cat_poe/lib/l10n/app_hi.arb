@@ -1,0 +1,1145 @@
+{
+  "@@locale": "hi",
+  "appTitle": "Catcoin",
+  "navHome": "होम",
+  "navGames": "खेल",
+  "navLeaders": "लीडर्स",
+  "navWallet": "वॉलेट",
+  "navRewards": "इनाम",
+  "navProfile": "प्रोफ़ाइल",
+  "commonCancel": "रद्द करें",
+  "commonSave": "सहेजें",
+  "commonOk": "ठीक है",
+  "commonError": "त्रुटि",
+  "commonAppName": "Catcoin",
+  "commonLoading": "लोड हो रहा है...",
+  "commonRetry": "पुनः प्रयास करें",
+  "commonClose": "बंद करें",
+  "commonNone": "कोई नहीं",
+  "commonGallery": "गैलरी",
+  "commonCamera": "कैमरा",
+  "commonRemovePhoto": "फ़ोटो हटाएं",
+  "commonRequired": "आवश्यक है",
+  "commonUnlockEdit": "अनलॉक करें और संपादित करें",
+  "loginTitle": "लॉग इन",
+  "loginEmailOrUsername": "ईमेल या उपयोगकर्ता नाम",
+  "loginEmailHint": "your.email@example.com या 900123456",
+  "loginPassword": "पासवर्ड",
+  "loginButton": "लॉग इन",
+  "loginCreateAccount": "खाता बनाएं",
+  "loginForgotPassword": "पासवर्ड भूल गए?",
+  "loginUseEmailForVerification": "सत्यापन पूर्ण करने के लिए कृपया ईमेल से लॉग इन करें।",
+  "signupTitle": "साइन अप करें",
+  "signupEmail": "ईमेल",
+  "signupEmailHint": "your.email@example.com",
+  "signupPassword": "पासवर्ड",
+  "signupConfirmPassword": "पासवर्ड की पुष्टि करें",
+  "signupReferralCode": "रेफरल कोड (वैकल्पिक)",
+  "signupReferralCodeHint": "यदि आपके पास रेफरल कोड है तो दर्ज करें",
+  "signupButton": "साइन अप करें",
+  "forgotPasswordTitle": "पासवर्ड भूल गए",
+  "forgotPasswordEmail": "ईमेल",
+  "forgotPasswordSendCode": "रीसेट कोड भेजें",
+  "forgotPasswordBackToLogin": "लॉग इन पर वापस जाएं",
+  "emailVerificationTitle": "ईमेल सत्यापन",
+  "emailVerificationInstruction": "यहां भेजा गया सत्यापन कोड दर्ज करें",
+  "emailVerificationCode": "सत्यापन कोड",
+  "emailVerificationVerify": "सत्यापित करें",
+  "emailVerificationResend": "कोड पुनः भेजें",
+  "resetPasswordTitle": "पासवर्ड रीसेट करें",
+  "resetPasswordNewPassword": "नया पासवर्ड",
+  "resetPasswordConfirm": "नए पासवर्ड की पुष्टि करें",
+  "resetPasswordButton": "पासवर्ड रीसेट करें",
+  "profileSetupTitle": "प्रोफ़ाइल सेटअप",
+  "splashLoading": "लोड हो रहा है...",
+  "dashboardTotalBalance": "कुल बैलेंस",
+  "dashboardCatoshi": "catoshi",
+  "dashboardCatoshiLabel": "कातोशी",
+  "dashboardNotMining": "माइनिंग नहीं",
+  "dashboardStartMining": "माइनिंग शुरू करें",
+  "dashboardRewardRate": "पुरस्कार दर: {rate} कैटोशी/सेकंड",
+  "dashboardCurrentDuration": "वर्तमान अवधि: {hours}h / अधिकतम {maxHours}h",
+  "boostersTitle": "बूस्टर्स",
+  "boostersCardTitle": "बूस्टर",
+  "boostersCardDescription": "अपनी माइनिंग गति बढ़ाएं और सत्र का समय बढ़ाएं!",
+  "boostersOpenScreen": "बूस्टर देखें",
+  "leaderboardTitle": "लीडरबोर्ड",
+  "leaderboardTopMiners": "शीर्ष माइनर",
+  "leaderboardRank": "रैंक",
+  "leaderboardUser": "उपयोगकर्ता",
+  "leaderboardBalance": "शेष",
+  "leaderboardYou": "आप",
+  "leaderboardGlobal": "वैश्विक",
+  "leaderboardRegional": "क्षेत्रीय",
+  "leaderboardGames": "खेल",
+  "leaderboardAwards": "पुरस्कार",
+  "leaderboardChallengers": "चुनौती देने वाले",
+  "leaderboardNoGlobal": "कोई वैश्विक माइनर नहीं मिला।",
+  "leaderboardNoRegional": "कोई क्षेत्रीय माइनर नहीं मिला।",
+  "leaderboardComingSoon": "जल्द ही आ रहा है — मिनी-गेम्स में प्रतिस्पर्धा करें!",
+  "leaderboardNoAwards": "अभी तक कोई पुरस्कार नहीं",
+  "leaderboardKeepMining": "पोडियम पर दावा करने के लिए माइनिंग जारी रखें!",
+  "walletTitle": "वॉलेट",
+  "walletAddress": "वॉलेट पता",
+  "walletBalance": "शेष",
+  "walletCopy": "कॉपी करें",
+  "walletCopied": "कॉपी हो गया!",
+  "walletSend": "भेजें",
+  "walletReceive": "प्राप्त करें",
+  "walletTransactions": "लेनदेन",
+  "walletNoTransactions": "अभी तक कोई लेनदेन नहीं",
+  "walletConnectWallet": "वॉलेट कनेक्ट करें",
+  "walletDisconnect": "डिसकनेक्ट",
+  "walletSolanaAddress": "सोलाना पता",
+  "walletEnterAddress": "सोलाना पता दर्ज करें",
+  "walletSaveAddress": "पता सहेजें",
+  "walletAddressSaved": "पता सहेजा गया!",
+  "walletInvalidAddress": "अमान्य सोलाना पता",
+  "walletMyWallets": "मेरे वॉलेट",
+  "walletAddExisting": "मौजूदा पता जोड़ें",
+  "walletCatcoinAddress": "कैटकॉइन पता",
+  "walletPasteHint": "यहाँ पता पेस्ट करें",
+  "walletSetPrimary": "प्राथमिक के रूप में सेट करें",
+  "walletInvalidAddressComplex": "अमान्य पता। एक मान्य BEP20 (0x...), सोलाना, या कैटकॉइन (9 से शुरू होने वाला) पता होना चाहिए।",
+  "walletRecoverTitle": "वॉलेट पुनर्प्राप्त करें",
+  "walletRecoverInstruction": "अपना वॉलेट पुनर्प्राप्त करने के लिए अपना 24-शब्दों का गुप्त वाक्यांश दर्ज करें।",
+  "walletSecretPhrase": "गुप्त वाक्यांश",
+  "walletSecretPhraseHint": "शब्द1 शब्द2 ... शब्द24",
+  "walletInvalidPhrase": "अमान्य वाक्यांश। बिल्कुल 24 शब्द होने चाहिए।",
+  "walletDeleteTitle": "वॉलेट हटाएं",
+  "walletDeleteConfirmMessage": "क्या आप वाकई वॉलेट {address} को हटाना चाहते हैं? यदि आपके पास निजी कुंजी/वाक्यांश नहीं है तो इस क्रिया को पूर्ववत नहीं किया जा सकता है।",
+  "walletDeletedSuccess": "वॉलेट सफलतापूर्वक हटा दिया गया",
+  "walletAddedSuccess": "वॉलेट सफलतापूर्वक जोड़ दिया गया",
+  "walletGenerateTitle": "नया वॉलेट जनरेट करें",
+  "walletBackupTitle": "सफलता! अपने वॉलेट का बैकअप लें",
+  "walletBackupWarning": "महत्वपूर्ण: इन 24 शब्दों को क्रम में लिख लें और उन्हें सुरक्षित रखें। आप इनके बिना अपना फंड पुनर्प्राप्त नहीं कर सकते!",
+  "walletGenerateInstruction": "यह आपके लिए एक नया कैटकॉइन वॉलेट बनाएगा। बनाने के तुरंत बाद अपने गुप्त वाक्यांश का बैकअप लेना सुनिश्चित करें!",
+  "walletGenerating": "कुंजियाँ जनरेट हो रही हैं...",
+  "walletBackedUp": "मैंने इसका बैकअप ले लिया है",
+  "walletRecoverFromPhrase": "वाक्यांश से पुनर्प्राप्त करें",
+  "walletSetDefault": "डिफ़ॉल्ट सेट करें",
+  "walletSettingPrimary": "वॉलेट को प्राथमिक के रूप में सेट किया जा रहा है...",
+  "walletPrimary": "प्राथमिक",
+  "walletSourceGenerated": "जनरेट किया गया",
+  "walletSourceRecovered": "पुनर्प्राप्त",
+  "walletSourceManual": "मैनुअल पता",
+  "walletDaysHeld": "होल्ड किए गए दिन: {days}",
+  "walletCalculating": "गणना हो रही है...",
+  "rewardsTitle": "पुरस्कार",
+  "rewardsClaim": "दावा करें",
+  "rewardsClaimed": "दावा हो गया",
+  "rewardsAvailable": "उपलब्ध",
+  "rewardsNoRewards": "कोई पुरस्कार उपलब्ध नहीं",
+  "rewardsSocialTasks": "सामाजिक कार्य",
+  "rewardsXTasks": "X कार्य",
+  "rewardsTelegramTasks": "Telegram",
+  "rewardsDiscordTasks": "Discord",
+  "rewardsAllMissions": "सभी मिशन",
+  "rewardsNoMissions": "कोई सक्रिय मिशन उपलब्ध नहीं है।",
+  "rewardsError": "त्रुटि: {error}",
+  "gamesTitle": "गेम्स",
+  "gamesPlay": "खेलें",
+  "gamesRunner": "कैट रनर",
+  "gamesRunnerDescription": "दौड़ें, कूदें और सिक्के इकट्ठा करें!",
+  "gamesNoGames": "कोई गेम उपलब्ध नहीं",
+  "referralTitle": "मेरे रेफरल",
+  "referralCode": "आपका रेफरल कोड",
+  "referralCopyCode": "कोड कॉपी करें",
+  "referralShareLink": "लिंक शेयर करें",
+  "referralActiveReferrals": "सक्रिय रेफरल",
+  "referralNoReferrals": "अभी तक कोई रेफरल नहीं",
+  "referralBoost": "बूस्ट",
+  "referralBoosted": "बूस्ट हो गया",
+  "referralInviteFriends": "मित्रों को आमंत्रित करें",
+  "balanceDetailTitle": "शेष विवरण",
+  "payoutHistoryTitle": "भुगतान इतिहास",
+  "payoutHistoryNone": "कोई भुगतान इतिहास नहीं",
+  "awardsTitle": "पुरस्कार",
+  "socialMissionsTitle": "सामाजिक मिशन",
+  "profileTitle": "प्रोफ़ाइल",
+  "profileAccountDetails": "खाता विवरण",
+  "profileReferredBy": "रेफर किया गया",
+  "profileMyReferrals": "मेरे रेफरल",
+  "profileSocialProfiles": "सत्यापन के लिए सोशल प्रोफ़ाइल",
+  "profileDiscord": "Discord उपयोगकर्ता नाम",
+  "profileTelegram": "Telegram उपयोगकर्ता ID (संख्यात्मक)",
+  "profileTelegramHint": "जैसे: 123456789",
+  "profileX": "X (Twitter) हैंडल",
+  "profileFacebook": "Facebook प्रोफ़ाइल लिंक/ID",
+  "profileWhatsapp": "WhatsApp नंबर",
+  "profileSaveSocialIds": "सोशल ID सहेजें",
+  "profileUpdatedSuccess": "प्रोफ़ाइल सफलतापूर्वक अपडेट हुई!",
+  "profileSettings": "सेटिंग",
+  "profileAppearance": "दिखावट",
+  "profileThemeSystem": "सिस्टम",
+  "profileThemeLight": "हल्का",
+  "profileThemeDark": "गहरा",
+  "profilePayoutHistory": "भुगतान इतिहास",
+  "profileChangePassword": "पासवर्ड बदलें",
+  "profileLanguage": "भाषा",
+  "profileLogout": "लॉग आउट",
+  "profileDeleteAccount": "खाता हटाएं",
+  "profileDiscordHint": "अपना Discord उपयोगकर्ता नाम दर्ज करें",
+  "profileVerified": "सत्यापित। संपादन के लिए 🔒 टैप करें (पुरस्कार रद्द होगा)।",
+  "changePasswordTitle": "पासवर्ड बदलें",
+  "changePasswordCurrent": "वर्तमान पासवर्ड",
+  "changePasswordNew": "नया पासवर्ड",
+  "changePasswordConfirm": "नए पासवर्ड की पुष्टि करें",
+  "changePasswordMin6": "न्यूनतम 6 अक्षर",
+  "changePasswordMismatch": "पासवर्ड मेल नहीं खाते",
+  "changePasswordSuccess": "पासवर्ड सफलतापूर्वक बदला गया!",
+  "deleteAccountTitle": "खाता हटाएं?",
+  "deleteAccountMessage": "यह क्रिया स्थायी है और इसे पूर्ववत नहीं किया जा सकता।\n\nआपकी सभी माइनिंग प्रगति, शेष और रेफरल हमेशा के लिए खो जाएंगे।",
+  "deleteAccountConfirm": "स्थायी रूप से हटाएं",
+  "deleteAccountFailed": "हटाने में विफल: {error}",
+  "resetSocialTitle": "{platform} ID संपादित करें?",
+  "resetSocialMessage": "सत्यापित सोशल ID बदलने से नई ID सत्यापित होने तक 1,00,000 कातोशी मिशन पुरस्कार रद्द हो जाएगा।\n\nक्या आप जारी रखना चाहते हैं?",
+  "resetSocialUnlocked": "ID संपादन के लिए अनलॉक कर दिया गया।",
+  "resetSocialFailed": "अनलॉक विफल: {error}",
+  "languageSelectTitle": "भाषा चुनें",
+  "languageEnglish": "English",
+  "languageVietnamese": "Tiếng Việt",
+  "languageChinese": "中文",
+  "languageSpanish": "Español",
+  "languageHindi": "हिन्दी",
+  "languageTelugu": "తెలుగు",
+  "languageTamil": "தமிழ்",
+  "telegramHelpTitle": "अपना Telegram ID कैसे खोजें",
+  "telegramHelpStep1": "Telegram खोलें और @userinfobot खोजें",
+  "telegramHelpStep2": "बॉट के साथ चैट शुरू करें",
+  "telegramHelpStep3": "बॉट आपका संख्यात्मक उपयोगकर्ता ID भेजेगा",
+  "missionComplete": "पूरा करें",
+  "missionCompleted": "पूर्ण",
+  "missionClaim": "दावा करें",
+  "missionClaimed": "दावा हो गया",
+  "missionGo": "जाएं",
+  "failedPickImage": "फ़ोटो चुनने में विफल: {error}",
+  "awardsNoAwards": "आपने अभी तक कोई पुरस्कार नहीं जीता है।",
+  "awardsKeepMining": "माइनिंग जारी रखें और लीडरबोर्ड पर आगे बढ़ें!",
+  "balanceSummary": "सारांश",
+  "balanceEarnings": "कमाई",
+  "balancePayouts": "भुगतान",
+  "balanceLoadError": "शेष विवरण लोड करने में विफल।",
+  "balanceWithdrawSoon": "जुड़े रहें — निकासी जल्द ही सक्रिय होगी!",
+  "balanceTotal": "कुल शेष",
+  "balanceNotWithdrawable": "निकासी योग्य नहीं",
+  "balanceBreakdown": "कमाई का विवरण",
+  "balanceMining": "माइनिंग कमाई",
+  "balanceReferral": "रेफरल कमाई",
+  "balanceMission": "मिशन कमाई",
+  "balanceGame": "गेम कमाई",
+  "balanceWithdraw": "निकासी",
+  "balanceWithdrawSubmitted": "निकासी अनुरोध सबमिट हो गया!",
+  "balanceNoHistory": "कमाई का कोई इतिहास नहीं।",
+  "balanceNoPayouts": "भुगतान का कोई इतिहास नहीं।",
+  "boostersActiveModifiers": "सक्रिय संशोधक",
+  "boostersCurrentReferralBonus": "वर्तमान रेफरल बोनस: +{bonus}%",
+  "boostersAvailableModifiers": "उपलब्ध संशोधक",
+  "boostersApplyExtensions": "अपने वर्तमान माइनिंग सत्र के लिए समय विस्तार और रेफरल बोनस लागू करें।",
+  "boostersStartMiningPrompt": "संशोधकों को अनलॉक करने के लिए डैशबोर्ड पर माइनिंग शुरू करें!",
+  "boostersNoBoosters": "अभी कोई बूस्टर उपलब्ध नहीं है।",
+  "boostersTimeBoostTitle": "{hours} घंटे समय बूस्ट",
+  "boostersCooldown": "कूलडाउन: {duration}",
+  "boostersSessionMaxed": "सत्र 24 घंटे की अधिकतम सीमा पर है।",
+  "boostersExtendBy": "सत्र {hours} घंटे बढ़ाएं (अधिकतम क्षमता)",
+  "boostersExtendBySimple": "सत्र {hours} घंटे बढ़ाएं",
+  "boostersApply": "लागू करें",
+  "boostersReferralBoosting": "आपकी गति बढ़ा रहा है! (सक्रिय) (+{boost}%)",
+  "boostersReferralMaxed": "रेफरल क्षमता पूर्ण है।",
+  "boostersReferralActiveMiner": "सक्रिय माइनर! +{boost}% बोनस प्राप्त करें।",
+  "boostersActive": "सक्रिय",
+  "boostersErrorMustMine": "आपको पहले माइनिंग शुरू करनी होगी!",
+  "boostersEnergyPotionConsumed": "एनर्जी पोटशन सफलतापूर्वक उपयोग किया गया!",
+  "boostersErrorFailedToExtend": "सत्र विस्तार विफल: {error}",
+  "boostersReferralActivated": "रेफरल बूस्ट सफलतापूर्वक सक्रिय हुआ!",
+  "gamesRunnerTitle": "Cat Runner",
+  "gamesRunnerDesc": "दौड़ें, कूदें और कातोशी कमाएं!",
+  "gamesComingSoon": "जल्द आ रहा है...",
+  "referralsTitle": "रेफरल",
+  "referralsInvitedBy": "इनके द्वारा आमंत्रित",
+  "referralsNoOneYet": "अभी तक कोई नहीं",
+  "referralsYourCode": "आपका रेफरल कोड",
+  "referralsCopied": "क्लिपबोर्ड पर कॉपी किया गया",
+  "referralsShareMessage": "कैटकॉइन PoE पर मेरे साथ जुड़ें! बोनस पाने के लिए मेरा कोड {code} उपयोग करें।\n\nलिंक: https://poe.catcoin.in/invite/{code}",
+  "referralsTotal": "कुल",
+  "referralsActiveCount": "सक्रिय",
+  "referralsBoostPercentage": "बूस्ट %",
+  "referralsYourReferrals": "आपके रेफरल",
+  "referralsActiveLast24h": "सक्रिय (पिछले 24 घंटे)",
+  "referralsInactive": "निष्क्रिय",
+  "referralsEnterInviterCode": "आमंत्रित करने वाले का कोड दर्ज करें",
+  "referralsInviterCodeInstruction": "यदि आपको किसी ने आमंत्रित किया है, तो अपना खाता उनके साथ जोड़ने के लिए उनका रेफरल कोड यहाँ दर्ज करें।",
+  "referralsInviterCodeLabel": "रेफरल कोड",
+  "referralsInviterCodeUpdated": "आमंत्रण कोड सफलतापूर्वक अपडेट हुआ!",
+  "referralMilestoneBonusTitle": "रेफरल माइलस्टोन बोनस",
+  "referralMilestoneBonusSubtitle": "प्रति आमंत्रण {amount} कैटोशी का एक बार का पुरस्कार",
+  "referralBonusRewardAmountNote": "यह राशि सर्वर पर कॉन्फ़िगर की जाती है और प्रशासक इसे अपडेट कर सकते हैं।",
+  "referralBonusDetailAppTitle": "रेफरल बोनस",
+  "referralBonusStatusHeading": "रेफरल बोनस की स्थिति",
+  "referralBonusRewardForReferrer": "आपके लिए (रेफ़रर): {amount} कैटोशी",
+  "referralBonusRewardCredited": "रिवॉर्ड पहले ही जोड़ दिया गया ({amount} कैटोशी)।",
+  "referralBonusConditionsProgress": "3 में से {met} शर्तें पूरी",
+  "referralBonusListAmount": "रेफरल बोनस: {amount} कैटोशी",
+  "referralBonusDatesLine": "जुड़े {joined} · रेफ़र किए गए {referred}",
+  "referralBonusConditionMinedDays": "माइनिंग के दिन",
+  "referralBonusConditionMiningReward": "माइनिंग रिवॉर्ड (बेस)",
+  "referralBonusConditionGameReward": "गेम रिवॉर्ड",
+  "referralBonusStatePending": "शर्तें लंबित",
+  "referralBonusStateEligible": "रिवॉर्ड के लिए योग्य",
+  "referralBonusStateRewarded": "रिवॉर्ड जमा हो गया",
+  "referralBonusStateUnderReview": "एडमिन समीक्षा में",
+  "referralBonusStateRejected": "अस्वीकृत",
+  "profileSetupSkip": "छोड़ें",
+  "profileSetupGallery": "गैलरी",
+  "profileSetupCamera": "कैमरा",
+  "profileSetupFailedImage": "फ़ोटो चुनने में विफल: {error}",
+  "profileSetupDisplayNameLabel": "दिखाया जाने वाला नाम (वैकल्पिक)",
+  "profileSetupDisplayNameHint": "हम आपको क्या कहकर बुलाएं?",
+  "profileSetupSaveContinue": "सहेजें और आगे बढ़ें",
+  "profileSetupFailedSave": "प्रोफ़ाइल सहेजने में विफल: {error}",
+  "socialMissionsCategory": "श्रेणी",
+  "socialMissionsStatusActive": "सक्रिय",
+  "socialMissionsStatusCompleted": "पूर्ण",
+  "socialNoMissions": "अभी कोई {title} उपलब्ध नहीं है।",
+  "payoutHistoryScreenTitle": "भुगतान इतिहास",
+  "payoutNoHistory": "कोई भुगतान इतिहास नहीं मिला।",
+  "payoutViewTx": "TX देखें",
+  "payoutAddressTo": "को: {address}",
+  "commonAdd": "जोड़ें",
+  "commonEdit": "संपादित करें",
+  "missionVerifyTitle": "सत्यापन आवश्यक",
+  "missionVerifyDiscord": "अपना डिस्कॉर्ड उपयोगकर्ता नाम दर्ज करें ताकि हम सत्यापित कर सकें कि आप शामिल हुए हैं:",
+  "missionVerifyTelegram": "अपनी संख्यात्मक टेलीग्राम आईडी दर्ज करें:",
+  "missionVerifyGeneric": "सत्यापित करने के लिए अपना उपयोगकर्ता नाम/हैंडल दर्ज करें:",
+  "missionHintDiscord": "डिस्कॉर्ड उपयोगकर्ता नाम दर्ज करें",
+  "missionHintTelegram": "संख्यात्मक आईडी दर्ज करें",
+  "missionHintGeneric": "उपयोगकर्ता नाम/हैंडल दर्ज करें",
+  "missionHelpGetId": "आईडी कैसे प्राप्त करें?",
+  "missionSaveContinue": "सहेजें और आगे बढ़ें",
+  "missionVerificationStarted": "सत्यापन शुरू! कृपया कार्य पूरा करें।",
+  "missionClaimedSuccess": "दावा किया गया {amount} Catoshi!",
+  "missionFailed": "विफल: {error}",
+  "missionExpired": "समय समाप्त",
+  "missionExpiresInDays": "{days} दिनों में समाप्त हो रहा है",
+  "missionExpiresInHours": "{hours} घंटों में समाप्त हो रहा है",
+  "missionReward": "+{amount} Catoshi",
+  "missionStatusVerifying": "सत्यापित किया जा रहा है...",
+  "missionBtnClaim": "दावा करें",
+  "telegramHelpInstructions": "1. टेलीग्राम खोलें।\n2. @userinfobot खोजें (या नीचे क्यूआर स्कैन करें)।\n3. स्टार्ट पर क्लिक करें (या /start भेजें)।\n4. यह आपके विवरण के साथ उत्तर देगा। \"Id\" देखें।\n5. उस नंबर को कॉपी करें और यहां पेस्ट करें।",
+  "telegramHelpBtnOpen": "खोलें @userinfobot",
+  "telegramHelpQrLabel": "या क्यूआर कोड स्कैन करें:",
+  "telegramHelpQrError": "क्यूआर कोड नहीं मिला।\n(assets/images/telegram_qr.png जोड़ें)",
+  "resetPasswordSuccess": "पासवर्ड सफलतापूर्वक रीसेट हो गया। कृपया लॉगिन करें।",
+  "resetPasswordFailed": "पासवर्ड रीसेट करने में विफल",
+  "resetPasswordInstruction": "{email} पर भेजा गया 6-अंकीय कोड और अपना नया पासवर्ड दर्ज करें।",
+  "emailVerificationCodeSent": "सत्यापन कोड आपके ईमेल पर भेज दिया गया है!",
+  "gameLauncherTitle": "Cat Runner",
+  "gameLauncherDownloading": "गेम एसेट्स डाउनलोड हो रहे हैं...",
+  "gameLauncherReady": "इंजन तैयार है",
+  "gameLauncherRequired": "गेम एसेट्स आवश्यक हैं",
+  "gameLauncherDownloadBtn": "एसेट्स डाउनलोड करें (~{size})",
+  "gameLauncherStartBtn": "गेम शुरू करें",
+  "gameLauncherResetBtn": "एसेट्स रीसेट करें",
+  "gameGameOverTitle": "खेल समाप्त",
+  "gameStatScore": "स्कोर",
+  "gameStatDistance": "दूरी",
+  "gameStatCoins": "सिक्के",
+  "gameStatCatoshiEarned": "अर्जित कैटोशी",
+  "gamePlayAgain": "फिर से खेलें",
+  "gameExit": "बाहर निकलें",
+  "gamePausedTitle": "रुका हुआ",
+  "gameResume": "जारी रखें",
+  "gameQuit": "छोड़ें",
+  "updateTitle": "अपडेट उपलब्ध है",
+  "updateLater": "बाद में",
+  "updateNow": "अभी अपडेट करें",
+  "updateUrlError": "अपडेट URL लॉन्च नहीं किया जा सका",
+  "balancePayoutTo": "को: {address}",
+  "boostersSubtitle": "अपनी माइनिंग गति को तेज करें और सत्रों को बढ़ाएं!",
+  "commonVersion": "संस्करण",
+  "commonUser": "उपयोगकर्ता",
+  "profileVerifiedTooltip": "सत्यापित। अनलॉक करने और संपादित करने के लिए टैप करें।",
+  "walletAddressLabel": "पता: {address}",
+  "walletGenerationError": "जेनरेशन त्रुटि: {error}",
+  "walletDeleteWallet": "वॉलेट हटाएं",
+  "commonGenerate": "जेनरेट करें",
+  "badgeWeeklyTop": "साप्ताहिक टॉप",
+  "badgeMonthlyTop": "मासिक टॉप",
+  "badgeAllTimeTop": "सर्वकालिक टॉप",
+  "badgeVerified": "सत्यापित उपयोगकर्ता",
+  "updateAvailable": "एक नया संस्करण ({version}) उपलब्ध है।",
+  "updateMandatory": "ऐप का उपयोग जारी रखने के लिए यह अपडेट अनिवार्य है।",
+  "@appTitle": {
+    "description": "App title"
+  },
+  "@navHome": {
+    "description": "Bottom nav: Home"
+  },
+  "@navGames": {
+    "description": "Bottom nav: Games"
+  },
+  "@navLeaders": {
+    "description": "Bottom nav: Leaderboard"
+  },
+  "@navWallet": {
+    "description": "Bottom nav: Wallet"
+  },
+  "@navRewards": {
+    "description": "Bottom nav: Rewards"
+  },
+  "@navProfile": {
+    "description": "Bottom nav: Profile"
+  },
+  "@commonCancel": {},
+  "@commonSave": {},
+  "@commonOk": {},
+  "@commonError": {},
+  "@commonLoading": {},
+  "@commonRetry": {},
+  "@commonClose": {},
+  "@commonNone": {},
+  "@commonGallery": {},
+  "@commonCamera": {},
+  "@commonRemovePhoto": {},
+  "@commonRequired": {},
+  "@commonUnlockEdit": {},
+  "@loginTitle": {},
+  "@loginEmailOrUsername": {},
+  "@loginEmailHint": {},
+  "@loginPassword": {},
+  "@loginButton": {},
+  "@loginCreateAccount": {},
+  "@loginForgotPassword": {},
+  "@loginUseEmailForVerification": {},
+  "@signupTitle": {},
+  "@signupEmail": {},
+  "@signupEmailHint": {},
+  "@signupPassword": {},
+  "@signupConfirmPassword": {},
+  "@signupReferralCode": {},
+  "@signupReferralCodeHint": {},
+  "@signupButton": {},
+  "@forgotPasswordTitle": {},
+  "@forgotPasswordEmail": {},
+  "@forgotPasswordSendCode": {},
+  "@forgotPasswordBackToLogin": {},
+  "@emailVerificationTitle": {},
+  "@emailVerificationInstruction": {},
+  "@emailVerificationCode": {},
+  "@emailVerificationVerify": {},
+  "@emailVerificationResend": {},
+  "@resetPasswordTitle": {},
+  "@resetPasswordNewPassword": {},
+  "@resetPasswordConfirm": {},
+  "@resetPasswordButton": {},
+  "@profileSetupTitle": {},
+  "@splashLoading": {},
+  "@dashboardTotalBalance": {},
+  "@dashboardCatoshi": {},
+  "@dashboardCatoshiLabel": {},
+  "@dashboardNotMining": {},
+  "@dashboardStartMining": {},
+  "@dashboardRewardRate": {
+    "placeholders": {
+      "rate": {}
+    }
+  },
+  "@dashboardCurrentDuration": {
+    "placeholders": {
+      "hours": {},
+      "maxHours": {}
+    }
+  },
+  "@boostersTitle": {},
+  "@boostersCardTitle": {},
+  "@boostersOpenScreen": {},
+  "@leaderboardTitle": {},
+  "@leaderboardTopMiners": {},
+  "@leaderboardRank": {},
+  "@leaderboardUser": {},
+  "@leaderboardBalance": {},
+  "@leaderboardYou": {},
+  "@leaderboardGlobal": {},
+  "@leaderboardRegional": {},
+  "@leaderboardGames": {},
+  "@leaderboardAwards": {},
+  "@leaderboardChallengers": {},
+  "@leaderboardNoGlobal": {},
+  "@leaderboardNoRegional": {},
+  "@leaderboardComingSoon": {},
+  "@leaderboardNoAwards": {},
+  "@leaderboardKeepMining": {},
+  "@walletTitle": {},
+  "@walletAddress": {},
+  "@walletBalance": {},
+  "@walletCopy": {},
+  "@walletCopied": {},
+  "@walletSend": {},
+  "@walletReceive": {},
+  "@walletTransactions": {},
+  "@walletNoTransactions": {},
+  "@walletConnectWallet": {},
+  "@walletDisconnect": {},
+  "@walletSolanaAddress": {},
+  "@walletEnterAddress": {},
+  "@walletSaveAddress": {},
+  "@walletAddressSaved": {},
+  "@walletInvalidAddress": {},
+  "@walletMyWallets": {},
+  "@walletAddExisting": {},
+  "@walletCatcoinAddress": {},
+  "@walletPasteHint": {},
+  "@walletSetPrimary": {},
+  "@walletInvalidAddressComplex": {},
+  "@walletRecoverTitle": {},
+  "@walletRecoverInstruction": {},
+  "@walletSecretPhrase": {},
+  "@walletSecretPhraseHint": {},
+  "@walletInvalidPhrase": {},
+  "@walletDeleteTitle": {},
+  "@walletDeleteConfirmMessage": {
+    "placeholders": {
+      "address": {
+        "type": "String"
+      }
+    }
+  },
+  "@walletDeletedSuccess": {},
+  "@walletAddedSuccess": {},
+  "@walletGenerateTitle": {},
+  "@walletBackupTitle": {},
+  "@walletBackupWarning": {},
+  "@walletGenerateInstruction": {},
+  "@walletGenerating": {},
+  "@walletBackedUp": {},
+  "@walletRecoverFromPhrase": {},
+  "@walletSetDefault": {},
+  "@walletSettingPrimary": {},
+  "@walletPrimary": {},
+  "@walletSourceGenerated": {},
+  "@walletSourceRecovered": {},
+  "@walletSourceManual": {},
+  "@walletDaysHeld": {
+    "placeholders": {
+      "days": {
+        "type": "String"
+      }
+    }
+  },
+  "@walletCalculating": {},
+  "@rewardsTitle": {},
+  "@rewardsClaim": {},
+  "@rewardsClaimed": {},
+  "@rewardsAvailable": {},
+  "@rewardsNoRewards": {},
+  "@rewardsSocialTasks": {},
+  "@rewardsXTasks": {},
+  "@rewardsTelegramTasks": {},
+  "@rewardsDiscordTasks": {},
+  "@rewardsAllMissions": {},
+  "@rewardsNoMissions": {},
+  "@rewardsError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@gamesTitle": {},
+  "@gamesPlay": {},
+  "@gamesRunner": {},
+  "@gamesRunnerDescription": {},
+  "@gamesNoGames": {},
+  "@referralTitle": {},
+  "@referralCode": {},
+  "@referralCopyCode": {},
+  "@referralShareLink": {},
+  "@referralActiveReferrals": {},
+  "@referralNoReferrals": {},
+  "@referralBoost": {},
+  "@referralBoosted": {},
+  "@referralInviteFriends": {},
+  "@balanceDetailTitle": {},
+  "@payoutHistoryTitle": {},
+  "@payoutHistoryNone": {},
+  "@awardsTitle": {},
+  "@socialMissionsTitle": {},
+  "@profileTitle": {},
+  "@profileAccountDetails": {},
+  "@profileReferredBy": {},
+  "@profileMyReferrals": {},
+  "@profileSocialProfiles": {},
+  "@profileDiscord": {},
+  "@profileTelegram": {},
+  "@profileTelegramHint": {},
+  "@profileX": {},
+  "@profileFacebook": {},
+  "@profileWhatsapp": {},
+  "@profileSaveSocialIds": {},
+  "@profileUpdatedSuccess": {},
+  "@profileSettings": {},
+  "@profileAppearance": {},
+  "@profileThemeSystem": {},
+  "@profileThemeLight": {},
+  "@profileThemeDark": {},
+  "@profilePayoutHistory": {},
+  "@profileChangePassword": {},
+  "@profileLanguage": {},
+  "@profileLogout": {},
+  "@profileDeleteAccount": {},
+  "@profileDiscordHint": {},
+  "@profileVerified": {},
+  "@changePasswordTitle": {},
+  "@changePasswordCurrent": {},
+  "@changePasswordNew": {},
+  "@changePasswordConfirm": {},
+  "@changePasswordMin6": {},
+  "@changePasswordMismatch": {},
+  "@changePasswordSuccess": {},
+  "@deleteAccountTitle": {},
+  "@deleteAccountMessage": {},
+  "@deleteAccountConfirm": {},
+  "@deleteAccountFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@resetSocialTitle": {
+    "placeholders": {
+      "platform": {
+        "type": "String"
+      }
+    }
+  },
+  "@resetSocialMessage": {},
+  "@resetSocialUnlocked": {},
+  "@resetSocialFailed": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@languageSelectTitle": {},
+  "@languageEnglish": {},
+  "@languageVietnamese": {},
+  "@languageChinese": {},
+  "@languageSpanish": {},
+  "@languageHindi": {},
+  "@languageTelugu": {},
+  "@languageTamil": {},
+  "languageRussian": "Русский",
+  "@languageRussian": {},
+  "languageJapanese": "日本語",
+  "@languageJapanese": {},
+  "languageMalay": "Bahasa Melayu",
+  "@languageMalay": {},
+  "languageIndonesian": "Bahasa Indonesia",
+  "@languageIndonesian": {},
+  "languageKorean": "한국어",
+  "@languageKorean": {},
+  "languageArabic": "العربية",
+  "@languageArabic": {},
+  "languageFrench": "Français",
+  "@languageFrench": {},
+  "languageGujarati": "ગુજરાતી",
+  "@languageGujarati": {},
+  "languageOdia": "ଓଡ଼િଆ",
+  "@languageOdia": {},
+  "@telegramHelpTitle": {},
+  "@telegramHelpStep1": {},
+  "@telegramHelpStep2": {},
+  "@telegramHelpStep3": {},
+  "@missionComplete": {},
+  "@missionCompleted": {},
+  "@missionClaim": {},
+  "@missionClaimed": {},
+  "@missionGo": {},
+  "@failedPickImage": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "@awardsNoAwards": {},
+  "@awardsKeepMining": {},
+  "@balanceSummary": {},
+  "@balanceEarnings": {},
+  "@balancePayouts": {},
+  "@balanceLoadError": {},
+  "@balanceWithdrawSoon": {},
+  "@balanceTotal": {},
+  "@balanceNotWithdrawable": {},
+  "@balanceBreakdown": {},
+  "@balanceMining": {},
+  "@balanceReferral": {},
+  "@balanceMission": {},
+  "@balanceGame": {},
+  "@balanceWithdraw": {},
+  "@balanceWithdrawSubmitted": {},
+  "@balanceNoHistory": {},
+  "@balanceNoPayouts": {},
+  "@boostersActiveModifiers": {},
+  "@boostersCurrentReferralBonus": {
+    "placeholders": {
+      "bonus": {}
+    }
+  },
+  "@boostersAvailableModifiers": {},
+  "@boostersApplyExtensions": {},
+  "@boostersStartMiningPrompt": {},
+  "@boostersNoBoosters": {},
+  "@boostersTimeBoostTitle": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "@boostersCooldown": {
+    "placeholders": {
+      "duration": {}
+    }
+  },
+  "@boostersSessionMaxed": {},
+  "@boostersExtendBy": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "@boostersExtendBySimple": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "@boostersApply": {},
+  "@boostersReferralBoosting": {
+    "placeholders": {
+      "boost": {}
+    }
+  },
+  "@boostersReferralMaxed": {},
+  "@boostersReferralActiveMiner": {
+    "placeholders": {
+      "boost": {}
+    }
+  },
+  "@boostersActive": {},
+  "@boostersErrorMustMine": {},
+  "@boostersEnergyPotionConsumed": {},
+  "@boostersErrorFailedToExtend": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@boostersReferralActivated": {},
+  "@gamesRunnerTitle": {},
+  "@gamesRunnerDesc": {},
+  "gamesTictactoeTitle": "Tic Tac Toe",
+  "@gamesTictactoeTitle": {},
+  "gamesTictactoeDesc": "Get three in a row to win!",
+  "@gamesTictactoeDesc": {},
+  "gamesSudokuTitle": "Sudoku",
+  "@gamesSudokuTitle": {},
+  "gamesSudokuDesc": "Fill the grid with numbers 1-9.",
+  "@gamesSudokuDesc": {},
+  "gamesCollageTitle": "Image Collage",
+  "@gamesCollageTitle": {},
+  "gamesCollageDesc": "Arrange the cat pieces to solve the puzzle.",
+  "@gamesCollageDesc": {},
+  "@gamesComingSoon": {},
+  "@referralsTitle": {},
+  "@referralsInvitedBy": {},
+  "@referralsNoOneYet": {},
+  "@referralsYourCode": {},
+  "@referralsCopied": {},
+  "@referralsShareMessage": {
+    "placeholders": {
+      "code": {}
+    }
+  },
+  "@referralsTotal": {},
+  "@referralsActiveCount": {},
+  "@referralsBoostPercentage": {},
+  "@referralsYourReferrals": {},
+  "referralsNoReferrals": "No referrals yet",
+  "@referralsNoReferrals": {},
+  "referralsSharePrompt": "Share your referral code to earn bonuses!",
+  "@referralsSharePrompt": {},
+  "@referralsActiveLast24h": {},
+  "@referralsInactive": {},
+  "@referralsEnterInviterCode": {},
+  "@referralsInviterCodeInstruction": {},
+  "@referralsInviterCodeLabel": {},
+  "@referralsInviterCodeUpdated": {},
+  "@referralMilestoneBonusTitle": {},
+  "@referralMilestoneBonusSubtitle": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "@referralBonusRewardAmountNote": {},
+  "@referralBonusDetailAppTitle": {},
+  "@referralBonusStatusHeading": {},
+  "@referralBonusRewardForReferrer": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "@referralBonusRewardCredited": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "@referralBonusConditionsProgress": {
+    "placeholders": {
+      "met": {}
+    }
+  },
+  "@referralBonusListAmount": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "@referralBonusDatesLine": {
+    "placeholders": {
+      "joined": {},
+      "referred": {}
+    }
+  },
+  "@referralBonusConditionMinedDays": {},
+  "@referralBonusConditionMiningReward": {},
+  "@referralBonusConditionGameReward": {},
+  "@referralBonusStatePending": {},
+  "@referralBonusStateEligible": {},
+  "@referralBonusStateRewarded": {},
+  "@referralBonusStateUnderReview": {},
+  "@referralBonusStateRejected": {},
+  "@profileSetupSkip": {},
+  "@profileSetupGallery": {},
+  "@profileSetupCamera": {},
+  "@profileSetupFailedImage": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@profileSetupDisplayNameLabel": {},
+  "@profileSetupDisplayNameHint": {},
+  "@profileSetupSaveContinue": {},
+  "@profileSetupFailedSave": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@socialNoMissions": {
+    "placeholders": {
+      "title": {}
+    }
+  },
+  "@payoutHistoryScreenTitle": {},
+  "@payoutNoHistory": {},
+  "@payoutViewTx": {},
+  "@payoutAddressTo": {
+    "placeholders": {
+      "address": {}
+    }
+  },
+  "@commonAdd": {},
+  "@commonEdit": {},
+  "@missionVerifyTitle": {},
+  "@missionVerifyDiscord": {},
+  "@missionVerifyTelegram": {},
+  "@missionVerifyGeneric": {},
+  "@missionHintDiscord": {},
+  "@missionHintTelegram": {},
+  "@missionHintGeneric": {},
+  "@missionHelpGetId": {},
+  "@missionSaveContinue": {},
+  "@missionVerificationStarted": {},
+  "@missionClaimedSuccess": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "@missionFailed": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@missionExpired": {},
+  "@missionExpiresInDays": {
+    "placeholders": {
+      "days": {}
+    }
+  },
+  "@missionExpiresInHours": {
+    "placeholders": {
+      "hours": {}
+    }
+  },
+  "@missionReward": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "@missionStatusVerifying": {},
+  "@missionBtnClaim": {},
+  "@telegramHelpInstructions": {},
+  "@telegramHelpBtnOpen": {},
+  "@telegramHelpQrLabel": {},
+  "@telegramHelpQrError": {},
+  "@resetPasswordSuccess": {},
+  "@resetPasswordFailed": {},
+  "@resetPasswordInstruction": {
+    "placeholders": {
+      "email": {}
+    }
+  },
+  "@emailVerificationCodeSent": {},
+  "@gameLauncherTitle": {},
+  "@gameLauncherDownloading": {},
+  "@gameLauncherReady": {},
+  "@gameLauncherRequired": {},
+  "@gameLauncherDownloadBtn": {
+    "placeholders": {
+      "size": {}
+    }
+  },
+  "@gameLauncherStartBtn": {},
+  "@gameLauncherResetBtn": {},
+  "@gameGameOverTitle": {},
+  "@gameStatScore": {},
+  "@gameStatDistance": {},
+  "@gameStatCoins": {},
+  "@gameStatCatoshiEarned": {},
+  "@gamePlayAgain": {},
+  "@gameExit": {},
+  "@gamePausedTitle": {},
+  "@gameResume": {},
+  "@gameQuit": {},
+  "@updateTitle": {},
+  "@updateLater": {},
+  "@updateNow": {},
+  "@updateUrlError": {},
+  "@balancePayoutTo": {
+    "placeholders": {
+      "address": {}
+    }
+  },
+  "@boostersSubtitle": {},
+  "@commonVersion": {},
+  "@commonUser": {},
+  "@profileVerifiedTooltip": {},
+  "@walletAddressLabel": {
+    "placeholders": {
+      "address": {}
+    }
+  },
+  "@walletGenerationError": {
+    "placeholders": {
+      "error": {}
+    }
+  },
+  "@walletDeleteWallet": {},
+  "@commonGenerate": {},
+  "@badgeWeeklyTop": {},
+  "@badgeMonthlyTop": {},
+  "@badgeAllTimeTop": {},
+  "@badgeVerified": {},
+  "@updateAvailable": {
+    "placeholders": {
+      "version": {}
+    }
+  },
+  "@updateMandatory": {},
+  "boostersGameBoostTitle": "Game Boost +{percentage}%",
+  "@boostersGameBoostTitle": {
+    "placeholders": {
+      "percentage": {
+        "type": "String"
+      }
+    }
+  },
+  "boostersGameBoostDuration": "Duration: {hours}h {minutes}m",
+  "@boostersGameBoostDuration": {
+    "placeholders": {
+      "hours": {
+        "type": "String"
+      },
+      "minutes": {
+        "type": "String"
+      }
+    }
+  },
+  "boostersActivate": "Activate",
+  "@boostersActivate": {},
+  "boostersGameBoostSuccess": "Game Boost activated successfully!",
+  "@boostersGameBoostSuccess": {},
+  "boostersGameBoostError": "Failed to activate boost: {error}",
+  "@boostersGameBoostError": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "languageGroupInternational": "अंतर्राष्ट्रीय",
+  "@languageGroupInternational": {},
+  "languageGroupIndian": "भारत",
+  "@languageGroupIndian": {},
+  "gameNewGame": "नया खेल",
+  "@gameNewGame": {},
+  "gameYouWin": "आपकी जीत!",
+  "@gameYouWin": {},
+  "gameCpuWins": "कंप्यूटर की जीत",
+  "@gameCpuWins": {},
+  "gameDraw": "ड्रॉ!",
+  "@gameDraw": {},
+  "gameYourTurnX": "आपकी बारी (X)",
+  "@gameYourTurnX": {},
+  "gameYourTurnO": "कंप्यूटर की बारी (O)",
+  "@gameYourTurnO": {},
+  "gameSudokuSuccess": "बहुत बढ़िया! आपने सुडोकू हल किया और {amount} catoshi कमाए!",
+  "@gameSudokuSuccess": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "gameTictactoeSuccess": "बधाई हो! आपने {amount} catoshi कमाए!",
+  "@gameTictactoeSuccess": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "gamePuzzleSuccess": "शानदार! आपने पहेली हल की और {amount} catoshi कमाए!",
+  "@gamePuzzleSuccess": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "gameMinerTitle": "CatCoin Miner",
+  "@gameMinerTitle": {},
+  "gamesTunnelMinerTitle": "Tunnel Miner",
+  "@gamesTunnelMinerTitle": {},
+  "gamesTunnelMinerDesc": "Mine downward, reach the green extraction pad, and avoid hazards.",
+  "@gamesTunnelMinerDesc": {},
+  "gameRewardMinerSummary": "You earned {amount} Catoshi!",
+  "@gameRewardMinerSummary": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "tunnelMinerHudDepth": "Depth",
+  "@tunnelMinerHudDepth": {},
+  "tunnelMinerHudEnergy": "Energy",
+  "@tunnelMinerHudEnergy": {},
+  "tunnelMinerHudShards": "Shards",
+  "@tunnelMinerHudShards": {},
+  "tunnelMinerDigHint": "Dig",
+  "@tunnelMinerDigHint": {},
+  "tunnelMinerLoading": "Loading Tunnel Miner...",
+  "@tunnelMinerLoading": {},
+  "tunnelMinerIntroTitle": "Tunnel Miner",
+  "@tunnelMinerIntroTitle": {},
+  "tunnelMinerHowToPlayTitle": "How to play",
+  "@tunnelMinerHowToPlayTitle": {},
+  "tunnelMinerGoal": "Descend the tunnel, dig through brown dirt, collect gold ore, and stand on the green extraction pad to finish successfully. Loose dirt, ore, and lava fall downward through air while grey rock stays put. Hazards or running out of energy ends the run.",
+  "@tunnelMinerGoal": {},
+  "tunnelMinerDoHeading": "What to do",
+  "@tunnelMinerDoHeading": {},
+  "tunnelMinerDoBody": "• Move left or right into open space: air, gold ore, or the green extraction pad.\n• Dig straight down through brown dirt only. Each dig uses drill energy.\n• Walk onto ore to collect shards (they add to your score).\n• Reach and stand on the green extraction pad to complete a good run.\n• Brown dirt or grey rock beside you? Press left or right toward it again to mine sideways (grey rock costs double energy).",
+  "@tunnelMinerDoBody": {},
+  "tunnelMinerDontHeading": "What not to do",
+  "@tunnelMinerDontHeading": {},
+  "tunnelMinerDontBody": "• Do not step on red lava — you lose immediately.\n• Do not stand under loose dirt, ore, or lava when there is only air beneath them — they fall; grey rock does not move and acts as a shelf. Falling ore is usually collectible; dirt or lava landing on you ends the run.\n• Do not try to dig grey rock — it cannot be broken; move around it.\n• Do not spend all energy — when energy reaches zero, the run ends.",
+  "@tunnelMinerDontBody": {},
+  "tunnelMinerControlsHeading": "Controls",
+  "@tunnelMinerControlsHeading": {},
+  "tunnelMinerControlsBody": "Bottom row: move left, dig down, move right.\nYou can also tap the left third, center, or right third of the mine area for the same actions.\nToward brown dirt or grey rock on your side, tap that direction again to chip through (grey rock uses extra energy).\nKeyboard: A or Left Arrow, D or Right Arrow to move; Space, S, or Down Arrow to dig.\nPause: tap the pause icon at the top.",
+  "@tunnelMinerControlsBody": {},
+  "tunnelMinerIntroTap": "Read the notes above, then tap Start when you are ready.",
+  "@tunnelMinerIntroTap": {},
+  "tunnelMinerStartButton": "Start mining",
+  "@tunnelMinerStartButton": {},
+  "tunnelMinerWhatHappened": "What happened",
+  "@tunnelMinerWhatHappened": {},
+  "tunnelMinerLossExplainLava": "You stepped on or fell into lava.",
+  "@tunnelMinerLossExplainLava": {},
+  "tunnelMinerLossExplainBoulder": "Something heavy fell on you.",
+  "@tunnelMinerLossExplainBoulder": {},
+  "tunnelMinerLossExplainEnergy": "Your drill ran out of power.",
+  "@tunnelMinerLossExplainEnergy": {},
+  "tunnelMinerLossExplainUnknown": "The run ended before extraction.",
+  "@tunnelMinerLossExplainUnknown": {},
+  "tunnelMinerReviewMap": "Review map",
+  "@tunnelMinerReviewMap": {},
+  "tunnelMinerBackToSummary": "Back to summary",
+  "@tunnelMinerBackToSummary": {},
+  "tunnelMinerMapReviewHint": "Study the field. Return to the summary for Play again or Exit.",
+  "@tunnelMinerMapReviewHint": {},
+  "tunnelMinerResultExtracted": "EXTRACTED",
+  "@tunnelMinerResultExtracted": {},
+  "tunnelMinerResultReason": "Outcome",
+  "@tunnelMinerResultReason": {},
+  "tunnelMinerReasonEnergy": "Drill out of power",
+  "@tunnelMinerReasonEnergy": {},
+  "tunnelMinerReasonHazard": "Hazard",
+  "@tunnelMinerReasonHazard": {},
+  "tunnelMinerReasonExtracted": "Reached extraction",
+  "@tunnelMinerReasonExtracted": {},
+  "gamesArrowTitle": "Arrow Reaction",
+  "@gamesArrowTitle": {},
+  "gamesArrowDesc": "Tap or swipe the matching direction before time runs out!",
+  "@gamesArrowDesc": {},
+  "gameArrowScore": "Score {current}/{target}",
+  "@gameArrowScore": {
+    "placeholders": {
+      "current": {},
+      "target": {}
+    }
+  },
+  "gameArrowLives": "Lives {lives}",
+  "@gameArrowLives": {
+    "placeholders": {
+      "lives": {}
+    }
+  },
+  "gameArrowGameOver": "Game Over",
+  "@gameArrowGameOver": {},
+  "gameArrowFinalScore": "Final score: {score}",
+  "@gameArrowFinalScore": {
+    "placeholders": {
+      "score": {}
+    }
+  },
+  "gameArrowSuccess": "Sharp reflexes! You earned {amount} Catoshi!",
+  "@gameArrowSuccess": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "gamesTwenty48Title": "2048",
+  "@gamesTwenty48Title": {},
+  "gamesTwenty48Desc": "Combine tiles, hit 2048 — keep going for higher scores!",
+  "@gamesTwenty48Desc": {},
+  "gameTwenty48Score": "SCORE",
+  "@gameTwenty48Score": {},
+  "gameTwenty48Best": "BEST TILE",
+  "@gameTwenty48Best": {},
+  "gameTwenty48Reached2048": "2048 reached â€” keep merging for a bigger payout at game over!",
+  "@gameTwenty48Reached2048": {},
+  "gameTwenty48GameOver": "No more moves!",
+  "@gameTwenty48GameOver": {},
+  "gameTwenty48Restart": "RESTART",
+  "@gameTwenty48Restart": {},
+  "gameTwenty48SwipeHint": "Swipe up, down, left or right to slide tiles.",
+  "@gameTwenty48SwipeHint": {},
+  "gameTwenty48Success": "You earned {amount} Catoshi!",
+  "@gameTwenty48Success": {
+    "placeholders": {
+      "amount": {}
+    }
+  },
+  "gameTwenty48KeepGoing": "Keep playing for an even higher score before the board fills up."
+}

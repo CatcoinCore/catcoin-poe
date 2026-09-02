@@ -1,0 +1,38 @@
+
+CATCOIN RUNNER – WORLD ASSET GENERATION PROMPT
+==============================================
+
+Environment Tiles
+-----------------
+grass_tile
+platform_tile
+city_rooftop_tile
+factory_tile
+cloud_platform
+
+Enemies
+-------
+Drone
+Robot vacuum
+Dog
+
+Collectibles
+------------
+CatCoin
+Super CatCoin
+Fish power‑up
+Milk turbo power‑up
+
+Background Layers
+-----------------
+Sky
+Far city skyline
+Mid city skyline
+Foreground buildings
+
+Particle Effects
+----------------
+coin sparkle
+jump dust
+turbo trail
+damage stars

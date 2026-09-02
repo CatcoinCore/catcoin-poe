@@ -1,0 +1,3 @@
+- Additional game system refinements for a better player experience.
+- Improved app launch stability and performance.
+- General stability fixes and minor bug corrections.

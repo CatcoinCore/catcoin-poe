@@ -1,0 +1,6 @@
+Sudoku gameplay improvements and stability updates.
+- Added haptic feedback for incorrect numbers and notes in Sudoku.
+- Fixed Sudoku "Pencil Mode" to no longer count incorrect notes as mistakes.
+- Updated Sudoku UI accent colors to Orange for better theme consistency.
+- Cleaned up Sudoku header UI for a more immersive experience.
+- Updated Android dependencies for better performance and stability.

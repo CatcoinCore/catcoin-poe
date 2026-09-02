@@ -1,0 +1,69 @@
+
+CATCOIN RUNNER – CHARACTER ANIMATION BIBLE
+==========================================
+
+Art Direction
+-------------
+Use the official CatCoin mascot design language from the existing mining app.
+
+Style
+-----
+2D cartoon
+soft rounded shapes
+expressive eyes
+clean silhouette
+mobile friendly readability
+
+Technical Requirements
+----------------------
+PNG format
+true transparent background
+256x256 frame size
+
+Required Animations
+-------------------
+
+Idle – 6 frames
+Run – 12 frames
+Turbo run – 12 frames
+Jump – 6 frames
+Double jump – 6 frames
+Fall – 4 frames
+Land – 5 frames
+Coin collect – 6 frames
+Damage – 6 frames
+Victory – 8 frames
+
+Run Cycle Specification
+-----------------------
+
+Frame 1 Contact
+Front paw touches ground
+
+Frame 2 Down
+Body compresses
+
+Frame 3 Gather start
+Front legs fold inward
+
+Frame 4 Full gather
+All legs beneath body
+
+Frame 5 Lift
+Body extending
+
+Frame 6 Front reach
+
+Frame 7 Full extension
+
+Frame 8 Flight
+
+Frame 9 Rear contact
+
+Frame 10 Push
+
+Frame 11 Gather
+
+Frame 12 Loop
+
+All frames must maintain consistent character scale.

@@ -1,0 +1,90 @@
+CATCOIN RUNNER – MVP BUILD PROMPT
+=================================
+
+Objective
+---------
+Build a playable MVP of CatCoin Runner as an add-on module inside the existing CatCoin mining app.
+
+Existing System Context
+-----------------------
+This is NOT a standalone game app.
+
+Existing stack:
+- Frontend: Flutter
+- Backend: Python FastAPI
+- Database: PostgreSQL
+
+Already available in the main app:
+- authentication
+- wallet/dashboard
+- leaderboard
+- user accounts
+
+Important product rule:
+The main mining app must stay lightweight.
+The game content must be downloaded only when the user launches the game for the first time.
+
+Game Type
+---------
+Hybrid auto-runner platformer
+
+Orientation:
+Landscape 16:9
+
+Engine:
+Flutter + Flame
+
+Economy Model
+-------------
+1 CAT = 100000000 catoshi
+1 in-game coin = 1 catoshi
+
+Coins earned in the game are NOT directly added to the wallet balance.
+Each validated session stores earned coins separately in a game reward ledger.
+The dashboard shows totals only.
+
+Build Scope
+-----------
+Create a playable MVP including:
+1. Game launcher inside the existing Flutter app
+2. First-run game asset download flow
+3. Asset extraction to local storage
+4. Flame-based game module
+5. Landscape auto-runner gameplay
+6. Cat player controller
+7. Jump + double jump
+8. Coin collection
+9. Basic enemies and obstacles
+10. Turbo mode
+11. HUD with score + coins + turbo meter
+12. Session start API integration
+13. Session submit API integration
+14. Basic anti-cheat validation support
+15. Reward ledger submission flow
+
+Required Systems
+----------------
+Implement the following modules:
+- Player Controller
+- Animation State Machine
+- Coin System
+- Enemy System
+- Obstacle System
+- Turbo System
+- Collision System
+- Camera System
+- HUD
+- Procedural Level Generator
+
+FastAPI Integration
+-------------------
+Implement the client integration for:
+POST /game/start-session
+POST /game/submit
+
+Do not credit wallet directly from the client.
+Only submit the session result.
+
+Final Goal
+----------
+Deliver a working CatCoin Runner MVP that can be opened from inside the existing mining app, downloads its content on first use, runs in Flutter + Flame, and submits session results to the FastAPI backend for reward-ledger processing.

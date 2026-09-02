@@ -1,0 +1,9 @@
+arb-dir: lib/l10n
+template-arb-file: app_en.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+nullable-getter: false
+
+# Detailed missing keys per locale when running `flutter gen-l10n`.
+# See cat_poe/untranslated_messages.txt after generation.
+untranslated-messages-file: untranslated_messages.txt

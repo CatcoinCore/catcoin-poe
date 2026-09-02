@@ -1,0 +1,4 @@
+Fixes and upkeep.
+- Games tab count now matches games you can actually play
+- Sudoku pencil and notes behave more reliably
+- Under-the-hood updates for Firebase and deep links

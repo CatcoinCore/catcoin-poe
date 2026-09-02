@@ -1,0 +1,4 @@
+Bug fixes and performance improvements.
+- Wallet screen improvements.
+- Runner game enhancements.
+- Leaderboard updates.

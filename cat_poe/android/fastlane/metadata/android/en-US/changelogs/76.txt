@@ -1,0 +1,3 @@
+- Performance optimizations for smoother game sessions.
+- Improved memory management and app stability.
+- General UI refinements and minor bug corrections.

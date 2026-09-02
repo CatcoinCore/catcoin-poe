@@ -1,0 +1,191 @@
+
+CATCOIN RUNNER – CONTENT CREATION PROMPT
+========================================
+
+This prompt defines all visual assets required by the CatCoin Runner game.
+
+The game engine architecture is defined in the separate document:
+
+"CatCoin Game Engine Architecture Prompt"
+
+All generated assets must be compatible with that architecture.
+
+Game Overview
+-------------
+Game Type:
+Hybrid Auto-Runner Platformer
+
+Platform:
+Flutter + Flame
+
+Orientation:
+Landscape
+
+Art Direction – Character Consistency
+-------------------------------------
+
+The game MUST use the same CatCoin mascot used in the existing mining app.
+
+Reference images from the app represent the official mascot.
+
+Do NOT redesign the character.
+
+Style
+-----
+2D cartoon
+soft rounded shapes
+expressive eyes
+minimal outlines
+mobile friendly readability
+
+Technical Requirements
+----------------------
+
+All assets must be:
+
+PNG
+True transparent background (alpha channel)
+
+No checkerboard background.
+No solid background color.
+
+Sprite sheets must work with Flame SpriteAnimation.
+
+Recommended frame size:
+256x256 per frame.
+
+Character Animation Pack
+------------------------
+
+Animations required:
+
+Idle
+Run
+Turbo Run
+Jump
+Double Jump
+Fall
+Land
+Coin Collect
+Damage
+Victory
+
+Run Animation (12 Frames – Feline Physics)
+------------------------------------------
+
+Frame 1 Contact
+Front paw touches ground
+
+Frame 2 Down
+Body compresses
+
+Frame 3 Gather start
+Front legs fold inward
+
+Frame 4 Full gather
+All legs under body
+Spine compressed
+
+Frame 5 Lift
+Body extending
+
+Frame 6 Flight front reach
+Front legs extend forward
+
+Frame 7 Full extension
+Front forward
+Back backward
+Spine stretched
+
+Frame 8 Flight
+
+Frame 9 Rear contact
+Back legs touch ground
+
+Frame 10 Push
+
+Frame 11 Gather again
+
+Frame 12 Loop
+
+Enemy Assets
+------------
+
+Robo Vacuum
+Animations:
+idle
+move
+attack
+destroyed
+
+Angry Dog
+Animations:
+idle
+run
+bark
+hit
+
+Drone
+Animations:
+hover
+fly
+laser attack
+destroyed
+
+Collectibles
+------------
+
+CatCoin
+8 frame spinning animation
+
+Super CatCoin
+10 frame glowing animation
+
+Fish Power-up
+6 frame bounce animation
+
+Milk Turbo Power-up
+6 frame animation
+
+Interactive Objects
+-------------------
+
+Spring Pad
+Breakable Box
+Turbo Booster
+
+Environment Tiles
+-----------------
+
+grass_tile
+platform_tile
+city_rooftop_tile
+factory_tile
+cloud_platform
+
+Tiles must seamlessly tile.
+
+Background Layers
+-----------------
+
+sky_background
+far_city
+mid_city
+foreground_roofs
+
+Particle Effects
+----------------
+
+coin_sparkle
+dust_jump
+turbo_trail
+damage_stars
+
+Compatibility
+-------------
+
+All sprite sheets must match the requirements of:
+
+"CatCoin Game Engine Architecture Prompt"
+
+Animations must be easy to load as Flame SpriteAnimation objects.

@@ -1,0 +1,4 @@
+- Mission system refinement and administrative controls.
+- Improved admin mission management screens.
+- General app stability and UI fixes.
+- Performance optimizations for lower-end devices.

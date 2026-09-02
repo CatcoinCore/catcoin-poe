@@ -1,0 +1,5 @@
+New features and improvements!
+- Added new CatCoin Runner game features, sprites, and assets.
+- Improved game mechanics, collisions, and performance.
+- Added mining reminder notifications.
+- Enhanced wallet and notification services.

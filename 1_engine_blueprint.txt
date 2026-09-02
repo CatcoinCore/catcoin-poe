@@ -1,0 +1,213 @@
+
+CATCOIN RUNNER – FULL ENGINE BLUEPRINT
+======================================
+
+Purpose
+-------
+Define the complete technical architecture for the CatCoin Runner game module.
+This document is intended for developers or AI coding agents implementing the
+game inside the existing CatCoin mining application.
+
+Existing System
+---------------
+Frontend: Flutter
+Backend: Python FastAPI
+Database: PostgreSQL
+
+Existing Features in the Mining App
+-----------------------------------
+• User authentication
+• Wallet dashboard
+• CatCoin mining system
+• Leaderboard
+• Reward ledger display
+
+Important Requirement
+---------------------
+The game must be an **on‑demand downloadable module**.
+
+The main mining application must remain lightweight.
+Game assets should download only when the user launches the game for the first time.
+
+Game Engine
+-----------
+Flutter + Flame
+
+Game Orientation
+----------------
+Landscape (16:9)
+
+Core Modules
+------------
+• Game launcher
+• Asset pack downloader
+• Flame game engine
+• Player controller
+• Animation system
+• Enemy system
+• Coin system
+• Turbo system
+• Collision system
+• Procedural level generator
+• HUD system
+• Camera system
+
+Folder Structure
+----------------
+lib/
+  game/
+    catcoin_game.dart
+    game_world.dart
+    game_camera.dart
+
+  player/
+    cat_player.dart
+    cat_state_machine.dart
+    cat_animations.dart
+
+  enemies/
+    enemy_base.dart
+    drone_enemy.dart
+    dog_enemy.dart
+    vacuum_enemy.dart
+
+  collectibles/
+    coin.dart
+    powerups.dart
+
+  obstacles/
+    obstacle.dart
+
+  systems/
+    collision_system.dart
+    level_generator.dart
+    turbo_system.dart
+    score_system.dart
+    asset_pack_service.dart
+    session_service.dart
+
+  ui/
+    hud.dart
+    pause_menu.dart
+    game_launcher_screen.dart
+
+  config/
+    game_constants.dart
+
+Player Controller
+-----------------
+The player character is the CatCoin mascot.
+
+Movement Model
+• constant forward auto‑run
+• jump
+• double jump
+• fall
+• landing recovery
+
+Physics
+• gravity based
+• platform collision detection
+• obstacle collision detection
+
+Animation State Machine
+-----------------------
+States:
+
+idle
+run
+jump
+double_jump
+fall
+land
+turbo
+damage
+victory
+
+Enemy System
+------------
+Enemies spawn via procedural chunks.
+
+Enemy types:
+• drone
+• robo vacuum
+• dog
+
+Each enemy has:
+• idle animation
+• movement
+• attack trigger
+• destroyed animation
+
+Coin System
+-----------
+Coins represent CatCoin micro rewards.
+
+1 coin = 1 catoshi
+
+Collision with player:
+• increment coin counter
+• spawn particle effect
+• update HUD
+
+Turbo System
+------------
+Turbo is activated by filling a meter via coin collection.
+
+Turbo effects:
+• temporary speed increase
+• animation change
+• particle trail
+
+Collision System
+----------------
+Player collision types:
+
+player vs ground
+player vs coin
+player vs enemy
+player vs obstacle
+
+Camera System
+-------------
+Side‑scrolling camera.
+
+Player remains left‑of‑center to provide forward visibility.
+
+Procedural Level Generator
+--------------------------
+Level is generated using chunk spawning.
+
+Chunk contains:
+• platforms
+• coin trails
+• obstacles
+• enemies
+
+Difficulty increases over distance.
+
+FastAPI Integration
+-------------------
+
+Start Session
+POST /game/start-session
+
+Submit Session
+POST /game/submit
+
+Session Data
+------------
+score
+coins_collected
+play_time
+game_version
+
+Server validates score before writing reward.
+
+Reward Model
+------------
+1 CAT = 100000000 catoshi
+1 coin = 1 catoshi
+
+Rewards stored in ledger table:
+game_rewards

@@ -1,0 +1,3854 @@
+[
+  {
+    "version": "Version 1.12.0",
+    "translations": {
+      "ar": {
+        "date_label": "2 سبتمبر 2026",
+        "notes": [
+          "تطبيق أصغر وأسرع بفضل تحسينات البناء.",
+          "تحسينات الاستقرار."
+        ]
+      },
+      "en": {
+        "date_label": "September 2, 2026",
+        "notes": [
+          "Smaller, faster app thanks to build optimizations.",
+          "Stability improvements."
+        ]
+      },
+      "es": {
+        "date_label": "2 de septiembre de 2026",
+        "notes": [
+          "Aplicación más pequeña y rápida gracias a optimizaciones de compilación.",
+          "Mejoras de estabilidad."
+        ]
+      },
+      "fr": {
+        "date_label": "2 septembre 2026",
+        "notes": [
+          "Application plus légère et plus rapide grâce aux optimisations de compilation.",
+          "Améliorations de stabilité."
+        ]
+      },
+      "gu": {
+        "date_label": "2 સપ્ટેમ્બર, 2026",
+        "notes": [
+          "બિલ્ડ ઑપ્ટિમાઇઝેશનને કારણે નાની અને ઝડપી ઍપ.",
+          "સ્થિરતા સુધારાઓ."
+        ]
+      },
+      "hi": {
+        "date_label": "2 सितंबर 2026",
+        "notes": [
+          "बिल्ड ऑप्टिमाइज़ेशन की बदौलत छोटा और तेज़ ऐप।",
+          "स्थिरता में सुधार।"
+        ]
+      },
+      "id": {
+        "date_label": "2 September 2026",
+        "notes": [
+          "Aplikasi lebih kecil dan cepat berkat optimasi build.",
+          "Peningkatan stabilitas."
+        ]
+      },
+      "ja": {
+        "date_label": "2026年9月2日",
+        "notes": [
+          "ビルド最適化により、より軽量で高速なアプリになりました。",
+          "安定性の改善。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 9월 2일",
+        "notes": [
+          "빌드 최적화로 더 작고 빠른 앱.",
+          "안정성 개선."
+        ]
+      },
+      "ms": {
+        "date_label": "2 September 2026",
+        "notes": [
+          "Aplikasi lebih kecil dan pantas hasil pengoptimuman binaan.",
+          "Penambahbaikan kestabilan."
+        ]
+      },
+      "or": {
+        "date_label": "ସେପ୍ଟେମ୍ବର 2, 2026",
+        "notes": [
+          "ବିଲ୍ଡ ଅପ୍ଟିମାଇଜେସନ୍ ଯୋଗୁଁ ଛୋଟ ଏବଂ ଦ୍ରୁତ ଆପ୍ |",
+          "ସ୍ଥିରତା ଉନ୍ନତି |"
+        ]
+      },
+      "ru": {
+        "date_label": "2 сентября 2026 г.",
+        "notes": [
+          "Приложение стало меньше и быстрее благодаря оптимизации сборки.",
+          "Улучшения стабильности."
+        ]
+      },
+      "ta": {
+        "date_label": "செப்டம்பர் 2, 2026",
+        "notes": [
+          "கட்டமைப்பு மேம்பாடுகளால் சிறிய, வேகமான பயன்பாடு.",
+          "நிலைத்தன்மை மேம்பாடுகள்."
+        ]
+      },
+      "te": {
+        "date_label": "సెప్టెంబర్ 2, 2026",
+        "notes": [
+          "బిల్డ్ ఆప్టిమైజేషన్‌ల వల్ల చిన్నదైన, వేగవంతమైన యాప్.",
+          "స్థిరత్వ మెరుగుదలలు."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 2 tháng 9 năm 2026",
+        "notes": [
+          "Ứng dụng nhỏ hơn, nhanh hơn nhờ tối ưu hóa bản dựng.",
+          "Cải thiện độ ổn định."
+        ]
+      },
+      "zh": {
+        "date_label": "2026年9月2日",
+        "notes": [
+          "得益于构建优化，应用更小更快。",
+          "稳定性改进。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.11.0",
+    "translations": {
+      "ar": {
+        "date_label": "28 يوليو 2026",
+        "notes": [
+          "تم التحديث لاستهداف أندرويد 16 (API 36) لأحدث الأجهزة.",
+          "تحسينات الاستقرار والتوافق."
+        ]
+      },
+      "en": {
+        "date_label": "July 28, 2026",
+        "notes": [
+          "Updated to target Android 16 (API 36) for the latest devices.",
+          "Stability and compatibility improvements."
+        ]
+      },
+      "es": {
+        "date_label": "28 de julio de 2026",
+        "notes": [
+          "Actualizado para apuntar a Android 16 (API 36) en los dispositivos más recientes.",
+          "Mejoras de estabilidad y compatibilidad."
+        ]
+      },
+      "fr": {
+        "date_label": "28 juillet 2026",
+        "notes": [
+          "Mise à jour pour cibler Android 16 (API 36) sur les appareils récents.",
+          "Améliorations de stabilité et de compatibilité."
+        ]
+      },
+      "gu": {
+        "date_label": "28 જુલાઈ, 2026",
+        "notes": [
+          "નવીનતમ ઉપકરણો માટે Android 16 (API 36) ને લક્ષ્ય બનાવવા અપડેટ કર્યું.",
+          "સ્થિરતા અને સુસંગતતા સુધારાઓ."
+        ]
+      },
+      "hi": {
+        "date_label": "28 जुलाई 2026",
+        "notes": [
+          "नवीनतम डिवाइसों के लिए Android 16 (API 36) को लक्षित करने हेतु अपडेट किया गया।",
+          "स्थिरता और संगतता में सुधार।"
+        ]
+      },
+      "id": {
+        "date_label": "28 Juli 2026",
+        "notes": [
+          "Diperbarui untuk menargetkan Android 16 (API 36) pada perangkat terbaru.",
+          "Peningkatan stabilitas dan kompatibilitas."
+        ]
+      },
+      "ja": {
+        "date_label": "2026年7月28日",
+        "notes": [
+          "最新のデバイス向けに Android 16 (API 36) をターゲットに更新しました。",
+          "安定性と互換性の改善。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 7월 28일",
+        "notes": [
+          "최신 기기를 위해 Android 16(API 36)을 타겟팅하도록 업데이트했습니다.",
+          "안정성 및 호환성 개선."
+        ]
+      },
+      "ms": {
+        "date_label": "28 Julai 2026",
+        "notes": [
+          "Dikemas kini untuk menyasarkan Android 16 (API 36) pada peranti terkini.",
+          "Penambahbaikan kestabilan dan keserasian."
+        ]
+      },
+      "or": {
+        "date_label": "ଜୁଲାଇ 28, 2026",
+        "notes": [
+          "ନୂତନତମ ଡିଭାଇସ୍ ପାଇଁ Android 16 (API 36) କୁ ଲକ୍ଷ୍ୟ କରି ଅପଡେଟ୍ କରାଯାଇଛି |",
+          "ସ୍ଥିରତା ଏବଂ ସୁସଙ୍ଗତତା ଉନ୍ନତି |"
+        ]
+      },
+      "ru": {
+        "date_label": "28 июля 2026 г.",
+        "notes": [
+          "Обновлено для поддержки Android 16 (API 36) на новейших устройствах.",
+          "Улучшения стабильности и совместимости."
+        ]
+      },
+      "ta": {
+        "date_label": "ஜூலை 28, 2026",
+        "notes": [
+          "சமீபத்திய சாதனங்களுக்காக Android 16 (API 36) ஐ இலக்காகக் கொண்டு புதுப்பிக்கப்பட்டது.",
+          "நிலைத்தன்மை மற்றும் இணக்கத்தன்மை மேம்பாடுகள்."
+        ]
+      },
+      "te": {
+        "date_label": "జూలై 28, 2026",
+        "notes": [
+          "తాజా పరికరాల కోసం Android 16 (API 36)ని లక్ష్యంగా చేసుకునేలా నవీకరించబడింది.",
+          "స్థిరత్వం మరియు అనుకూలత మెరుగుదలలు."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 28 tháng 7 năm 2026",
+        "notes": [
+          "Đã cập nhật để nhắm mục tiêu Android 16 (API 36) cho các thiết bị mới nhất.",
+          "Cải thiện độ ổn định và khả năng tương thích."
+        ]
+      },
+      "zh": {
+        "date_label": "2026年7月28日",
+        "notes": [
+          "已更新以面向 Android 16 (API 36)，适配最新设备。",
+          "稳定性和兼容性改进。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.10.10",
+    "translations": {
+      "ar": {
+        "date_label": "9 مايو 2026",
+        "notes": [
+          "إصدار التصحيح؛ نسخة عثرة لتقديم المتجر.",
+          "شاشة الإعلانات والتحديثات العالمية (الإعلانات والجديد)."
+        ]
+      },
+      "en": {
+        "date_label": "May 9, 2026",
+        "notes": [
+          "Patch release; version bump for store submission.",
+          "Global announcements and Updates screen (Announcements and What's New)."
+        ]
+      },
+      "es": {
+        "date_label": "9 de mayo de 2026",
+        "notes": [
+          "Lanzamiento del parche; aumento de versión para el envío a la tienda.",
+          "Pantalla de anuncios y actualizaciones globales (Anuncios y Novedades)."
+        ]
+      },
+      "fr": {
+        "date_label": "9 mai 2026",
+        "notes": [
+          "Sortie du correctif ; changement de version pour la soumission au magasin.",
+          "Écran Annonces globales et mises à jour (Annonces et Nouveautés)."
+        ]
+      },
+      "gu": {
+        "date_label": "9 મે, 2026",
+        "notes": [
+          "પેચ રિલીઝ; સ્ટોર સબમિશન માટે સંસ્કરણ બમ્પ.",
+          "વૈશ્વિક ઘોષણાઓ અને અપડેટ્સ સ્ક્રીન (ઘોષણાઓ અને નવું શું છે)."
+        ]
+      },
+      "hi": {
+        "date_label": "9 मई 2026",
+        "notes": [
+          "पैच रिलीज़; स्टोर सबमिशन के लिए संस्करण बम्प।",
+          "वैश्विक घोषणाएँ और अपडेट स्क्रीन (घोषणाएँ और नया क्या है)।"
+        ]
+      },
+      "id": {
+        "date_label": "9 Mei 2026",
+        "notes": [
+          "Rilis tambalan; versi tambahan untuk pengiriman toko.",
+          "Layar Pengumuman dan Pembaruan Global (Pengumuman dan Yang Baru)."
+        ]
+      },
+      "ja": {
+        "date_label": "2026年5月9日",
+        "notes": [
+          "パッチリリース;ストア送信用のバージョンアップ。",
+          "グローバルなお知らせと更新画面 (お知らせと最新情報)。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 5월 9일",
+        "notes": [
+          "패치 릴리스; 스토어 제출을 위한 버전 범프.",
+          "글로벌 공지사항 및 업데이트 화면(공지사항 및 새로운 소식)"
+        ]
+      },
+      "ms": {
+        "date_label": "9 Mei 2026",
+        "notes": [
+          "Pelepasan tampalan; versi bump untuk penyerahan kedai.",
+          "Skrin pengumuman dan Kemas Kini global (Pengumuman dan Perkara Baharu)."
+        ]
+      },
+      "or": {
+        "date_label": "ମେ' 9, 2026",
+        "notes": [
+          "ପ୍ୟାଚ୍ ରିଲିଜ୍; ଷ୍ଟୋର ଦାଖଲ ପାଇଁ ସଂସ୍କରଣ ବାମ୍ପ |",
+          "ଗ୍ଲୋବାଲ୍ ଘୋଷଣା ଏବଂ ଅପଡେଟ୍ ସ୍କ୍ରିନ୍ (ଘୋଷଣା ଏବଂ କ’ଣ ନୂଆ) |"
+        ]
+      },
+      "ru": {
+        "date_label": "9 мая 2026 г.",
+        "notes": [
+          "Выпуск патчей; Увеличенная версия для отправки в магазин.",
+          "Экран глобальных объявлений и обновлений (Объявления и новости)."
+        ]
+      },
+      "ta": {
+        "date_label": "மே 9, 2026",
+        "notes": [
+          "பேட்ச் வெளியீடு; கடையில் சமர்ப்பிப்பதற்கான பதிப்பு பம்ப்.",
+          "உலகளாவிய அறிவிப்புகள் மற்றும் புதுப்பிப்புகள் திரை (அறிவிப்புகள் மற்றும் புதியது என்ன)."
+        ]
+      },
+      "te": {
+        "date_label": "మే 9, 2026",
+        "notes": [
+          "ప్యాచ్ విడుదల; స్టోర్ సమర్పణ కోసం వెర్షన్ బంప్.",
+          "గ్లోబల్ ప్రకటనలు మరియు నవీకరణల స్క్రీన్ (ప్రకటనలు మరియు కొత్తవి ఏమిటి)."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 9 tháng 5 năm 2026",
+        "notes": [
+          "Phát hành bản vá; phiên bản gập để gửi cửa hàng.",
+          "Màn hình Thông báo và Cập nhật toàn cầu (Thông báo và Có gì mới)."
+        ]
+      },
+      "zh": {
+        "date_label": "2026年5月9日",
+        "notes": [
+          "补丁发布；商店提交的版本提升。",
+          "全球公告和更新屏幕（公告和新增内容）。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.10.9",
+    "translations": {
+      "ar": {
+        "date_label": "9 مايو 2026",
+        "notes": [
+          "إصدار التصحيح؛ نسخة عثرة لتقديم المتجر.",
+          "شاشة الإعلانات والتحديثات العالمية (الإعلانات والجديد)."
+        ]
+      },
+      "en": {
+        "date_label": "May 9, 2026",
+        "notes": [
+          "Patch release; version bump for store submission.",
+          "Global announcements and Updates screen (Announcements and What's New)."
+        ]
+      },
+      "es": {
+        "date_label": "9 de mayo de 2026",
+        "notes": [
+          "Lanzamiento del parche; aumento de versión para el envío a la tienda.",
+          "Pantalla de anuncios y actualizaciones globales (Anuncios y Novedades)."
+        ]
+      },
+      "fr": {
+        "date_label": "9 mai 2026",
+        "notes": [
+          "Sortie du correctif ; changement de version pour la soumission au magasin.",
+          "Écran Annonces globales et mises à jour (Annonces et Nouveautés)."
+        ]
+      },
+      "gu": {
+        "date_label": "9 મે, 2026",
+        "notes": [
+          "પેચ રિલીઝ; સ્ટોર સબમિશન માટે સંસ્કરણ બમ્પ.",
+          "વૈશ્વિક ઘોષણાઓ અને અપડેટ્સ સ્ક્રીન (ઘોષણાઓ અને નવું શું છે)."
+        ]
+      },
+      "hi": {
+        "date_label": "9 मई 2026",
+        "notes": [
+          "पैच रिलीज़; स्टोर सबमिशन के लिए संस्करण बम्प।",
+          "वैश्विक घोषणाएँ और अपडेट स्क्रीन (घोषणाएँ और नया क्या है)।"
+        ]
+      },
+      "id": {
+        "date_label": "9 Mei 2026",
+        "notes": [
+          "Rilis tambalan; versi tambahan untuk pengiriman toko.",
+          "Layar Pengumuman dan Pembaruan Global (Pengumuman dan Yang Baru)."
+        ]
+      },
+      "ja": {
+        "date_label": "2026年5月9日",
+        "notes": [
+          "パッチリリース;ストア送信用のバージョンアップ。",
+          "グローバルなお知らせと更新画面 (お知らせと最新情報)。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 5월 9일",
+        "notes": [
+          "패치 릴리스; 스토어 제출을 위한 버전 범프.",
+          "글로벌 공지사항 및 업데이트 화면(공지사항 및 새로운 소식)"
+        ]
+      },
+      "ms": {
+        "date_label": "9 Mei 2026",
+        "notes": [
+          "Pelepasan tampalan; versi bump untuk penyerahan kedai.",
+          "Skrin pengumuman dan Kemas Kini global (Pengumuman dan Perkara Baharu)."
+        ]
+      },
+      "or": {
+        "date_label": "ମେ' 9, 2026",
+        "notes": [
+          "ପ୍ୟାଚ୍ ରିଲିଜ୍; ଷ୍ଟୋର ଦାଖଲ ପାଇଁ ସଂସ୍କରଣ ବାମ୍ପ |",
+          "ଗ୍ଲୋବାଲ୍ ଘୋଷଣା ଏବଂ ଅପଡେଟ୍ ସ୍କ୍ରିନ୍ (ଘୋଷଣା ଏବଂ କ’ଣ ନୂଆ) |"
+        ]
+      },
+      "ru": {
+        "date_label": "9 мая 2026 г.",
+        "notes": [
+          "Выпуск патчей; Увеличенная версия для отправки в магазин.",
+          "Экран глобальных объявлений и обновлений (Объявления и новости)."
+        ]
+      },
+      "ta": {
+        "date_label": "மே 9, 2026",
+        "notes": [
+          "பேட்ச் வெளியீடு; கடையில் சமர்ப்பிப்பதற்கான பதிப்பு பம்ப்.",
+          "உலகளாவிய அறிவிப்புகள் மற்றும் புதுப்பிப்புகள் திரை (அறிவிப்புகள் மற்றும் புதியது என்ன)."
+        ]
+      },
+      "te": {
+        "date_label": "మే 9, 2026",
+        "notes": [
+          "ప్యాచ్ విడుదల; స్టోర్ సమర్పణ కోసం వెర్షన్ బంప్.",
+          "గ్లోబల్ ప్రకటనలు మరియు నవీకరణల స్క్రీన్ (ప్రకటనలు మరియు కొత్తవి ఏమిటి)."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 9 tháng 5 năm 2026",
+        "notes": [
+          "Phát hành bản vá; phiên bản gập để gửi cửa hàng.",
+          "Màn hình Thông báo và Cập nhật toàn cầu (Thông báo và Có gì mới)."
+        ]
+      },
+      "zh": {
+        "date_label": "2026年5月9日",
+        "notes": [
+          "补丁发布；商店提交的版本提升。",
+          "全球公告和更新屏幕（公告和新增内容）。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.10.8",
+    "translations": {
+      "ar": {
+        "date_label": "6 مايو 2026",
+        "notes": [
+          "إصدار التصحيح؛ نسخة عثرة لتقديم المتجر.",
+          "شاشة الإعلانات والتحديثات العالمية (الإعلانات والجديد)."
+        ]
+      },
+      "en": {
+        "date_label": "May 6, 2026",
+        "notes": [
+          "Patch release; version bump for store submission.",
+          "Global announcements and Updates screen (Announcements and What's New)."
+        ]
+      },
+      "es": {
+        "date_label": "6 de mayo de 2026",
+        "notes": [
+          "Lanzamiento del parche; aumento de versión para el envío a la tienda.",
+          "Pantalla de anuncios y actualizaciones globales (Anuncios y Novedades)."
+        ]
+      },
+      "fr": {
+        "date_label": "6 mai 2026",
+        "notes": [
+          "Sortie du correctif ; changement de version pour la soumission au magasin.",
+          "Écran Annonces globales et mises à jour (Annonces et Nouveautés)."
+        ]
+      },
+      "gu": {
+        "date_label": "6 મે, 2026",
+        "notes": [
+          "પેચ રિલીઝ; સ્ટોર સબમિશન માટે સંસ્કરણ બમ્પ.",
+          "વૈશ્વિક ઘોષણાઓ અને અપડેટ્સ સ્ક્રીન (ઘોષણાઓ અને નવું શું છે)."
+        ]
+      },
+      "hi": {
+        "date_label": "6 मई 2026",
+        "notes": [
+          "पैच रिलीज़; स्टोर सबमिशन के लिए संस्करण बम्प।",
+          "वैश्विक घोषणाएँ और अपडेट स्क्रीन (घोषणाएँ और नया क्या है)।"
+        ]
+      },
+      "id": {
+        "date_label": "6 Mei 2026",
+        "notes": [
+          "Rilis tambalan; versi tambahan untuk pengiriman toko.",
+          "Layar Pengumuman dan Pembaruan Global (Pengumuman dan Yang Baru)."
+        ]
+      },
+      "ja": {
+        "date_label": "2026年5月6日",
+        "notes": [
+          "パッチリリース;ストア送信用のバージョンアップ。",
+          "グローバルなお知らせと更新画面 (お知らせと最新情報)。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 5월 6일",
+        "notes": [
+          "패치 릴리스; 스토어 제출을 위한 버전 범프.",
+          "글로벌 공지사항 및 업데이트 화면(공지사항 및 새로운 소식)"
+        ]
+      },
+      "ms": {
+        "date_label": "6 Mei 2026",
+        "notes": [
+          "Pelepasan tampalan; versi bump untuk penyerahan kedai.",
+          "Skrin pengumuman dan Kemas Kini global (Pengumuman dan Perkara Baharu)."
+        ]
+      },
+      "or": {
+        "date_label": "ମେ' 6, 2026",
+        "notes": [
+          "ପ୍ୟାଚ୍ ରିଲିଜ୍; ଷ୍ଟୋର ଦାଖଲ ପାଇଁ ସଂସ୍କରଣ ବାମ୍ପ |",
+          "ଗ୍ଲୋବାଲ୍ ଘୋଷଣା ଏବଂ ଅପଡେଟ୍ ସ୍କ୍ରିନ୍ (ଘୋଷଣା ଏବଂ କ’ଣ ନୂଆ) |"
+        ]
+      },
+      "ru": {
+        "date_label": "6 мая 2026 г.",
+        "notes": [
+          "Выпуск патчей; Увеличенная версия для отправки в магазин.",
+          "Экран глобальных объявлений и обновлений (Объявления и новости)."
+        ]
+      },
+      "ta": {
+        "date_label": "மே 6, 2026",
+        "notes": [
+          "பேட்ச் வெளியீடு; கடையில் சமர்ப்பிப்பதற்கான பதிப்பு பம்ப்.",
+          "உலகளாவிய அறிவிப்புகள் மற்றும் புதுப்பிப்புகள் திரை (அறிவிப்புகள் மற்றும் புதியது என்ன)."
+        ]
+      },
+      "te": {
+        "date_label": "మే 6, 2026",
+        "notes": [
+          "ప్యాచ్ విడుదల; స్టోర్ సమర్పణ కోసం వెర్షన్ బంప్.",
+          "గ్లోబల్ ప్రకటనలు మరియు నవీకరణల స్క్రీన్ (ప్రకటనలు మరియు కొత్తవి ఏమిటి)."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 6 tháng 5 năm 2026",
+        "notes": [
+          "Phát hành bản vá; phiên bản gập để gửi cửa hàng.",
+          "Màn hình Thông báo và Cập nhật toàn cầu (Thông báo và Có gì mới)."
+        ]
+      },
+      "zh": {
+        "date_label": "2026年5月6日",
+        "notes": [
+          "补丁发布；商店提交的版本提升。",
+          "全球公告和更新屏幕（公告和新增内容）。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.10.7",
+    "translations": {
+      "ar": {
+        "date_label": "24 أبريل 2026",
+        "notes": [
+          "إصدار التصحيح؛ نسخة عثرة لتقديم المتجر.",
+          "شاشة الإعلانات والتحديثات العالمية (الإعلانات والجديد)."
+        ]
+      },
+      "en": {
+        "date_label": "April 24, 2026",
+        "notes": [
+          "Patch release; version bump for store submission.",
+          "Global announcements and Updates screen (Announcements and What's New)."
+        ]
+      },
+      "es": {
+        "date_label": "24 de abril de 2026",
+        "notes": [
+          "Lanzamiento del parche; aumento de versión para el envío a la tienda.",
+          "Pantalla de anuncios y actualizaciones globales (Anuncios y Novedades)."
+        ]
+      },
+      "fr": {
+        "date_label": "24 avril 2026",
+        "notes": [
+          "Sortie du correctif ; changement de version pour la soumission au magasin.",
+          "Écran Annonces globales et mises à jour (Annonces et Nouveautés)."
+        ]
+      },
+      "gu": {
+        "date_label": "24 એપ્રિલ, 2026",
+        "notes": [
+          "પેચ રિલીઝ; સ્ટોર સબમિશન માટે સંસ્કરણ બમ્પ.",
+          "વૈશ્વિક ઘોષણાઓ અને અપડેટ્સ સ્ક્રીન (ઘોષણાઓ અને નવું શું છે)."
+        ]
+      },
+      "hi": {
+        "date_label": "24 अप्रैल 2026",
+        "notes": [
+          "पैच रिलीज़; स्टोर सबमिशन के लिए संस्करण बम्प।",
+          "वैश्विक घोषणाएँ और अपडेट स्क्रीन (घोषणाएँ और नया क्या है)।"
+        ]
+      },
+      "id": {
+        "date_label": "24 April 2026",
+        "notes": [
+          "Rilis tambalan; versi tambahan untuk pengiriman toko.",
+          "Layar Pengumuman dan Pembaruan Global (Pengumuman dan Yang Baru)."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 24 日",
+        "notes": [
+          "パッチリリース;ストア送信用のバージョンアップ。",
+          "グローバルなお知らせと更新画面 (お知らせと最新情報)。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 24일",
+        "notes": [
+          "패치 릴리스; 스토어 제출을 위한 버전 범프.",
+          "글로벌 공지사항 및 업데이트 화면(공지사항 및 새로운 소식)"
+        ]
+      },
+      "ms": {
+        "date_label": "24 April 2026",
+        "notes": [
+          "Pelepasan tampalan; versi bump untuk penyerahan kedai.",
+          "Skrin pengumuman dan Kemas Kini global (Pengumuman dan Perkara Baharu)."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 24, 2026",
+        "notes": [
+          "ପ୍ୟାଚ୍ ରିଲିଜ୍; ଷ୍ଟୋର ଦାଖଲ ପାଇଁ ସଂସ୍କରଣ ବାମ୍ପ |",
+          "ଗ୍ଲୋବାଲ୍ ଘୋଷଣା ଏବଂ ଅପଡେଟ୍ ସ୍କ୍ରିନ୍ (ଘୋଷଣା ଏବଂ କ’ଣ ନୂଆ) |"
+        ]
+      },
+      "ru": {
+        "date_label": "24 апреля 2026 г.",
+        "notes": [
+          "Выпуск патчей; Увеличенная версия для отправки в магазин.",
+          "Экран глобальных объявлений и обновлений (Объявления и новости)."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 24, 2026",
+        "notes": [
+          "பேட்ச் வெளியீடு; கடையில் சமர்ப்பிப்பதற்கான பதிப்பு பம்ப்.",
+          "உலகளாவிய அறிவிப்புகள் மற்றும் புதுப்பிப்புகள் திரை (அறிவிப்புகள் மற்றும் புதியது என்ன)."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 24, 2026",
+        "notes": [
+          "ప్యాచ్ విడుదల; స్టోర్ సమర్పణ కోసం వెర్షన్ బంప్.",
+          "గ్లోబల్ ప్రకటనలు మరియు నవీకరణల స్క్రీన్ (ప్రకటనలు మరియు కొత్తవి ఏమిటి)."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 24 tháng 4 năm 2026",
+        "notes": [
+          "Phát hành bản vá; phiên bản gập để gửi cửa hàng.",
+          "Màn hình Thông báo và Cập nhật toàn cầu (Thông báo và Có gì mới)."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 24 日",
+        "notes": [
+          "补丁发布；商店提交的版本提升。",
+          "全球公告和更新屏幕（公告和新增内容）。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.10.6",
+    "translations": {
+      "ar": {
+        "date_label": "23 أبريل 2026",
+        "notes": [
+          "إصدار التصحيح؛ نسخة عثرة لتقديم المتجر.",
+          "شاشة الإعلانات والتحديثات العالمية (الإعلانات والجديد)."
+        ]
+      },
+      "en": {
+        "date_label": "April 23, 2026",
+        "notes": [
+          "Patch release; version bump for store submission.",
+          "Global announcements and Updates screen (Announcements and What's New)."
+        ]
+      },
+      "es": {
+        "date_label": "23 de abril de 2026",
+        "notes": [
+          "Lanzamiento del parche; aumento de versión para el envío a la tienda.",
+          "Pantalla de anuncios y actualizaciones globales (Anuncios y Novedades)."
+        ]
+      },
+      "fr": {
+        "date_label": "23 avril 2026",
+        "notes": [
+          "Sortie du correctif ; changement de version pour la soumission au magasin.",
+          "Écran Annonces globales et mises à jour (Annonces et Nouveautés)."
+        ]
+      },
+      "gu": {
+        "date_label": "23 એપ્રિલ, 2026",
+        "notes": [
+          "પેચ રિલીઝ; સ્ટોર સબમિશન માટે સંસ્કરણ બમ્પ.",
+          "વૈશ્વિક ઘોષણાઓ અને અપડેટ્સ સ્ક્રીન (ઘોષણાઓ અને નવું શું છે)."
+        ]
+      },
+      "hi": {
+        "date_label": "23 अप्रैल 2026",
+        "notes": [
+          "पैच रिलीज़; स्टोर सबमिशन के लिए संस्करण बम्प।",
+          "वैश्विक घोषणाएँ और अपडेट स्क्रीन (घोषणाएँ और नया क्या है)।"
+        ]
+      },
+      "id": {
+        "date_label": "23 April 2026",
+        "notes": [
+          "Rilis tambalan; versi tambahan untuk pengiriman toko.",
+          "Layar Pengumuman dan Pembaruan Global (Pengumuman dan Yang Baru)."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 23 日",
+        "notes": [
+          "パッチリリース;ストア送信用のバージョンアップ。",
+          "グローバルなお知らせと更新画面 (お知らせと最新情報)。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 23일",
+        "notes": [
+          "패치 릴리스; 스토어 제출을 위한 버전 범프.",
+          "글로벌 공지사항 및 업데이트 화면(공지사항 및 새로운 소식)"
+        ]
+      },
+      "ms": {
+        "date_label": "23 April 2026",
+        "notes": [
+          "Pelepasan tampalan; versi bump untuk penyerahan kedai.",
+          "Skrin pengumuman dan Kemas Kini global (Pengumuman dan Perkara Baharu)."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 23, 2026",
+        "notes": [
+          "ପ୍ୟାଚ୍ ରିଲିଜ୍; ଷ୍ଟୋର ଦାଖଲ ପାଇଁ ସଂସ୍କରଣ ବାମ୍ପ |",
+          "ଗ୍ଲୋବାଲ୍ ଘୋଷଣା ଏବଂ ଅପଡେଟ୍ ସ୍କ୍ରିନ୍ (ଘୋଷଣା ଏବଂ କ’ଣ ନୂଆ) |"
+        ]
+      },
+      "ru": {
+        "date_label": "23 апреля 2026 г.",
+        "notes": [
+          "Выпуск патчей; Увеличенная версия для отправки в магазин.",
+          "Экран глобальных объявлений и обновлений (Объявления и новости)."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 23, 2026",
+        "notes": [
+          "பேட்ச் வெளியீடு; கடையில் சமர்ப்பிப்பதற்கான பதிப்பு பம்ப்.",
+          "உலகளாவிய அறிவிப்புகள் மற்றும் புதுப்பிப்புகள் திரை (அறிவிப்புகள் மற்றும் புதியது என்ன)."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 23, 2026",
+        "notes": [
+          "ప్యాచ్ విడుదల; స్టోర్ సమర్పణ కోసం వెర్షన్ బంప్.",
+          "గ్లోబల్ ప్రకటనలు మరియు నవీకరణల స్క్రీన్ (ప్రకటనలు మరియు కొత్తవి ఏమిటి)."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 23 tháng 4 năm 2026",
+        "notes": [
+          "Phát hành bản vá; phiên bản gập để gửi cửa hàng.",
+          "Màn hình Thông báo và Cập nhật toàn cầu (Thông báo và Có gì mới)."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 23 日",
+        "notes": [
+          "补丁发布；商店提交的版本提升。",
+          "全球公告和更新屏幕（公告和新增内容）。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.10.5",
+    "translations": {
+      "ar": {
+        "date_label": "22 أبريل 2026",
+        "notes": [
+          "إصدار التصحيح؛ نسخة عثرة لتقديم المتجر.",
+          "شاشة الإعلانات والتحديثات العالمية (الإعلانات والجديد)."
+        ]
+      },
+      "en": {
+        "date_label": "April 22, 2026",
+        "notes": [
+          "Patch release; version bump for store submission.",
+          "Global announcements and Updates screen (Announcements and What's New)."
+        ]
+      },
+      "es": {
+        "date_label": "22 de abril de 2026",
+        "notes": [
+          "Lanzamiento del parche; aumento de versión para el envío a la tienda.",
+          "Pantalla de anuncios y actualizaciones globales (Anuncios y Novedades)."
+        ]
+      },
+      "fr": {
+        "date_label": "22 avril 2026",
+        "notes": [
+          "Sortie du correctif ; changement de version pour la soumission au magasin.",
+          "Écran Annonces globales et mises à jour (Annonces et Nouveautés)."
+        ]
+      },
+      "gu": {
+        "date_label": "22 એપ્રિલ, 2026",
+        "notes": [
+          "પેચ રિલીઝ; સ્ટોર સબમિશન માટે સંસ્કરણ બમ્પ.",
+          "વૈશ્વિક ઘોષણાઓ અને અપડેટ્સ સ્ક્રીન (ઘોષણાઓ અને નવું શું છે)."
+        ]
+      },
+      "hi": {
+        "date_label": "22 अप्रैल 2026",
+        "notes": [
+          "पैच रिलीज़; स्टोर सबमिशन के लिए संस्करण बम्प।",
+          "वैश्विक घोषणाएँ और अपडेट स्क्रीन (घोषणाएँ और नया क्या है)।"
+        ]
+      },
+      "id": {
+        "date_label": "22 April 2026",
+        "notes": [
+          "Rilis tambalan; versi tambahan untuk pengiriman toko.",
+          "Layar Pengumuman dan Pembaruan Global (Pengumuman dan Yang Baru)."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 22 日",
+        "notes": [
+          "パッチリリース;ストア送信用のバージョンアップ。",
+          "グローバルなお知らせと更新画面 (お知らせと最新情報)。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 22일",
+        "notes": [
+          "패치 릴리스; 스토어 제출을 위한 버전 범프.",
+          "글로벌 공지사항 및 업데이트 화면(공지사항 및 새로운 소식)"
+        ]
+      },
+      "ms": {
+        "date_label": "22 April 2026",
+        "notes": [
+          "Pelepasan tampalan; versi bump untuk penyerahan kedai.",
+          "Skrin pengumuman dan Kemas Kini global (Pengumuman dan Perkara Baharu)."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 22, 2026",
+        "notes": [
+          "ପ୍ୟାଚ୍ ରିଲିଜ୍; ଷ୍ଟୋର ଦାଖଲ ପାଇଁ ସଂସ୍କରଣ ବାମ୍ପ |",
+          "ଗ୍ଲୋବାଲ୍ ଘୋଷଣା ଏବଂ ଅପଡେଟ୍ ସ୍କ୍ରିନ୍ (ଘୋଷଣା ଏବଂ କ’ଣ ନୂଆ) |"
+        ]
+      },
+      "ru": {
+        "date_label": "22 апреля 2026 г.",
+        "notes": [
+          "Выпуск патчей; Увеличенная версия для отправки в магазин.",
+          "Экран глобальных объявлений и обновлений (Объявления и новости)."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 22, 2026",
+        "notes": [
+          "பேட்ச் வெளியீடு; கடையில் சமர்ப்பிப்பதற்கான பதிப்பு பம்ப்.",
+          "உலகளாவிய அறிவிப்புகள் மற்றும் புதுப்பிப்புகள் திரை (அறிவிப்புகள் மற்றும் புதியது என்ன)."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 22, 2026",
+        "notes": [
+          "ప్యాచ్ విడుదల; స్టోర్ సమర్పణ కోసం వెర్షన్ బంప్.",
+          "గ్లోబల్ ప్రకటనలు మరియు నవీకరణల స్క్రీన్ (ప్రకటనలు మరియు కొత్తవి ఏమిటి)."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 22 tháng 4 năm 2026",
+        "notes": [
+          "Phát hành bản vá; phiên bản gập để gửi cửa hàng.",
+          "Màn hình Thông báo và Cập nhật toàn cầu (Thông báo và Có gì mới)."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 22 日",
+        "notes": [
+          "补丁发布；商店提交的版本提升。",
+          "全球公告和更新屏幕（公告和新增内容）。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.10.4",
+    "translations": {
+      "ar": {
+        "date_label": "21 أبريل 2026",
+        "notes": [
+          "إصدار التصحيح؛ نسخة عثرة لتقديم المتجر."
+        ]
+      },
+      "en": {
+        "date_label": "April 21, 2026",
+        "notes": [
+          "Patch release; version bump for store submission."
+        ]
+      },
+      "es": {
+        "date_label": "21 de abril de 2026",
+        "notes": [
+          "Lanzamiento del parche; aumento de versión para el envío a la tienda."
+        ]
+      },
+      "fr": {
+        "date_label": "21 avril 2026",
+        "notes": [
+          "Sortie du correctif ; changement de version pour la soumission au magasin."
+        ]
+      },
+      "gu": {
+        "date_label": "21 એપ્રિલ, 2026",
+        "notes": [
+          "પેચ રિલીઝ; સ્ટોર સબમિશન માટે સંસ્કરણ બમ્પ."
+        ]
+      },
+      "hi": {
+        "date_label": "21 अप्रैल 2026",
+        "notes": [
+          "पैच रिलीज़; स्टोर सबमिशन के लिए संस्करण बम्प।"
+        ]
+      },
+      "id": {
+        "date_label": "21 April 2026",
+        "notes": [
+          "Rilis tambalan; versi tambahan untuk pengiriman toko."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 21 日",
+        "notes": [
+          "パッチリリース;ストア送信用のバージョンアップ。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 21일",
+        "notes": [
+          "패치 릴리스; 스토어 제출을 위한 버전 범프."
+        ]
+      },
+      "ms": {
+        "date_label": "21 April 2026",
+        "notes": [
+          "Pelepasan tampalan; versi bump untuk penyerahan kedai."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 21, 2026",
+        "notes": [
+          "ପ୍ୟାଚ୍ ରିଲିଜ୍; ଷ୍ଟୋର ଦାଖଲ ପାଇଁ ସଂସ୍କରଣ ବାମ୍ପ |"
+        ]
+      },
+      "ru": {
+        "date_label": "21 апреля 2026 г.",
+        "notes": [
+          "Выпуск патчей; Увеличенная версия для отправки в магазин."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 21, 2026",
+        "notes": [
+          "பேட்ச் வெளியீடு; கடையில் சமர்ப்பிப்பதற்கான பதிப்பு பம்ப்."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 21, 2026",
+        "notes": [
+          "ప్యాచ్ విడుదల; స్టోర్ సమర్పణ కోసం వెర్షన్ బంప్."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 21 tháng 4 năm 2026",
+        "notes": [
+          "Phát hành bản vá; phiên bản gập để gửi cửa hàng."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 21 日",
+        "notes": [
+          "补丁发布；商店提交的版本提升。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.10.3",
+    "translations": {
+      "ar": {
+        "date_label": "20 أبريل 2026",
+        "notes": [
+          "إصدار التصحيح؛ نسخة عثرة لتقديم المتجر."
+        ]
+      },
+      "en": {
+        "date_label": "April 20, 2026",
+        "notes": [
+          "Patch release; version bump for store submission."
+        ]
+      },
+      "es": {
+        "date_label": "20 de abril de 2026",
+        "notes": [
+          "Lanzamiento del parche; aumento de versión para el envío a la tienda."
+        ]
+      },
+      "fr": {
+        "date_label": "20 avril 2026",
+        "notes": [
+          "Sortie du correctif ; changement de version pour la soumission au magasin."
+        ]
+      },
+      "gu": {
+        "date_label": "20 એપ્રિલ, 2026",
+        "notes": [
+          "પેચ રિલીઝ; સ્ટોર સબમિશન માટે સંસ્કરણ બમ્પ."
+        ]
+      },
+      "hi": {
+        "date_label": "20 अप्रैल 2026",
+        "notes": [
+          "पैच रिलीज़; स्टोर सबमिशन के लिए संस्करण बम्प।"
+        ]
+      },
+      "id": {
+        "date_label": "20 April 2026",
+        "notes": [
+          "Rilis tambalan; versi tambahan untuk pengiriman toko."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 20 日",
+        "notes": [
+          "パッチリリース;ストア送信用のバージョンアップ。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 20일",
+        "notes": [
+          "패치 릴리스; 스토어 제출을 위한 버전 범프."
+        ]
+      },
+      "ms": {
+        "date_label": "20 April 2026",
+        "notes": [
+          "Pelepasan tampalan; versi bump untuk penyerahan kedai."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 20, 2026",
+        "notes": [
+          "ପ୍ୟାଚ୍ ରିଲିଜ୍; ଷ୍ଟୋର ଦାଖଲ ପାଇଁ ସଂସ୍କରଣ ବାମ୍ପ |"
+        ]
+      },
+      "ru": {
+        "date_label": "20 апреля 2026 г.",
+        "notes": [
+          "Выпуск патчей; Увеличенная версия для отправки в магазин."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 20, 2026",
+        "notes": [
+          "பேட்ச் வெளியீடு; கடையில் சமர்ப்பிப்பதற்கான பதிப்பு பம்ப்."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 20, 2026",
+        "notes": [
+          "ప్యాచ్ విడుదల; స్టోర్ సమర్పణ కోసం వెర్షన్ బంప్."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 20 tháng 4 năm 2026",
+        "notes": [
+          "Phát hành bản vá; phiên bản gập để gửi cửa hàng."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 20 日",
+        "notes": [
+          "补丁发布；商店提交的版本提升。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.10.2",
+    "translations": {
+      "ar": {
+        "date_label": "20 أبريل 2026",
+        "notes": [
+          "تمت إضافة لعبة Tunnel Miner المصغرة (Flame): الهبوط العمودي، والمخاطر، والتسجيل كـ MINER، وعلامة تبويب الألعاب، وبوابة الجلسة.",
+          "تمت إضافة معلم الإحالة ومكافآت التسجيل، وتقوية إعادة التوجيه للدعوة، وتخزين الإحالة المعلقة، وواجهة مستخدم تفاصيل مكافأة الإحالة.",
+          "تم تغيير خدمات الإحالة الخلفية، وتكوين المسؤول، ومدير الجلسة؛ الهجرة للحصول على مكافأة معلم الإحالة.",
+          "تم إصلاح أهلية الألعاب واختبارات بوابة الجلسة لـ MINER وتدفقات الدعوة."
+        ]
+      },
+      "en": {
+        "date_label": "April 20, 2026",
+        "notes": [
+          "Added Tunnel Miner mini-game (Flame): vertical descent, hazards, score as MINER, games tab and session gating.",
+          "Added referral milestone and signup bonuses, invite redirect hardening, pending referral storage, and referral bonus detail UI.",
+          "Changed backend referral services, admin config, session manager; migration for referral milestone bonus.",
+          "Fixed games eligibility and session gate tests for MINER and invite flows."
+        ]
+      },
+      "es": {
+        "date_label": "20 de abril de 2026",
+        "notes": [
+          "Se agregó un minijuego de Tunnel Miner (Flame): descenso vertical, peligros, puntuación como MINER, pestaña de juegos y puerta de sesión.",
+          "Se agregaron bonificaciones de registro y de hitos de referencia, refuerzo de redireccionamiento de invitaciones, almacenamiento de referencias pendientes y interfaz de usuario detallada de bonificación por referencia.",
+          "Se cambiaron los servicios de referencia de backend, la configuración de administrador y el administrador de sesiones; migración para obtener bonificación por hito de referencia.",
+          "Se corrigieron la elegibilidad de juegos y las pruebas de puerta de sesión para MINER y flujos de invitación."
+        ]
+      },
+      "fr": {
+        "date_label": "20 avril 2026",
+        "notes": [
+          "Ajout du mini-jeu Tunnel Miner (Flame) : descente verticale, dangers, score en tant que MINER, onglet jeux et déclenchement de session.",
+          "Ajout d'un jalon de parrainage et de bonus d'inscription, d'un renforcement des redirections d'invitations, d'un stockage de parrainage en attente et d'une interface utilisateur détaillée des bonus de parrainage.",
+          "Services de référence backend modifiés, configuration d'administration, gestionnaire de session ; migration pour le bonus d’étape de parrainage.",
+          "Correction des tests d’éligibilité aux jeux et des portes de session pour MINER et les flux d’invitations."
+        ]
+      },
+      "gu": {
+        "date_label": "20 એપ્રિલ, 2026",
+        "notes": [
+          "ઉમેરાયેલ ટનલ માઇનર મીની-ગેમ (ફ્લેમ): વર્ટિકલ ડિસેન્ટ, જોખમો, MINER તરીકે સ્કોર, ગેમ્સ ટેબ અને સેશન ગેટીંગ.",
+          "રેફરલ માઇલસ્ટોન અને સાઇનઅપ બોનસ ઉમેર્યા, રીડાયરેક્ટ હાર્ડનિંગ, બાકી રેફરલ સ્ટોરેજ અને રેફરલ બોનસ વિગત UI ને આમંત્રિત કરો.",
+          "બદલાયેલ બેકએન્ડ રેફરલ સેવાઓ, એડમિન રૂપરેખા, સત્ર વ્યવસ્થાપક; રેફરલ માઇલસ્ટોન બોનસ માટે સ્થળાંતર.",
+          "MINER અને આમંત્રિત પ્રવાહો માટે નિશ્ચિત રમતો પાત્રતા અને સત્ર ગેટ પરીક્ષણો."
+        ]
+      },
+      "hi": {
+        "date_label": "20 अप्रैल 2026",
+        "notes": [
+          "जोड़ा गया टनल माइनर मिनी-गेम (फ्लेम): वर्टिकल डिसेंट, खतरे, माइनर के रूप में स्कोर, गेम्स टैब और सेशन गेटिंग।",
+          "रेफरल मील का पत्थर और साइनअप बोनस जोड़ा गया, रीडायरेक्ट हार्डनिंग, लंबित रेफरल स्टोरेज और रेफरल बोनस विवरण यूआई को आमंत्रित किया गया।",
+          "परिवर्तित बैकएंड रेफरल सेवाएँ, व्यवस्थापक कॉन्फ़िगरेशन, सत्र प्रबंधक; रेफरल माइलस्टोन बोनस के लिए माइग्रेशन।",
+          "MINER और आमंत्रण प्रवाह के लिए निश्चित गेम पात्रता और सत्र गेट परीक्षण।"
+        ]
+      },
+      "id": {
+        "date_label": "20 April 2026",
+        "notes": [
+          "Menambahkan mini-game Tunnel Miner (Flame): penurunan vertikal, bahaya, skor sebagai MINER, tab permainan, dan gerbang sesi.",
+          "Menambahkan tonggak rujukan dan bonus pendaftaran, pengerasan pengalihan undangan, penyimpanan rujukan yang tertunda, dan UI detail bonus rujukan.",
+          "Mengubah layanan rujukan backend, konfigurasi admin, manajer sesi; migrasi untuk bonus pencapaian rujukan.",
+          "Memperbaiki kelayakan game dan tes gerbang sesi untuk MINER dan alur undangan."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 20 日",
+        "notes": [
+          "Tunnel Miner ミニゲーム (Flame) を追加しました: 垂直降下、ハザード、MINER としてのスコア、ゲーム タブ、セッション ゲート。",
+          "紹介マイルストーンとサインアップ ボーナス、招待リダイレクトの強化、保留中の紹介ストレージ、紹介ボーナスの詳細 UI が追加されました。",
+          "バックエンド紹介サービス、管理設定、セッションマネージャーを変更しました。紹介マイルストーンボーナスのための移行。",
+          "MINER および招待フローのゲーム適格性とセッション ゲート テストを修正しました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 20일",
+        "notes": [
+          "터널 광부 미니 게임(Flame) 추가: 수직 하강, 위험, 광부로 점수 매기기, 게임 탭 및 세션 게이팅.",
+          "추천 마일스톤 및 가입 보너스, 초대 리디렉션 강화, 보류 중인 추천 저장 및 추천 보너스 세부 정보 UI가 추가되었습니다.",
+          "백엔드 추천 서비스, 관리 구성, 세션 관리자가 변경되었습니다. 추천 마일스톤 보너스를 위한 마이그레이션.",
+          "MINER 및 초대 흐름에 대한 게임 자격 및 세션 게이트 테스트를 수정했습니다."
+        ]
+      },
+      "ms": {
+        "date_label": "20 April 2026",
+        "notes": [
+          "Permainan mini Penambang Terowong (Api): penurunan menegak, bahaya, skor sebagai MINER, tab permainan dan gating sesi.",
+          "Menambahkan pencapaian rujukan dan bonus pendaftaran, menjemput pengerasan ubah hala, storan rujukan yang belum selesai dan UI butiran bonus rujukan.",
+          "Mengubah perkhidmatan rujukan bahagian belakang, konfigurasi pentadbir, pengurus sesi; penghijrahan untuk bonus pencapaian rujukan.",
+          "Kelayakan permainan dan ujian pintu sesi tetap untuk MINER dan aliran jemputan."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 20, 2026",
+        "notes": [
+          "ଟନେଲ୍ ମାଇନର୍ ମିନି-ଗେମ୍ (ଫ୍ଲେମ୍) ଯୋଡା ଯାଇଛି: ଭୂଲମ୍ବ ଅବତରଣ, ବିପଦ, MINER ଭାବରେ ସ୍କୋର, ଗେମ୍ ଟ୍ୟାବ୍ ଏବଂ ଅଧିବେଶନ ଗେଟିଂ |",
+          "ରେଫରାଲ୍ ମାଇଲଷ୍ଟୋନ୍ ଏବଂ ସାଇନ୍ ଅପ୍ ବୋନସ୍ ଯୋଡାଗଲା, ପୁନ ir ନିର୍ଦ୍ଦେଶ କଠିନତା, ବିଚାରାଧୀନ ରେଫରାଲ୍ ଷ୍ଟୋରେଜ୍ ଏବଂ ରେଫରାଲ୍ ବୋନସ୍ ସବିଶେଷ UI କୁ ନିମନ୍ତ୍ରଣ କର |",
+          "ପରିବର୍ତ୍ତିତ ବ୍ୟାକେଣ୍ଡ୍ ରେଫରାଲ୍ ସେବା, ଆଡମିନ୍ ବିନ୍ୟାସ, ଅଧିବେଶନ ପରିଚାଳକ; ରେଫରାଲ୍ ମାଇଲଷ୍ଟୋନ୍ ବୋନସ୍ ପାଇଁ ସ୍ଥାନାନ୍ତରଣ |",
+          "MINER ପାଇଁ ସ୍ଥିର ଖେଳର ଯୋଗ୍ୟତା ଏବଂ ଅଧିବେଶନ ଗେଟ୍ ପରୀକ୍ଷା ଏବଂ ପ୍ରବାହକୁ ଆମନ୍ତ୍ରଣ କରନ୍ତୁ |"
+        ]
+      },
+      "ru": {
+        "date_label": "20 апреля 2026 г.",
+        "notes": [
+          "Добавлена ​​мини-игра Tunnel Miner (Пламя): вертикальный спуск, опасности, счет за ШАХТЕРА, вкладка игр и ворота сеанса.",
+          "Добавлены реферальные этапы и бонусы за регистрацию, усиление перенаправления приглашений, ожидающее хранение рефералов и подробный пользовательский интерфейс реферальных бонусов.",
+          "Изменены внутренние реферальные службы, конфигурация администратора, менеджер сеансов; миграция для получения реферального бонуса.",
+          "Исправлены тесты на соответствие играм и воротам сеанса для потоков MINER и приглашений."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 20, 2026",
+        "notes": [
+          "டன்னல் மைனர் மினி-கேம் (ஃபிளேம்) சேர்க்கப்பட்டது: செங்குத்து வம்சாவளி, அபாயங்கள், மைனராக ஸ்கோர், கேம்ஸ் டேப் மற்றும் செஷன் கேட்டிங்.",
+          "பரிந்துரை மைல்ஸ்டோன் மற்றும் பதிவுபெறும் போனஸ்கள் சேர்க்கப்பட்டன, திருப்பியனுப்பு கடினப்படுத்துதல், நிலுவையில் உள்ள பரிந்துரை சேமிப்பு மற்றும் பரிந்துரை போனஸ் விவரம் UI.",
+          "மாற்றப்பட்ட பின்தளத்தில் பரிந்துரை சேவைகள், நிர்வாக கட்டமைப்பு, அமர்வு மேலாளர்; பரிந்துரை மைல்ஸ்டோன் போனஸிற்கான இடம்பெயர்வு.",
+          "MINER மற்றும் அழைப்பு ஓட்டங்களுக்கான நிலையான கேம்களுக்கான தகுதி மற்றும் அமர்வு கேட் சோதனைகள்."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 20, 2026",
+        "notes": [
+          "టన్నెల్ మైనర్ మినీ-గేమ్ (ఫ్లేమ్) జోడించబడింది: నిలువు అవరోహణ, ప్రమాదాలు, MINER వలె స్కోర్, గేమ్‌ల ట్యాబ్ మరియు సెషన్ గేటింగ్.",
+          "రిఫరల్ మైలురాయి మరియు సైన్అప్ బోనస్‌లు జోడించబడ్డాయి, దారిమార్పు గట్టిపడటం, పెండింగ్‌లో ఉన్న రిఫరల్ నిల్వ మరియు రిఫరల్ బోనస్ వివరాల UIని ఆహ్వానించండి.",
+          "మార్చబడిన బ్యాకెండ్ రెఫరల్ సేవలు, అడ్మిన్ కాన్ఫిగరేషన్, సెషన్ మేనేజర్; రెఫరల్ మైల్‌స్టోన్ బోనస్ కోసం మైగ్రేషన్.",
+          "MINER మరియు ఆహ్వాన ప్రవాహాల కోసం స్థిరమైన గేమ్‌ల అర్హత మరియు సెషన్ గేట్ పరీక్షలు."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 20 tháng 4 năm 2026",
+        "notes": [
+          "Đã thêm trò chơi mini Công cụ khai thác đường hầm (Ngọn lửa): đi xuống theo chiều dọc, các mối nguy hiểm, ghi điểm dưới dạng MINER, tab trò chơi và kiểm soát phiên.",
+          "Đã thêm cột mốc giới thiệu và phần thưởng đăng ký, tăng cường chuyển hướng lời mời, bộ nhớ giới thiệu đang chờ xử lý và giao diện người dùng chi tiết phần thưởng giới thiệu.",
+          "Đã thay đổi dịch vụ giới thiệu phụ trợ, cấu hình quản trị viên, trình quản lý phiên; di chuyển để nhận phần thưởng cột mốc giới thiệu.",
+          "Đã sửa lỗi tính đủ điều kiện của trò chơi và kiểm tra cổng phiên cho MINER và luồng lời mời."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 20 日",
+        "notes": [
+          "添加了隧道矿工迷你游戏（火焰）：垂直下降、危险、矿工得分、游戏选项卡和会话门控。",
+          "添加了推荐里程碑和注册奖金、邀请重定向强化、待定推荐存储和推荐奖金详细 UI。",
+          "更改了后端推荐服务、管理配置、会话管理器；迁移以获得推荐里程碑奖金。",
+          "修复了 MINER 和邀请流程的游戏资格和会话门测试。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.9.7",
+    "translations": {
+      "ar": {
+        "date_label": "7 أبريل 2026",
+        "notes": [
+          "الجوائز والشارات المضافة: بيانات وصفية أكثر ثراءً (الفترة والرتبة والنطاق والمنطقة ونوع اللعبة) وأقسام الجوائز للقادة العالميين والإقليميين ولكل لعبة.",
+          "تغيير شاشة المتصدرين. تحديثات تدفق العداء والألعاب الصغيرة؛ التوطين الموسع.",
+          "تم إصلاح سمة Android البسيطة وتنظيف النمط."
+        ]
+      },
+      "en": {
+        "date_label": "April 7, 2026",
+        "notes": [
+          "Added awards and badges: richer metadata (period, rank, scope, region, game type) and Awards sections for global, regional, and per-game leaders.",
+          "Changed leaderboard screen; Runner and mini-game flow updates; expanded localization.",
+          "Fixed minor Android theme and style cleanup."
+        ]
+      },
+      "es": {
+        "date_label": "7 de abril de 2026",
+        "notes": [
+          "Premios e insignias agregados: metadatos más completos (período, rango, alcance, región, tipo de juego) y secciones de premios para líderes globales, regionales y por juego.",
+          "Pantalla de clasificación modificada; Actualizaciones del flujo de corredores y minijuegos; localización ampliada.",
+          "Se corrigió la limpieza de estilos y temas menores de Android."
+        ]
+      },
+      "fr": {
+        "date_label": "7 avril 2026",
+        "notes": [
+          "Ajout de récompenses et de badges : métadonnées plus riches (période, rang, portée, région, type de jeu) et sections Récompenses pour les leaders mondiaux, régionaux et par jeu.",
+          "Écran de classement modifié ; Mises à jour du flux des coureurs et des mini-jeux ; localisation étendue.",
+          "Correction d'un nettoyage mineur du thème et du style Android."
+        ]
+      },
+      "gu": {
+        "date_label": "7 એપ્રિલ, 2026",
+        "notes": [
+          "પુરસ્કારો અને બેજેસ ઉમેર્યા: વધુ સમૃદ્ધ મેટાડેટા (સમય, ક્રમ, અવકાશ, પ્રદેશ, રમતનો પ્રકાર) અને વૈશ્વિક, પ્રાદેશિક અને પ્રતિ-ગેમ લીડર્સ માટે એવોર્ડ વિભાગો.",
+          "બદલાયેલ લીડરબોર્ડ સ્ક્રીન; રનર અને મીની-ગેમ ફ્લો અપડેટ્સ; વિસ્તૃત સ્થાનિકીકરણ.",
+          "સ્થિર નાની Android થીમ અને શૈલી સફાઈ."
+        ]
+      },
+      "hi": {
+        "date_label": "7 अप्रैल 2026",
+        "notes": [
+          "पुरस्कार और बैज जोड़े गए: समृद्ध मेटाडेटा (अवधि, रैंक, दायरा, क्षेत्र, खेल प्रकार) और वैश्विक, क्षेत्रीय और प्रति-गेम नेताओं के लिए पुरस्कार अनुभाग।",
+          "परिवर्तित लीडरबोर्ड स्क्रीन; रनर और मिनी-गेम फ़्लो अपडेट; विस्तारित स्थानीयकरण.",
+          "मामूली एंड्रॉइड थीम और स्टाइल क्लीनअप को ठीक किया गया।"
+        ]
+      },
+      "id": {
+        "date_label": "7 April 2026",
+        "notes": [
+          "Menambahkan penghargaan dan lencana: metadata yang lebih kaya (periode, peringkat, cakupan, wilayah, jenis game) dan bagian Penghargaan untuk pemimpin global, regional, dan per game.",
+          "Layar papan peringkat diubah; Pembaruan aliran pelari dan mini-game; lokalisasi yang diperluas.",
+          "Memperbaiki tema kecil Android dan pembersihan gaya."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 7 日",
+        "notes": [
+          "賞とバッジの追加: より豊富なメタデータ (期間、ランク、範囲、地域、ゲームの種類) と、世界、地域、およびゲームごとのリーダーの賞セクション。",
+          "リーダーボード画面を変更しました。ランナーとミニゲームのフローの更新。ローカリゼーションの拡大。",
+          "マイナーな Android テーマとスタイルのクリーンアップを修正しました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 7일",
+        "notes": [
+          "상과 배지가 추가되었습니다. 더 풍부한 메타데이터(기간, 순위, 범위, 지역, 게임 유형)와 글로벌, 지역 및 게임별 리더를 위한 시상 섹션이 추가되었습니다.",
+          "순위표 화면이 변경되었습니다. 러너 및 미니게임 흐름 업데이트 현지화를 확장했습니다.",
+          "사소한 Android 테마 및 스타일 정리가 수정되었습니다."
+        ]
+      },
+      "ms": {
+        "date_label": "7 April 2026",
+        "notes": [
+          "Anugerah dan lencana yang ditambahkan: metadata yang lebih kaya (tempoh, pangkat, skop, wilayah, jenis permainan) dan bahagian Anugerah untuk pemimpin global, serantau dan setiap permainan.",
+          "Skrin papan pendahulu ditukar; Kemas kini aliran pelari dan permainan mini; penyetempatan diperluaskan.",
+          "Membetulkan tema Android kecil dan pembersihan gaya."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 7, 2026",
+        "notes": [
+          "ପୁରସ୍କାର ଏବଂ ବ୍ୟାଜ୍ ଯୋଡାଗଲା: ଧନୀ ମେଟାଡାଟା (ଅବଧି, ପଦ, ପରିସର, ଅଞ୍ଚଳ, ଖେଳ ପ୍ରକାର) ଏବଂ ବିଶ୍ global, ଆଞ୍ଚଳିକ ଏବଂ ପ୍ରତି ଖେଳ ପ୍ରତି ନେତାଙ୍କ ପାଇଁ ପୁରସ୍କାର ବିଭାଗ |",
+          "ଲିଡବୋର୍ଡ ସ୍କ୍ରିନ୍ ପରିବର୍ତ୍ତିତ; ରନର୍ ଏବଂ ମିନି-ଗେମ୍ ଫ୍ଲୋ ଅପଡେଟ୍; ବିସ୍ତାରିତ ଲୋକାଲାଇଜେସନ୍ |",
+          "ଫିକ୍ସଡ୍ ଛୋଟ ଆଣ୍ଡ୍ରଏଡ୍ ଥିମ୍ ଏବଂ ଷ୍ଟାଇଲ୍ କ୍ଲିନଅପ୍ |"
+        ]
+      },
+      "ru": {
+        "date_label": "7 апреля 2026 г.",
+        "notes": [
+          "Добавлены награды и значки: расширенные метаданные (период, звание, масштаб, регион, тип игры) и разделы «Награды» для глобальных, региональных и отдельных игровых лидеров.",
+          "Изменен экран таблицы лидеров; Обновления раннера и мини-игр; расширенная локализация.",
+          "Исправлена ​​незначительная очистка тем и стилей Android."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 7, 2026",
+        "notes": [
+          "விருதுகள் மற்றும் பேட்ஜ்கள் சேர்க்கப்பட்டன: பணக்கார மெட்டாடேட்டா (காலம், தரவரிசை, நோக்கம், மண்டலம், விளையாட்டு வகை) மற்றும் உலகளாவிய, பிராந்திய மற்றும் ஒவ்வொரு விளையாட்டுத் தலைவர்களுக்கான விருதுகள் பிரிவுகள்.",
+          "லீடர்போர்டு திரை மாற்றப்பட்டது; ரன்னர் மற்றும் மினி-கேம் ஓட்டம் புதுப்பிப்புகள்; விரிவாக்கப்பட்ட உள்ளூர்மயமாக்கல்.",
+          "நிலையான சிறிய ஆண்ட்ராய்டு தீம் மற்றும் பாணி சுத்தம்."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 7, 2026",
+        "notes": [
+          "అవార్డ్‌లు మరియు బ్యాడ్జ్‌లు జోడించబడ్డాయి: రిచ్ మెటాడేటా (పీరియడ్, ర్యాంక్, స్కోప్, రీజియన్, గేమ్ రకం) మరియు గ్లోబల్, రీజనల్ మరియు పర్-గేమ్ లీడర్‌ల కోసం అవార్డుల విభాగాలు.",
+          "లీడర్‌బోర్డ్ స్క్రీన్ మార్చబడింది; రన్నర్ మరియు మినీ-గేమ్ ఫ్లో అప్‌డేట్‌లు; విస్తరించిన స్థానికీకరణ.",
+          "స్థిరమైన చిన్న ఆండ్రాయిడ్ థీమ్ మరియు స్టైల్ క్లీనప్."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 7 tháng 4 năm 2026",
+        "notes": [
+          "Đã thêm giải thưởng và huy hiệu: siêu dữ liệu phong phú hơn (thời kỳ, thứ hạng, phạm vi, khu vực, loại trò chơi) và các phần Giải thưởng dành cho người dẫn đầu toàn cầu, khu vực và mỗi trò chơi.",
+          "Màn hình bảng xếp hạng đã thay đổi; Cập nhật luồng trò chơi nhỏ và người chạy; nội địa hóa mở rộng.",
+          "Đã sửa lỗi dọn dẹp chủ đề và kiểu Android nhỏ."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 7 日",
+        "notes": [
+          "添加了奖项和徽章：更丰富的元数据（时期、排名、范围、地区、游戏类型）以及针对全球、地区和每个游戏领导者的奖项部分。",
+          "更改了排行榜屏幕；跑步者和迷你游戏流程更新；扩大本地化。",
+          "修复了次要的 Android 主题和样式清理问题。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.9.6",
+    "translations": {
+      "ar": {
+        "date_label": "7 أبريل 2026",
+        "notes": [
+          "تم إصلاح تعطل بدء تشغيل Android بسبب العمليات غير المدعومة في MainActivity.",
+          "تم تغيير تجربة المستخدم الخاصة بتبريد اللعبة وبوابة الإعلانات بمكافأة للحصول على مكافآت ما بعد اللعبة."
+        ]
+      },
+      "en": {
+        "date_label": "April 7, 2026",
+        "notes": [
+          "Fixed Android startup crash from unsupported operations in MainActivity.",
+          "Changed game cooldown UX and rewarded-ad gating for post-game rewards."
+        ]
+      },
+      "es": {
+        "date_label": "7 de abril de 2026",
+        "notes": [
+          "Se corrigió el bloqueo de inicio de Android debido a operaciones no compatibles en MainActivity.",
+          "Se modificó la experiencia de usuario del tiempo de reutilización del juego y la activación de anuncios recompensados ​​para recompensas posteriores al juego."
+        ]
+      },
+      "fr": {
+        "date_label": "7 avril 2026",
+        "notes": [
+          "Correction d'un crash de démarrage d'Android dû à des opérations non prises en charge dans MainActivity.",
+          "Modification de l'UX du temps de recharge du jeu et du déclenchement des publicités récompensées pour les récompenses d'après-jeu."
+        ]
+      },
+      "gu": {
+        "date_label": "7 એપ્રિલ, 2026",
+        "notes": [
+          "MainActivity માં અસમર્થિત ઓપરેશન્સથી Android સ્ટાર્ટઅપ ક્રેશ સ્થિર.",
+          "રમત પછીના પુરસ્કારો માટે ગેમ કૂલડાઉન UX અને પુરસ્કૃત-જાહેરાત ગેટિંગ બદલ્યું."
+        ]
+      },
+      "hi": {
+        "date_label": "7 अप्रैल 2026",
+        "notes": [
+          "MainActivity में असमर्थित संचालन से एंड्रॉइड स्टार्टअप क्रैश को ठीक किया गया।",
+          "गेम के कूलडाउन UX और गेम के बाद के पुरस्कारों के लिए रिवॉर्ड-एड गेटिंग को बदल दिया गया।"
+        ]
+      },
+      "id": {
+        "date_label": "7 April 2026",
+        "notes": [
+          "Memperbaiki kerusakan startup Android akibat operasi yang tidak didukung di MainActivity.",
+          "Mengubah UX cooldown game dan gerbang iklan berhadiah untuk hadiah pasca-permainan."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 7 日",
+        "notes": [
+          "MainActivity でサポートされていない操作による Android 起動のクラッシュを修正しました。",
+          "ゲームのクールダウン UX とゲーム後の報酬のリワード広告ゲートを変更しました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 7일",
+        "notes": [
+          "MainActivity에서 지원되지 않는 작업으로 인해 Android 시작 충돌이 수정되었습니다.",
+          "게임 쿨타임 UX와 게임 후 보상에 대한 보상형 광고 게이팅을 변경했습니다."
+        ]
+      },
+      "ms": {
+        "date_label": "7 April 2026",
+        "notes": [
+          "Membetulkan ranap permulaan Android daripada operasi yang tidak disokong dalam MainActivity.",
+          "Mengubah UX cooldown permainan dan gating iklan ganjaran untuk ganjaran selepas permainan."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 7, 2026",
+        "notes": [
+          "ମେନ୍ ଆକ୍ଟିଭିଟିରେ ଅସମର୍ଥିତ ଅପରେସନ୍ସରୁ ଫିକ୍ସଡ୍ ଆଣ୍ଡ୍ରଏଡ୍ ଷ୍ଟାର୍ଟଅପ୍ କ୍ରାସ୍ |",
+          "ଗେମ୍ କୁଲଡାଉନ୍ UX ପରିବର୍ତ୍ତନ ଏବଂ ଖେଳ ପରବର୍ତ୍ତୀ ପୁରସ୍କାର ପାଇଁ ପୁରସ୍କୃତ-ବିଜ୍ଞାପନ ଗେଟିଂ |"
+        ]
+      },
+      "ru": {
+        "date_label": "7 апреля 2026 г.",
+        "notes": [
+          "Исправлен сбой при запуске Android из-за неподдерживаемых операций в MainActivity.",
+          "Изменен интерфейс перезарядки игры и показ рекламы после игры."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 7, 2026",
+        "notes": [
+          "MainActivity இல் ஆதரிக்கப்படாத செயல்பாடுகளிலிருந்து Android ஸ்டார்ட்அப் செயலிழப்பு சரி செய்யப்பட்டது.",
+          "கேம் கூல்டவுன் UX மாற்றப்பட்டது மற்றும் விளையாட்டுக்குப் பிந்தைய வெகுமதிகளுக்கான வெகுமதி-விளம்பர கேட்டிங்."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 7, 2026",
+        "notes": [
+          "MainActivityలో మద్దతు లేని ఆపరేషన్ల నుండి Android స్టార్టప్ క్రాష్ పరిష్కరించబడింది.",
+          "గేమ్ కూల్‌డౌన్ UX మరియు పోస్ట్-గేమ్ రివార్డ్‌ల కోసం రివార్డ్-యాడ్ గేటింగ్ మార్చబడింది."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 7 tháng 4 năm 2026",
+        "notes": [
+          "Đã khắc phục sự cố khởi động Android do các hoạt động không được hỗ trợ trong MainActivity.",
+          "Thay đổi trải nghiệm người dùng về thời gian hồi chiêu của trò chơi và cách chọn quảng cáo có tặng thưởng để nhận phần thưởng sau trò chơi."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 7 日",
+        "notes": [
+          "修复了 MainActivity 中不支持的操作导致 Android 启动崩溃的问题。",
+          "更改了游戏冷却用户体验和游戏后奖励的奖励广告门控。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.9.5",
+    "translations": {
+      "ar": {
+        "date_label": "6 أبريل 2026",
+        "notes": [
+          "تم تغيير شارة بطاقة التعزيزات: تعزيزات الوقت، وتعزيزات الإحالة، ومخزون تعزيز اللعبة غير المستخدم (تظهر تعزيزات اللعبة حتى في حالة عدم التعدين).",
+          "الإعلانات بمكافأة التي تم تغييرها: إذا لم يُرجع AdMob أي تعبئة (الرمز 3) عند التحميل عند الطلب، فامنح المكافأة تلقائيًا؛ عرض فاشل لم يعد يمنح.",
+          "تم إصلاح تسجيل عرض/تحميل الإعلان بشكل أكثر وضوحًا للتحميل المسبق مقابل عند الطلب.",
+          "الواجهة الخلفية: تنسيق مراجعة Alembic وحزمة النشر (create_deployment_package وmirror_deploy وإنتاج Docker Compose)."
+        ]
+      },
+      "en": {
+        "date_label": "April 6, 2026",
+        "notes": [
+          "Changed Boosters card badge: time boosts, referral boosts, and unused game-boost inventory (game boosts shown even when not mining).",
+          "Changed rewarded ads: if AdMob returns no fill (code 3) on on-demand load, grant reward automatically; failed show no longer grants.",
+          "Fixed clearer ad load/show logging for pre-load vs on-demand.",
+          "Backend: Alembic revision formatting and deployment packaging (create_deployment_package, mirror_deploy, production Docker Compose)."
+        ]
+      },
+      "es": {
+        "date_label": "6 de abril de 2026",
+        "notes": [
+          "Insignia de tarjeta de potenciadores modificada: mejoras de tiempo, mejoras de referencias e inventario de mejoras de juego no utilizado (las mejoras de juego se muestran incluso cuando no se está minando).",
+          "Anuncios recompensados ​​modificados: si AdMob no devuelve ningún relleno (código 3) en la carga bajo demanda, otorga la recompensa automáticamente; El programa fallido ya no se otorga.",
+          "Se corrigió un registro más claro de carga/mostración de anuncios para precarga frente a bajo demanda.",
+          "Backend: formato de revisión de Alembic y paquete de implementación (create_deployment_package, mirror_deploy, producción Docker Compose)."
+        ]
+      },
+      "fr": {
+        "date_label": "6 avril 2026",
+        "notes": [
+          "Badge de carte Boosters modifié : boosts de temps, boosts de référence et inventaire de boost de jeu inutilisé (boosts de jeu affichés même en dehors du minage).",
+          "Annonces avec récompense modifiées : si AdMob ne renvoie aucun remplissage (code 3) lors du chargement à la demande, accordez automatiquement la récompense ; l'émission échouée n'accorde plus.",
+          "Correction d'une journalisation plus claire du chargement/de l'affichage des publicités pour le préchargement et la demande.",
+          "Backend : formatage des révisions d'Alambic et packaging de déploiement (create_deployment_package, Mirror_deploy, production Docker Compose)."
+        ]
+      },
+      "gu": {
+        "date_label": "6 એપ્રિલ, 2026",
+        "notes": [
+          "બદલાયેલ બૂસ્ટર્સ કાર્ડ બેજ: સમય બૂસ્ટ્સ, રેફરલ બૂસ્ટ્સ અને બિનઉપયોગી ગેમ-બૂસ્ટ ઇન્વેન્ટરી (ખેલ બૂસ્ટ્સ જ્યારે માઇનિંગ ન હોય ત્યારે પણ બતાવવામાં આવે છે).",
+          "બદલાયેલ પુરસ્કૃત જાહેરાતો: જો AdMob માંગ પરના લોડ પર કોઈ ભરણ (કોડ 3) પરત કરતું નથી, તો આપમેળે પુરસ્કાર આપો; નિષ્ફળ શો હવે અનુદાન નથી.",
+          "પ્રી-લોડ વિ ઓન-ડિમાન્ડ માટે નિશ્ચિત સ્પષ્ટ જાહેરાત લોડ/શો લોગિંગ.",
+          "બેકએન્ડ: એલેમ્બિક રિવિઝન ફોર્મેટિંગ અને ડિપ્લોયમેન્ટ પેકેજિંગ (create_deployment_package, mirror_deploy, Production Docker Compose)."
+        ]
+      },
+      "hi": {
+        "date_label": "6 अप्रैल 2026",
+        "notes": [
+          "परिवर्तित बूस्टर कार्ड बैज: समय बूस्ट, रेफरल बूस्ट, और अप्रयुक्त गेम-बूस्ट इन्वेंट्री (माइनिंग न होने पर भी गेम बूस्ट दिखाए जाते हैं)।",
+          "पुरस्कृत विज्ञापन बदले गए: यदि AdMob ऑन-डिमांड लोड पर कोई भरण (कोड 3) नहीं लौटाता है, तो स्वचालित रूप से पुरस्कार प्रदान करें; असफल शो अब अनुदान नहीं देता।",
+          "प्री-लोड बनाम ऑन-डिमांड के लिए स्पष्ट विज्ञापन लोड/शो लॉगिंग को ठीक किया गया।",
+          "बैकएंड: एलेम्बिक रिवीजन फ़ॉर्मेटिंग और परिनियोजन पैकेजिंग (क्रिएट_डिप्लॉयमेंट_पैकेज, मिरर_डिप्लॉय, प्रोडक्शन डॉकर कंपोज़)।"
+        ]
+      },
+      "id": {
+        "date_label": "6 April 2026",
+        "notes": [
+          "Lencana kartu Booster yang diubah: peningkatan waktu, peningkatan rujukan, dan inventaris peningkatan game yang tidak terpakai (peningkatan game ditampilkan bahkan saat tidak menambang).",
+          "Iklan reward diubah: jika AdMob tidak mengembalikan isi (kode 3) pada pemuatan sesuai permintaan, berikan reward secara otomatis; pertunjukan yang gagal tidak lagi diberikan.",
+          "Memperbaiki pencatatan pemuatan/tampilan iklan yang lebih jelas untuk pramuat vs sesuai permintaan.",
+          "Backend: Pemformatan revisi alembic dan pengemasan penerapan (create_deployment_package, mirror_deploy, Docker Compose produksi)."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 6 日",
+        "notes": [
+          "変更されたブースター カード バッジ: タイム ブースト、紹介ブースト、未使用のゲーム ブースト インベントリ (マイニングしていないときでもゲーム ブーストが表示されます)。",
+          "リワード広告の変更: オンデマンド読み込みで AdMob がフィルを返さない場合 (コード 3)、リワードを自動的に付与します。失敗したショーは許可されなくなりました。",
+          "プリロードとオンデマンドの広告ロード/表示ログがより明確に修正されました。",
+          "バックエンド: Alembic リビジョンのフォーマットとデプロイメントのパッケージ化 (create_deployment_package、mirror_deploy、本番環境の Docker Compose)。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 6일",
+        "notes": [
+          "부스터 카드 배지 변경: 시간 부스트, 추천 부스트, 사용하지 않은 게임 부스트 인벤토리(게임 부스트는 채굴하지 않을 때도 표시됨).",
+          "보상형 광고 변경: AdMob이 주문형 로드 시 채우기 없음(코드 3)을 반환하는 경우 자동으로 보상을 부여합니다. 실패한 쇼는 더 이상 부여되지 않습니다.",
+          "사전 로드와 주문형에 대한 더 명확한 광고 로드/표시 로깅을 수정했습니다.",
+          "백엔드: Alembic 개정 형식 지정 및 배포 패키징(create_deployment_package, mirror_deploy, 프로덕션 Docker Compose)."
+        ]
+      },
+      "ms": {
+        "date_label": "6 April 2026",
+        "notes": [
+          "Lencana kad Penggalak yang diubah: rangsangan masa, rangsangan rujukan dan inventori rangsangan permainan yang tidak digunakan (rangsangan permainan ditunjukkan walaupun tidak melombong).",
+          "Iklan ganjaran yang diubah: jika AdMob tidak mengembalikan sebarang isian (kod 3) pada beban atas permintaan, berikan ganjaran secara automatik; gagal menunjukkan tidak lagi geran.",
+          "Membetulkan pengelogan pemuatan iklan/tayangan yang lebih jelas untuk pramuat vs atas permintaan.",
+          "Bahagian belakang: Pemformatan semakan Alembic dan pembungkusan penggunaan (create_deployment_package, mirror_deploy, production Docker Compose)."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 6, 2026",
+        "notes": [
+          "ପରିବର୍ତ୍ତିତ ବୁଷ୍ଟର୍ସ କାର୍ଡ ବ୍ୟାଜ୍: ସମୟ ବ osts ଼ିବା, ରେଫରାଲ୍ ବ osts ଼ିବା, ଏବଂ ଅବ୍ୟବହୃତ ଖେଳ-ବୃଦ୍ଧି ତାଲିକା (ଖଣି ଖନନ ସମୟରେ ମଧ୍ୟ ପ୍ରଦର୍ଶିତ ଖେଳ ବୃଦ୍ଧି) |",
+          "ପରିବର୍ତ୍ତିତ ପୁରସ୍କାରପ୍ରାପ୍ତ ବିଜ୍ଞାପନଗୁଡିକ: ଯଦି ଆଡମୋବ୍ ଅନ୍-ଡିମାଣ୍ଡ ଲୋଡ୍ ଉପରେ କ fill ଣସି ଫିଲ୍ (କୋଡ୍)) ଫେରସ୍ତ କରେ ନାହିଁ, ସ୍ୱୟଂଚାଳିତ ଭାବରେ ପୁରସ୍କାର ପ୍ରଦାନ କରନ୍ତୁ | ବିଫଳ ଶୋ ଆଉ ଅନୁଦାନ ନୁହେଁ |",
+          "ପ୍ରି-ଲୋଡ୍ ବନାମ ଅନ୍-ଡିମାଣ୍ଡ ପାଇଁ ଫିକ୍ସଡ୍ କ୍ଲିଅର୍ ବିଜ୍ଞାପନ ଲୋଡ୍ / ଶୋ ଲଗିଂ ଦେଖାନ୍ତୁ |",
+          "ବ୍ୟାକେଣ୍ଡ୍: ଆଲେମ୍ବିକ୍ ରିଭିଜନ୍ ଫର୍ମାଟିଂ ଏବଂ ନିୟୋଜନ ପ୍ୟାକେଜିଂ (କ୍ରିଏଟ୍_ଡେପ୍ଲୋଜ୍_ପ୍ୟାକେଜ୍, ଦର୍ପଣ_ଡେପ୍ଲୋ, ଉତ୍ପାଦନ ଡକର୍ ରଚନା) |"
+        ]
+      },
+      "ru": {
+        "date_label": "6 апреля 2026 г.",
+        "notes": [
+          "Изменен значок карты бустеров: ускорение времени, усиление рефералов и неиспользованный инвентарь для ускорения игры (ускорения игры отображаются, даже если не майнинг).",
+          "Изменены объявления с вознаграждением: если AdMob возвращает отсутствие заполнения (код 3) при загрузке по требованию, вознаграждение назначается автоматически; проваленное шоу больше не дает грантов.",
+          "Исправлено более четкое ведение журнала загрузки/показа рекламы для предварительной загрузки и по требованию.",
+          "Бэкэнд: форматирование ревизии Alembic и упаковка развертывания (create_deployment_package, Mirror_deploy, производственный Docker Compose)."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 6, 2026",
+        "notes": [
+          "மாற்றப்பட்ட பூஸ்டர்கள் கார்டு பேட்ஜ்: நேர ஊக்கங்கள், பரிந்துரை ஊக்கங்கள் மற்றும் பயன்படுத்தப்படாத கேம்-பூஸ்ட் இன்வென்டரி (சுரங்கம் செய்யாத போதும் கேம் பூஸ்ட்கள் காட்டப்படும்).",
+          "மாற்றப்பட்ட வெகுமதி விளம்பரங்கள்: ஆன்-டிமாண்ட் லோடில் AdMob எந்த நிரப்புதலையும் (குறியீடு 3) வழங்கவில்லை என்றால், தானாகவே வெகுமதியை வழங்கவும்; தோல்வியடைந்த நிகழ்ச்சி இனி மானியங்கள் இல்லை.",
+          "ப்ரீ-லோடு மற்றும் ஆன்-டிமாண்டுக்கு நிலையான தெளிவான விளம்பர சுமை/ஷோ லாக்கிங்.",
+          "பின்தளம்: Alembic revision Formatting மற்றும் deployment packaging (create_deployment_package, mirror_deploy, production Docker Compose)."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 6, 2026",
+        "notes": [
+          "మార్చబడిన బూస్టర్‌ల కార్డ్ బ్యాడ్జ్: టైమ్ బూస్ట్‌లు, రెఫరల్ బూస్ట్‌లు మరియు ఉపయోగించని గేమ్-బూస్ట్ ఇన్వెంటరీ (మైనింగ్ చేయనప్పుడు కూడా గేమ్ బూస్ట్‌లు చూపబడతాయి).",
+          "మార్చబడిన రివార్డ్ యాడ్‌లు: ఆన్-డిమాండ్ లోడ్‌పై AdMob ఎటువంటి పూరక (కోడ్ 3)ని అందించకపోతే, స్వయంచాలకంగా రివార్డ్‌ను మంజూరు చేయండి; విఫలమైన ప్రదర్శన ఇకపై మంజూరు చేయబడదు.",
+          "ప్రీ-లోడ్ vs ఆన్-డిమాండ్ కోసం స్పష్టమైన ప్రకటన లోడ్/షో లాగింగ్ పరిష్కరించబడింది.",
+          "బ్యాకెండ్: అలెంబిక్ రివిజన్ ఫార్మాటింగ్ మరియు విస్తరణ ప్యాకేజింగ్ (create_deployment_package, mirror_deploy, production Docker Compose)."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 6 tháng 4 năm 2026",
+        "notes": [
+          "Huy hiệu thẻ Boosters đã thay đổi: tăng thời gian, tăng giới thiệu và kho đồ tăng cường trò chơi chưa sử dụng (tăng cường trò chơi được hiển thị ngay cả khi không khai thác).",
+          "Quảng cáo có tặng thưởng đã thay đổi: nếu AdMob trả về không thực hiện (mã 3) khi tải theo yêu cầu, hãy tự động cấp phần thưởng; chương trình thất bại không còn tài trợ.",
+          "Đã sửa lỗi ghi nhật ký tải/hiển thị quảng cáo rõ ràng hơn cho tải trước so với theo yêu cầu.",
+          "Phần cuối: Định dạng sửa đổi Alembic và đóng gói triển khai (create_deployment_package, mirror_deploy, Docker Compose sản xuất)."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 6 日",
+        "notes": [
+          "更改了助推器卡徽章：时间助推器、推荐助推器和未使用的游戏助推器库存（即使不采矿时也会显示游戏助推器）。",
+          "更改了激励广告：如果 AdMob 在按需加载时返回无填充（代码 3），则自动授予奖励；失败的演出不再资助。",
+          "修复了预加载与点播的更清晰的广告加载/显示日志记录。",
+          "后端：Alembic 修订格式和部署打包（create_deployment_package、mirror_deploy、生产 Docker Compose）。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.9.4",
+    "translations": {
+      "ar": {
+        "date_label": "5 أبريل 2026",
+        "notes": [
+          "تم إصلاح تطابق شارة/عدد علامة تبويب \"الألعاب\" مع القائمة المرئية للألعاب المؤهلة.",
+          "وضع قلم سودوكو الثابت: تصفية المرشحين، وتنظيف الملاحظات، وتسليط الضوء على الملاحظات.",
+          "تم تغيير تحديثات firebase_core وapp_links وpubspec.lock."
+        ]
+      },
+      "en": {
+        "date_label": "April 5, 2026",
+        "notes": [
+          "Fixed Games tab badge/count matches the visible list of eligible games.",
+          "Fixed Sudoku pencil mode: candidate filtering, note cleanup, and note highlighting.",
+          "Changed updated firebase_core, app_links, and pubspec.lock."
+        ]
+      },
+      "es": {
+        "date_label": "5 de abril de 2026",
+        "notes": [
+          "La insignia/recuento de la pestaña Juegos fijos coincide con la lista visible de juegos elegibles.",
+          "Se corrigió el modo lápiz de Sudoku: filtrado de candidatos, limpieza de notas y resaltado de notas.",
+          "Se modificaron firebase_core, app_links y pubspec.lock actualizados."
+        ]
+      },
+      "fr": {
+        "date_label": "5 avril 2026",
+        "notes": [
+          "Correction du badge/compte de l'onglet Jeux correspondant à la liste visible des jeux éligibles.",
+          "Correction du mode crayon Sudoku : filtrage des candidats, nettoyage des notes et mise en surbrillance des notes.",
+          "Modification de Firebase_core, app_links et pubspec.lock mis à jour."
+        ]
+      },
+      "gu": {
+        "date_label": "5 એપ્રિલ, 2026",
+        "notes": [
+          "ફિક્સ્ડ ગેમ્સ ટેબ બેજ/ગણતરી પાત્ર રમતોની દૃશ્યમાન સૂચિ સાથે મેળ ખાય છે.",
+          "નિશ્ચિત સુડોકુ પેન્સિલ મોડ: ઉમેદવાર ફિલ્ટરિંગ, નોટ ક્લિનઅપ અને નોટ હાઇલાઇટિંગ.",
+          "અપડેટ કરેલ firebase_core, app_links અને pubspec.lock બદલ્યા."
+        ]
+      },
+      "hi": {
+        "date_label": "5 अप्रैल 2026",
+        "notes": [
+          "फिक्स्ड गेम्स टैब बैज/गिनती योग्य गेम्स की दृश्यमान सूची से मेल खाती है।",
+          "फिक्स्ड सुडोकू पेंसिल मोड: उम्मीदवार फ़िल्टरिंग, नोट क्लीनअप, और नोट हाइलाइटिंग।",
+          "अपडेट किए गए फायरबेस_कोर, ऐप_लिंक्स और पबस्पेक.लॉक को बदला गया।"
+        ]
+      },
+      "id": {
+        "date_label": "5 April 2026",
+        "notes": [
+          "Memperbaiki lencana/jumlah tab Game cocok dengan daftar game yang memenuhi syarat yang terlihat.",
+          "Memperbaiki mode pensil Sudoku: pemfilteran kandidat, pembersihan catatan, dan penyorotan catatan.",
+          "Mengubah firebase_core, app_links, dan pubspec.lock yang diperbarui."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 5 日",
+        "notes": [
+          "「ゲーム」タブのバッジ/カウントが、対象となるゲームの表示リストと一致する問題を修正しました。",
+          "数独の鉛筆モードを修正しました: 候補のフィルタリング、メモのクリーンアップ、およびメモのハイライト。",
+          "更新された firebase_core、app_links、pubspec.lock を変更しました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 5일",
+        "notes": [
+          "고정 게임 탭 배지/개수는 표시되는 적격 게임 목록과 일치합니다.",
+          "스도쿠 연필 모드 수정: 후보 필터링, 메모 정리 및 메모 강조 표시.",
+          "업데이트된 firebase_core, app_links 및 pubspec.lock이 변경되었습니다."
+        ]
+      },
+      "ms": {
+        "date_label": "5 April 2026",
+        "notes": [
+          "Lencana/kiraan tab Permainan Tetap sepadan dengan senarai permainan layak yang boleh dilihat.",
+          "Mod pensel Sudoku tetap: penapisan calon, pembersihan nota dan penyerlahan nota.",
+          "Mengubah firebase_core, app_links dan pubspec.lock yang dikemas kini."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 5, 2026",
+        "notes": [
+          "ଫିକ୍ସଡ୍ ଗେମ୍ସ ଟ୍ୟାବ୍ ବ୍ୟାଜ୍ / ଗଣନା ଯୋଗ୍ୟ ଖେଳଗୁଡିକର ଦୃଶ୍ୟମାନ ତାଲିକା ସହିତ ମେଳ ଖାଏ |",
+          "ଫିକ୍ସଡ୍ ସୁଦୋକୁ ପେନ୍ସିଲ୍ ମୋଡ୍: ପ୍ରାର୍ଥୀ ଫିଲ୍ଟରିଂ, ନୋଟ୍ ସଫେଇ, ଏବଂ ନୋଟ୍ ହାଇଲାଇଟିଂ |",
+          "ଅଦ୍ୟତନ ହୋଇଥିବା ଫାୟାରବେସ୍_କୋର, ଆପ୍_ ଲିଙ୍କ୍, ଏବଂ ପବ୍ସ୍ପେକ୍ ଲକ୍ ପରିବର୍ତ୍ତିତ |"
+        ]
+      },
+      "ru": {
+        "date_label": "5 апреля 2026 г.",
+        "notes": [
+          "Значок/счетчик на вкладке «Фиксированные игры» соответствует видимому списку подходящих игр.",
+          "Исправлен режим карандаша судоку: фильтрация кандидатов, очистка заметок и выделение заметок.",
+          "Изменены обновленные файлы firebase_core, app_links и pubspec.lock."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 5, 2026",
+        "notes": [
+          "நிலையான கேம்கள் தாவல் பேட்ஜ்/எண்ணிக்கை தகுதியான கேம்களின் புலப்படும் பட்டியலுடன் பொருந்துகிறது.",
+          "நிலையான சுடோகு பென்சில் பயன்முறை: வேட்பாளர் வடிகட்டுதல், குறிப்பு சுத்தம் செய்தல் மற்றும் குறிப்பை முன்னிலைப்படுத்துதல்.",
+          "புதுப்பிக்கப்பட்ட firebase_core, app_links மற்றும் pubspec.lock மாற்றப்பட்டது."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 5, 2026",
+        "notes": [
+          "ఫిక్స్‌డ్ గేమ్‌ల ట్యాబ్ బ్యాడ్జ్/గణన అర్హత ఉన్న గేమ్‌ల కనిపించే జాబితాతో సరిపోలుతుంది.",
+          "స్థిర సుడోకు పెన్సిల్ మోడ్: అభ్యర్థి ఫిల్టరింగ్, నోట్ క్లీనప్ మరియు నోట్ హైలైట్.",
+          "నవీకరించబడిన firebase_core, app_links మరియు pubspec.lock మార్చబడింది."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 5 tháng 4 năm 2026",
+        "notes": [
+          "Đã sửa lỗi huy hiệu/số lượng tab Trò chơi khớp với danh sách hiển thị các trò chơi đủ điều kiện.",
+          "Đã sửa lỗi chế độ bút chì Sudoku: lọc ứng viên, dọn dẹp ghi chú và đánh dấu ghi chú.",
+          "Đã thay đổi bản cập nhật firebase_core, app_links và pubspec.lock."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 5 日",
+        "notes": [
+          "固定游戏选项卡徽章/计数与符合条件的游戏的可见列表相匹配。",
+          "修复了数独铅笔模式：候选过滤、笔记清理和笔记突出显示。",
+          "更改了更新的 firebase_core、app_links 和 pubspec.lock。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.9.3",
+    "translations": {
+      "ar": {
+        "date_label": "4 أبريل 2026",
+        "notes": [
+          "تعمل لوحة المعلومات المتغيرة على تحميل تفاصيل التوازن بتكاسل لبدء التشغيل والتمرير بشكل أسرع.",
+          "تم تبسيط شاشة التعزيزات التي تم تغييرها لتقديم عرض معزز للوقت.",
+          "تستخدم الألعاب المصغرة المتغيرة بوابة الجلسة المشتركة لإجراء فحوصات دخول متسقة.",
+          "مزود التعدين الثابت ونموذج تكوين المسؤول المتوافق مع الحقول الخلفية."
+        ]
+      },
+      "en": {
+        "date_label": "April 4, 2026",
+        "notes": [
+          "Changed dashboard loads balance details lazily for snappier startup and scrolling.",
+          "Changed Boosters screen streamlined for time-boost presentation.",
+          "Changed mini-games use shared session gating for consistent entry checks.",
+          "Fixed mining provider and admin config model aligned with backend fields."
+        ]
+      },
+      "es": {
+        "date_label": "4 de abril de 2026",
+        "notes": [
+          "El panel de control modificado carga los detalles del equilibrio de forma perezosa para un inicio y desplazamiento más ágiles.",
+          "Se modificó la pantalla de refuerzos y se optimizó para una presentación que acelere el tiempo.",
+          "Los minijuegos modificados utilizan la activación de sesiones compartidas para realizar controles de entrada consistentes.",
+          "Se corrigió el modelo de configuración de administrador y proveedor de minería alineado con los campos de backend."
+        ]
+      },
+      "fr": {
+        "date_label": "4 avril 2026",
+        "notes": [
+          "Le tableau de bord modifié charge les détails de l'équilibre paresseusement pour un démarrage et un défilement plus rapides.",
+          "Écran Boosters modifié et rationalisé pour une présentation accélérée.",
+          "Les mini-jeux modifiés utilisent le contrôle de session partagé pour des contrôles d'entrée cohérents.",
+          "Fournisseur de minage fixe et modèle de configuration d'administrateur aligné sur les champs du backend."
+        ]
+      },
+      "gu": {
+        "date_label": "4 એપ્રિલ, 2026",
+        "notes": [
+          "બદલાયેલ ડેશબોર્ડ સ્નેપિયર સ્ટાર્ટઅપ અને સ્ક્રોલિંગ માટે બેલેન્સ વિગતોને આળસથી લોડ કરે છે.",
+          "સમય-બુસ્ટ પ્રેઝન્ટેશન માટે બદલાયેલ બૂસ્ટર સ્ક્રીન સુવ્યવસ્થિત.",
+          "બદલાયેલ મીની-ગેમ્સ સાતત્યપૂર્ણ પ્રવેશ તપાસ માટે શેર કરેલ સત્ર ગેટીંગનો ઉપયોગ કરે છે.",
+          "સ્થિર ખાણકામ પ્રદાતા અને એડમિન રૂપરેખા મોડેલ બેકએન્ડ ક્ષેત્રો સાથે ગોઠવાયેલ છે."
+        ]
+      },
+      "hi": {
+        "date_label": "4 अप्रैल 2026",
+        "notes": [
+          "परिवर्तित डैशबोर्ड तेज़ स्टार्टअप और स्क्रॉलिंग के लिए शेष विवरण को आलस्य से लोड करता है।",
+          "टाइम-बूस्ट प्रेजेंटेशन के लिए परिवर्तित बूस्टर स्क्रीन को सुव्यवस्थित किया गया।",
+          "परिवर्तित मिनी-गेम लगातार प्रवेश जांच के लिए साझा सत्र गेटिंग का उपयोग करते हैं।",
+          "फिक्स्ड माइनिंग प्रदाता और एडमिन कॉन्फिग मॉडल बैकएंड फ़ील्ड के साथ संरेखित।"
+        ]
+      },
+      "id": {
+        "date_label": "4 April 2026",
+        "notes": [
+          "Dasbor yang diubah memuat detail saldo dengan lambat untuk pengaktifan dan pengguliran yang lebih cepat.",
+          "Layar Booster yang diubah disederhanakan untuk presentasi yang meningkatkan waktu.",
+          "Mini-game yang diubah menggunakan gerbang sesi bersama untuk pemeriksaan entri yang konsisten.",
+          "Memperbaiki model konfigurasi penyedia penambangan dan admin yang selaras dengan bidang backend."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 4 日",
+        "notes": [
+          "ダッシュボードのロードバランスの詳細が変更され、起動とスクロールがよりスムーズになるようになりました。",
+          "タイムブーストプレゼンテーション用に合理化されたブースター画面を変更しました。",
+          "変更されたミニゲームでは、一貫した入場チェックのために共有セッション ゲートが使用されます。",
+          "バックエンドフィールドに合わせてマイニングプロバイダーと管理者設定モデルを修正しました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 4일",
+        "notes": [
+          "더 빠른 시작 및 스크롤을 위해 대시보드 로드 밸런스 세부 사항을 느리게 변경했습니다.",
+          "시간 부스트 프레젠테이션을 위해 부스터 화면이 간소화되었습니다.",
+          "변경된 미니게임에서는 일관된 입장 확인을 위해 공유 세션 게이팅을 사용합니다.",
+          "백엔드 필드와 정렬된 마이닝 공급자 및 관리 구성 모델을 수정했습니다."
+        ]
+      },
+      "ms": {
+        "date_label": "4 April 2026",
+        "notes": [
+          "Papan pemuka yang diubah memuatkan butiran baki dengan malas untuk permulaan dan penatalan yang lebih pantas.",
+          "Skrin Penggalak yang diubah diperkemas untuk pembentangan peningkatan masa.",
+          "Permainan mini yang diubah menggunakan gating sesi kongsi untuk semakan kemasukan yang konsisten.",
+          "Penyedia perlombongan tetap dan model konfigurasi pentadbir sejajar dengan medan hujung belakang."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 4, 2026",
+        "notes": [
+          "ପରିବର୍ତ୍ତିତ ଡ୍ୟାସବୋର୍ଡ ସ୍ନାପିଅର୍ ଷ୍ଟାର୍ଟଅପ୍ ଏବଂ ସ୍କ୍ରୋଲିଂ ପାଇଁ ଅଳସୁଆ ବିବରଣୀ ଲୋଡ୍ କରେ |",
+          "ସମୟ ବୃଦ୍ଧି ଉପସ୍ଥାପନା ପାଇଁ ପରିବର୍ତ୍ତିତ ବୁଷ୍ଟର୍ସ ସ୍କ୍ରିନ୍ ଶୃଙ୍ଖଳିତ |",
+          "ପରିବର୍ତ୍ତିତ ମିନି-ଗେମଗୁଡିକ କ୍ରମାଗତ ପ୍ରବେଶ ଯାଞ୍ଚ ପାଇଁ ଅଂଶୀଦାର ଅଧିବେଶନ ଗେଟିଂ ବ୍ୟବହାର କରନ୍ତି |",
+          "ସ୍ଥିର ଖଣି ପ୍ରଦାନକାରୀ ଏବଂ ଆଡମିନି ବିନ୍ୟାସ ମଡେଲ ବ୍ୟାକେଣ୍ଡ ଫିଲ୍ଡ ସହିତ ସମାନ୍ତରାଳ |"
+        ]
+      },
+      "ru": {
+        "date_label": "4 апреля 2026 г.",
+        "notes": [
+          "Изменена информационная панель, которая лениво загружает сведения о балансе для более быстрого запуска и прокрутки.",
+          "Изменен экран бустеров, оптимизированный для ускорения презентации.",
+          "В измененных мини-играх используется общий шлюз сеанса для последовательной проверки входа.",
+          "Исправлена ​​модель конфигурации поставщика майнинга и администратора, согласованная с полями серверной части."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 4, 2026",
+        "notes": [
+          "மாற்றப்பட்ட டாஷ்போர்டு, ஸ்னாப்பியர் ஸ்டார்ட்அப் மற்றும் ஸ்க்ரோலிங்கிற்காக பேலன்ஸ் விவரங்களை சோம்பேறித்தனமாக ஏற்றுகிறது.",
+          "மாற்றப்பட்ட பூஸ்டர்கள் திரை நேர-பூஸ்ட் விளக்கக்காட்சிக்காக நெறிப்படுத்தப்பட்டது.",
+          "மாற்றப்பட்ட மினி-கேம்கள் நிலையான நுழைவு சோதனைகளுக்கு பகிரப்பட்ட அமர்வு கேட்டிங்கைப் பயன்படுத்துகின்றன.",
+          "நிலையான சுரங்க வழங்குநர் மற்றும் நிர்வாக கட்டமைப்பு மாதிரி பின்தளத்தில் புலங்களுடன் சீரமைக்கப்பட்டது."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 4, 2026",
+        "notes": [
+          "మార్చబడిన డ్యాష్‌బోర్డ్ స్నాపియర్ స్టార్టప్ మరియు స్క్రోలింగ్ కోసం బద్ధకంగా బ్యాలెన్స్ వివరాలను లోడ్ చేస్తుంది.",
+          "టైమ్-బూస్ట్ ప్రెజెంటేషన్ కోసం మార్చబడిన బూస్టర్‌ల స్క్రీన్ స్ట్రీమ్‌లైన్ చేయబడింది.",
+          "మార్చబడిన చిన్న-గేమ్‌లు స్థిరమైన ప్రవేశ తనిఖీల కోసం షేర్డ్ సెషన్ గేటింగ్‌ను ఉపయోగిస్తాయి.",
+          "స్థిర మైనింగ్ ప్రొవైడర్ మరియు అడ్మిన్ కాన్ఫిగర్ మోడల్ బ్యాకెండ్ ఫీల్డ్‌లతో సమలేఖనం చేయబడింది."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 4 tháng 4 năm 2026",
+        "notes": [
+          "Bảng điều khiển đã thay đổi tải chi tiết số dư một cách lười biếng để khởi động và cuộn nhanh hơn.",
+          "Màn hình Boosters đã thay đổi được sắp xếp hợp lý để trình bày tăng thời gian.",
+          "Các trò chơi nhỏ đã thay đổi sử dụng cổng phiên chia sẻ để kiểm tra mục nhập nhất quán.",
+          "Đã sửa lỗi mô hình cấu hình quản trị viên và nhà cung cấp khai thác được căn chỉnh phù hợp với các trường phụ trợ."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 4 日",
+        "notes": [
+          "更改了仪表板延迟加载平衡详细信息，以实现更快的启动和滚动。",
+          "更改了加速器屏幕，简化了时间加速演示。",
+          "更改后的迷你游戏使用共享会话门控来进行一致的条目检查。",
+          "修复了与后端字段一致的挖掘提供程序和管理配置模型。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.9.2",
+    "translations": {
+      "ar": {
+        "date_label": "3 أبريل 2026",
+        "notes": [
+          "تمت إضافة تراكب تنشيط التعدين: تمويه ملء الشاشة حتى يبدأ التعدين.",
+          "تمت إضافة قفل التنقل العالمي: تم تعطيل الشريط السفلي حتى يتم تنشيط جلسة التعدين؛ إعادة التوجيه التلقائي إلى لوحة المعلومات إذا انتهت الجلسة في مكان آخر.",
+          "تمت إضافة شارة المهام غير المطالب بها في علامة تبويب المكافآت.",
+          "تمت إضافة إمكانية الوصول إلى لوحة المتصدرين في اللعبة: يفتح الكأس الموجود على كل بطاقة لعبة لوحة المتصدرين الخاصة بهذه اللعبة.",
+          "تمت إضافة ألوان لوحة المتصدرين الخاصة باللعبة (العداء: برتقالي، TicTacToe: أزرق، سودوكو: أرجواني، مجمعة: أخضر).",
+          "تم إصلاح ترحيل عمود game_reward_config للواجهة الخلفية في run_all_migrations.",
+          "تم إصلاح استيراد Update_game_rewards_schema (المحرك → async_engine).",
+          "يتضمن create_deployment_package الثابت جميع البرامج النصية للترحيل.",
+          "لوحة القيادة الثابتة هيكل المكدس ولوحة القيادة الترحيب بالتعريب.",
+          "تم إصلاح مؤشر شاشة المتصدرين الأولي وinitialGameType للربط العميق."
+        ]
+      },
+      "en": {
+        "date_label": "April 3, 2026",
+        "notes": [
+          "Added Mining Activation Overlay: full-screen blur until mining starts.",
+          "Added Global Navigation Lock: bottom bar disabled until mining session active; auto-redirect to dashboard if session expires elsewhere.",
+          "Added unclaimed missions badge on Rewards tab.",
+          "Added game leaderboard access: trophy on each game card opens that game's leaderboard.",
+          "Added game-specific leaderboard colors (Runner: orange, TicTacToe: blue, Sudoku: purple, Collage: green).",
+          "Fixed backend game_reward_config column migration in run_all_migrations.",
+          "Fixed update_game_rewards_schema import (engine → async_engine).",
+          "Fixed create_deployment_package includes all migration scripts.",
+          "Fixed dashboard Stack structure and dashboardWelcome localization.",
+          "Fixed LeaderboardScreen initialIndex and initialGameType for deep-linking."
+        ]
+      },
+      "es": {
+        "date_label": "3 de abril de 2026",
+        "notes": [
+          "Superposición de activación de minería agregada: desenfoque de pantalla completa hasta que comienza la minería.",
+          "Bloqueo de navegación global agregado: barra inferior deshabilitada hasta que se active la sesión de minería; redirección automática al panel si la sesión caduca en otro lugar.",
+          "Se agregó una insignia de misiones no reclamadas en la pestaña Recompensas.",
+          "Acceso agregado a la tabla de clasificación del juego: el trofeo en cada tarjeta del juego abre la tabla de clasificación de ese juego.",
+          "Se agregaron colores de tabla de clasificación específicos del juego (Corredor: naranja, TicTacToe: azul, Sudoku: morado, Collage: verde).",
+          "Se corrigió la migración de la columna backend game_reward_config en run_all_migrations.",
+          "Se corrigió la importación de update_game_rewards_schema (motor → async_engine).",
+          "El paquete create_deployment_package fijo incluye todos los scripts de migración.",
+          "Panel fijo Estructura de pila y panel Localización de bienvenida.",
+          "Se corrigió el índice inicial de la pantalla de clasificación y el tipo de juego inicial para enlaces profundos."
+        ]
+      },
+      "fr": {
+        "date_label": "3 avril 2026",
+        "notes": [
+          "Ajout de la superposition d'activation minière : flou plein écran jusqu'au démarrage de l'exploitation minière.",
+          "Ajout du verrouillage de navigation global : barre inférieure désactivée jusqu'à ce que la session d'exploration de données soit active ; redirection automatique vers le tableau de bord si la session expire ailleurs.",
+          "Ajout d'un badge de missions non réclamées dans l'onglet Récompenses.",
+          "Accès au classement du jeu ajouté : le trophée sur chaque carte de jeu ouvre le classement de ce jeu.",
+          "Ajout de couleurs de classement spécifiques au jeu (Runner : orange, TicTacToe : bleu, Sudoku : violet, Collage : vert).",
+          "Correction de la migration de la colonne backend game_reward_config dans run_all_migrations.",
+          "Correction de l'importation update_game_rewards_schema (moteur → async_engine).",
+          "Le corrigé create_deployment_package inclut tous les scripts de migration.",
+          "Structure de la pile du tableau de bord fixe et localisation du tableau de bord Bienvenue.",
+          "Correction de LeaderboardScreen initialIndex et initialGameType pour les liens profonds."
+        ]
+      },
+      "gu": {
+        "date_label": "3 એપ્રિલ, 2026",
+        "notes": [
+          "માઇનિંગ એક્ટિવેશન ઓવરલે ઉમેર્યું: ખાણકામ શરૂ ન થાય ત્યાં સુધી પૂર્ણ-સ્ક્રીન બ્લર.",
+          "વૈશ્વિક નેવિગેશન લૉક ઉમેર્યું: ખાણકામ સત્ર સક્રિય થાય ત્યાં સુધી નીચેનો પટ્ટી અક્ષમ; જો સત્ર અન્યત્ર સમાપ્ત થાય તો ડેશબોર્ડ પર સ્વતઃ રીડાયરેક્ટ કરો.",
+          "રિવોર્ડ્સ ટૅબ પર દાવો ન કરાયેલ મિશન બૅજ ઉમેર્યો.",
+          "ગેમ લીડરબોર્ડ એક્સેસ ઉમેર્યું: દરેક ગેમ કાર્ડ પરની ટ્રોફી તે ગેમનું લીડરબોર્ડ ખોલે છે.",
+          "રમત-વિશિષ્ટ લીડરબોર્ડ રંગો ઉમેર્યા (રનર: નારંગી, TicTacToe: વાદળી, સુડોકુ: જાંબલી, કોલાજ: લીલો).",
+          "રન_ઓલ_માઇગ્રેશનમાં સ્થિર બેકએન્ડ ગેમ_રિવાર્ડ_કોન્ફિગ કૉલમ સ્થાનાંતરણ.",
+          "ફિક્સ્ડ અપડેટ_ગેમ_રિવાર્ડ્સ_સ્કીમા આયાત (એન્જિન → async_engine).",
+          "ફિક્સ્ડ create_deployment_package માં તમામ સ્થળાંતર સ્ક્રિપ્ટનો સમાવેશ થાય છે.",
+          "સ્થિર ડેશબોર્ડ સ્ટેક માળખું અને ડેશબોર્ડ સ્વાગત સ્થાનિકીકરણ.",
+          "ડીપ-લિંકિંગ માટે નિશ્ચિત લીડરબોર્ડસ્ક્રીન ઈનિશિયલ ઈન્ડેક્સ અને ઈનિશિયલ ગેમટાઈપ."
+        ]
+      },
+      "hi": {
+        "date_label": "3 अप्रैल 2026",
+        "notes": [
+          "जोड़ा गया खनन सक्रियण ओवरले: खनन शुरू होने तक पूर्ण-स्क्रीन धुंधला।",
+          "वैश्विक नेविगेशन लॉक जोड़ा गया: खनन सत्र सक्रिय होने तक निचला बार अक्षम; यदि सत्र कहीं और समाप्त होता है तो डैशबोर्ड पर स्वतः रीडायरेक्ट करें।",
+          "रिवार्ड्स टैब पर लावारिस मिशन बैज जोड़ा गया।",
+          "गेम लीडरबोर्ड एक्सेस जोड़ा गया: प्रत्येक गेम कार्ड पर ट्रॉफी उस गेम के लीडरबोर्ड को खोलती है।",
+          "गेम-विशिष्ट लीडरबोर्ड रंग जोड़े गए (धावक: नारंगी, टिकटॉको: नीला, सुडोकू: बैंगनी, कोलाज: हरा)।",
+          "run_all_migrations में बैकएंड गेम_रिवार्ड_कॉन्फिग कॉलम माइग्रेशन को ठीक किया गया।",
+          "अपडेट_गेम_रिवार्ड्स_स्कीमा आयात (इंजन → async_engine) को ठीक किया गया।",
+          "फिक्स्ड create_deployment_package में सभी माइग्रेशन स्क्रिप्ट शामिल हैं।",
+          "फिक्स्ड डैशबोर्ड स्टैक संरचना और डैशबोर्ड, स्थानीयकरण का स्वागत है।",
+          "डीप-लिंकिंग के लिए लीडरबोर्डस्क्रीन इनिशियलइंडेक्स और इनिशियलगेमटाइप को ठीक किया गया।"
+        ]
+      },
+      "id": {
+        "date_label": "3 April 2026",
+        "notes": [
+          "Menambahkan Hamparan Aktivasi Penambangan: keburaman layar penuh hingga penambangan dimulai.",
+          "Menambahkan Kunci Navigasi Global: bilah bawah dinonaktifkan hingga sesi penambangan aktif; pengalihan otomatis ke dasbor jika sesi berakhir di tempat lain.",
+          "Menambahkan lencana misi yang belum diklaim pada tab Hadiah.",
+          "Menambahkan akses papan peringkat game: piala di setiap kartu permainan membuka papan peringkat game tersebut.",
+          "Menambahkan warna papan peringkat khusus game (Pelari: oranye, TicTacToe: biru, Sudoku: ungu, Kolase: hijau).",
+          "Memperbaiki migrasi kolom game_reward_config backend di run_all_migrations.",
+          "Memperbaiki impor update_game_rewards_schema (mesin → async_engine).",
+          "Memperbaiki create_deployment_package mencakup semua skrip migrasi.",
+          "Memperbaiki struktur tumpukan dasbor dan dasbor Lokalisasi selamat datang.",
+          "Memperbaiki InitialIndex dan InitialGameType LeaderboardScreen untuk Deep Linking."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 3 日",
+        "notes": [
+          "マイニングアクティベーションオーバーレイを追加しました: マイニングが開始されるまで全画面ぼかし。",
+          "グローバル ナビゲーション ロックを追加しました。マイニング セッションがアクティブになるまで下部バーは無効になります。セッションが他の場所で期限切れになった場合、ダッシュボードに自動リダイレクトされます。",
+          "[報酬]タブに未取得のミッションバッジを追加しました。",
+          "ゲームのリーダーボードへのアクセスが追加されました: 各ゲーム カードのトロフィーにより、そのゲームのリーダーボードが開きます。",
+          "ゲーム固有のリーダーボードの色を追加しました (ランナー: オレンジ、TicTacToe: 青、数独: 紫、コラージュ: 緑)。",
+          "run_all_migrations でのバックエンドの game_reward_config 列の移行を修正しました。",
+          "update_game_rewards_schema インポートを修正しました (エンジン → async_engine)。",
+          "create_deployment_package にはすべての移行スクリプトが含まれるように修正されました。",
+          "ダッシュボードのスタック構造とダッシュボードウェルカムのローカリゼーションを修正しました。",
+          "LeaderboardScreenのinitialIndexとinitialGameTypeをディープリンク用に修正しました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 3일",
+        "notes": [
+          "채굴 활성화 오버레이 추가: 채굴이 시작될 때까지 전체 화면이 흐려집니다.",
+          "전역 탐색 잠금 추가: 마이닝 세션이 활성화될 때까지 하단 표시줄이 비활성화됩니다. 세션이 다른 곳에서 만료되면 대시보드로 자동 리디렉션됩니다.",
+          "보상 탭에 청구되지 않은 임무 배지를 추가했습니다.",
+          "게임 순위표 액세스 추가: 각 게임 카드의 트로피를 누르면 해당 게임의 순위표가 열립니다.",
+          "게임별 순위표 색상을 추가했습니다(러너: 주황색, TicTacToe: 파란색, 스도쿠: 보라색, 콜라주: 녹색).",
+          "run_all_migrations의 백엔드 game_reward_config 열 마이그레이션을 수정했습니다.",
+          "update_game_rewards_schema 가져오기(엔진 → async_engine)를 수정했습니다.",
+          "수정된 create_deployment_package에는 모든 마이그레이션 스크립트가 포함됩니다.",
+          "대시보드 스택 구조 및 DashboardWelcome 현지화를 수정했습니다.",
+          "딥 링크에 대한 LeaderboardScreeninitialIndex 및initialGameType을 수정했습니다."
+        ]
+      },
+      "ms": {
+        "date_label": "3 April 2026",
+        "notes": [
+          "Tindanan Pengaktifan Perlombongan Ditambah: kabur skrin penuh sehingga perlombongan bermula.",
+          "Menambahkan Kunci Navigasi Global: bar bawah dilumpuhkan sehingga sesi perlombongan aktif; ubah hala automatik ke papan pemuka jika sesi tamat tempoh di tempat lain.",
+          "Menambahkan lencana misi yang tidak dituntut pada tab Ganjaran.",
+          "Akses papan pendahulu permainan ditambahkan: trofi pada setiap kad permainan membuka papan pendahulu permainan itu.",
+          "Menambahkan warna papan pendahulu khusus permainan (Pelari: oren, TicTacToe: biru, Sudoku: ungu, Kolaj: hijau).",
+          "Perhijrahan lajur game_reward_config bahagian belakang dalam run_all_migrations.",
+          "Import update_game_rewards_schema (enjin → async_engine).",
+          "create_deployment_package tetap termasuk semua skrip migrasi.",
+          "Papan pemuka tetap Struktur tindanan dan papan pemuka Selamat datang penyetempatan.",
+          "Papan PendahuluScreen initialIndex dan initialGameType tetap untuk pautan dalam."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 3, 2026",
+        "notes": [
+          "ଖଣି ସକ୍ରିୟକରଣ ଓଭରଲେଡ୍ ଯୋଡାଗଲା: ଖଣି ଆରମ୍ଭ ନହେବା ପର୍ଯ୍ୟନ୍ତ ଫୁଲ୍ ସ୍କ୍ରିନ୍ ଅସ୍ପଷ୍ଟ |",
+          "ଗ୍ଲୋବାଲ୍ ନେଭିଗେସନ୍ ଲକ୍ ଯୋଡାଗଲା: ଖଣି ଅଧିବେଶନ ସକ୍ରିୟ ନହେବା ପର୍ଯ୍ୟନ୍ତ ତଳ ଦଣ୍ଡ ଅକ୍ଷମ; ଯଦି ଅଧିବେଶନ ଅନ୍ୟତ୍ର ସମାପ୍ତ ହୁଏ ତେବେ ଡ୍ୟାସବୋର୍ଡକୁ ଅଟୋ-ପୁନ ir ନିର୍ଦ୍ଦେଶ କରନ୍ତୁ |",
+          "ପୁରସ୍କାର ଟ୍ୟାବରେ ଅନାବଶ୍ୟକ ମିଶନ ବ୍ୟାଜ୍ ଯୋଡାଗଲା |",
+          "ଗେମ୍ ଲିଡବୋର୍ଡ ଆକ୍ସେସ୍ ଯୋଡାଗଲା: ପ୍ରତ୍ୟେକ ଗେମ୍ କାର୍ଡରେ ଟ୍ରଫି ସେହି ଖେଳର ଲିଡବୋର୍ଡ ଖୋଲିଥାଏ |",
+          "ଖେଳ-ନିର୍ଦ୍ଦିଷ୍ଟ ଲିଡବୋର୍ଡ ରଙ୍ଗ ଯୋଡାଗଲା (ରନର୍: କମଳା, TicTacToe: ନୀଳ, ସୁଦୋକୁ: ବାଇଗଣୀ, କୋଲାଜ୍: ସବୁଜ) |",
+          "Run_all_migrations ରେ ଫିକ୍ସଡ୍ ବ୍ୟାକେଣ୍ଡ୍ ଗେମ୍_ ରିୱାର୍ଡ_କନ୍ଫିଗ୍ ସ୍ତମ୍ଭ ସ୍ଥାନାନ୍ତରଣ |",
+          "ସ୍ଥିର ଅଦ୍ୟତନ_ଗେମ_ ପୁରସ୍କାର_ ସ୍କେମା ଆମଦାନୀ (ଇଞ୍ଜିନ → async_engine) |",
+          "ଫିକ୍ସଡ୍ କ୍ରିଏଟ୍_ ଡିପ୍ଲୋମେଣ୍ଟ୍_ ପ୍ୟାକେଜ୍ ସମସ୍ତ ସ୍ଥାନାନ୍ତରଣ ସ୍କ୍ରିପ୍ଟଗୁଡ଼ିକୁ ଅନ୍ତର୍ଭୁକ୍ତ କରେ |",
+          "ସ୍ଥିର ଡ୍ୟାସବୋର୍ଡ ଷ୍ଟାକ ସଂରଚନା ଏବଂ ଡ୍ୟାସବୋର୍ଡ ସ୍ୱାଗତ ଲୋକାଲାଇଜେସନ୍ |",
+          "ଗଭୀର ଲିଙ୍କ୍ ପାଇଁ ଫିକ୍ସଡ୍ ଲିଡର୍ ବୋର୍ଡ ସ୍କ୍ରିନ ପ୍ରାରମ୍ଭିକ ଇଣ୍ଡେକ୍ସ ଏବଂ ପ୍ରାରମ୍ଭିକ ଗେମ ଟାଇପ୍ |"
+        ]
+      },
+      "ru": {
+        "date_label": "3 апреля 2026 г.",
+        "notes": [
+          "Добавлено наложение активации майнинга: полноэкранное размытие до начала майнинга.",
+          "Добавлена ​​глобальная блокировка навигации: нижняя панель отключена до тех пор, пока не будет активен сеанс майнинга; автоматическое перенаправление на панель управления, если срок действия сеанса истекает в другом месте.",
+          "На вкладке «Награды» добавлен значок невостребованных миссий.",
+          "Добавлен доступ к таблице лидеров игры: трофей на каждой игровой карте открывает таблицу лидеров этой игры.",
+          "Добавлены цвета таблицы лидеров, специфичные для игры (Бегущий: оранжевый, Крестики-нолики: синий, Судоку: фиолетовый, Коллаж: зеленый).",
+          "Исправлена ​​миграция серверного столбца game_reward_config в run_all_migrations.",
+          "Исправлен импорт update_game_rewards_schema (движок → async_engine).",
+          "Исправлено: create_deployment_package включает все сценарии миграции.",
+          "Исправлена ​​структура стека информационной панели и локализация DashWelcome.",
+          "Исправлены InitialIndex и InitialGameType LeaderboardScreen для глубоких ссылок."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 3, 2026",
+        "notes": [
+          "மைனிங் ஆக்டிவேஷன் மேலடுக்கு சேர்க்கப்பட்டது: சுரங்கம் தொடங்கும் வரை முழுத்திரை மங்கலானது.",
+          "குளோபல் நேவிகேஷன் லாக் சேர்க்கப்பட்டது: சுரங்க அமர்வு செயலில் இருக்கும் வரை கீழ் பட்டி முடக்கப்பட்டுள்ளது; அமர்வு வேறு இடத்தில் காலாவதியாகிவிட்டால், டாஷ்போர்டிற்கு தானாகத் திருப்பிவிடப்படும்.",
+          "வெகுமதிகள் தாவலில் கோரப்படாத பணிகள் பேட்ஜ் சேர்க்கப்பட்டது.",
+          "கேம் லீடர்போர்டு அணுகல் சேர்க்கப்பட்டது: ஒவ்வொரு கேம் கார்டின் கோப்பையும் அந்த கேமின் லீடர்போர்டைத் திறக்கும்.",
+          "விளையாட்டு சார்ந்த லீடர்போர்டு வண்ணங்கள் சேர்க்கப்பட்டது (ரன்னர்: ஆரஞ்சு, டிக்டாக்டோ: நீலம், சுடோகு: ஊதா, படத்தொகுப்பு: பச்சை).",
+          "run_all_migrationகளில் நிலையான பின்தளத்தில் game_reward_config நெடுவரிசை இடம்பெயர்வு.",
+          "நிலையான update_game_rewards_schema இறக்குமதி (இயந்திரம் → async_engine).",
+          "நிலையான create_deployment_package அனைத்து இடம்பெயர்வு ஸ்கிரிப்ட்களையும் உள்ளடக்கியது.",
+          "நிலையான டாஷ்போர்டு ஸ்டேக் அமைப்பு மற்றும் டாஷ்போர்டு வரவேற்கிறோம் உள்ளூர்மயமாக்கல்.",
+          "நிலையான லீடர்போர்டு ஸ்கிரீன் இன்ஷியல் இன்டெக்ஸ் மற்றும் இன்ஷியல் கேம் டைப் ஆழமாக இணைப்பது."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 3, 2026",
+        "notes": [
+          "మైనింగ్ యాక్టివేషన్ ఓవర్‌లే జోడించబడింది: మైనింగ్ ప్రారంభమయ్యే వరకు పూర్తి స్క్రీన్ బ్లర్.",
+          "గ్లోబల్ నావిగేషన్ లాక్ జోడించబడింది: మైనింగ్ సెషన్ సక్రియం అయ్యే వరకు దిగువ బార్ నిలిపివేయబడింది; సెషన్ గడువు మరెక్కడైనా ముగిసిపోతే డాష్‌బోర్డ్‌కి స్వీయ-మార్పు.",
+          "రివార్డ్స్ ట్యాబ్‌లో క్లెయిమ్ చేయని మిషన్‌ల బ్యాడ్జ్ జోడించబడింది.",
+          "గేమ్ లీడర్‌బోర్డ్ యాక్సెస్ జోడించబడింది: ప్రతి గేమ్ కార్డ్‌లోని ట్రోఫీ ఆ గేమ్ లీడర్‌బోర్డ్‌ను తెరుస్తుంది.",
+          "గేమ్-నిర్దిష్ట లీడర్‌బోర్డ్ రంగులు జోడించబడ్డాయి (రన్నర్: నారింజ, టిక్‌టాక్‌టో: నీలం, సుడోకు: ఊదా, కోల్లెజ్: ఆకుపచ్చ).",
+          "run_all_migrationలలో స్థిర బ్యాకెండ్ game_reward_config కాలమ్ మైగ్రేషన్.",
+          "స్థిరమైన update_game_rewards_schema దిగుమతి (ఇంజిన్ → async_engine).",
+          "Fixed create_deployment_package అన్ని మైగ్రేషన్ స్క్రిప్ట్‌లను కలిగి ఉంటుంది.",
+          "స్థిర డాష్‌బోర్డ్ స్టాక్ నిర్మాణం మరియు డాష్‌బోర్డ్ స్వాగత స్థానికీకరణ.",
+          "డీప్-లింకింగ్ కోసం స్థిర లీడర్‌బోర్డ్ స్క్రీన్ ప్రారంభ సూచిక మరియు ప్రారంభ గేమ్ రకం."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 3 tháng 4 năm 2026",
+        "notes": [
+          "Đã thêm Lớp phủ kích hoạt khai thác: làm mờ toàn màn hình cho đến khi quá trình khai thác bắt đầu.",
+          "Đã thêm Khóa điều hướng toàn cầu: thanh dưới cùng bị tắt cho đến khi phiên khai thác hoạt động; tự động chuyển hướng đến trang tổng quan nếu phiên hết hạn ở nơi khác.",
+          "Đã thêm huy hiệu nhiệm vụ chưa được nhận trên tab Phần thưởng.",
+          "Đã thêm quyền truy cập bảng xếp hạng trò chơi: cúp trên mỗi thẻ trò chơi sẽ mở bảng xếp hạng của trò chơi đó.",
+          "Đã thêm màu bảng xếp hạng dành riêng cho trò chơi (Người chạy: màu cam, TicTacToe: xanh lam, Sudoku: tím, Ảnh ghép: xanh lá cây).",
+          "Đã sửa lỗi di chuyển cột game_reward_config phụ trợ trong run_all_migrations.",
+          "Đã sửa lỗi nhập update_game_rewards_schema (engine → async_engine).",
+          "Đã sửa lỗi create_deployment_package bao gồm tất cả tập lệnh di chuyển.",
+          "Đã sửa lỗi cấu trúc ngăn xếp bảng điều khiển và bảng điều khiển Bản địa hóa chào mừng.",
+          "Đã sửa lỗi LeaderboardScreen initIndex và initGameType để liên kết sâu."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 3 日",
+        "notes": [
+          "添加了挖掘激活叠加：全屏模糊，直到挖掘开始。",
+          "添加了全局导航锁：底部栏禁用，直到挖掘会话处于活动状态；如果会话在其他地方过期，则自动重定向到仪表板。",
+          "在“奖励”选项卡上添加了无人认领的任务徽章。",
+          "添加了游戏排行榜访问权限：每张游戏卡上的奖杯都会打开该游戏的排行榜。",
+          "添加了游戏特定的排行榜颜色（跑步者：橙色，井字游戏：蓝色，数独：紫色，拼贴：绿色）。",
+          "修复了 run_all_migrations 中的后端 game_reward_config 列迁移。",
+          "修复了 update_game_rewards_schema 导入（引擎 → async_engine）。",
+          "修复了 create_deployment_package 包含所有迁移脚本的问题。",
+          "修复了仪表板堆栈结构和仪表板欢迎本地化。",
+          "修复了 LeaderboardScreen 初始索引和初始游戏类型以进行深度链接。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.9.1",
+    "translations": {
+      "ar": {
+        "date_label": "3 أبريل 2026",
+        "notes": [
+          "تم تغيير ردود الفعل اللمسية لسودوكو للأرقام والملاحظات غير الصحيحة.",
+          "تم تغيير وضع قلم سودوكو: لم تعد الملاحظات غير الصحيحة تعتبر أخطاء أثناء اللعبة.",
+          "تم تغيير ألوان لهجة سودوكو إلى اللون البرتقالي لتناسق الموضوع.",
+          "تم تغيير واجهة مستخدم رأس Sudoku.",
+          "تم تغيير Android androidx.activity إلى 1.9.0."
+        ]
+      },
+      "en": {
+        "date_label": "April 3, 2026",
+        "notes": [
+          "Changed Sudoku haptic feedback for incorrect numbers and notes.",
+          "Changed Sudoku pencil mode: incorrect notes no longer count as game-over mistakes.",
+          "Changed Sudoku accent colors to orange for theme consistency.",
+          "Changed Sudoku header UI.",
+          "Changed Android androidx.activity to 1.9.0."
+        ]
+      },
+      "es": {
+        "date_label": "3 de abril de 2026",
+        "notes": [
+          "Se modificó la retroalimentación háptica del Sudoku para números y notas incorrectos.",
+          "Se modificó el modo lápiz de Sudoku: las notas incorrectas ya no cuentan como errores de finalización del juego.",
+          "Se cambiaron los colores de acento del Sudoku a naranja para darle coherencia al tema.",
+          "Se modificó la interfaz de usuario del encabezado del Sudoku.",
+          "Se cambió Androidx.activity de Android a 1.9.0."
+        ]
+      },
+      "fr": {
+        "date_label": "3 avril 2026",
+        "notes": [
+          "Modification du retour haptique du Sudoku pour les nombres et notes incorrects.",
+          "Mode crayon Sudoku modifié : les notes incorrectes ne comptent plus comme des erreurs de fin de partie.",
+          "Modification des couleurs d'accent du Sudoku en orange pour assurer la cohérence du thème.",
+          "Modification de l'interface utilisateur de l'en-tête Sudoku.",
+          "Modification d'Android androidx.activity en 1.9.0."
+        ]
+      },
+      "gu": {
+        "date_label": "3 એપ્રિલ, 2026",
+        "notes": [
+          "ખોટી સંખ્યાઓ અને નોંધો માટે સુડોકુ હેપ્ટિક પ્રતિસાદ બદલ્યો.",
+          "બદલાયેલ સુડોકુ પેન્સિલ મોડ: ખોટી નોંધો હવે ગેમ-ઓવર ભૂલો તરીકે ગણાશે નહીં.",
+          "થીમ સુસંગતતા માટે સુડોકુ ઉચ્ચાર રંગોને નારંગીમાં બદલ્યો.",
+          "સુડોકુ હેડર UI બદલ્યું.",
+          "Android androidx.activity ને 1.9.0 માં બદલી."
+        ]
+      },
+      "hi": {
+        "date_label": "3 अप्रैल 2026",
+        "notes": [
+          "गलत संख्याओं और नोट्स के लिए सुडोकू हैप्टिक फीडबैक बदला गया।",
+          "सुडोकू पेंसिल मोड बदला गया: गलत नोट्स को अब गेम-ओवर गलतियों के रूप में नहीं गिना जाएगा।",
+          "थीम स्थिरता के लिए सुडोकू उच्चारण रंग को नारंगी में बदल दिया गया।",
+          "सुडोकू हेडर यूआई बदला गया।",
+          "Android androidx.activity को 1.9.0 में बदला गया।"
+        ]
+      },
+      "id": {
+        "date_label": "3 April 2026",
+        "notes": [
+          "Mengubah umpan balik haptik Sudoku untuk nomor dan catatan yang salah.",
+          "Mode pensil Sudoku diubah: nada yang salah tidak lagi dihitung sebagai kesalahan game-over.",
+          "Mengubah warna aksen Sudoku menjadi oranye untuk konsistensi tema.",
+          "Mengubah UI tajuk Sudoku.",
+          "Mengubah Android androidx.activity menjadi 1.9.0."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 3 日",
+        "notes": [
+          "間違った数字やメモに対する数独の触覚フィードバックを変更しました。",
+          "数独の鉛筆モードが変更されました。間違った音符はゲームオーバーの間違いとしてカウントされなくなりました。",
+          "テーマの一貫性を保つために、数独のアクセントカラーをオレンジに変更しました。",
+          "数独のヘッダーUIを変更しました。",
+          "Android androidx.activity を 1.9.0 に変更しました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 3일",
+        "notes": [
+          "잘못된 숫자와 메모에 대한 스도쿠 햅틱 피드백을 변경했습니다.",
+          "스도쿠 연필 모드 변경: 잘못된 메모는 더 이상 게임 종료 실수로 간주되지 않습니다.",
+          "테마 일관성을 위해 스도쿠 강조 색상을 주황색으로 변경했습니다.",
+          "스도쿠 헤더 UI가 변경되었습니다.",
+          "Android androidx.activity를 1.9.0으로 변경했습니다."
+        ]
+      },
+      "ms": {
+        "date_label": "3 April 2026",
+        "notes": [
+          "Mengubah maklum balas haptik Sudoku untuk nombor dan nota yang salah.",
+          "Mod pensel Sudoku diubah: nota yang salah tidak lagi dikira sebagai kesilapan permainan.",
+          "Menukar warna aksen Sudoku kepada oren untuk ketekalan tema.",
+          "UI pengepala Sudoku telah ditukar.",
+          "Menukar Android androidx.activity kepada 1.9.0."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 3, 2026",
+        "notes": [
+          "ଭୁଲ ସଂଖ୍ୟା ଏବଂ ନୋଟ୍ ପାଇଁ ସୁଦୋକୁ ହାପ୍ଟିକ୍ ମତାମତ ପରିବର୍ତ୍ତନ କରାଯାଇଛି |",
+          "ପରିବର୍ତ୍ତିତ ସୁଦୋକୁ ପେନ୍ସିଲ୍ ମୋଡ୍: ଭୁଲ ନୋଟ୍ ଗୁଡିକ ଆଉ ଗେମ୍ ଓଭର ଭୁଲ୍ ଭାବରେ ଗଣନା କରାଯାଏ ନାହିଁ |",
+          "ଥିମ୍ ସ୍ଥିରତା ପାଇଁ ସୁଦୋକୁ ଉଚ୍ଚାରଣ ରଙ୍ଗକୁ କମଳା ରଙ୍ଗରେ ପରିବର୍ତ୍ତନ କରାଯାଇଛି |",
+          "ସୁଦୋକୁ ହେଡର୍ UI ପରିବର୍ତ୍ତନ କରାଯାଇଛି |",
+          "ଆଣ୍ଡ୍ରଏଡ୍ ଆଣ୍ଡ୍ରଏଡକ୍ସ.ଆକ୍ଟିଭିଟି 1.9.0 କୁ ପରିବର୍ତ୍ତନ କରାଯାଇଛି |"
+        ]
+      },
+      "ru": {
+        "date_label": "3 апреля 2026 г.",
+        "notes": [
+          "Изменена тактильная обратная связь по судоку для неправильных чисел и заметок.",
+          "Изменен режим судоку с карандашом: неправильные записи больше не считаются ошибками в конце игры.",
+          "Цвет акцента судоку изменен на оранжевый для обеспечения единообразия темы.",
+          "Изменен пользовательский интерфейс заголовка судоку.",
+          "Android androidx.activity изменен на 1.9.0."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 3, 2026",
+        "notes": [
+          "தவறான எண்கள் மற்றும் குறிப்புகளுக்கு Sudoku ஹாப்டிக் கருத்து மாற்றப்பட்டது.",
+          "சுடோகு பென்சில் பயன்முறை மாற்றப்பட்டது: தவறான குறிப்புகள் இனி கேம்-ஓவர் தவறுகளாக கணக்கிடப்படாது.",
+          "தீம் நிலைத்தன்மைக்காக சுடோகு உச்சரிப்பு வண்ணங்கள் ஆரஞ்சுக்கு மாற்றப்பட்டது.",
+          "சுடோகு தலைப்பு UI மாற்றப்பட்டது.",
+          "Android androidx.activity 1.9.0 ஆக மாற்றப்பட்டது."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 3, 2026",
+        "notes": [
+          "తప్పు సంఖ్యలు మరియు గమనికల కోసం సుడోకు హాప్టిక్ ఫీడ్‌బ్యాక్ మార్చబడింది.",
+          "సుడోకు పెన్సిల్ మోడ్ మార్చబడింది: తప్పు గమనికలు ఇకపై గేమ్-ఓవర్ తప్పులుగా పరిగణించబడవు.",
+          "థీమ్ స్థిరత్వం కోసం సుడోకు యాస రంగులు నారింజ రంగులోకి మార్చబడ్డాయి.",
+          "సుడోకు హెడర్ UI మార్చబడింది.",
+          "Android androidx.activity 1.9.0కి మార్చబడింది."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 3 tháng 4 năm 2026",
+        "notes": [
+          "Đã thay đổi phản hồi xúc giác Sudoku đối với các số và ghi chú không chính xác.",
+          "Đã thay đổi chế độ bút chì Sudoku: ghi chú sai không còn được tính là lỗi kết thúc trò chơi.",
+          "Đã thay đổi màu nhấn của Sudoku thành màu cam để đảm bảo tính nhất quán của chủ đề.",
+          "Đã thay đổi giao diện người dùng tiêu đề Sudoku.",
+          "Đã thay đổi Androidx.activity thành 1.9.0."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 3 日",
+        "notes": [
+          "更改了数独触觉反馈中不正确的数字和注释。",
+          "更改了数独铅笔模式：不正确的笔记不再算作游戏结束错误。",
+          "将数独强调色更改为橙​​色，以保持主题一致性。",
+          "更改了数独标题 UI。",
+          "将 Android androidx.activity 更改为 1.9.0。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.9.0",
+    "translations": {
+      "ar": {
+        "date_label": "3 أبريل 2026",
+        "notes": [
+          "تمت إضافة ترقية رئيسية لإدارة مهمة الإدارة وتكوينها.",
+          "تمت إضافة معالجة مهام الخلفية المتكاملة لمزامنة بدء التشغيل.",
+          "تم تغيير واجهة المستخدم/تجربة المستخدم عبر الألعاب المصغرة والتعريب.",
+          "تم تغيير عمليات التحقق من صحة الواجهة الخلفية وعمليات الترحيل الآلية.",
+          "تم إصلاح أخطاء حساب إنتاجية Game Boost وأخطاء استيراد جهاز توجيه المسؤول."
+        ]
+      },
+      "en": {
+        "date_label": "April 3, 2026",
+        "notes": [
+          "Added major upgrade to Admin Mission management and configuration.",
+          "Added integrated background task processing for startup sync.",
+          "Changed UI/UX across mini-games and localization.",
+          "Changed backend health checks and automated migrations.",
+          "Fixed Game Boost yield calculation and admin router import errors."
+        ]
+      },
+      "es": {
+        "date_label": "3 de abril de 2026",
+        "notes": [
+          "Se agregó una actualización importante a la gestión y configuración de la misión administrativa.",
+          "Se agregó procesamiento de tareas en segundo plano integrado para la sincronización de inicio.",
+          "Se modificó UI/UX en minijuegos y localización.",
+          "Se modificaron los controles de estado del backend y las migraciones automatizadas.",
+          "Se corrigieron errores de cálculo de rendimiento de Game Boost y de importación del enrutador de administración."
+        ]
+      },
+      "fr": {
+        "date_label": "3 avril 2026",
+        "notes": [
+          "Ajout d'une mise à niveau majeure de la gestion et de la configuration de la mission d'administration.",
+          "Ajout du traitement intégré des tâches en arrière-plan pour la synchronisation du démarrage.",
+          "Modification de l'interface utilisateur/UX dans les mini-jeux et la localisation.",
+          "Modification des contrôles de santé du backend et des migrations automatisées.",
+          "Correction des erreurs de calcul du rendement du Game Boost et d’importation du routeur administrateur."
+        ]
+      },
+      "gu": {
+        "date_label": "3 એપ્રિલ, 2026",
+        "notes": [
+          "એડમિન મિશન મેનેજમેન્ટ અને ગોઠવણીમાં મુખ્ય અપગ્રેડ ઉમેર્યું.",
+          "સ્ટાર્ટઅપ સમન્વયન માટે સંકલિત પૃષ્ઠભૂમિ કાર્ય પ્રક્રિયા ઉમેરવામાં આવી.",
+          "મીની-ગેમ્સ અને સ્થાનિકીકરણમાં બદલાયેલ UI/UX.",
+          "બદલાયેલ બેકએન્ડ આરોગ્ય તપાસો અને સ્વચાલિત સ્થળાંતર.",
+          "ફિક્સ્ડ ગેમ બૂસ્ટ યીલ્ડ ગણતરી અને એડમિન રાઉટર આયાત ભૂલો."
+        ]
+      },
+      "hi": {
+        "date_label": "3 अप्रैल 2026",
+        "notes": [
+          "एडमिन मिशन प्रबंधन और कॉन्फ़िगरेशन में प्रमुख अपग्रेड जोड़ा गया।",
+          "स्टार्टअप सिंक के लिए एकीकृत पृष्ठभूमि कार्य प्रसंस्करण जोड़ा गया।",
+          "मिनी-गेम और स्थानीयकरण में यूआई/यूएक्स को बदला गया।",
+          "बैकएंड स्वास्थ्य जांच और स्वचालित माइग्रेशन को बदला गया।",
+          "गेम बूस्ट उपज गणना और व्यवस्थापक राउटर आयात त्रुटियों को ठीक किया गया।"
+        ]
+      },
+      "id": {
+        "date_label": "3 April 2026",
+        "notes": [
+          "Menambahkan peningkatan besar pada manajemen dan konfigurasi Misi Admin.",
+          "Menambahkan pemrosesan tugas latar belakang terintegrasi untuk sinkronisasi startup.",
+          "Mengubah UI/UX di seluruh mini-game dan lokalisasi.",
+          "Mengubah pemeriksaan kondisi backend dan migrasi otomatis.",
+          "Memperbaiki perhitungan hasil Game Boost dan kesalahan impor router admin."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 3 日",
+        "notes": [
+          "管理者ミッションの管理と構成にメジャー アップグレードを追加しました。",
+          "起動同期のための統合されたバックグラウンド タスク処理が追加されました。",
+          "ミニゲームとローカリゼーション全体で UI/UX を変更しました。",
+          "バックエンドのヘルスチェックと自動移行が変更されました。",
+          "ゲームブーストの収量計算と管理ルーターのインポートエラーを修正しました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 3일",
+        "notes": [
+          "관리 임무 관리 및 구성에 주요 업그레이드가 추가되었습니다.",
+          "시작 동기화를 위한 통합 백그라운드 작업 처리가 추가되었습니다.",
+          "미니게임과 현지화 전반에 걸쳐 UI/UX를 변경했습니다.",
+          "백엔드 상태 확인 및 자동 마이그레이션이 변경되었습니다.",
+          "Game Boost 수율 계산 및 관리 라우터 가져오기 오류를 수정했습니다."
+        ]
+      },
+      "ms": {
+        "date_label": "3 April 2026",
+        "notes": [
+          "Menambahkan peningkatan besar pada pengurusan dan konfigurasi Misi Pentadbiran.",
+          "Menambah pemprosesan tugas latar belakang bersepadu untuk penyegerakan permulaan.",
+          "UI/UX yang diubah merentas permainan mini dan penyetempatan.",
+          "Mengubah pemeriksaan kesihatan bahagian belakang dan migrasi automatik.",
+          "Pengiraan hasil Game Boost tetap dan ralat import penghala pentadbir."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 3, 2026",
+        "notes": [
+          "ଆଡମିନ୍ ମିଶନ୍ ପରିଚାଳନା ଏବଂ ବିନ୍ୟାସନରେ ପ୍ରମୁଖ ଅପଗ୍ରେଡ୍ ଯୋଡିଛି |",
+          "ଷ୍ଟାର୍ଟଅପ୍ ସିଙ୍କ ପାଇଁ ଇଣ୍ଟିଗ୍ରେଟେଡ୍ ବ୍ୟାକଗ୍ରାଉଣ୍ଡ ଟାସ୍କ ପ୍ରକ୍ରିୟାକରଣ ଯୋଗ କରାଯାଇଛି |",
+          "ମିନି-ଗେମ୍ ଏବଂ ଲୋକାଲାଇଜେସନ୍ ମଧ୍ୟରେ UI / UX ପରିବର୍ତ୍ତିତ |",
+          "ପରିବର୍ତ୍ତିତ ବ୍ୟାକେଣ୍ଡ୍ ସ୍ୱାସ୍ଥ୍ୟ ଯାଞ୍ଚ ଏବଂ ସ୍ୱୟଂଚାଳିତ ସ୍ଥାନାନ୍ତରଣ |",
+          "ଫିକ୍ସଡ୍ ଗେମ୍ ବୁଷ୍ଟ୍ ଅମଳ ଗଣନା ଏବଂ ଆଡମିନ୍ ରାଉଟର ଆମଦାନୀ ତ୍ରୁଟି |"
+        ]
+      },
+      "ru": {
+        "date_label": "3 апреля 2026 г.",
+        "notes": [
+          "Добавлено серьезное обновление для управления и настройки миссий администратора.",
+          "Добавлена ​​интегрированная обработка фоновых задач для синхронизации при запуске.",
+          "Изменен UI/UX мини-игр и локализации.",
+          "Изменены проверки работоспособности серверной части и автоматизированная миграция.",
+          "Исправлен расчет доходности Game Boost и ошибки импорта маршрутизатора администратора."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 3, 2026",
+        "notes": [
+          "நிர்வாக பணி மேலாண்மை மற்றும் கட்டமைப்புக்கு பெரிய மேம்படுத்தல் சேர்க்கப்பட்டது.",
+          "தொடக்க ஒத்திசைவுக்கான ஒருங்கிணைந்த பின்னணி பணி செயலாக்கம் சேர்க்கப்பட்டது.",
+          "மினி-கேம்கள் மற்றும் உள்ளூர்மயமாக்கல் முழுவதும் UI/UX மாற்றப்பட்டது.",
+          "மாற்றப்பட்ட பின்தளத்தில் சுகாதார சோதனைகள் மற்றும் தானியங்கு இடம்பெயர்வுகள்.",
+          "நிலையான கேம் பூஸ்ட் விளைச்சல் கணக்கீடு மற்றும் நிர்வாக திசைவி இறக்குமதி பிழைகள்."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 3, 2026",
+        "notes": [
+          "అడ్మిన్ మిషన్ నిర్వహణ మరియు కాన్ఫిగరేషన్‌కు ప్రధాన అప్‌గ్రేడ్ జోడించబడింది.",
+          "స్టార్టప్ సింక్ కోసం ఇంటిగ్రేటెడ్ బ్యాక్‌గ్రౌండ్ టాస్క్ ప్రాసెసింగ్ జోడించబడింది.",
+          "చిన్న గేమ్‌లు మరియు స్థానికీకరణలో UI/UX మార్చబడింది.",
+          "బ్యాకెండ్ ఆరోగ్య తనిఖీలు మరియు స్వయంచాలక వలసలు మార్చబడ్డాయి.",
+          "ఫిక్స్‌డ్ గేమ్ బూస్ట్ దిగుబడి గణన మరియు అడ్మిన్ రూటర్ దిగుమతి లోపాలు."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 3 tháng 4 năm 2026",
+        "notes": [
+          "Đã thêm nâng cấp lớn vào quản lý và cấu hình Nhiệm vụ quản trị viên.",
+          "Đã thêm xử lý tác vụ nền tích hợp để đồng bộ hóa khởi động.",
+          "Đã thay đổi UI/UX trên các trò chơi nhỏ và bản địa hóa.",
+          "Đã thay đổi hoạt động kiểm tra tình trạng phụ trợ và di chuyển tự động.",
+          "Đã sửa lỗi tính toán lợi nhuận của Game Boost và lỗi nhập bộ định tuyến quản trị viên."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 3 日",
+        "notes": [
+          "添加了对管理任务管理和配置的重大升级。",
+          "添加了用于启动同步的集成后台任务处理。",
+          "更改了迷你游戏和本地化的 UI/UX。",
+          "更改了后端健康检查和自动迁移。",
+          "修复了 Game Boost 产量计算和管理路由器导入错误。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.8.9",
+    "translations": {
+      "ar": {
+        "date_label": "2 أبريل 2026",
+        "notes": [
+          "يعكس عائد تعزيز اللعبة الثابت التعزيزات النشطة في معدل المكافأة.",
+          "تمت إضافة عمليات ترحيل تعداد قاعدة البيانات الاستباقية عند بدء التشغيل.",
+          "تم إصلاح مرونة التحقق من صحة النشر والمهلات.",
+          "تم إصلاح خطأ الاسم والواردات المفقودة في أجهزة التوجيه الإدارية والمصادقة.",
+          "تحسين مزامنة مستخدم بدء التشغيل مع مهام الخلفية."
+        ]
+      },
+      "en": {
+        "date_label": "April 2, 2026",
+        "notes": [
+          "Fixed Game Boost yield reflects active boosts in reward rate.",
+          "Added proactive database enum migrations on startup.",
+          "Fixed deployment health check resilience and timeouts.",
+          "Fixed NameError and missing imports in admin and auth routers.",
+          "Optimized startup user sync with background tasks."
+        ]
+      },
+      "es": {
+        "date_label": "2 de abril de 2026",
+        "notes": [
+          "El rendimiento fijo de Game Boost refleja aumentos activos en la tasa de recompensa.",
+          "Se agregaron migraciones proactivas de enumeración de bases de datos al inicio.",
+          "Se corrigieron los tiempos de espera y la resiliencia de la comprobación del estado de la implementación.",
+          "Se corrigió NameError y faltaban importaciones en los enrutadores de administración y autenticación.",
+          "Sincronización de usuario de inicio optimizada con tareas en segundo plano."
+        ]
+      },
+      "fr": {
+        "date_label": "2 avril 2026",
+        "notes": [
+          "Le rendement fixe du Game Boost reflète les augmentations actives du taux de récompense.",
+          "Ajout de migrations proactives d’énumération de base de données au démarrage.",
+          "Correction de la résilience et des délais d'attente du contrôle de santé du déploiement.",
+          "Correction de NameError et des importations manquantes dans les routeurs d'administration et d'authentification.",
+          "Synchronisation optimisée des utilisateurs de démarrage avec les tâches en arrière-plan."
+        ]
+      },
+      "gu": {
+        "date_label": "2 એપ્રિલ, 2026",
+        "notes": [
+          "ફિક્સ્ડ ગેમ બૂસ્ટ યીલ્ડ ઇનામ દરમાં સક્રિય બૂસ્ટ્સને પ્રતિબિંબિત કરે છે.",
+          "સ્ટાર્ટઅપ પર સક્રિય ડેટાબેઝ એનમ સ્થળાંતર ઉમેર્યું.",
+          "સ્થિર જમાવટ આરોગ્ય તપાસ સ્થિતિસ્થાપકતા અને સમયસમાપ્તિ.",
+          "એડમિન અને ઓથ રાઉટર્સમાં સ્થિર NameError અને ગુમ થયેલ આયાત.",
+          "પૃષ્ઠભૂમિ કાર્યો સાથે ઑપ્ટિમાઇઝ સ્ટાર્ટઅપ વપરાશકર્તા સમન્વયન."
+        ]
+      },
+      "hi": {
+        "date_label": "2 अप्रैल 2026",
+        "notes": [
+          "फिक्स्ड गेम बूस्ट उपज इनाम दर में सक्रिय वृद्धि को दर्शाती है।",
+          "स्टार्टअप पर प्रोएक्टिव डेटाबेस एनम माइग्रेशन जोड़ा गया।",
+          "निश्चित परिनियोजन स्वास्थ्य जांच लचीलापन और टाइमआउट।",
+          "एडमिन और ऑथ राउटर्स में नेम एरर और गुम आयात को ठीक किया गया।",
+          "पृष्ठभूमि कार्यों के साथ अनुकूलित स्टार्टअप उपयोगकर्ता सिंक।"
+        ]
+      },
+      "id": {
+        "date_label": "2 April 2026",
+        "notes": [
+          "Hasil Peningkatan Game Tetap mencerminkan peningkatan aktif dalam tingkat hadiah.",
+          "Menambahkan migrasi enum database proaktif saat startup.",
+          "Memperbaiki ketahanan dan batas waktu pemeriksaan kesehatan penerapan.",
+          "Memperbaiki NameError dan impor yang hilang di router admin dan autentikasi.",
+          "Sinkronisasi pengguna startup yang dioptimalkan dengan tugas latar belakang."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 2 日",
+        "notes": [
+          "固定ゲームブーストの収量は、報酬率のアクティブなブーストを反映します。",
+          "起動時のプロアクティブなデータベース列挙型移行が追加されました。",
+          "デプロイメントのヘルスチェックの回復力とタイムアウトを修正しました。",
+          "管理ルーターと認証ルーターでの NameError とインポートの欠落を修正しました。",
+          "起動時のユーザーとバックグラウンド タスクの同期が最適化されました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 2일",
+        "notes": [
+          "고정 게임 부스트 수율은 보상률의 활성 부스트를 반영합니다.",
+          "시작 시 사전 데이터베이스 열거형 마이그레이션을 추가했습니다.",
+          "배포 상태 확인 복원력 및 시간 초과를 수정했습니다.",
+          "관리자 및 인증 라우터에서 NameError 및 가져오기 누락이 수정되었습니다.",
+          "백그라운드 작업과의 시작 사용자 동기화가 최적화되었습니다."
+        ]
+      },
+      "ms": {
+        "date_label": "2 April 2026",
+        "notes": [
+          "Hasil Peningkatan Permainan Tetap mencerminkan peningkatan aktif dalam kadar ganjaran.",
+          "Menambahkan migrasi enum pangkalan data proaktif pada permulaan.",
+          "Ketahanan pemeriksaan kesihatan penempatan tetap dan tamat masa.",
+          "NameError telah diperbaiki dan tiada import dalam penghala pentadbir dan pengesahan.",
+          "Penyegerakan pengguna permulaan yang dioptimumkan dengan tugas latar belakang."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 2, 2026",
+        "notes": [
+          "ଫିକ୍ସଡ୍ ଗେମ୍ ବୁଷ୍ଟ୍ ଅମଳ ପୁରସ୍କାର ହାରରେ ସକ୍ରିୟ ବୃଦ୍ଧିକୁ ପ୍ରତିଫଳିତ କରେ |",
+          "ପ୍ରାରମ୍ଭରେ ସକ୍ରିୟ ଡାଟାବେସ୍ ଇନମ୍ ସ୍ଥାନାନ୍ତରଣ ଯୋଗ କରାଯାଇଛି |",
+          "ସ୍ଥିର ନିୟୋଜନ ସ୍ୱାସ୍ଥ୍ୟ ଯାଞ୍ଚ ସ୍ଥିରତା ଏବଂ ସମୟ ସମାପ୍ତ |",
+          "ଫିକ୍ସଡ୍ ନେମ୍ ଏରର୍ ଏବଂ ଆଡମିନ୍ ଏବଂ ଆଥ୍ ରାଉଟରରେ ଆମଦାନୀ ହଜିଯାଉଛି |",
+          "ପୃଷ୍ଠଭୂମି କାର୍ଯ୍ୟଗୁଡ଼ିକ ସହିତ ଅପ୍ଟିମାଇଜ୍ ଷ୍ଟାର୍ଟଅପ୍ ୟୁଜର୍ ସିଙ୍କ୍ |"
+        ]
+      },
+      "ru": {
+        "date_label": "2 апреля 2026 г.",
+        "notes": [
+          "Фиксированная доходность Game Boost отражает активные повышения ставки вознаграждения.",
+          "Добавлена ​​упреждающая миграция перечислений базы данных при запуске.",
+          "Исправлена ​​устойчивость и тайм-ауты проверки работоспособности развертывания.",
+          "Исправлена ​​ошибка NameError и отсутствие импорта в маршрутизаторах администратора и аутентификации.",
+          "Оптимизирована синхронизация запуска пользователя с фоновыми задачами."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 2, 2026",
+        "notes": [
+          "நிலையான கேம் பூஸ்ட் விளைச்சல் வெகுமதி விகிதத்தில் செயலில் உள்ள ஊக்கத்தை பிரதிபலிக்கிறது.",
+          "தொடக்கத்தில் செயல்திறன்மிக்க தரவுத்தள enum இடம்பெயர்வுகள் சேர்க்கப்பட்டது.",
+          "நிலையான வரிசைப்படுத்தல் சுகாதார சோதனை பின்னடைவு மற்றும் காலக்கெடு.",
+          "நிர்வாகி மற்றும் அங்கீகார ரவுட்டர்களில் நிலையான பெயர் பிழை மற்றும் காணவில்லை இறக்குமதிகள்.",
+          "பின்னணி பணிகளுடன் உகந்த தொடக்க பயனர் ஒத்திசைவு."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 2, 2026",
+        "notes": [
+          "ఫిక్స్‌డ్ గేమ్ బూస్ట్ దిగుబడి రివార్డ్ రేట్‌లో యాక్టివ్ బూస్ట్‌లను ప్రతిబింబిస్తుంది.",
+          "స్టార్టప్‌లో ప్రోయాక్టివ్ డేటాబేస్ enum మైగ్రేషన్‌లు జోడించబడ్డాయి.",
+          "స్థిర విస్తరణ ఆరోగ్య తనిఖీ స్థితిస్థాపకత మరియు గడువు ముగిసింది.",
+          "అడ్మిన్ మరియు auth రూటర్‌లలో స్థిర పేరు లోపం మరియు దిగుమతులు లేవు.",
+          "బ్యాక్‌గ్రౌండ్ టాస్క్‌లతో ఆప్టిమైజ్ చేసిన స్టార్టప్ యూజర్ సింక్."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 2 tháng 4 năm 2026",
+        "notes": [
+          "Đã sửa lỗi lợi nhuận tăng cường trò chơi phản ánh mức tăng tích cực trong tỷ lệ phần thưởng.",
+          "Đã thêm tính năng di chuyển enum cơ sở dữ liệu chủ động khi khởi động.",
+          "Đã sửa lỗi khả năng phục hồi và thời gian chờ kiểm tra tình trạng triển khai.",
+          "Đã sửa lỗi NameError và thiếu nội dung nhập trong bộ định tuyến quản trị và xác thực.",
+          "Tối ưu hóa đồng bộ hóa người dùng khởi động với các tác vụ nền."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 2 日",
+        "notes": [
+          "固定游戏提升收益率反映了奖励率的主动提升。",
+          "在启动时添加了主动数据库枚举迁移。",
+          "修复了部署运行状况检查弹性和超时。",
+          "修复了管理和身份验证路由器中的名称错误和缺失导入。",
+          "优化启动用户与后台任务的同步。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.8.8",
+    "translations": {
+      "ar": {
+        "date_label": "2 أبريل 2026",
+        "notes": [
+          "تمت إضافة تتبع المكافأة الخاصة في تفاصيل الرصيد.",
+          "تمت إضافة تصفية سجل الأرباح حسب نوع المكافأة.",
+          "تمت إضافة إدارة المستخدم الإدارية: تصفية الصفحات والتصفية متعددة المعلمات.",
+          "تم إصلاح أخطاء البناء الحرجة وتحذيرات الأداء."
+        ]
+      },
+      "en": {
+        "date_label": "April 2, 2026",
+        "notes": [
+          "Added Special Bonus tracking in balance breakdown.",
+          "Added Earnings History filtering by reward type.",
+          "Added Admin User Management: pagination and multi-parameter filtering.",
+          "Fixed critical build errors and performance warnings."
+        ]
+      },
+      "es": {
+        "date_label": "2 de abril de 2026",
+        "notes": [
+          "Se agregó seguimiento de bonificación especial en el desglose del saldo.",
+          "Se agregó el filtrado del historial de ganancias por tipo de recompensa.",
+          "Se agregó gestión de usuarios administradores: paginación y filtrado multiparámetro.",
+          "Se corrigieron errores críticos de compilación y advertencias de rendimiento."
+        ]
+      },
+      "fr": {
+        "date_label": "2 avril 2026",
+        "notes": [
+          "Ajout du suivi des bonus spéciaux dans la répartition du solde.",
+          "Ajout du filtrage de l'historique des gains par type de récompense.",
+          "Ajout de la gestion des utilisateurs administrateurs : pagination et filtrage multi-paramètres.",
+          "Correction d'erreurs de build critiques et d'avertissements de performances."
+        ]
+      },
+      "gu": {
+        "date_label": "2 એપ્રિલ, 2026",
+        "notes": [
+          "બેલેન્સ બ્રેકડાઉનમાં વિશેષ બોનસ ટ્રેકિંગ ઉમેર્યું.",
+          "પુરસ્કાર પ્રકાર દ્વારા કમાણી ઇતિહાસ ફિલ્ટરિંગ ઉમેર્યું.",
+          "એડમિન યુઝર મેનેજમેન્ટ ઉમેર્યું: પૃષ્ઠ ક્રમાંકન અને મલ્ટી-પેરામીટર ફિલ્ટરિંગ.",
+          "નિર્ધારિત નિર્ણાયક બિલ્ડ ભૂલો અને પ્રદર્શન ચેતવણીઓ."
+        ]
+      },
+      "hi": {
+        "date_label": "2 अप्रैल 2026",
+        "notes": [
+          "बैलेंस ब्रेकडाउन में विशेष बोनस ट्रैकिंग जोड़ा गया।",
+          "पुरस्कार प्रकार के आधार पर आय इतिहास फ़िल्टरिंग जोड़ा गया।",
+          "जोड़ा गया व्यवस्थापक उपयोगकर्ता प्रबंधन: पेजिनेशन और मल्टी-पैरामीटर फ़िल्टरिंग।",
+          "महत्वपूर्ण निर्माण त्रुटियों और प्रदर्शन चेतावनियों को ठीक किया गया।"
+        ]
+      },
+      "id": {
+        "date_label": "2 April 2026",
+        "notes": [
+          "Menambahkan pelacakan Bonus Khusus dalam rincian saldo.",
+          "Menambahkan pemfilteran Riwayat Penghasilan berdasarkan jenis hadiah.",
+          "Menambahkan Manajemen Pengguna Admin: penomoran halaman dan pemfilteran multi-parameter.",
+          "Memperbaiki kesalahan build kritis dan peringatan kinerja."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 2 日",
+        "notes": [
+          "残高内訳に特別ボーナス追跡を追加しました。",
+          "報酬タイプごとの収益履歴フィルタリングを追加しました。",
+          "管理者ユーザー管理の追加: ページネーションとマルチパラメーター フィルター。",
+          "重大なビルド エラーとパフォーマンス警告を修正しました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 2일",
+        "notes": [
+          "잔액 분석에 특별 보너스 추적이 추가되었습니다.",
+          "보상 유형별 수익 내역 필터링이 추가되었습니다.",
+          "관리자 사용자 관리 추가: 페이지 매김 및 다중 매개변수 필터링.",
+          "심각한 빌드 오류 및 성능 경고가 수정되었습니다."
+        ]
+      },
+      "ms": {
+        "date_label": "2 April 2026",
+        "notes": [
+          "Ditambah penjejakan Bonus Khas dalam pecahan baki.",
+          "Menambahkan penapisan Sejarah Pendapatan mengikut jenis ganjaran.",
+          "Pengurusan Pengguna Pentadbiran Ditambah: penomboran dan penapisan berbilang parameter.",
+          "Membetulkan ralat binaan kritikal dan amaran prestasi."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 2, 2026",
+        "notes": [
+          "ବାଲାନ୍ସ ବ୍ରେକଡାଉନ୍ ରେ ସ୍ୱତନ୍ତ୍ର ବୋନସ୍ ଟ୍ରାକିଂ ଯୋଡିଛି |",
+          "ପୁରସ୍କାର ପ୍ରକାର ଅନୁଯାୟୀ ରୋଜଗାର ଇତିହାସ ଫିଲ୍ଟର କରାଯାଇଛି |",
+          "ଆଡମିନି ୟୁଜର୍ ମ୍ୟାନେଜମେଣ୍ଟ ଯୋଡାଗଲା: ପୃଷ୍ଠା ଏବଂ ମଲ୍ଟି-ପାରାମିଟର ଫିଲ୍ଟରିଂ |",
+          "ସ୍ଥିର ଜଟିଳ ନିର୍ମାଣ ତ୍ରୁଟି ଏବଂ କାର୍ଯ୍ୟଦକ୍ଷତା ଚେତାବନୀ |"
+        ]
+      },
+      "ru": {
+        "date_label": "2 апреля 2026 г.",
+        "notes": [
+          "Добавлено отслеживание специального бонуса при разбивке баланса.",
+          "Добавлена ​​фильтрация истории доходов по типу вознаграждения.",
+          "Добавлено управление пользователями администратора: нумерация страниц и фильтрация по нескольким параметрам.",
+          "Исправлены критические ошибки сборки и предупреждения о производительности."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 2, 2026",
+        "notes": [
+          "இருப்பு முறிவில் சிறப்பு போனஸ் கண்காணிப்பு சேர்க்கப்பட்டது.",
+          "வெகுமதி வகையின் அடிப்படையில் வருவாய் வரலாறு வடிகட்டுதல் சேர்க்கப்பட்டது.",
+          "நிர்வாகம் பயனர் மேலாண்மை சேர்க்கப்பட்டது: pagination மற்றும் பல அளவுரு வடிகட்டுதல்.",
+          "நிலையான சிக்கலான உருவாக்கப் பிழைகள் மற்றும் செயல்திறன் எச்சரிக்கைகள்."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 2, 2026",
+        "notes": [
+          "బ్యాలెన్స్ బ్రేక్‌డౌన్‌లో ప్రత్యేక బోనస్ ట్రాకింగ్ జోడించబడింది.",
+          "రివార్డ్ రకం ద్వారా ఆదాయాల చరిత్ర ఫిల్టరింగ్ జోడించబడింది.",
+          "అడ్మిన్ యూజర్ మేనేజ్‌మెంట్ జోడించబడింది: పేజినేషన్ మరియు మల్టీ-పారామీటర్ ఫిల్టరింగ్.",
+          "క్లిష్టమైన నిర్మాణ లోపాలు మరియు పనితీరు హెచ్చరికలు పరిష్కరించబడ్డాయి."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 2 tháng 4 năm 2026",
+        "notes": [
+          "Đã thêm tính năng theo dõi Tiền thưởng Đặc biệt trong bảng phân tích số dư.",
+          "Đã thêm tính năng lọc Lịch sử Thu nhập theo loại phần thưởng.",
+          "Đã thêm Quản lý người dùng quản trị viên: phân trang và lọc đa tham số.",
+          "Đã sửa lỗi xây dựng nghiêm trọng và cảnh báo hiệu suất."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 2 日",
+        "notes": [
+          "在余额明细中添加了特殊奖金跟踪。",
+          "添加了按奖励类型过滤收入历史记录。",
+          "添加了管理员用户管理：分页和多参数过滤。",
+          "修复了严重的构建错误和性能警告。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.8.7",
+    "translations": {
+      "ar": {
+        "date_label": "2 أبريل 2026",
+        "notes": [
+          "تم تغيير الذكاء الاصطناعي لوحدة المعالجة المركزية TicTacToe من خلال الانتصارات والكتل الإستراتيجية.",
+          "تم تغيير TicTacToe وSudoku وCollage لاستخدام ألوان سمات النظام الديناميكية.",
+          "يعمل TicTacToe الذي تم تغييره على تبديل المستخدم ووحدة المعالجة المركزية بشكل عادل.",
+          "استمرت الواجهة الخلفية الثابتة في تحديثات game_ads_enabled."
+        ]
+      },
+      "en": {
+        "date_label": "April 2, 2026",
+        "notes": [
+          "Changed TicTacToe CPU AI with strategic wins and blocks.",
+          "Changed TicTacToe, Sudoku, Collage use dynamic system theme colors.",
+          "Changed TicTacToe alternates user and CPU fairly.",
+          "Fixed backend persists game_ads_enabled updates."
+        ]
+      },
+      "es": {
+        "date_label": "2 de abril de 2026",
+        "notes": [
+          "Se modificó la IA de la CPU TicTacToe con victorias y bloqueos estratégicos.",
+          "TicTacToe, Sudoku y Collage modificados utilizan colores de tema de sistema dinámico.",
+          "TicTacToe modificado alterna usuario y CPU de manera justa.",
+          "El backend fijo persiste en las actualizaciones de game_ads_enabled."
+        ]
+      },
+      "fr": {
+        "date_label": "2 avril 2026",
+        "notes": [
+          "Modification de l'IA du processeur TicTacToe avec des victoires et des blocages stratégiques.",
+          "Les modifications TicTacToe, Sudoku et Collage utilisent des couleurs de thème système dynamiques.",
+          "TicTacToe modifié alterne équitablement l'utilisateur et le processeur.",
+          "Le backend fixe persiste les mises à jour game_ads_enabled."
+        ]
+      },
+      "gu": {
+        "date_label": "2 એપ્રિલ, 2026",
+        "notes": [
+          "વ્યૂહાત્મક જીત અને બ્લોક્સ સાથે બદલાયેલ TicTacToe CPU AI.",
+          "બદલાયેલ TicTacToe, Sudoku, Collage ડાયનેમિક સિસ્ટમ થીમ રંગોનો ઉપયોગ કરે છે.",
+          "TicTacToe બદલાયેલ વપરાશકર્તા અને CPU એકદમ વૈકલ્પિક છે.",
+          "ફિક્સ્ડ બેકએન્ડ game_ads_enabled અપડેટ્સ ચાલુ રહે છે."
+        ]
+      },
+      "hi": {
+        "date_label": "2 अप्रैल 2026",
+        "notes": [
+          "रणनीतिक जीत और ब्लॉक के साथ TicTacToe CPU AI को बदला गया।",
+          "परिवर्तित TicTacToe, सुडोकू, कोलाज गतिशील सिस्टम थीम रंगों का उपयोग करते हैं।",
+          "परिवर्तित TicTacToe उपयोगकर्ता और CPU को निष्पक्षता से बदलता है।",
+          "फिक्स्ड बैकएंड गेम_एड्स_सक्षम अपडेट जारी रखता है।"
+        ]
+      },
+      "id": {
+        "date_label": "2 April 2026",
+        "notes": [
+          "Mengubah AI CPU TicTacToe dengan kemenangan dan blok strategis.",
+          "Mengubah TicTacToe, Sudoku, Kolase menggunakan warna tema sistem dinamis.",
+          "Mengubah TicTacToe mengganti pengguna dan CPU secara adil.",
+          "Backend yang diperbaiki tetap mempertahankan pembaruan game_ads_enabled."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 2 日",
+        "notes": [
+          "戦略的な勝利とブロックを備えた TicTacToe CPU AI を変更しました。",
+          "TicTacToe、Sudoku、Collage の使用する動的システム テーマ カラーを変更しました。",
+          "TicTacToe はユーザーと CPU を公平に交互に変更しました。",
+          "バックエンドで game_ads_enabled アップデートが持続する問題を修正しました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 2일",
+        "notes": [
+          "전략적 승리와 블록으로 TicTacToe CPU AI를 변경했습니다.",
+          "TicTacToe, Sudoku, Collage가 동적 시스템 테마 색상을 사용하도록 변경되었습니다.",
+          "TicTacToe가 사용자와 CPU를 공정하게 교체하도록 변경되었습니다.",
+          "수정된 백엔드는 game_ads_enabled 업데이트를 유지합니다."
+        ]
+      },
+      "ms": {
+        "date_label": "2 April 2026",
+        "notes": [
+          "Mengubah TicTacToe CPU AI dengan kemenangan dan blok strategik.",
+          "TicTacToe, Sudoku, Kolaj yang diubah menggunakan warna tema sistem dinamik.",
+          "TicTacToe yang diubah menukar pengguna dan CPU dengan adil.",
+          "Bahagian belakang tetap mengekalkan kemas kini game_ads_enabled."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 2, 2026",
+        "notes": [
+          "ଷ୍ଟ୍ରାଟେଜିକ୍ ବିଜୟ ଏବଂ ବ୍ଲକ୍ ସହିତ TicTacToe CPU AI କୁ ପରିବର୍ତ୍ତନ କରାଯାଇଛି |",
+          "ପରିବର୍ତ୍ତିତ TicTacToe, Sudoku, Collage ଗତିଶୀଳ ସିଷ୍ଟମ ଥିମ୍ ରଙ୍ଗ ବ୍ୟବହାର କରେ |",
+          "ପରିବର୍ତ୍ତିତ TicTacToe ଉପଭୋକ୍ତା ଏବଂ CPU କୁ ଯଥାର୍ଥ ଭାବରେ ବିକଳ୍ପ କରେ |",
+          "ଫିକ୍ସଡ୍ ବ୍ୟାକେଣ୍ଡ୍ ଗେମ୍_ଡସ୍_ ସକ୍ଷମ ଅଦ୍ୟତନଗୁଡ଼ିକୁ ସ୍ଥିର କରିଥାଏ |"
+        ]
+      },
+      "ru": {
+        "date_label": "2 апреля 2026 г.",
+        "notes": [
+          "Изменен искусственный интеллект процессора TicTacToe со стратегическими победами и блоками.",
+          "Изменены TicTacToe, Sudoku, Collage, использующие динамические системные цвета темы.",
+          "Измененный TicTacToe справедливо чередует пользователя и процессор.",
+          "Исправлена ​​ошибка, из-за которой серверная часть сохраняла обновления game_ads_enabled."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 2, 2026",
+        "notes": [
+          "மூலோபாய வெற்றிகள் மற்றும் தொகுதிகளுடன் TicTacToe CPU AI மாற்றப்பட்டது.",
+          "மாற்றப்பட்ட TicTacToe, Sudoku, Collage டைனமிக் சிஸ்டம் தீம் வண்ணங்களைப் பயன்படுத்துகிறது.",
+          "மாற்றப்பட்ட TicTacToe பயனர் மற்றும் CPU ஐ நியாயமான முறையில் மாற்றுகிறது.",
+          "நிலையான பின்தளத்தில் game_ads_enabled புதுப்பிப்புகள் தொடரும்."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 2, 2026",
+        "notes": [
+          "వ్యూహాత్మక విజయాలు మరియు బ్లాక్‌లతో TicTacToe CPU AI మార్చబడింది.",
+          "మార్చబడిన TicTacToe, Sudoku, Collage డైనమిక్ సిస్టమ్ థీమ్ రంగులను ఉపయోగిస్తాయి.",
+          "మార్చబడిన TicTacToe వినియోగదారుని మరియు CPUని బాగా మారుస్తుంది.",
+          "స్థిర బ్యాకెండ్ game_ads_enabled నవీకరణలను కొనసాగించింది."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 2 tháng 4 năm 2026",
+        "notes": [
+          "Đã thay đổi AI của CPU TicTacToe bằng các chiến thắng và chặn chiến lược.",
+          "Đã thay đổi TicTacToe, Sudoku, Ảnh ghép sử dụng màu chủ đề hệ thống động.",
+          "Đã thay đổi TicTacToe thay thế người dùng và CPU một cách công bằng.",
+          "Phần phụ trợ đã sửa lỗi vẫn duy trì các bản cập nhật game_ads_enabled."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 2 日",
+        "notes": [
+          "通过战略胜利和方块改变了 TicTacToe CPU AI。",
+          "更改了井字棋、数独、拼贴使用动态系统主题颜色。",
+          "更改了 TicTacToe 公平地交替用户和 CPU。",
+          "修复了后端持续保留 game_ads_enabled 更新的问题。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.8.6",
+    "translations": {
+      "ar": {
+        "date_label": "2 أبريل 2026",
+        "notes": [
+          "تمت إضافة إعلانات AdMob البينية في جميع الألعاب المصغرة.",
+          "تمت إضافة التحميل المسبق لانتقالات اللعبة في AdService.",
+          "يحترم تمكين تبديل مشرف إعلانات اللعبة أثناء اللعب."
+        ]
+      },
+      "en": {
+        "date_label": "April 2, 2026",
+        "notes": [
+          "Added AdMob interstitial ads in all mini-games.",
+          "Added preloading for game transitions in AdService.",
+          "Respects Enable Game Ads admin toggle during gameplay."
+        ]
+      },
+      "es": {
+        "date_label": "2 de abril de 2026",
+        "notes": [
+          "Se agregaron anuncios intersticiales de AdMob en todos los minijuegos.",
+          "Se agregó precarga para transiciones de juegos en AdService.",
+          "Respeta la opción Habilitar el administrador de anuncios de juegos durante el juego."
+        ]
+      },
+      "fr": {
+        "date_label": "2 avril 2026",
+        "notes": [
+          "Ajout d'annonces interstitielles AdMob dans tous les mini-jeux.",
+          "Ajout du préchargement pour les transitions de jeu dans AdService.",
+          "Respecte la bascule de l'administrateur Activer les annonces de jeu pendant le jeu."
+        ]
+      },
+      "gu": {
+        "date_label": "2 એપ્રિલ, 2026",
+        "notes": [
+          "બધી મિની-ગેમ્સમાં AdMob ઇન્ટર્સ્ટિશલ જાહેરાતો ઉમેરવામાં આવી.",
+          "AdService માં રમત સંક્રમણો માટે પ્રીલોડિંગ ઉમેર્યું.",
+          "આદર ગેમપ્લે દરમિયાન ગેમ જાહેરાત એડમિન ટૉગલને સક્ષમ કરો."
+        ]
+      },
+      "hi": {
+        "date_label": "2 अप्रैल 2026",
+        "notes": [
+          "सभी मिनी-गेम्स में AdMob इंटरस्टिशियल विज्ञापन जोड़े गए।",
+          "AdService में गेम ट्रांज़िशन के लिए प्रीलोडिंग जोड़ा गया।",
+          "गेमप्ले के दौरान गेम विज्ञापन व्यवस्थापक टॉगल सक्षम करें का सम्मान करें।"
+        ]
+      },
+      "id": {
+        "date_label": "2 April 2026",
+        "notes": [
+          "Menambahkan iklan interstisial AdMob di semua mini-game.",
+          "Menambahkan pramuat untuk transisi game di AdService.",
+          "Menghormati Aktifkan tombol admin Iklan Game selama bermain game."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 2 日",
+        "notes": [
+          "すべてのミニゲームに AdMob インタースティシャル広告を追加しました。",
+          "AdService でのゲーム移行のプリロードを追加しました。",
+          "ゲームプレイ中にゲーム広告管理者の切り替えを有効にすることを尊重します。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 2일",
+        "notes": [
+          "모든 미니 게임에 AdMob 전면 광고를 추가했습니다.",
+          "AdService에 게임 전환을 위한 사전 로드가 추가되었습니다.",
+          "존중 게임 플레이 중에 게임 광고 관리 토글을 활성화합니다."
+        ]
+      },
+      "ms": {
+        "date_label": "2 April 2026",
+        "notes": [
+          "Menambahkan iklan interstisial AdMob dalam semua permainan mini.",
+          "Pramuat ditambahkan untuk peralihan permainan dalam AdService.",
+          "Respects Enable Game Ads pentadbir togol semasa permainan."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 2, 2026",
+        "notes": [
+          "ସମସ୍ତ ମିନି-ଗେମରେ ଆଡମୋବ ଇଣ୍ଟରସ୍ଟିସିଆଲ୍ ବିଜ୍ଞାପନ ଯୋଡିଛି |",
+          "AdService ରେ ଖେଳ ପରିବର୍ତ୍ତନ ପାଇଁ ପ୍ରିଲୋଡିଂ ଯୋଡାଗଲା |",
+          "ଗେମପ୍ଲେ ସମୟରେ ଖେଳ ବିଜ୍ଞାପନ ଆଡମିନି ଟୋଗଲ୍ କରିବାକୁ ସମ୍ମାନ କରେ |"
+        ]
+      },
+      "ru": {
+        "date_label": "2 апреля 2026 г.",
+        "notes": [
+          "Добавлена ​​межстраничная реклама AdMob во всех мини-играх.",
+          "Добавлена ​​предварительная загрузка игровых переходов в AdService.",
+          "С уважением Включите переключатель администратора игровой рекламы во время игры."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 2, 2026",
+        "notes": [
+          "எல்லா மினி-கேம்களிலும் AdMob இடைநிலை விளம்பரங்கள் சேர்க்கப்பட்டது.",
+          "AdService இல் கேம் மாற்றங்களுக்கான முன் ஏற்றுதல் சேர்க்கப்பட்டது.",
+          "கேம் விளையாடும் போது கேம் விளம்பரங்கள் நிர்வாகி நிலைமாறலை இயக்கு மரியாதை."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 2, 2026",
+        "notes": [
+          "అన్ని చిన్న-గేమ్‌లలో AdMob ఇంటర్‌స్టీషియల్ యాడ్‌లు జోడించబడ్డాయి.",
+          "AdServiceలో గేమ్ ట్రాన్సిషన్‌ల కోసం ప్రీలోడింగ్ జోడించబడింది.",
+          "గేమ్‌ప్లే సమయంలో గేమ్ యాడ్స్ అడ్మిన్ టోగుల్‌ను ప్రారంభించడాన్ని గౌరవిస్తుంది."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 2 tháng 4 năm 2026",
+        "notes": [
+          "Đã thêm quảng cáo chuyển tiếp AdMob trong tất cả các trò chơi nhỏ.",
+          "Đã thêm tải trước cho quá trình chuyển đổi trò chơi trong AdService.",
+          "Tôn trọng Bật chuyển đổi quản trị viên Quảng cáo trò chơi trong khi chơi trò chơi."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 2 日",
+        "notes": [
+          "在所有小游戏中添加了 AdMob 插页式广告。",
+          "在 AdService 中添加了游戏转换的预加载。",
+          "尊重在游戏过程中启用游戏广告管理切换。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.8.5",
+    "translations": {
+      "ar": {
+        "date_label": "2 أبريل 2026",
+        "notes": [
+          "تمت إضافة Firebase core على Android وiOS.",
+          "يقوم المشرف المحسّن بتبديل AdMob وتوجيه الواجهة الخلفية.",
+          "دعم الواجهة الخلفية لعناصر التحكم في رؤية Sudoku وCollage.",
+          "تم إصلاح 500 خطأ في منع إطلاق الألعاب الصغيرة."
+        ]
+      },
+      "en": {
+        "date_label": "April 2, 2026",
+        "notes": [
+          "Added Firebase core on Android and iOS.",
+          "Refined Admin AdMob toggles and backend routing.",
+          "Backend support for Sudoku and Collage visibility controls.",
+          "Fixed 500 error blocking mini-game launches."
+        ]
+      },
+      "es": {
+        "date_label": "2 de abril de 2026",
+        "notes": [
+          "Se agregó el núcleo de Firebase en Android e iOS.",
+          "Alternativas de AdMob de administración refinadas y enrutamiento de backend.",
+          "Soporte de backend para controles de visibilidad de Sudoku y Collage.",
+          "Se corrigió el error 500 que bloqueaba el inicio de minijuegos."
+        ]
+      },
+      "fr": {
+        "date_label": "2 avril 2026",
+        "notes": [
+          "Ajout du noyau Firebase sur Android et iOS.",
+          "Basculements d'administration AdMob et routage backend raffinés.",
+          "Prise en charge backend des contrôles de visibilité Sudoku et Collage.",
+          "Correction d'une erreur 500 bloquant le lancement de mini-jeux."
+        ]
+      },
+      "gu": {
+        "date_label": "2 એપ્રિલ, 2026",
+        "notes": [
+          "Android અને iOS પર Firebase કોર ઉમેર્યો.",
+          "શુદ્ધ એડમિન AdMob ટોગલ અને બેકએન્ડ રૂટીંગ.",
+          "સુડોકુ અને કોલાજ દૃશ્યતા નિયંત્રણો માટે બેકએન્ડ સપોર્ટ.",
+          "મીની-ગેમ લોન્ચને અવરોધિત કરતી 500 ભૂલ સુધારાઈ."
+        ]
+      },
+      "hi": {
+        "date_label": "2 अप्रैल 2026",
+        "notes": [
+          "एंड्रॉइड और आईओएस पर फायरबेस कोर जोड़ा गया।",
+          "परिष्कृत व्यवस्थापक AdMob टॉगल और बैकएंड रूटिंग।",
+          "सुडोकू और कोलाज दृश्यता नियंत्रण के लिए बैकएंड समर्थन।",
+          "मिनी-गेम लॉन्च को रोकने वाली 500 त्रुटि को ठीक किया गया।"
+        ]
+      },
+      "id": {
+        "date_label": "2 April 2026",
+        "notes": [
+          "Menambahkan inti Firebase di Android dan iOS.",
+          "Pengalihan Admin AdMob dan perutean backend yang disempurnakan.",
+          "Dukungan backend untuk kontrol visibilitas Sudoku dan Kolase.",
+          "Memperbaiki 500 kesalahan yang memblokir peluncuran mini-game."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 2 日",
+        "notes": [
+          "Android と iOS に Firebase コアを追加しました。",
+          "洗練された管理者の AdMob 切り替えとバックエンド ルーティング。",
+          "Sudoku と Collage の可視性コントロールのバックエンド サポート。",
+          "ミニゲームの起動をブロックする 500 エラーを修正しました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 2일",
+        "notes": [
+          "Android 및 iOS에 Firebase 코어가 추가되었습니다.",
+          "개선된 관리 AdMob 토글 및 백엔드 라우팅.",
+          "Sudoku 및 Collage 가시성 제어를 위한 백엔드 지원.",
+          "미니 게임 실행을 차단하는 500 오류를 수정했습니다."
+        ]
+      },
+      "ms": {
+        "date_label": "2 April 2026",
+        "notes": [
+          "Menambahkan teras Firebase pada Android dan iOS.",
+          "Togol Admin AdMob yang diperhalusi dan penghalaan hujung belakang.",
+          "Sokongan bahagian belakang untuk kawalan keterlihatan Sudoku dan Kolaj.",
+          "500 ralat menyekat pelancaran permainan mini telah diperbaiki."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 2, 2026",
+        "notes": [
+          "ଆଣ୍ଡ୍ରଏଡ୍ ଏବଂ ଆଇଓଏସରେ ଫାୟାରବେସ୍ କୋର୍ ଯୋଡା ଯାଇଛି |",
+          "ବିଶୋଧିତ ଆଡମିନି ଆଡମବ୍ ଟୋଗଲ୍ ଏବଂ ବ୍ୟାକେଣ୍ଡ୍ ରାଉଟିଙ୍ଗ୍ |",
+          "ସୁଦୋକୁ ଏବଂ କୋଲାଜ୍ ଭିଜିବିଲିଟି କଣ୍ଟ୍ରୋଲ୍ ପାଇଁ ବ୍ୟାକେଣ୍ଡ୍ ସମର୍ଥନ |",
+          "ମିନି-ଗେମ୍ ଲଞ୍ଚକୁ ଅବରୋଧ କରିବାରେ 500 ତ୍ରୁଟି ସ୍ଥିର କରାଯାଇଛି |"
+        ]
+      },
+      "ru": {
+        "date_label": "2 апреля 2026 г.",
+        "notes": [
+          "Добавлено ядро ​​Firebase на Android и iOS.",
+          "Усовершенствованные переключатели AdMob и внутренняя маршрутизация AdMob.",
+          "Внутренняя поддержка элементов управления видимостью судоку и коллажей.",
+          "Исправлена ​​ошибка 500, блокирующая запуск мини-игр."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 2, 2026",
+        "notes": [
+          "Android மற்றும் iOS இல் Firebase கோர் சேர்க்கப்பட்டது.",
+          "சுத்திகரிக்கப்பட்ட நிர்வாகம் AdMob நிலைமாற்றங்கள் மற்றும் பின்தளத்தில் ரூட்டிங்.",
+          "சுடோகு மற்றும் படத்தொகுப்புத் தெரிவுநிலைக் கட்டுப்பாடுகளுக்கான பின்தள ஆதரவு.",
+          "மினி-கேம் துவக்கங்களைத் தடுப்பதில் 500 பிழை சரி செய்யப்பட்டது."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 2, 2026",
+        "notes": [
+          "Android మరియు iOSలో Firebase కోర్ జోడించబడింది.",
+          "శుద్ధి చేసిన అడ్మిన్ AdMob టోగుల్స్ మరియు బ్యాకెండ్ రూటింగ్.",
+          "సుడోకు మరియు కోల్లెజ్ విజిబిలిటీ నియంత్రణలకు బ్యాకెండ్ మద్దతు.",
+          "మినీ-గేమ్ లాంచ్‌లను నిరోధించడంలో 500 లోపం పరిష్కరించబడింది."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 2 tháng 4 năm 2026",
+        "notes": [
+          "Đã thêm lõi Firebase trên Android và iOS.",
+          "Đã cải tiến các chuyển đổi AdMob dành cho quản trị viên và định tuyến phụ trợ.",
+          "Hỗ trợ phụ trợ cho các điều khiển hiển thị Sudoku và Ảnh ghép.",
+          "Đã sửa lỗi 500 lỗi chặn khởi chạy trò chơi nhỏ."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 2 日",
+        "notes": [
+          "在 Android 和 iOS 上添加了 Firebase 核心。",
+          "完善的 AdMob 管理切换和后端路由。",
+          "对数独和拼贴可见性控制的后端支持。",
+          "修复了阻止迷你游戏启动的 500 个错误。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.8.4",
+    "translations": {
+      "ar": {
+        "date_label": "2 أبريل 2026",
+        "notes": [
+          "تمت إضافة Firebase core وخدمات Google للتحليلات والإعلانات.",
+          "تمت إضافة تكوين شاشة إعلانات المسؤول.",
+          "مزامنة العمل على الترجمة ولوحات المعلومات والإصدارات والبرامج النصية.",
+          "تسجيلات البرنامج المساعد الخلفية الثابتة."
+        ]
+      },
+      "en": {
+        "date_label": "April 2, 2026",
+        "notes": [
+          "Added Firebase core and Google Services for analytics and ads.",
+          "Added Admin Ads screen configuration.",
+          "Sync work on localization, dashboards, versions, and scripts.",
+          "Fixed backend plugin registrations."
+        ]
+      },
+      "es": {
+        "date_label": "2 de abril de 2026",
+        "notes": [
+          "Se agregó Firebase core y servicios de Google para análisis y anuncios.",
+          "Se agregó la configuración de la pantalla de anuncios de administrador.",
+          "Sincronice el trabajo en localización, paneles, versiones y scripts.",
+          "Se corrigieron los registros de complementos de backend."
+        ]
+      },
+      "fr": {
+        "date_label": "2 avril 2026",
+        "notes": [
+          "Ajout du noyau Firebase et des services Google pour les analyses et les publicités.",
+          "Ajout de la configuration de l’écran Admin Ads.",
+          "Synchronisez le travail sur la localisation, les tableaux de bord, les versions et les scripts.",
+          "Correction des enregistrements de plugins backend."
+        ]
+      },
+      "gu": {
+        "date_label": "2 એપ્રિલ, 2026",
+        "notes": [
+          "એનાલિટિક્સ અને જાહેરાતો માટે Firebase કોર અને Google સેવાઓ ઉમેરવામાં આવી.",
+          "એડમિન જાહેરાતો સ્ક્રીન રૂપરેખાંકન ઉમેર્યું.",
+          "સ્થાનિકીકરણ, ડેશબોર્ડ્સ, સંસ્કરણો અને સ્ક્રિપ્ટ્સ પર સિંક કાર્ય.",
+          "સ્થિર બેકએન્ડ પ્લગઇન નોંધણીઓ."
+        ]
+      },
+      "hi": {
+        "date_label": "2 अप्रैल 2026",
+        "notes": [
+          "एनालिटिक्स और विज्ञापनों के लिए फायरबेस कोर और Google सेवाएँ जोड़ी गईं।",
+          "व्यवस्थापक विज्ञापन स्क्रीन कॉन्फ़िगरेशन जोड़ा गया।",
+          "स्थानीयकरण, डैशबोर्ड, संस्करण और स्क्रिप्ट पर सिंक कार्य।",
+          "फिक्स्ड बैकएंड प्लगइन पंजीकरण।"
+        ]
+      },
+      "id": {
+        "date_label": "2 April 2026",
+        "notes": [
+          "Menambahkan inti Firebase dan Layanan Google untuk analisis dan iklan.",
+          "Menambahkan konfigurasi layar Iklan Admin.",
+          "Sinkronisasi berfungsi pada pelokalan, dasbor, versi, dan skrip.",
+          "Memperbaiki pendaftaran plugin backend."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 2 日",
+        "notes": [
+          "分析と広告用に Firebase コアと Google サービスを追加しました。",
+          "管理広告画面の構成を追加しました。",
+          "ローカリゼーション、ダッシュボード、バージョン、スクリプトの同期作業。",
+          "バックエンドプラグインの登録を修正しました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 2일",
+        "notes": [
+          "분석 및 광고를 위한 Firebase 핵심 및 Google 서비스가 추가되었습니다.",
+          "관리자 광고 화면 구성이 추가되었습니다.",
+          "현지화, 대시보드, 버전 및 스크립트에 대한 작업을 동기화합니다.",
+          "백엔드 플러그인 등록이 수정되었습니다."
+        ]
+      },
+      "ms": {
+        "date_label": "2 April 2026",
+        "notes": [
+          "Menambahkan teras Firebase dan Perkhidmatan Google untuk analitis dan iklan.",
+          "Menambah konfigurasi skrin Iklan Pentadbir.",
+          "Kerja penyegerakan pada penyetempatan, papan pemuka, versi dan skrip.",
+          "Pendaftaran pemalam bahagian belakang tetap."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 2, 2026",
+        "notes": [
+          "ଆନାଲିଟିକ୍ସ ଏବଂ ବିଜ୍ଞାପନ ପାଇଁ ଫାୟାରବେସ୍ କୋର୍ ଏବଂ ଗୁଗୁଲ୍ ସେବା ଯୋଗ କରାଯାଇଛି |",
+          "ଆଡମିନ୍ ବିଜ୍ଞାପନ ସ୍କ୍ରିନ୍ ବିନ୍ୟାସକରଣ ଯୋଗ କରାଯାଇଛି |",
+          "ଲୋକାଲାଇଜେସନ୍, ଡ୍ୟାସବୋର୍ଡ, ସଂସ୍କରଣ, ଏବଂ ସ୍କ୍ରିପ୍ଟଗୁଡ଼ିକ ଉପରେ ସିଙ୍କ୍ କାର୍ଯ୍ୟ |",
+          "ଫିକ୍ସଡ୍ ବ୍ୟାକେଣ୍ଡ୍ ପ୍ଲଗଇନ୍ ପଞ୍ଜିକରଣ |"
+        ]
+      },
+      "ru": {
+        "date_label": "2 апреля 2026 г.",
+        "notes": [
+          "Добавлено ядро ​​Firebase и сервисы Google для аналитики и рекламы.",
+          "Добавлена ​​конфигурация экрана Admin Ads.",
+          "Синхронизация работы над локализацией, информационными панелями, версиями и скриптами.",
+          "Исправлена ​​регистрация серверных плагинов."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 2, 2026",
+        "notes": [
+          "பகுப்பாய்வு மற்றும் விளம்பரங்களுக்காக Firebase கோர் மற்றும் Google சேவைகள் சேர்க்கப்பட்டது.",
+          "நிர்வாகி விளம்பரங்கள் திரை கட்டமைப்பு சேர்க்கப்பட்டது.",
+          "உள்ளூர்மயமாக்கல், டாஷ்போர்டுகள், பதிப்புகள் மற்றும் ஸ்கிரிப்ட்களில் பணியை ஒத்திசைக்கவும்.",
+          "நிலையான பின்தளத்தில் சொருகி பதிவுகள்."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 2, 2026",
+        "notes": [
+          "విశ్లేషణలు మరియు ప్రకటనల కోసం Firebase కోర్ మరియు Google సేవలు జోడించబడ్డాయి.",
+          "అడ్మిన్ యాడ్స్ స్క్రీన్ కాన్ఫిగరేషన్ జోడించబడింది.",
+          "స్థానికీకరణ, డాష్‌బోర్డ్‌లు, సంస్కరణలు మరియు స్క్రిప్ట్‌లపై పనిని సమకాలీకరించండి.",
+          "స్థిర బ్యాకెండ్ ప్లగ్ఇన్ రిజిస్ట్రేషన్లు."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 2 tháng 4 năm 2026",
+        "notes": [
+          "Đã thêm lõi Firebase và Dịch vụ của Google để phân tích và quảng cáo.",
+          "Đã thêm cấu hình màn hình Quảng cáo của quản trị viên.",
+          "Đồng bộ hóa công việc bản địa hóa, trang tổng quan, phiên bản và tập lệnh.",
+          "Đã sửa lỗi đăng ký plugin phụ trợ."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 2 日",
+        "notes": [
+          "添加了用于分析和广告的 Firebase 核心和 Google 服务。",
+          "添加了管理广告屏幕配置。",
+          "同步本地化、仪表板、版本和脚本的工作。",
+          "修复了后端插件注册。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.8.3",
+    "translations": {
+      "ar": {
+        "date_label": "2 أبريل 2026",
+        "notes": [
+          "تمت إضافة المزامنة على الألعاب المصغرة والربط العميق والترجمة.",
+          "لعبة العداء المحسنة والتعريب.",
+          "تحديث واجهة المستخدم/تجربة المستخدم والإصدارات.",
+          "الترجمة الثابتة واستقرار واجهة اللعبة."
+        ]
+      },
+      "en": {
+        "date_label": "April 2, 2026",
+        "notes": [
+          "Added sync on mini-games, deep linking, and localization.",
+          "Enhanced Runner game and localization.",
+          "Updated UI/UX and versioning.",
+          "Fixed localization and game interface stability."
+        ]
+      },
+      "es": {
+        "date_label": "2 de abril de 2026",
+        "notes": [
+          "Se agregó sincronización en minijuegos, enlaces profundos y localización.",
+          "Localización y juego Runner mejorados.",
+          "UI/UX actualizado y control de versiones.",
+          "Se corrigió la localización y la estabilidad de la interfaz del juego."
+        ]
+      },
+      "fr": {
+        "date_label": "2 avril 2026",
+        "notes": [
+          "Ajout de la synchronisation sur les mini-jeux, des liens profonds et de la localisation.",
+          "Jeu et localisation Runner améliorés.",
+          "UI/UX et versioning mis à jour.",
+          "Correction de la localisation et de la stabilité de l'interface de jeu."
+        ]
+      },
+      "gu": {
+        "date_label": "2 એપ્રિલ, 2026",
+        "notes": [
+          "મીની-ગેમ્સ, ડીપ લિન્કિંગ અને સ્થાનિકીકરણ પર સમન્વયન ઉમેર્યું.",
+          "ઉન્નત રનર રમત અને સ્થાનિકીકરણ.",
+          "અપડેટ કરેલ UI/UX અને સંસ્કરણ.",
+          "સ્થિર સ્થાનિકીકરણ અને રમત ઇન્ટરફેસ સ્થિરતા."
+        ]
+      },
+      "hi": {
+        "date_label": "2 अप्रैल 2026",
+        "notes": [
+          "मिनी-गेम, डीप लिंकिंग और स्थानीयकरण पर सिंक जोड़ा गया।",
+          "उन्नत धावक खेल और स्थानीयकरण।",
+          "अद्यतन यूआई/यूएक्स और वर्जनिंग।",
+          "निश्चित स्थानीयकरण और गेम इंटरफ़ेस स्थिरता।"
+        ]
+      },
+      "id": {
+        "date_label": "2 April 2026",
+        "notes": [
+          "Menambahkan sinkronisasi pada mini-game, tautan dalam, dan pelokalan.",
+          "Game dan lokalisasi Runner yang ditingkatkan.",
+          "UI/UX dan versi yang diperbarui.",
+          "Memperbaiki lokalisasi dan stabilitas antarmuka game."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 2 日",
+        "notes": [
+          "ミニゲーム、ディープリンク、ローカリゼーションの同期が追加されました。",
+          "ランナー ゲームとローカリゼーションが強化されました。",
+          "UI/UX とバージョン管理を更新しました。",
+          "ローカリゼーションとゲームインターフェイスの安定性を修正しました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 2일",
+        "notes": [
+          "미니 게임, 딥 링크, 현지화에 동기화를 추가했습니다.",
+          "향상된 Runner 게임 및 현지화.",
+          "UI/UX 및 버전 관리가 업데이트되었습니다.",
+          "현지화 및 게임 인터페이스 안정성을 수정했습니다."
+        ]
+      },
+      "ms": {
+        "date_label": "2 April 2026",
+        "notes": [
+          "Ditambahkan penyegerakan pada permainan mini, pautan dalam dan penyetempatan.",
+          "Permainan Pelari yang Dipertingkatkan dan penyetempatan.",
+          "UI/UX dan versi yang dikemas kini.",
+          "Penyetempatan tetap dan kestabilan antara muka permainan."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 2, 2026",
+        "notes": [
+          "ମିନି-ଗେମ୍, ଗଭୀର ଲିଙ୍କ୍, ଏବଂ ଲୋକାଲାଇଜେସନ୍ ଉପରେ ସିଙ୍କ୍ ଯୋଡାଗଲା |",
+          "ଉନ୍ନତ ରନର୍ ଖେଳ ଏବଂ ଲୋକାଲାଇଜେସନ୍ |",
+          "UI / UX ଏବଂ ସଂସ୍କରଣକୁ ଅଦ୍ୟତନ କରାଯାଇଛି |",
+          "ସ୍ଥିର ଲୋକାଲାଇଜେସନ୍ ଏବଂ ଖେଳ ଇଣ୍ଟରଫେସ୍ ସ୍ଥିରତା |"
+        ]
+      },
+      "ru": {
+        "date_label": "2 апреля 2026 г.",
+        "notes": [
+          "Добавлена ​​синхронизация мини-игр, диплинкинг и локализация.",
+          "Улучшенная игра Runner и ее локализация.",
+          "Обновлен UI/UX и управление версиями.",
+          "Исправлена ​​локализация и стабильность интерфейса игры."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 2, 2026",
+        "notes": [
+          "மினி-கேம்கள், ஆழமான இணைப்பு மற்றும் உள்ளூர்மயமாக்கல் ஆகியவற்றில் ஒத்திசைவு சேர்க்கப்பட்டது.",
+          "மேம்படுத்தப்பட்ட ரன்னர் விளையாட்டு மற்றும் உள்ளூர்மயமாக்கல்.",
+          "புதுப்பிக்கப்பட்ட UI/UX மற்றும் பதிப்பு.",
+          "நிலையான உள்ளூர்மயமாக்கல் மற்றும் விளையாட்டு இடைமுக நிலைத்தன்மை."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 2, 2026",
+        "notes": [
+          "మినీ-గేమ్‌లు, లోతైన లింకింగ్ మరియు స్థానికీకరణపై సమకాలీకరణ జోడించబడింది.",
+          "మెరుగైన రన్నర్ గేమ్ మరియు స్థానికీకరణ.",
+          "నవీకరించబడిన UI/UX మరియు సంస్కరణ.",
+          "స్థిర స్థానికీకరణ మరియు గేమ్ ఇంటర్‌ఫేస్ స్థిరత్వం."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 2 tháng 4 năm 2026",
+        "notes": [
+          "Đã thêm tính năng đồng bộ hóa trên các trò chơi nhỏ, liên kết sâu và bản địa hóa.",
+          "Trò chơi Runner nâng cao và bản địa hóa.",
+          "Cập nhật UI/UX và phiên bản.",
+          "Đã sửa lỗi bản địa hóa và độ ổn định của giao diện trò chơi."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 2 日",
+        "notes": [
+          "添加了小游戏同步、深度链接和本地化。",
+          "增强的跑步游戏和本地化。",
+          "更新了 UI/UX 和版本控制。",
+          "修复了本地化和游戏界面稳定性。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.8.1",
+    "translations": {
+      "ar": {
+        "date_label": "1 أبريل 2026",
+        "notes": [
+          "تمت إضافة المزيد من التحسينات لنظام اللعبة.",
+          "تحسين استقرار وأداء تشغيل التطبيق.",
+          "تم إصلاح الاستقرار العام والأخطاء الطفيفة."
+        ]
+      },
+      "en": {
+        "date_label": "April 1, 2026",
+        "notes": [
+          "Added further game system refinements.",
+          "Improved app launch stability and performance.",
+          "Fixed general stability and minor bugs."
+        ]
+      },
+      "es": {
+        "date_label": "1 de abril de 2026",
+        "notes": [
+          "Se agregaron más mejoras al sistema de juego.",
+          "Mejora de la estabilidad y el rendimiento del inicio de la aplicación.",
+          "Se corrigió la estabilidad general y errores menores."
+        ]
+      },
+      "fr": {
+        "date_label": "1 avril 2026",
+        "notes": [
+          "Ajout d'autres améliorations du système de jeu.",
+          "Amélioration de la stabilité et des performances du lancement des applications.",
+          "Correction de la stabilité générale et de bugs mineurs."
+        ]
+      },
+      "gu": {
+        "date_label": "1 એપ્રિલ, 2026",
+        "notes": [
+          "વધુ રમત સિસ્ટમ શુદ્ધિકરણ ઉમેર્યું.",
+          "સુધારેલ એપ્લિકેશન લોન્ચ સ્થિરતા અને પ્રદર્શન.",
+          "સ્થિર સામાન્ય સ્થિરતા અને નાની ભૂલો."
+        ]
+      },
+      "hi": {
+        "date_label": "1 अप्रैल, 2026",
+        "notes": [
+          "गेम सिस्टम में और सुधार जोड़े गए।",
+          "बेहतर ऐप लॉन्च स्थिरता और प्रदर्शन।",
+          "सामान्य स्थिरता और मामूली बग को ठीक किया गया।"
+        ]
+      },
+      "id": {
+        "date_label": "1 April 2026",
+        "notes": [
+          "Menambahkan penyempurnaan sistem game lebih lanjut.",
+          "Peningkatan stabilitas dan kinerja peluncuran aplikasi.",
+          "Memperbaiki stabilitas umum dan bug kecil."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 1 日",
+        "notes": [
+          "ゲームシステムのさらなる改良を追加しました。",
+          "アプリの起動の安定性とパフォーマンスが向上しました。",
+          "全体的な安定性と小さなバグを修正しました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 1일",
+        "notes": [
+          "게임 시스템 개선 사항이 추가되었습니다.",
+          "앱 실행 안정성 및 성능이 향상되었습니다.",
+          "일반적인 안정성과 사소한 버그가 수정되었습니다."
+        ]
+      },
+      "ms": {
+        "date_label": "1 April 2026",
+        "notes": [
+          "Menambahkan lagi penghalusan sistem permainan.",
+          "Kestabilan dan prestasi pelancaran apl dipertingkat.",
+          "Memperbaiki kestabilan umum dan pepijat kecil."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 1, 2026",
+        "notes": [
+          "ଅଧିକ ଗେମ୍ ସିଷ୍ଟମ୍ ରିଫାଇନମେଣ୍ଟ୍ ଯୋଡିଛି |",
+          "ଉନ୍ନତ ଆପ୍ ଲଞ୍ଚ ସ୍ଥିରତା ଏବଂ କାର୍ଯ୍ୟଦକ୍ଷତା |",
+          "ସ୍ଥିର ସାଧାରଣ ସ୍ଥିରତା ଏବଂ ଛୋଟ ତ୍ରୁଟି |"
+        ]
+      },
+      "ru": {
+        "date_label": "1 апреля 2026 г.",
+        "notes": [
+          "Добавлены дальнейшие улучшения игровой системы.",
+          "Улучшена стабильность и производительность запуска приложения.",
+          "Исправлена ​​общая стабильность и мелкие ошибки."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 1, 2026",
+        "notes": [
+          "மேலும் கேம் சிஸ்டம் மேம்பாடுகளைச் சேர்த்தது.",
+          "மேம்படுத்தப்பட்ட பயன்பாட்டு துவக்க நிலைத்தன்மை மற்றும் செயல்திறன்.",
+          "நிலையான பொது நிலைத்தன்மை மற்றும் சிறிய பிழைகள்."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 1, 2026",
+        "notes": [
+          "మరిన్ని గేమ్ సిస్టమ్ మెరుగుదలలు జోడించబడ్డాయి.",
+          "మెరుగైన యాప్ లాంచ్ స్థిరత్వం మరియు పనితీరు.",
+          "స్థిర సాధారణ స్థిరత్వం మరియు చిన్న బగ్‌లు."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 1 tháng 4 năm 2026",
+        "notes": [
+          "Đã thêm các cải tiến hệ thống trò chơi hơn nữa.",
+          "Cải thiện độ ổn định và hiệu suất khởi chạy ứng dụng.",
+          "Đã sửa lỗi ổn định chung và các lỗi nhỏ."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 1 日",
+        "notes": [
+          "添加了进一步的游戏系统改进。",
+          "改进了应用程序启动稳定性和性能。",
+          "修复了总体稳定性和小错误。"
+        ]
+      }
+    }
+  },
+  {
+    "version": "Version 1.8.0",
+    "translations": {
+      "ar": {
+        "date_label": "1 أبريل 2026",
+        "notes": [
+          "تمت إضافة تحديثات محرك اللعبة الرئيسية.",
+          "تحسين استقرار وأداء تشغيل التطبيق.",
+          "تم إصلاح الاستقرار العام والأخطاء الطفيفة."
+        ]
+      },
+      "en": {
+        "date_label": "April 1, 2026",
+        "notes": [
+          "Added major game engine updates.",
+          "Improved app launch stability and performance.",
+          "Fixed general stability and minor bugs."
+        ]
+      },
+      "es": {
+        "date_label": "1 de abril de 2026",
+        "notes": [
+          "Se agregaron actualizaciones importantes del motor del juego.",
+          "Mejora de la estabilidad y el rendimiento del inicio de la aplicación.",
+          "Se corrigió la estabilidad general y errores menores."
+        ]
+      },
+      "fr": {
+        "date_label": "1 avril 2026",
+        "notes": [
+          "Ajout de mises à jour majeures du moteur de jeu.",
+          "Amélioration de la stabilité et des performances du lancement des applications.",
+          "Correction de la stabilité générale et de bugs mineurs."
+        ]
+      },
+      "gu": {
+        "date_label": "1 એપ્રિલ, 2026",
+        "notes": [
+          "મુખ્ય રમત એન્જિન અપડેટ્સ ઉમેર્યા.",
+          "સુધારેલ એપ્લિકેશન લોન્ચ સ્થિરતા અને પ્રદર્શન.",
+          "સ્થિર સામાન્ય સ્થિરતા અને નાની ભૂલો."
+        ]
+      },
+      "hi": {
+        "date_label": "1 अप्रैल, 2026",
+        "notes": [
+          "प्रमुख गेम इंजन अपडेट जोड़े गए।",
+          "बेहतर ऐप लॉन्च स्थिरता और प्रदर्शन।",
+          "सामान्य स्थिरता और मामूली बग को ठीक किया गया।"
+        ]
+      },
+      "id": {
+        "date_label": "1 April 2026",
+        "notes": [
+          "Menambahkan pembaruan mesin game utama.",
+          "Peningkatan stabilitas dan kinerja peluncuran aplikasi.",
+          "Memperbaiki stabilitas umum dan bug kecil."
+        ]
+      },
+      "ja": {
+        "date_label": "2026 年 4 月 1 日",
+        "notes": [
+          "ゲームエンジンのメジャーアップデートを追加しました。",
+          "アプリの起動の安定性とパフォーマンスが向上しました。",
+          "全体的な安定性と小さなバグを修正しました。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 4월 1일",
+        "notes": [
+          "주요 게임 엔진 업데이트가 추가되었습니다.",
+          "앱 실행 안정성 및 성능이 향상되었습니다.",
+          "일반적인 안정성과 사소한 버그가 수정되었습니다."
+        ]
+      },
+      "ms": {
+        "date_label": "1 April 2026",
+        "notes": [
+          "Menambah kemas kini enjin permainan utama.",
+          "Kestabilan dan prestasi pelancaran apl dipertingkat.",
+          "Memperbaiki kestabilan umum dan pepijat kecil."
+        ]
+      },
+      "or": {
+        "date_label": "ଏପ୍ରିଲ୍ 1, 2026",
+        "notes": [
+          "ପ୍ରମୁଖ ଖେଳ ଇଞ୍ଜିନ୍ ଅଦ୍ୟତନଗୁଡିକ ଯୋଗ କରାଯାଇଛି |",
+          "ଉନ୍ନତ ଆପ୍ ଲଞ୍ଚ ସ୍ଥିରତା ଏବଂ କାର୍ଯ୍ୟଦକ୍ଷତା |",
+          "ସ୍ଥିର ସାଧାରଣ ସ୍ଥିରତା ଏବଂ ଛୋଟ ତ୍ରୁଟି |"
+        ]
+      },
+      "ru": {
+        "date_label": "1 апреля 2026 г.",
+        "notes": [
+          "Добавлены основные обновления игрового движка.",
+          "Улучшена стабильность и производительность запуска приложения.",
+          "Исправлена ​​общая стабильность и мелкие ошибки."
+        ]
+      },
+      "ta": {
+        "date_label": "ஏப்ரல் 1, 2026",
+        "notes": [
+          "முக்கிய கேம் இன்ஜின் புதுப்பிப்புகள் சேர்க்கப்பட்டது.",
+          "மேம்படுத்தப்பட்ட பயன்பாட்டு துவக்க நிலைத்தன்மை மற்றும் செயல்திறன்.",
+          "நிலையான பொது நிலைத்தன்மை மற்றும் சிறிய பிழைகள்."
+        ]
+      },
+      "te": {
+        "date_label": "ఏప్రిల్ 1, 2026",
+        "notes": [
+          "ప్రధాన గేమ్ ఇంజిన్ నవీకరణలు జోడించబడ్డాయి.",
+          "మెరుగైన యాప్ లాంచ్ స్థిరత్వం మరియు పనితీరు.",
+          "స్థిర సాధారణ స్థిరత్వం మరియు చిన్న బగ్‌లు."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 1 tháng 4 năm 2026",
+        "notes": [
+          "Đã thêm các bản cập nhật công cụ trò chơi lớn.",
+          "Cải thiện độ ổn định và hiệu suất khởi chạy ứng dụng.",
+          "Đã sửa lỗi ổn định chung và các lỗi nhỏ."
+        ]
+      },
+      "zh": {
+        "date_label": "2026 年 4 月 1 日",
+        "notes": [
+          "添加了主要的游戏引擎更新。",
+          "改进了应用程序启动稳定性和性能。",
+          "修复了总体稳定性和小错误。"
+        ]
+      }
+    }
+  }
+]

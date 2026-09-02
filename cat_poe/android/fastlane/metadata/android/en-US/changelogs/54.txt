@@ -1,0 +1,3 @@
+- Additional game balancing for a better user experience.
+- General app stability and UI fixes.
+- Performance optimizations.

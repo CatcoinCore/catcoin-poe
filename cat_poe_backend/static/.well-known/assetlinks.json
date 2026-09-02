@@ -1,0 +1,16 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "org.catcoin.cat",
+      "sha256_cert_fingerprints": [
+        "00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00:00",
+        "A8:3C:EA:CB:DB:54:4F:BC:24:99:A0:13:BC:8D:29:3D:84:AF:F9:69:6E:3B:F3:A9:4D:7F:A8:6E:0A:3D:7B:E4"
+      ]
+    }
+  }
+]

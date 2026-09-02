@@ -1,0 +1,5 @@
+New features and game improvements.
+- Improved TicTacToe AI with strategic move selection.
+- Enhanced game UI (TicTacToe, Sudoku, Collage) to dynamically adapt to the app's theme.
+- Fixed backend admin configuration to correctly persist game ad settings.
+- Refined game turn logic in TicTacToe for a fairer player experience.

@@ -1,0 +1,7 @@
+Major feature sync and stability improvements.
+- New Admin Mission management and configuration tools.
+- Integrated background task processing for faster startup.
+- Improved game balance and yield calculation logic.
+- Comprehensive UI/UX refinements across all mini-games.
+- Enhanced backend stability with automated migrations and resilient health checks.
+- Updated localization files and fixed various administrative router errors.

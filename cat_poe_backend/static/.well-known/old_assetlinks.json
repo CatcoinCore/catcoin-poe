@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "org.catcoin.cat",
+      "sha256_cert_fingerprints": [
+        "09:3E:7F:8C:68:74:7E:2E:DD:88:8C:C2:9A:CA:D3:DD:EE:F2:DD:6F:6A:F9:FD:97:1A:A8:CC:4C:4A:AC:E9:60",
+        "DD:6D:39:AE:7F:EC:9B:B1:4E:CA:80:59:A6:F8:02:55:A4:B7:A9:8D:4E:C9:6D:2A:CF:70:AB:8A:41:11:1D:88"
+      ]
+    }
+  }
+]

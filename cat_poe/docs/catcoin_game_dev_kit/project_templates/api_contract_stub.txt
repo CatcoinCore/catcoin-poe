@@ -1,0 +1,26 @@
+POST /game/start-session
+Response:
+{
+  "session_id": "...",
+  "session_token": "...",
+  "seed": 12345,
+  "start_time": 1700000000
+}
+
+POST /game/submit
+Payload:
+{
+  "session_id": "...",
+  "score": 1234,
+  "coins_collected": 87,
+  "play_time": 142,
+  "game_version": "1.0.0",
+  "event_summary": {}
+}
+
+Server expectations:
+- validate coin rate
+- validate score/time ratio
+- validate speed/jump bounds
+- accept session token once only
+- enforce daily reward cap

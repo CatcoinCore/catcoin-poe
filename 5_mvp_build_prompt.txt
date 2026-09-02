@@ -1,0 +1,23 @@
+
+CATCOIN RUNNER – MVP BUILD PROMPT
+=================================
+
+Goal
+----
+Generate a working MVP of CatCoin Runner integrated into the CatCoin mining app.
+
+Features
+--------
+• Game launcher inside Flutter app
+• Downloadable game asset pack
+• Flame engine gameplay
+• Jump and double jump mechanics
+• Coin collection
+• Basic enemies
+• Turbo mechanic
+• HUD display
+• FastAPI session submission
+
+Expected Output
+---------------
+Clean modular Flutter + Flame project ready for Android testing.

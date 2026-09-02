@@ -1,0 +1,96 @@
+# --- Run all backend pytest tests (Docker) ---
+# From this directory (cat_poe_backend), with Postgres up:
+#   docker compose up -d postgres
+#   docker compose --profile test run --rm pytest
+#
+# Flutter / Dart tests are not in this compose file; run in a Flutter SDK or e.g.:
+#   docker run --rm -v "/path/to/catcoin2/cat_poe:/app" -w /app ghcr.io/cirruslabs/flutter:stable bash -lc "flutter pub get && flutter test"
+#
+# Copy .env.example to .env and set DB_PASSWORD (and other vars) for local Docker.
+# Backend uses env_file: .env — the file must exist (even if minimal) or compose will fail.
+# Default password is only suitable for isolated local development.
+#
+# Pytest uses database catcoin_poe_test (see tests/conftest.py). docker/initdb creates it
+# on first Postgres volume creation only. If your volume already existed before that script,
+# create it once: docker compose exec postgres psql -U "${DB_USER:-catpoe}" -d "${DB_NAME:-catcoin_poe}" -c "CREATE DATABASE catcoin_poe_test;"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: catcoin_postgres
+    environment:
+      POSTGRES_USER: ${DB_USER:-catpoe}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-postgres}
+      POSTGRES_DB: ${DB_NAME:-catcoin_poe}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker/initdb:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: catcoin_backend
+    env_file:
+      - .env
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://${DB_USER:-catpoe}:${DB_PASSWORD:-postgres}@postgres:5432/${DB_NAME:-catcoin_poe}
+      - SECRET_KEY=${SECRET_KEY:-dev-only-change-me-not-for-production}
+      - ALGORITHM=HS256
+      - ACCESS_TOKEN_EXPIRE_MINUTES=30
+      - ENVIRONMENT=development
+      - X_COMMUNITY_USERNAME=${X_COMMUNITY_USERNAME:-}
+      # Opt-in uvicorn --reload (see .env.example). Default off: StatReload rglob on bind mounts
+      # can raise OSError: [Errno 5] Input/output error on '/app' (common on Docker Desktop / Windows).
+      - ENABLE_UVICORN_RELOAD=${ENABLE_UVICORN_RELOAD:-0}
+    # Host port: Docker Desktop (Windows) often returns /forwards/expose 500 on :8000.
+    # Override in .env: BACKEND_HOST_PORT=8000 (or another free port).
+    ports:
+      - "${BACKEND_HOST_PORT:-18080}:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - .:/app
+      - ./logs:/app/logs
+    command:
+      - sh
+      - -c
+      - |
+        if [ "$${ENABLE_UVICORN_RELOAD:-0}" = "1" ]; then
+          exec uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+        else
+          exec uvicorn main:app --host 0.0.0.0 --port 8000
+        fi
+
+  # Run backend tests without a local Python install:
+  #   docker compose up -d postgres
+  #   docker compose --profile test run --rm pytest
+  pytest:
+    profiles: ["test"]
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: catcoin_pytest
+    environment:
+      DATABASE_URL: postgresql+asyncpg://${DB_USER:-catpoe}:${DB_PASSWORD:-postgres}@postgres:5432/${DB_NAME:-catcoin_poe}
+      ENVIRONMENT: development
+      SECRET_KEY: ${SECRET_KEY:-dev-only-change-me-not-for-production}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - .:/app
+    working_dir: /app
+    command: >
+      sh -c "pip install --no-cache-dir -q -r requirements-test.txt && pytest tests/ -v --tb=short"
+
+volumes:
+  postgres_data:

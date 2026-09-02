@@ -1,0 +1,65 @@
+
+CATCOIN RUNNER – GAME DESIGN DOCUMENT
+=====================================
+
+Game Overview
+-------------
+CatCoin Runner is a fast‑paced endless runner built around the CatCoin mascot.
+
+The player runs through a crypto‑themed world collecting CatCoins while avoiding
+obstacles and enemies.
+
+Core Gameplay Loop
+------------------
+Run → collect coins → avoid enemies → activate turbo → survive → earn rewards.
+
+Controls
+--------
+Tap → Jump
+Tap again → Double Jump
+
+Scoring
+-------
+Score is calculated from:
+• distance travelled
+• coins collected
+
+Reward Economy
+--------------
+Coins collected translate to catoshi rewards.
+
+1 in‑game coin = 1 catoshi.
+
+Game Difficulty Curve
+---------------------
+
+Distance        Difficulty
+0–500m          Easy
+500–1500m       Medium
+1500–3000m      Hard
+3000m+          Expert
+
+Powerups
+--------
+• Coin magnet
+• Shield
+• Turbo boost
+
+Enemies
+-------
+Drone
+Robo vacuum
+Angry dog
+
+World Themes
+------------
+Crypto city
+Mining caverns
+Moon base
+Blockchain neon world
+
+Player Motivation
+-----------------
+• leaderboard ranking
+• coin rewards
+• distance records

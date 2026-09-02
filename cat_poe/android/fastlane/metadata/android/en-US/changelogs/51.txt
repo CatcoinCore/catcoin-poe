@@ -1,0 +1,5 @@
+- Dashboard screen refinements for improved navigation.
+- Runner game animation updates for smoother gameplay.
+- Fixed critical issues in secondary games (Tic Tac Toe, Sudoku).
+- Mining router enhancements for better performance.
+- General app stability and UI fixes.

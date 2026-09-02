@@ -1,0 +1,5 @@
+New features and improvements!
+- New 1.4 release with admin screen improvements and balance details.
+- iOS icon assets added.
+- Enhanced profile security features.
+- Bug fixes and performance improvements.

@@ -1,0 +1,175 @@
+
+CATCOIN RUNNER – GAME ENGINE ARCHITECTURE PROMPT
+================================================
+
+Project Context
+---------------
+This game is NOT a standalone app. It is an add-on module inside an existing CatCoin mining application.
+
+Existing Technology Stack:
+Frontend: Flutter
+Backend: Python FastAPI
+Database: PostgreSQL
+Leaderboard: Already implemented in the mining application.
+
+Important Requirement:
+The game must NOT increase the main app size significantly.
+Game assets and content must be downloaded only when the user launches the game for the first time.
+
+Game Type
+---------
+Hybrid Auto-Runner Platformer
+
+Orientation:
+Landscape (16:9)
+
+Gameplay
+--------
+Side scrolling auto-runner where the CatCoin mascot automatically runs.
+
+Player controls:
+Tap → Jump
+Tap again → Double Jump
+
+Game elements:
+• coins
+• enemies
+• obstacles
+• turbo boost
+
+Currency Model
+--------------
+1 CAT = 100000000 catoshi
+1 in-game coin = 1 catoshi
+
+Coins collected in a session are NOT directly added to the wallet.
+Instead they are stored in a reward ledger.
+
+Reward Flow
+-----------
+Game session starts
+→ server issues session token
+→ player plays game
+→ client submits results
+→ FastAPI backend validates results
+→ reward_catoshi stored in database
+→ dashboard shows updated total
+
+Database Model
+--------------
+users
+id
+username
+wallet_address
+
+game_sessions
+id
+user_id
+session_token
+start_time
+end_time
+score
+coins_collected
+validated
+
+game_rewards
+id
+user_id
+session_id
+reward_catoshi
+created_at
+
+Game Launcher Flow
+------------------
+User taps "Play Game"
+→ check if game assets exist locally
+→ if not present download game pack
+→ extract assets
+→ start Flame engine
+
+Game pack contents:
+sprites
+audio
+config
+levels
+
+Game Architecture (Flutter + Flame)
+-----------------------------------
+
+lib/
+
+game/
+    catcoin_game.dart
+    game_world.dart
+    game_camera.dart
+
+player/
+    cat_player.dart
+    cat_state_machine.dart
+    cat_animations.dart
+
+enemies/
+    enemy_base.dart
+    drone_enemy.dart
+    dog_enemy.dart
+
+collectibles/
+    coin.dart
+    powerups.dart
+
+systems/
+    collision_system.dart
+    level_generator.dart
+    score_system.dart
+
+ui/
+    hud.dart
+    pause_menu.dart
+
+Core Systems
+------------
+Player Controller
+• physics
+• jump
+• double jump
+• turbo
+
+Animation State Machine
+
+States:
+idle
+run
+jump
+double_jump
+fall
+land
+turbo
+damage
+
+Level Generation
+----------------
+Procedural chunk spawning for:
+coins
+enemies
+platforms
+
+Anti-Cheat
+----------
+Client must NOT credit rewards directly.
+
+Server validation rules:
+• coin rate limit
+• score/time ratio
+• max jumps per second
+• max movement speed
+
+Session token can only be used once.
+
+Recommended daily reward cap:
+10000 catoshi per user.
+
+Dependency
+----------
+The sprite sheets and assets required by this engine are defined in:
+
+"CatCoin Content Creation Prompt"

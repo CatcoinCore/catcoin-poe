@@ -1,0 +1,159 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: catcoin_postgres
+    environment:
+      POSTGRES_USER: ${DB_USER:-postgres}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-changeme}
+      POSTGRES_DB: ${DB_NAME:-catcoin_poe}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U ${DB_USER:-postgres} -d ${DB_NAME:-catcoin_poe}" ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - catcoin_network
+
+  backend_blue:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: catcoin_backend_blue
+    env_file:
+      - .env
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://${DB_USER:-postgres}:${DB_PASSWORD:-changeme}@postgres:5432/${DB_NAME:-catcoin_poe}
+      - SECRET_KEY=${SECRET_KEY:-}
+      - ALGORITHM=${ALGORITHM:-HS256}
+      - ACCESS_TOKEN_EXPIRE_MINUTES=${ACCESS_TOKEN_EXPIRE_MINUTES:-30}
+      - SMTP_SERVER=${SMTP_SERVER:-smtp.gmail.com}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_EMAIL=${SMTP_EMAIL:-}
+      - SMTP_PASSWORD=${SMTP_PASSWORD:-}
+      - SMTP_STARTTLS=${SMTP_STARTTLS:-true}
+      - SMTP_TIMEOUT_SECONDS=${SMTP_TIMEOUT_SECONDS:-25}
+      - ENVIRONMENT=${ENVIRONMENT:-production}
+      - ROOT_BOOTSTRAP_PASSWORD=${ROOT_BOOTSTRAP_PASSWORD:-}
+      - ROOT_BOOTSTRAP_EMAIL=${ROOT_BOOTSTRAP_EMAIL:-}
+      # Social Verification
+      - DISCORD_BOT_TOKEN=${DISCORD_BOT_TOKEN:-}
+      - DISCORD_GUILD_ID=${DISCORD_GUILD_ID:-}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN:-}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID:-}
+      - X_BEARER_TOKEN=${X_BEARER_TOKEN:-}
+      - X_COMMUNITY_USERNAME=${X_COMMUNITY_USERNAME:-}
+      # Fix OS Error 5 (IO Error) with watchfiles on mounted logs directory
+      - WATCHFILES_FORCE_POLLING=1
+    # No host ports: nginx reaches this service as backend_blue:8000 on catcoin_network.
+    # Publishing 8001:8000 can trigger Docker Desktop (Windows) /forwards/expose 500 errors.
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 45s
+    restart: unless-stopped
+    networks:
+      - catcoin_network
+    volumes:
+      - ./logs:/app/logs
+
+  backend_green:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: catcoin_backend_green
+    env_file:
+      - .env
+    environment:
+      - DATABASE_URL=postgresql+asyncpg://${DB_USER:-postgres}:${DB_PASSWORD:-changeme}@postgres:5432/${DB_NAME:-catcoin_poe}
+      - SECRET_KEY=${SECRET_KEY:-}
+      - ALGORITHM=${ALGORITHM:-HS256}
+      - ACCESS_TOKEN_EXPIRE_MINUTES=${ACCESS_TOKEN_EXPIRE_MINUTES:-30}
+      - SMTP_SERVER=${SMTP_SERVER:-smtp.gmail.com}
+      - SMTP_PORT=${SMTP_PORT:-587}
+      - SMTP_EMAIL=${SMTP_EMAIL:-}
+      - SMTP_PASSWORD=${SMTP_PASSWORD:-}
+      - SMTP_STARTTLS=${SMTP_STARTTLS:-true}
+      - SMTP_TIMEOUT_SECONDS=${SMTP_TIMEOUT_SECONDS:-25}
+      - ENVIRONMENT=${ENVIRONMENT:-production}
+      - ROOT_BOOTSTRAP_PASSWORD=${ROOT_BOOTSTRAP_PASSWORD:-}
+      - ROOT_BOOTSTRAP_EMAIL=${ROOT_BOOTSTRAP_EMAIL:-}
+      # Social Verification
+      - DISCORD_BOT_TOKEN=${DISCORD_BOT_TOKEN:-}
+      - DISCORD_GUILD_ID=${DISCORD_GUILD_ID:-}
+      - TELEGRAM_BOT_TOKEN=${TELEGRAM_BOT_TOKEN:-}
+      - TELEGRAM_CHAT_ID=${TELEGRAM_CHAT_ID:-}
+      - X_BEARER_TOKEN=${X_BEARER_TOKEN:-}
+      - X_COMMUNITY_USERNAME=${X_COMMUNITY_USERNAME:-}
+      # Fix OS Error 5 (IO Error) with watchfiles on mounted logs directory
+      - WATCHFILES_FORCE_POLLING=1
+    # No host ports — same rationale as backend_blue (see above).
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 10s
+      timeout: 5s
+      # Match backend_blue: main.py startup runs create_all, migrations patches, seeds —
+      # green often exceeds a short start_period and Docker marks the container unhealthy
+      # before uvicorn begins accepting connections.
+      retries: 5
+      start_period: 45s
+    restart: unless-stopped
+    networks:
+      - catcoin_network
+    volumes:
+      - ./logs:/app/logs
+
+  nginx:
+    image: nginx:alpine
+    container_name: catcoin_nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./upstream.inc:/etc/nginx/conf.d/upstream.inc:ro
+      - ./ssl:/etc/nginx/ssl:ro
+      - ./certbot-www:/var/www/certbot:ro
+
+    restart: unless-stopped
+    networks:
+      - catcoin_network
+
+  db_backup:
+    image: postgres:16-alpine
+    container_name: catcoin_db_backup
+    volumes:
+      - ./backups:/app/backups
+      - ./cron_backup.sh:/app/cron_backup.sh:ro
+    environment:
+      - DB_HOST=postgres
+      - DB_USER=${DB_USER:-postgres}
+      - DB_PASSWORD=${DB_PASSWORD:-changeme}
+      - DB_NAME=${DB_NAME:-catcoin_poe}
+    networks:
+      - catcoin_network
+    depends_on:
+      postgres:
+        condition: service_healthy
+    command: sh /app/cron_backup.sh
+    restart: unless-stopped
+
+
+networks:
+  catcoin_network:
+    driver: bridge
+
+volumes:
+  postgres_data:

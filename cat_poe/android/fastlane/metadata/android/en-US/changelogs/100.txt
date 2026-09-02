@@ -1,0 +1,4 @@
+Tunnel Miner mini-game and referral rewards.
+- New CatCoin Tunnel Miner with scores synced to your account
+- Referral milestone and signup bonuses; smoother invite handling
+- Bug fixes and stability improvements

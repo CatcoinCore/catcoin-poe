@@ -1,0 +1,5 @@
+New features and game improvements.
+- Integrated AdMob Interstitial ads into all mini-games.
+- Added preloading logic for smooth game transitions.
+- Supports the "Enable Game Ads" administrative toggle for gameplay sessions.
+- Enhanced AdService for better ad reliability.

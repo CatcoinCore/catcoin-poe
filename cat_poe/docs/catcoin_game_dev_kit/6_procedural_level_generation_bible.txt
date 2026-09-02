@@ -1,0 +1,244 @@
+
+CATCOIN RUNNER – PROCEDURAL LEVEL GENERATION BIBLE
+==================================================
+
+Purpose
+-------
+Define how the CatCoin Runner world is generated so the game feels endless,
+varied, fair, and progressively challenging.
+
+Game Type
+---------
+Endless side‑scrolling auto runner.
+
+Engine
+------
+Flutter + Flame
+
+Core Principle
+--------------
+The level is generated from reusable **chunks** that are assembled dynamically.
+
+A chunk is a small piece of level containing:
+- platforms
+- coin trails
+- obstacles
+- enemies
+
+Typical chunk length:
+6 – 10 meters of gameplay.
+
+Chunk Structure
+---------------
+
+Each chunk contains:
+
+platform_layout
+coin_pattern
+enemy_pattern
+obstacle_pattern
+difficulty_level
+
+Example:
+
+Chunk A
+platform: flat
+coins: straight line
+enemy: none
+difficulty: easy
+
+Chunk B
+platform: gap
+coins: arc
+enemy: drone
+difficulty: medium
+
+Chunk C
+platform: rooftop
+coins: staggered
+enemy: dog
+difficulty: hard
+
+Chunk Pool
+----------
+
+Chunks are grouped by difficulty.
+
+Difficulty tiers:
+
+Tier 1 – Easy
+Tier 2 – Medium
+Tier 3 – Hard
+Tier 4 – Expert
+
+Distance Based Difficulty
+-------------------------
+
+Distance determines which chunk pool is used.
+
+Distance      Tier
+
+0–500m        Easy
+500–1500m     Medium
+1500–3000m    Hard
+3000m+        Expert
+
+Coin Trail Patterns
+-------------------
+
+Coins guide player movement.
+
+Pattern types:
+
+Straight line
+Arc jump
+Double arc
+Descending arc
+Zig‑zag
+Staircase
+
+Example:
+
+Arc jump pattern:
+
+      coin
+    coin
+  coin
+coin
+
+Encourages jumping.
+
+Enemy Placement Rules
+---------------------
+
+Enemies must not spawn unfairly.
+
+Rules:
+
+1. Minimum distance from player spawn: 8 meters
+2. Minimum distance between enemies: 5 meters
+3. Do not spawn enemy immediately after jump gap
+
+Enemy Types
+
+Drone
+- flying enemy
+- mid‑air hazard
+
+Dog
+- ground enemy
+- runs toward player
+
+Robo Vacuum
+- slow moving ground enemy
+
+Obstacle Patterns
+-----------------
+
+Types:
+
+Wall obstacle
+Gap platform
+Breakable crate
+Rooftop block
+
+Pattern rules:
+
+- never combine wall + gap at same position
+- never place obstacle without reaction time
+- maintain minimum reaction distance
+
+Turbo Opportunities
+-------------------
+
+Turbo powerups should appear periodically.
+
+Spawn rule:
+
+Every 150–250 meters.
+
+Turbo effect:
+
+temporary speed boost
+coin magnet effect
+visual trail
+
+Coin Economy
+------------
+
+1 coin = 1 catoshi
+
+Recommended average:
+
+40 – 80 coins per minute.
+
+Maximum allowed:
+
+120 coins per minute.
+
+Procedural Spawn Algorithm
+--------------------------
+
+Pseudo logic:
+
+1. determine player distance
+2. choose difficulty tier
+3. randomly select chunk from tier pool
+4. place chunk ahead of camera
+5. remove old chunks behind player
+
+Pseudo code:
+
+while player_running:
+
+    tier = difficulty_from_distance(distance)
+
+    chunk = random_chunk(tier)
+
+    spawn(chunk)
+
+    remove_old_chunks()
+
+Fairness Rules
+--------------
+
+The generator must guarantee:
+
+- every obstacle is avoidable
+- no impossible jumps
+- enough coins to maintain engagement
+
+Variation Rules
+---------------
+
+Never repeat the same chunk more than twice in a row.
+
+Mix platform styles frequently.
+
+Ensure enemy distribution is varied.
+
+Performance
+-----------
+
+Maintain only 5–7 chunks loaded at once.
+
+Older chunks should be removed to keep memory usage low.
+
+Compatibility
+-------------
+
+The generator must integrate with systems defined in:
+
+CatCoin Engine Blueprint
+CatCoin Game Design Document
+CatCoin World Asset Prompt
+
+End Goal
+--------
+
+Create a world that feels:
+
+dynamic
+fair
+challenging
+rewarding

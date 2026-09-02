@@ -1,0 +1,4 @@
+- Added Special Bonus tracking in balance details.
+- New Earnings History filters by reward type.
+- Enhanced Admin User Management with pagination and search filters.
+- Performance improvements and bug fixes.

@@ -1,0 +1,4 @@
+New features and enhancements!
+- Sync work on mini-games and deep linking.
+- Runner game enhancements and localization.
+- General UI/UX improvements.

@@ -1,0 +1,4 @@
+New features and improvements!
+- Integrated Firebase core for enhanced stability and features.
+- Admin Ads screen updates and configuration additions.
+- Continued work on dashboards and translation syncing.

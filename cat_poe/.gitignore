@@ -1,0 +1,80 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+/android/key.properties
+/android/app/upload-keystore.jks
+# Firebase Android config (forks: copy google-services.json.example → google-services.json)
+/android/app/google-services.json
+/assets/images/01_home.jpeg
+/assets/images/01_home_1024x500.png
+/assets/images/02_referrals.jpeg
+/assets/images/02_referrals_1024x500.png
+/assets/images/03_wallet.jpeg
+/assets/images/03_wallet_1024x500.png
+/assets/images/04_rewards.jpeg
+/assets/images/04_rewards_1024x500.png
+/assets/images/05_profile.jpeg
+/assets/images/05_profile_1024x500.png
+/assets/images/home.jpeg
+/assets/images/home.jpg
+/assets/images/home.png
+/assets/images/profile.jpeg
+/assets/images/profile.jpg
+/assets/images/profile.png
+/assets/images/referrals.jpeg
+/assets/images/referrals.jpg
+/assets/images/referrals.png
+/assets/images/rewards.jpg
+/assets/images/rewards.png
+/assets/images/wallet.jpg
+/assets/images/wallet.png
+
+# Ignore analysis logs, build logs, python scripts, and build artifacts
+analysis*.txt
+analyze*.txt
+*build_log*.txt
+android/build/
+make_*.py

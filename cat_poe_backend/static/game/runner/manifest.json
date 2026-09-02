@@ -1,0 +1,172 @@
+{
+    "assets": [
+        {
+            "path": "game/.gitkeep",
+            "size": 0
+        },
+        {
+            "path": "game/3d_cat_coin_collect.png",
+            "size": 699604
+        },
+        {
+            "path": "game/3d_cat_damage.png",
+            "size": 668158
+        },
+        {
+            "path": "game/3d_cat_double_jump.png",
+            "size": 672320
+        },
+        {
+            "path": "game/3d_cat_fall.png",
+            "size": 593753
+        },
+        {
+            "path": "game/3d_cat_idle.png",
+            "size": 797651
+        },
+        {
+            "path": "game/3d_cat_jump.png",
+            "size": 674245
+        },
+        {
+            "path": "game/3d_cat_land.png",
+            "size": 497377
+        },
+        {
+            "path": "game/3d_cat_run.png",
+            "size": 767401
+        },
+        {
+            "path": "game/3d_cat_turbo.png",
+            "size": 792926
+        },
+        {
+            "path": "game/3d_cat_victory.png",
+            "size": 789548
+        },
+        {
+            "path": "game/3d_cat_walk.png",
+            "size": 853311
+        },
+        {
+            "path": "game/cat_3d_mascot_walk.png",
+            "size": 623509
+        },
+        {
+            "path": "game/cat_3d_quadruped_walk.png",
+            "size": 529176
+        },
+        {
+            "path": "game/cat_3d_walk.png",
+            "size": 733854
+        },
+        {
+            "path": "game/cat_3d_walk_detailed.png",
+            "size": 766406
+        },
+        {
+            "path": "game/cat_coin_collect.png",
+            "size": 525952
+        },
+        {
+            "path": "game/cat_damage.png",
+            "size": 545293
+        },
+        {
+            "path": "game/cat_double_jump.png",
+            "size": 459013
+        },
+        {
+            "path": "game/cat_fall.png",
+            "size": 487187
+        },
+        {
+            "path": "game/cat_idle.png",
+            "size": 149952
+        },
+        {
+            "path": "game/cat_jump.png",
+            "size": 446899
+        },
+        {
+            "path": "game/cat_land.png",
+            "size": 450698
+        },
+        {
+            "path": "game/cat_run.png",
+            "size": 543410
+        },
+        {
+            "path": "game/cat_turbo.png",
+            "size": 613455
+        },
+        {
+            "path": "game/cat_victory.png",
+            "size": 650033
+        },
+        {
+            "path": "game/cat_white_walk.png",
+            "size": 561523
+        },
+        {
+            "path": "game/new_cat_run.png",
+            "size": 439289
+        },
+        {
+            "path": "images/boost_remind_1.png",
+            "size": 42299
+        },
+        {
+            "path": "images/boost_remind_2.png",
+            "size": 41635
+        },
+        {
+            "path": "images/boost_remind_3.png",
+            "size": 52511
+        },
+        {
+            "path": "images/catcoin_logo.png",
+            "size": 22115
+        },
+        {
+            "path": "images/mascot_pickaxe_crying.png",
+            "size": 479450
+        },
+        {
+            "path": "images/mascot_pickaxe_neutral.png",
+            "size": 463616
+        },
+        {
+            "path": "images/mascot_pickaxe_sad.png",
+            "size": 501707
+        },
+        {
+            "path": "images/reference_01.png",
+            "size": 2404621
+        },
+        {
+            "path": "images/run_201.png",
+            "size": 41049
+        },
+        {
+            "path": "images/run_202.png",
+            "size": 45893
+        },
+        {
+            "path": "images/run_203.png",
+            "size": 37880
+        },
+        {
+            "path": "images/run_204.png",
+            "size": 34608
+        },
+        {
+            "path": "images/run_205.png",
+            "size": 35140
+        },
+        {
+            "path": "images/run_206.png",
+            "size": 40041
+        }
+    ]
+}
