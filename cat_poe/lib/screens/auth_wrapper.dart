@@ -89,7 +89,7 @@ class _AuthWrapperState extends State<AuthWrapper> {
     final authProvider = Provider.of<AuthProvider>(context);
 
     if (authProvider.sessionResumeBlocked) {
-      final l = AppLocalizations.of(context)!;
+      final l = AppLocalizations.of(context);
       return Scaffold(
         body: SafeArea(
           child: Padding(

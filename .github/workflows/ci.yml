@@ -65,6 +65,7 @@ jobs:
       - uses: subosito/flutter-action@v2
         with:
           channel: stable
+          flutter-version: "3.44.1"   # pinned: the SDK the app is built and tested with
           cache: true
 
       - name: Restore pub cache
