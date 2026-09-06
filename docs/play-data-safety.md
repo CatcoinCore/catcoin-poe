@@ -51,6 +51,26 @@ on our behalf (email delivery, hosting) do not count as sharing.
 | **App info and performance** → Diagnostics | Yes | No | Required | App functionality | App version, platform, OS version, locale, screen, error class, HTTP status, recent-action tail |
 | **Device or other IDs** → Device or other IDs | Yes | **Yes** | Required | Advertising or marketing, Fraud prevention and security, App functionality | Google Advertising ID (shared with AdMob); installation UUID sent as `X-Device-ID`; public IP address; Google Play install referrer |
 
+### "Is this data processed ephemerally?" — No, for every type
+
+Play asks this per data type. Answer **No** everywhere. Ephemeral means the data is
+accessed **only in memory** and is not retained beyond servicing the request; it is an
+exception to declaring collection, so answering Yes incorrectly would under-declare.
+
+Everything above is written to the Postgres `users` table or a related table
+(`Wallet`, `Payout`, sessions, scores), which is straightforward persistence. Two types
+look like candidates but are not:
+
+- **Crash logs / Diagnostics.** There is no `DiagnosticReport` table and the handler never
+  calls `db.add()` / `commit()`, so nothing is persisted to the database — but the report is
+  **emailed** to the operator's inbox, where it stays, and `routers/diagnostics.py` also logs
+  the platform, app version, HTTP status, user id, and IP to the server log, which is bind
+  mounted to `./logs`. Retained in two places, so: **No**.
+- **IP address used for rate limiting.** `services/auth_rate_limit.py` keeps only an in-memory
+  `defaultdict` of timestamps per IP, which on its own would qualify. But the same IP is
+  written to `users.ip_address` at signup and login and appears in server logs, and the
+  question is asked about the *data type*, not one use of it. So: **No**.
+
 ### Why two types are declared as shared
 
 Both were decided deliberately, in favour of the broader declaration. Under-declaring
