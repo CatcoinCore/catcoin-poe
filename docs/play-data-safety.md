@@ -10,6 +10,35 @@ Derived from: `cat_poe_backend/models.py`, `routers/auth.py`, `services/fraud_de
 `cat_poe/lib/providers/auth_provider.dart`, `lib/services/api_service.dart`,
 `lib/screens/signup_screen.dart`, and `cat_poe/android/app/src/main/AndroidManifest.xml`.
 
+## Importing instead of clicking through the form
+
+[`play-data-safety.csv`](play-data-safety.csv) in this directory is a ready-to-import copy
+of everything below. In the Console, **App content → Data safety** offers an import
+control; uploading that file fills the whole questionnaire in one step. Re-check the
+result on the Preview screen before submitting — the CSV sets the answers, it does not
+submit them for you.
+
+Regenerate it after changing any answer:
+
+```bash
+python tools/data_safety_csv.py -o docs/play-data-safety.csv
+```
+
+The generator downloads Google's published question template, blanks the example answers
+it ships with, writes only the "Response value" column, and refuses to emit a file if any
+other column changed or if a declared question id is missing from the template. The
+template's md5 is pinned in the script; a mismatch prints a warning, because it means
+Google revised the question set and the ids need re-checking before the output is trusted.
+
+Two facts about that template worth knowing if you ever edit the CSV by hand:
+
+- It ships **pre-filled** with an example app that collects Name and Approximate location.
+  Importing it unmodified would declare someone else's data practices. The generator
+  clears every answer before writing ours.
+- The file is CRLF-terminated with **no** terminator after the final row, has no BOM, and
+  its human-readable labels contain bare LF characters inside quoted fields. A naive
+  line-based edit corrupts it; use a real CSV reader/writer, as the generator does.
+
 ## Overall answers
 
 | Question | Answer | Basis |
