@@ -55,7 +55,6 @@ We do not sell your personal information. We may share information:
 - **With Ad Partners:** We share device identifiers and usage data with Google AdMob to facilitate advertising services
 - **With IP Geolocation Providers:** To determine your country, the app sends a lookup request from your device to one or more of the third-party services listed below. Because the request originates on your device, these services can see your public IP address. They receive no other information about you — no account ID, email, username, or device identifier — and we do not send them your account data. Each publishes its own privacy policy:
   - [GeoJS](https://www.geojs.io/) (`get.geojs.io`)
-  - [ip-api.com](https://ip-api.com/docs/legal)
   - [iplocation.net](https://www.iplocation.net/privacy-policy)
 - **With Service Providers:** Who help operate our services (e.g., email delivery)
 - **Legal Requirements:** If required by law or to protect our rights

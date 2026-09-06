@@ -75,13 +75,18 @@
     </div>
 
     <div class="steps" style="margin-top: 20px; border-left-color: #7f8c8d;">
-        <h3>Method 2: Web/Email Request</h3>
-        <p>If you cannot access the app, you may request deletion via email:</p>
+        <h3>Method 2: Email Request</h3>
+        <p>If you cannot access the app, you may request deletion by email:</p>
         <ol>
-            <li>Send an email to <a href="mailto:privacy@YOURDOMAIN" class="email-link">privacy@YOURDOMAIN</a>.</li> <!-- maintainer: replace YOURDOMAIN before production -->
+            <li>Write to the developer contact address shown on our official app store listing (on Google Play it is
+                under "Developer contact" &rarr; "Email" on the app's store page).</li>
             <li>Use the subject line: <strong>"Account Deletion Request"</strong>.</li>
             <li>Include your registered <strong>Email Address</strong> and <strong>Username</strong>.</li>
         </ol>
+        <p><strong>Please send this by email, not through our public issue tracker</strong> — a deletion request
+            contains your email address and username, and anything posted in a public issue can be read by anyone.</p>
+        <!-- Maintainers: if you operate a dedicated privacy mailbox, link it here with a mailto: so users do not have
+             to look it up on the store listing. It must match the contact address declared in your store listing. -->
         <p><em>Please note: Manual processing via email may take up to 30 days to complete. We may ask for additional
                 proof of ownership to protect your account.</em></p>
     </div>
@@ -99,15 +104,28 @@
     </ul>
 
     <h2>Data Retention</h2>
-    <p>Once the deletion process is complete, we do not retain any of your personal data. Some anonymized, aggregated
-        analytics data (non-personally identifiable) may remain for system performance monitoring.</p>
+    <p>Once the deletion process is complete, your personal information is anonymised and we do not retain it. Some
+        anonymised, aggregated analytics data (which cannot identify you) may remain for system performance
+        monitoring.</p>
+    <p>Two things necessarily survive deletion:</p>
+    <ul>
+        <li><strong>A cryptographic hash of your identity.</strong> We keep this so that a deleted account cannot simply
+            be recreated to farm rewards. It lets us recognise a repeat signup without storing your email, username, or
+            any other detail behind it.</li>
+        <li><strong>Completed blockchain payouts.</strong> Any Catcoin payment already sent to you is recorded on the
+            public Catcoin blockchain. Those records are permanent and outside our control, so we cannot delete or
+            reverse them.</li>
+    </ul>
 
     <h2>Contact Us</h2>
-    <p>If you have any questions about this process, please contact us at <a
-            href="mailto:privacy@YOURDOMAIN">privacy@YOURDOMAIN</a>.</p> <!-- maintainer: replace YOURDOMAIN before production -->
+    <p>For questions about this process, write to the developer contact address on our official app store listing. For
+        general, non-personal questions you may also open an issue at
+        <a href="https://github.com/CatcoinCore/catcoin-poe/issues" target="_blank"
+            rel="noopener">github.com/CatcoinCore/catcoin-poe/issues</a> — but never post your email address, username,
+        or other personal details in a public issue.</p>
 
     <div class="footer">
-        &copy; 2024 Catcoin PoE. All rights reserved.
+        &copy; 2026 Catcoin PoE. All rights reserved.
     </div>
 </body>
 

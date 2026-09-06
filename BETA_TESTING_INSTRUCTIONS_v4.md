@@ -99,7 +99,7 @@ STEPS TO REPRODUCE (if bug):
 
 ### Reporting Channels:
 - **Play Store**: Use the "Contact Developer" or "Testing Feedback" button in the testing section.
-- **Email**: `beta-feedback@YOURDOMAIN` *(maintainers: set a real address)*
+- **Feedback**: Open an issue at <https://github.com/CatcoinCore/catcoin-poe/issues>, or use the developer contact address on the app store listing. Do not post personal details in a public issue.
 - **Discord**: Post in the `#beta-feedback` channel.
 
 **Thank you for helping us build the future of Catcoin! 🚀**

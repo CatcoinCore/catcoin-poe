@@ -52,7 +52,7 @@ If you find a bug or a crash, please report it immediately!
 
 **Reporting Channels:**
 - **Google Play Feedback**: Use the feedback button in the Play Store testing section.
-- **Email**: Send details to `beta-feedback@YOURDOMAIN` *(maintainers: set a real address)*.
+- **Feedback**: Open an issue at <https://github.com/CatcoinCore/catcoin-poe/issues>, or use the developer contact address on the app store listing. Do not post personal details in a public issue.
 - **Discord**: Join our server and post in the `#beta-feedback` channel: NA
 
 **What to include in your report:**

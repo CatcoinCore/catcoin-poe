@@ -332,11 +332,7 @@ class AuthProvider with ChangeNotifier {
         deviceCountry = await _tryGeoJs();
         if (deviceCountry != null) { countrySource = 'IP'; break; }
 
-        // --- API 2: ip-api.com ---
-        deviceCountry = await _tryIpApi();
-        if (deviceCountry != null) { countrySource = 'IP'; break; }
-
-        // --- API 3: iplocation.net ---
+        // --- API 2: iplocation.net ---
         deviceCountry = await _tryIpLocation();
         if (deviceCountry != null) { countrySource = 'IP'; break; }
 
@@ -382,24 +378,6 @@ class AuthProvider with ChangeNotifier {
       }
     } catch (e) {
       LoggerService.error('geojs.io failed', e);
-    }
-    return null;
-  }
-
-  Future<String?> _tryIpApi() async {
-    try {
-      final resp = await http
-          .get(Uri.parse('http://ip-api.com/json/?fields=status,query,countryCode'))
-          .timeout(const Duration(seconds: 5));
-      if (resp.statusCode == 200) {
-        final data = jsonDecode(resp.body);
-        if (_internalIps.contains(data['query'] as String?)) return null;
-        if (data['status'] == 'success' && data['countryCode'] != null) {
-          return data['countryCode'] as String;
-        }
-      }
-    } catch (e) {
-      LoggerService.error('ip-api.com failed', e);
     }
     return null;
   }
