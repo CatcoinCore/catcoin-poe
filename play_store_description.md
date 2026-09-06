@@ -37,8 +37,9 @@ Build your profile and monitor your engagement. Track your completed missions, r
 
 ---
 
-**What’s new in 1.12.0 (September 2026):**
+**What’s new in 1.12.1 (September 2026):**
 * **Smaller, faster app:** build optimizations for quicker installs and smoother performance.
+* **Fewer network calls:** removed a redundant lookup at sign-in.
 * **Stability:** routine improvements and fixes.
 
 Update for the best experience. Thank you for supporting Catcoin PoE.

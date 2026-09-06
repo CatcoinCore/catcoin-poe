@@ -10,7 +10,7 @@ async def update_version():
         
         if current_version is not None:
             print(f"Current version: {current_version}")
-            new_version = "1.12.0"
+            new_version = "1.12.1"
             await session.execute(
                 text("UPDATE admin_config SET latest_version_android = :v, min_version_android = :min_v WHERE id = 1"),
                 {"v": new_version, "min_v": "1.10.0"}

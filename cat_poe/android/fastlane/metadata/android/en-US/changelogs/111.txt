@@ -1,0 +1,1 @@
+1.12.1: removes a redundant network lookup at sign-in; stability improvements. Update for the best experience.

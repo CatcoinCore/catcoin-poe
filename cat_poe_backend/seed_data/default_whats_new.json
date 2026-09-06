@@ -1,5 +1,122 @@
 [
   {
+    "version": "Version 1.12.1",
+    "translations": {
+      "ar": {
+        "date_label": "6 سبتمبر 2026",
+        "notes": [
+          "إزالة عملية بحث شبكية زائدة عند تسجيل الدخول.",
+          "تحسينات الاستقرار."
+        ]
+      },
+      "en": {
+        "date_label": "September 6, 2026",
+        "notes": [
+          "Removed a redundant network lookup at sign-in.",
+          "Stability improvements."
+        ]
+      },
+      "es": {
+        "date_label": "6 de septiembre de 2026",
+        "notes": [
+          "Se eliminó una consulta de red redundante al iniciar sesión.",
+          "Mejoras de estabilidad."
+        ]
+      },
+      "fr": {
+        "date_label": "6 septembre 2026",
+        "notes": [
+          "Suppression d'une requête réseau redondante à la connexion.",
+          "Améliorations de stabilité."
+        ]
+      },
+      "gu": {
+        "date_label": "6 સપ્ટેમ્બર, 2026",
+        "notes": [
+          "સાઇન-ઇન વખતે બિનજરૂરી નેટવર્ક લુકઅપ દૂર કર્યું.",
+          "સ્થિરતા સુધારાઓ."
+        ]
+      },
+      "hi": {
+        "date_label": "6 सितंबर 2026",
+        "notes": [
+          "साइन-इन पर एक अनावश्यक नेटवर्क लुकअप हटाया गया।",
+          "स्थिरता में सुधार।"
+        ]
+      },
+      "id": {
+        "date_label": "6 September 2026",
+        "notes": [
+          "Menghapus pencarian jaringan yang berlebihan saat masuk.",
+          "Peningkatan stabilitas."
+        ]
+      },
+      "ja": {
+        "date_label": "2026年9月6日",
+        "notes": [
+          "サインイン時の不要なネットワーク照会を削除しました。",
+          "安定性の改善。"
+        ]
+      },
+      "ko": {
+        "date_label": "2026년 9월 6일",
+        "notes": [
+          "로그인 시 불필요한 네트워크 조회를 제거했습니다.",
+          "안정성 개선."
+        ]
+      },
+      "ms": {
+        "date_label": "6 September 2026",
+        "notes": [
+          "Membuang carian rangkaian berlebihan semasa log masuk.",
+          "Penambahbaikan kestabilan."
+        ]
+      },
+      "or": {
+        "date_label": "ସେପ୍ଟେମ୍ବର 6, 2026",
+        "notes": [
+          "ସାଇନ୍-ଇନ୍ ସମୟରେ ଏକ ଅନାବଶ୍ୟକ ନେଟୱାର୍କ ଅନୁସନ୍ଧାନ ହଟାଯାଇଛି |",
+          "ସ୍ଥିରତା ଉନ୍ନତି |"
+        ]
+      },
+      "ru": {
+        "date_label": "6 сентября 2026 г.",
+        "notes": [
+          "Удалён лишний сетевой запрос при входе.",
+          "Улучшения стабильности."
+        ]
+      },
+      "ta": {
+        "date_label": "செப்டம்பர் 6, 2026",
+        "notes": [
+          "உள்நுழையும்போது தேவையற்ற நெட்வொர்க் தேடல் அகற்றப்பட்டது.",
+          "நிலைத்தன்மை மேம்பாடுகள்."
+        ]
+      },
+      "te": {
+        "date_label": "సెప్టెంబర్ 6, 2026",
+        "notes": [
+          "సైన్-ఇన్ సమయంలో అనవసర నెట్‌వర్క్ లుకప్ తొలగించబడింది.",
+          "స్థిరత్వ మెరుగుదలలు."
+        ]
+      },
+      "vi": {
+        "date_label": "Ngày 6 tháng 9 năm 2026",
+        "notes": [
+          "Đã loại bỏ một truy vấn mạng thừa khi đăng nhập.",
+          "Cải thiện độ ổn định."
+        ]
+      },
+      "zh": {
+        "date_label": "2026年9月6日",
+        "notes": [
+          "移除了登录时一次多余的网络查询。",
+          "稳定性改进。"
+        ]
+      }
+    }
+  },
+  {
     "version": "Version 1.12.0",
     "translations": {
       "ar": {

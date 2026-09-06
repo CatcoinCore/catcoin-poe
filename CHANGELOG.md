@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.12.1] - 2026-09-06
+### Changed
+- Remove the `ip-api.com` country lookup: it was called over plain HTTP, which the release build blocks, so it could never succeed in a shipped app. The two remaining lookups are HTTPS.
+- Privacy policy now declares country geolocation, IP handling, wallet addresses, and blockchain payout permanence (policy is served by the backend, not bundled in the app).
+
 ## [1.12.0] - 2026-09-02
 ### Changed
 - Android R8 **full mode** + **class repackaging** (`-repackageclasses`, `-allowaccessmodification`) per Play Console optimization tips — smaller DEX, stronger obfuscation; verified with an Android 16 runtime smoke test.
