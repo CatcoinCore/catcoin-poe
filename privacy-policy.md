@@ -12,11 +12,13 @@ This Privacy Policy describes how Catcoin PoE ("we", "our", or "us") collects, u
 - **Account Information:** Email address, username, and display name when you register
 - **Social Media Handles:** Discord, Telegram, X (Twitter), Facebook, and WhatsApp usernames (if you choose to provide them for mission verification)
 - **Referral Information:** Referral codes used during signup
+- **Catcoin Wallet Address:** The Catcoin (CAT) blockchain address you give us to receive payouts. Providing one is optional, but withdrawals are not possible without it. See [Payouts and Blockchain Transactions](#payouts-and-blockchain-transactions) below for an important note about what becomes public.
 
 ### Information Collected Automatically
 - **Usage Data:** Mining session activity, mission completions, and in-app actions
-- **Device Information:** Device type, operating system version, and unique device identifiers
+- **Device Information:** Device type, operating system version, app version, and an installation identifier — a random UUID the app generates the first time it runs and sends with each request to our servers. We use it to detect duplicate or fraudulent accounts. It is not your hardware serial number, and reinstalling the app produces a new one.
 - **Advertising Data:** Google Advertising ID (AAID) on Android devices
+- **Install Referrer (Google Play, Android only):** When you open the sign-up screen, the app reads the Google Play install referrer so that a referral code carried by an invite link can be filled in for you. We use it only to pre-fill that referral code.
 - **Approximate Location (Country Only):** The app determines the country you are in so it can show country leaderboards, regional awards, and a country flag beside your name. **It does not use your device's GPS or location services and never asks for location permission.** Instead, when you sign in, the app asks one or more third-party lookup services which country your public IP address belongs to (see [Data Sharing](#data-sharing)). If none of them respond, it falls back to the country setting of your device's locale. We store only a two-letter ISO country code (for example `US`) and whether it came from your IP address or from your device locale. We never store coordinates, a street address, or any position more precise than the country.
 - **IP Address:** Your public IP address is recorded when you register and when you sign in, and appears in server logs and in the diagnostic reports described below. We use it to derive the country code above, to detect duplicate or fraudulent accounts, and to rate-limit abusive traffic.
 - **Diagnostic Reports:** When the app encounters an unrecoverable client-side error (for example, failing to reach the server at boot), it sends a short technical report so the operators can investigate. The report contains the app version, platform, OS version, device locale, the screen where the error occurred, the error class and a sanitised message, the HTTP status code if applicable, your account user ID (a UUID — no email, name, or password is included), and a short tail of recent in-app actions. Reports go to the operator's support inbox configured for the deployment.
@@ -31,6 +33,7 @@ We use the information we collect to:
 - Enable the referral system
 - Send important account notifications via email
 - Show global and country leaderboards, monthly regional podium awards, and country flags beside player names
+- Send payouts to the Catcoin address you provide, and keep a record of those payouts
 - Detect and prevent fraud, duplicate accounts, and abuse, including rate-limiting requests by IP address
 - **Display Advertisements:** To show you relevant ads that support our service
 
@@ -57,13 +60,23 @@ We do not sell your personal information. We may share information:
 - **With Service Providers:** Who help operate our services (e.g., email delivery)
 - **Legal Requirements:** If required by law or to protect our rights
 
+## Payouts and Blockchain Transactions
+
+When you request a withdrawal we record the Catcoin address you supplied, the amount, the status of the payout, and — once the payment is broadcast — its blockchain transaction ID.
+
+**The Catcoin blockchain is public and permanent.** After a payout is sent, the receiving address, the amount, and the transaction are visible to anyone, forever. We cannot edit, hide, or reverse them, and deleting your account does not remove them. If your Catcoin address is known to someone else, they may be able to link these payouts to you. This is how public blockchains work rather than a choice we make about your data, but you should understand it before providing an address.
+
 ## Data Security
 
 We implement appropriate security measures to protect your information, including encrypted data transmission and secure password storage.
 
-## Data Retention
+## Data Retention & Account Deletion
 
-We retain your account information as long as your account is active. You may request account deletion by contacting us.
+We retain your account information as long as your account is active. You may request account deletion at any time from the account deletion page in the app, or by contacting us.
+
+When you delete your account we anonymise your personal information, including your email address, username, and any social handles you supplied. To stop deleted accounts being recreated to farm rewards ("farming"), we keep a cryptographic hash of your identity, which lets us recognise a repeat signup without retaining the underlying details.
+
+Records already written to the Catcoin blockchain cannot be deleted — see [Payouts and Blockchain Transactions](#payouts-and-blockchain-transactions).
 
 ## Children's Privacy
 

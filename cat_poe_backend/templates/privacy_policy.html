@@ -80,14 +80,22 @@
         <li><strong>Social Media Handles:</strong> Discord, Telegram, X (Twitter), Facebook, and WhatsApp usernames (if
             you choose to provide them for mission verification)</li>
         <li><strong>Referral Information:</strong> Referral codes used during signup</li>
+        <li><strong>Catcoin Wallet Address:</strong> The Catcoin (CAT) blockchain address you give us to receive
+            payouts. Providing one is optional, but withdrawals are not possible without it. See "Payouts and Blockchain
+            Transactions" below for an important note about what becomes public.</li>
     </ul>
 
     <h3>Information Collected Automatically</h3>
     <ul>
         <li><strong>Usage Data:</strong> Mining session activity, mission completions, and in-app actions</li>
-        <li><strong>Device Information:</strong> Device type, operating system version, and unique device identifiers
-        </li>
+        <li><strong>Device Information:</strong> Device type, operating system version, app version, and an
+            installation identifier — a random UUID the app generates the first time it runs and sends with each
+            request to our servers. We use it to detect duplicate or fraudulent accounts. It is not your hardware
+            serial number, and reinstalling the app produces a new one.</li>
         <li><strong>Advertising Data:</strong> Google Advertising ID (AAID) on Android devices</li>
+        <li><strong>Install Referrer (Google Play, Android only):</strong> When you open the sign-up screen, the app
+            reads the Google Play install referrer so that a referral code carried by an invite link can be filled in
+            for you. We use it only to pre-fill that referral code.</li>
         <li><strong>Approximate Location (Country Only):</strong> The app determines the country you are in so it can
             show country leaderboards, regional awards, and a country flag beside your name. <strong>It does not use
             your device's GPS or location services and never asks for location permission.</strong> Instead, when you
@@ -99,6 +107,18 @@
         <li><strong>IP Address:</strong> Your public IP address is recorded when you register and when you sign in, and
             appears in server logs and in diagnostic reports. We use it to derive the country code above, to detect
             duplicate or fraudulent accounts, and to rate-limit abusive traffic.</li>
+        <li><strong>Diagnostic Reports:</strong> When the app encounters an unrecoverable client-side error (for
+            example, failing to reach the server at boot), it sends a short technical report so the operators can
+            investigate. The report contains the app version, platform, OS version, device locale, the screen where the
+            error occurred, the error class and a sanitised message, the HTTP status code if applicable, your account
+            user ID (a UUID — no email, name, or password is included), and a short tail of recent in-app actions.
+            Reports go to the operator's support inbox configured for the deployment.</li>
+        <li><strong>Age Verification Signal (Google Play, Android only):</strong> When required by law (currently
+            rolling out for new users in Texas via Google Play's Age Signals API), the app reads a status flag from
+            Google indicating whether you have completed age verification. We store only the enumerated status (for
+            example <code>verified</code>, <code>not_verified</code>, <code>not_required</code>) and a timestamp; we do
+            not receive your date of birth, name, or any identity document from Google. The status is used to decide
+            whether to allow account creation, rewards, or withdrawals.</li>
     </ul>
 
     <h2>How We Use Your Information</h2>
@@ -111,6 +131,7 @@
         <li>Send important account notifications via email</li>
         <li>Show global and country leaderboards, monthly regional podium awards, and country flags beside player
             names</li>
+        <li>Send payouts to the Catcoin address you provide, and keep a record of those payouts</li>
         <li>Detect and prevent fraud, duplicate accounts, and abuse, including rate-limiting requests by IP address</li>
         <li><strong>Display Advertisements:</strong> To show you relevant ads that support our service</li>
     </ul>
@@ -151,6 +172,15 @@
         <li><strong>With Service Providers:</strong> Who help operate our services (e.g., email delivery)</li>
         <li><strong>Legal Requirements:</strong> If required by law or to protect our rights</li>
     </ul>
+
+    <h2>Payouts and Blockchain Transactions</h2>
+    <p>When you request a withdrawal we record the Catcoin address you supplied, the amount, the status of the payout,
+        and — once the payment is broadcast — its blockchain transaction ID.</p>
+    <p><strong>The Catcoin blockchain is public and permanent.</strong> After a payout is sent, the receiving address,
+        the amount, and the transaction are visible to anyone, forever. We cannot edit, hide, or reverse them, and
+        deleting your account does not remove them. If your Catcoin address is known to someone else, they may be able
+        to link these payouts to you. This is how public blockchains work rather than a choice we make about your data,
+        but you should understand it before providing an address.</p>
 
     <h2>Data Security</h2>
     <p>We implement appropriate security measures to protect your information, including encrypted data transmission and
