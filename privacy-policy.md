@@ -56,6 +56,7 @@ We do not sell your personal information. We may share information:
 - **With IP Geolocation Providers:** To determine your country, the app sends a lookup request from your device to one or more of the third-party services listed below. Because the request originates on your device, these services can see your public IP address. They receive no other information about you — no account ID, email, username, or device identifier — and we do not send them your account data. Each publishes its own privacy policy:
   - [GeoJS](https://www.geojs.io/) (`get.geojs.io`)
   - [iplocation.net](https://www.iplocation.net/privacy-policy)
+- **Publicly, through the Catcoin blockchain:** When we send you a payout, your Catcoin address, the amount, and the transaction are published to the Catcoin network, where anyone can read them permanently. See [Payouts and Blockchain Transactions](#payouts-and-blockchain-transactions).
 - **With Service Providers:** Who help operate our services (e.g., email delivery)
 - **Legal Requirements:** If required by law or to protect our rights
 

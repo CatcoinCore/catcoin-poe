@@ -44,25 +44,31 @@ on our behalf (email delivery, hosting) do not count as sharing.
 | **Personal info** → Name | Yes | No | Optional | App functionality, Account management | `display_name` |
 | **Personal info** → Email address | Yes | No | Required | App functionality, Account management, Developer communications | `email`; used for verification and password reset |
 | **Personal info** → User IDs | Yes | No | Required (username) / Optional (social handles) | App functionality, Account management, Fraud prevention and security | Account UUID, 9-digit username, referral code, and any Discord / Telegram / X / Facebook / WhatsApp handle given for mission verification |
-| **Financial info** → Other financial info | Yes | **See note** | Optional | App functionality | `Wallet.catcoin_address`, and `Payout` records (address, amount, status, blockchain txid) |
+| **Financial info** → Other financial info | Yes | **Yes** | Optional | App functionality | `Wallet.catcoin_address`, and `Payout` records (address, amount, status, blockchain txid) |
 | **Location** → Approximate location | Yes | **Yes** | Required | App functionality, Fraud prevention and security | Country only (ISO alpha-2), derived from the public IP by third-party lookup services, falling back to device locale. **No** GPS, no location permission, never more precise than country |
 | **App activity** → App interactions | Yes | No | Required | App functionality, Fraud prevention and security | Mining sessions, mission completions, game scores, leaderboard standings, in-app actions |
 | **App info and performance** → Crash logs | Yes | No | Required | App functionality | Diagnostic reports emailed to the operator's inbox on unrecoverable client errors |
 | **App info and performance** → Diagnostics | Yes | No | Required | App functionality | App version, platform, OS version, locale, screen, error class, HTTP status, recent-action tail |
 | **Device or other IDs** → Device or other IDs | Yes | **Yes** | Required | Advertising or marketing, Fraud prevention and security, App functionality | Google Advertising ID (shared with AdMob); installation UUID sent as `X-Device-ID`; public IP address; Google Play install referrer |
 
-### Notes on the two judgement calls
+### Why two types are declared as shared
 
-**Financial info — "Shared".** Once a payout is broadcast, the receiving address, amount,
-and transaction become permanently public on the Catcoin blockchain and are readable by
-any node or block explorer. That is arguably a transfer to third parties. Declaring
-**Shared = Yes** is the conservative and defensible choice; confirm with whoever owns
-legal sign-off. Either way, the permanence is disclosed in the privacy policy under
-*Payouts and Blockchain Transactions*.
+Both were decided deliberately, in favour of the broader declaration. Under-declaring
+sharing is the kind of mismatch Play enforces against, and neither answer costs us
+anything, so both are **Shared = Yes**. Keep them that way unless the underlying behaviour
+changes.
 
-**Approximate location — "Shared".** We do not send the country anywhere, but the lookup
-request goes from the user's device to third-party services (GeoJS, iplocation.net), which
-necessarily see the public IP the location is derived from. Declare **Shared = Yes**.
+**Financial info — Shared = Yes.** Once a payout is broadcast, the receiving address,
+amount, and transaction become permanently public on the Catcoin blockchain and are
+readable by any node or block explorer. Nothing is handed to a named company, so it is not
+"sharing" in the everyday sense — but the data does leave us and reach third parties, and
+it can never be withdrawn. Declared as shared, and disclosed in the privacy policy under
+*Data Sharing* and *Payouts and Blockchain Transactions*.
+
+**Approximate location — Shared = Yes.** We never transmit the derived country anywhere.
+But the lookup request travels from the user's device to third-party services (GeoJS,
+iplocation.net), which necessarily see the public IP the country is derived from. The
+input to the location is shared even though the output is not, so it counts.
 
 ## Explicitly NOT collected
 
