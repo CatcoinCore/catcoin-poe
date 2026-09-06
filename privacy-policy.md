@@ -1,6 +1,6 @@
 # Privacy Policy for Catcoin PoE
 
-**Last Updated:** December 29, 2024
+**Last Updated:** September 6, 2026
 
 ## Introduction
 
@@ -17,6 +17,8 @@ This Privacy Policy describes how Catcoin PoE ("we", "our", or "us") collects, u
 - **Usage Data:** Mining session activity, mission completions, and in-app actions
 - **Device Information:** Device type, operating system version, and unique device identifiers
 - **Advertising Data:** Google Advertising ID (AAID) on Android devices
+- **Approximate Location (Country Only):** The app determines the country you are in so it can show country leaderboards, regional awards, and a country flag beside your name. **It does not use your device's GPS or location services and never asks for location permission.** Instead, when you sign in, the app asks one or more third-party lookup services which country your public IP address belongs to (see [Data Sharing](#data-sharing)). If none of them respond, it falls back to the country setting of your device's locale. We store only a two-letter ISO country code (for example `US`) and whether it came from your IP address or from your device locale. We never store coordinates, a street address, or any position more precise than the country.
+- **IP Address:** Your public IP address is recorded when you register and when you sign in, and appears in server logs and in the diagnostic reports described below. We use it to derive the country code above, to detect duplicate or fraudulent accounts, and to rate-limit abusive traffic.
 - **Diagnostic Reports:** When the app encounters an unrecoverable client-side error (for example, failing to reach the server at boot), it sends a short technical report so the operators can investigate. The report contains the app version, platform, OS version, device locale, the screen where the error occurred, the error class and a sanitised message, the HTTP status code if applicable, your account user ID (a UUID — no email, name, or password is included), and a short tail of recent in-app actions. Reports go to the operator's support inbox configured for the deployment.
 - **Age Verification Signal (Google Play, Android only):** When required by law (currently rolling out for new users in Texas via Google Play's Age Signals API), the app reads a status flag from Google indicating whether you have completed age verification. We store only the enumerated status (for example `verified`, `not_verified`, `not_required`) and a timestamp; we do not receive your date of birth, name, or any identity document from Google. The status is used to decide whether to allow account creation, rewards, or withdrawals.
 
@@ -28,6 +30,8 @@ We use the information we collect to:
 - Verify social media mission requirements
 - Enable the referral system
 - Send important account notifications via email
+- Show global and country leaderboards, monthly regional podium awards, and country flags beside player names
+- Detect and prevent fraud, duplicate accounts, and abuse, including rate-limiting requests by IP address
 - **Display Advertisements:** To show you relevant ads that support our service
 
 ## Advertising
@@ -46,6 +50,10 @@ You can opt-out of personalized advertising by visiting your device settings (Se
 
 We do not sell your personal information. We may share information:
 - **With Ad Partners:** We share device identifiers and usage data with Google AdMob to facilitate advertising services
+- **With IP Geolocation Providers:** To determine your country, the app sends a lookup request from your device to one or more of the third-party services listed below. Because the request originates on your device, these services can see your public IP address. They receive no other information about you — no account ID, email, username, or device identifier — and we do not send them your account data. Each publishes its own privacy policy:
+  - [GeoJS](https://www.geojs.io/) (`get.geojs.io`)
+  - [ip-api.com](https://ip-api.com/docs/legal)
+  - [iplocation.net](https://www.iplocation.net/privacy-policy)
 - **With Service Providers:** Who help operate our services (e.g., email delivery)
 - **Legal Requirements:** If required by law or to protect our rights
 
@@ -85,4 +93,4 @@ Maintainers operating a published app must replace this section with a working c
 
 ---
 
-*This privacy policy is effective as of December 29, 2024.*
+*This privacy policy is effective as of September 6, 2026.*
