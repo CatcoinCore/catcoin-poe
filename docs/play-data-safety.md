@@ -51,6 +51,24 @@ on our behalf (email delivery, hosting) do not count as sharing.
 | **App info and performance** → Diagnostics | Yes | No | Required | App functionality | App version, platform, OS version, locale, screen, error class, HTTP status, recent-action tail |
 | **Device or other IDs** → Device or other IDs | Yes | **Yes** | Required | Advertising or marketing, Fraud prevention and security, App functionality | Google Advertising ID (shared with AdMob); installation UUID sent as `X-Device-ID`; public IP address; Google Play install referrer |
 
+### "Why is this data shared?" — asked separately from why it is collected
+
+The form asks the purpose question twice: once for collection, once for sharing. Only the
+three shared types get the second question, and the answers are narrower than their
+collection purposes, because the *reason for the transfer* is not the same as every use we
+make of the data once we have it.
+
+| Shared type | Why shared | Reasoning |
+|---|---|---|
+| Financial info | **App functionality** | The address and amount are broadcast solely to execute the payout the user asked for. Not advertising, not analytics |
+| Approximate location | **App functionality** | The IP goes to the lookup services only to resolve a country code, which drives country leaderboards and regional awards |
+| Device or other IDs | **Advertising or marketing** | Only the advertising ID is shared, and only with AdMob to serve ads. The installation UUID and IP are never shared — they stay with us for fraud prevention |
+
+Note the asymmetry on the last row: *collected* covers the advertising ID, installation
+UUID, IP, and install referrer, but *shared* covers only the advertising ID. The purposes
+therefore differ, and picking "Fraud prevention" for sharing would be wrong — we do not
+transfer anything to anyone for that reason.
+
 ### "Required, or can users choose?" — two Optional, the rest Required
 
 Play offers one answer per data type: *collection is required (users can't turn it off)* or
