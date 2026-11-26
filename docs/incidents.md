@@ -90,7 +90,7 @@ who reached them would write to a database that is then discarded.
 
 ---
 
-## 2026-11-20 — certificate expired; nginx kept serving a stale copy
+## 2026-11-20 — certificate expired; renewal had been failing silently for a month
 
 **Impact.** The app was unreachable for roughly four hours. The served
 certificate expired at 13:39 UTC and was replaced at about 17:30 UTC.
@@ -98,49 +98,63 @@ certificate expired at 13:39 UTC and was replaced at about 17:30 UTC.
 **What users saw.** TLS handshake failure (`certificate has expired`). Port 80
 still answered with a redirect, so the server looked "up".
 
-**Root cause — the renewed certificate never reached the directory nginx serves.**
-When an emergency renewal was attempted, certbot reported *"Certificate not yet
-due for renewal"*: it already held a valid, newer certificate in
-`/etc/letsencrypt/live/poe.catcoin.in/`. nginx, however, serves a **copy** in
-`./ssl/`, and that copy was the old certificate. Automatic renewal had worked;
-delivering the result to nginx had not. This is the same failure shape as root
-cause #2 of the June 2026 outage (see [cert-renewal.md](cert-renewal.md)).
+**Root cause — nginx and certbot disagreed about the challenge directory.** After
+the June outage, poe's renewal config was pointed at a webroot directory that
+belonged to another site on the host, and the Aug 22 renewal succeeded through
+it. On Sep 10 the `./certbot-www` directory was introduced, and the host's
+`nginx.conf` was changed (last edited Oct 18) to serve poe's
+`/.well-known/acme-challenge/` from it instead. Nobody updated `webroot_path` in
+`/etc/letsencrypt/renewal/poe.catcoin.in.conf` to match.
 
-The certificate's issuer had changed to a new Let's Encrypt intermediate, which
-initially suggested a different TLS manager had taken over. It had not; the
-issuer change is just Let's Encrypt's own rotation. The useful lesson is to
-compare the live certificate against `/etc/letsencrypt/live/` **first**: if
-certbot's copy is newer than what is served, the problem is delivery, not
-renewal.
+From Oct 21, when renewal came due, certbot wrote its challenge tokens to the
+old directory while nginx served the new one. Every attempt — twice a day for a
+month — got a 404 from Let's Encrypt and failed silently, and the certificate
+issued on Aug 22 expired on schedule.
+
+The certificate archive is the proof: `cert5` (issued Aug 22, expires Nov 20) is
+followed directly by `cert6` (issued Nov 20 during recovery). There was no
+October certificate. The renewal log for October was on the pre-migration server
+and is not available; the conclusion rests on the archive and on the dates of
+the nginx and directory changes.
+
+**Two red herrings worth recording.**
+
+- The certificate's issuer had changed to a new Let's Encrypt intermediate,
+  which suggested a different TLS manager had taken over. It had not; that is
+  Let's Encrypt's own rotation.
+- During recovery certbot said *"Certificate not yet due for renewal"*, which
+  looked as if renewal had worked and only delivery had failed. It was referring
+  to a certificate created minutes earlier in the same recovery session. Always
+  check the dates in `/etc/letsencrypt/archive/<name>/` before concluding which
+  of renewal or delivery failed.
 
 **Fix.**
 
 1. Forced a fresh certificate (valid to 2027-02-18) and ran the `poe.sh` deploy
-   hook by hand to copy it into `./ssl` and reload nginx. During the renewal
-   itself the hooks reported errors because nginx had been stopped for a
-   standalone renewal; the manual run afterwards succeeded.
-2. The standalone renewal had switched `poe.catcoin.in.conf` to
-   `authenticator = standalone`, which would fail at the next automatic renewal
-   because nginx holds port 80. The same day it was switched to
+   hook by hand to copy it into `./ssl` and reload nginx.
+2. The emergency renewal used `--standalone`, which had switched the renewal
+   config to `authenticator = standalone`. The same day it was set to
    `authenticator = webroot` with
-   `webroot_path = /opt/catcoin-backend/certbot-www`, the directory nginx serves
-   for `/.well-known/acme-challenge/`, and `certbot renew --dry-run` passed. The
-   previous config is kept as `poe.catcoin.in.conf.bak-20261120`.
+   `webroot_path = /opt/catcoin-backend/certbot-www`, the directory nginx
+   actually serves, which also corrects the original mismatch.
+   `certbot renew --dry-run` passed.
 
 **What changed so it does not recur.**
 
-- `check_cert_expiry.sh` used to inspect only the files in `./ssl/`, so it could
-  not see the certificate actually served. It now also connects to the live
-  endpoint and checks the certificate presented there, and exits non-zero if the
-  host is unreachable over TLS.
+- `check_cert_expiry.sh` now probes the live endpoint, not only files on disk,
+  and exits non-zero if the host is unreachable over TLS. Run off-host on a
+  schedule, it would have warned 14 days before expiry.
+- Rule recorded in [cert-renewal.md](cert-renewal.md): **any change to where
+  nginx serves `/.well-known/acme-challenge/` must be paired with the matching
+  `webroot_path` change and a `certbot renew --dry-run`.**
 
 **Follow-ups.**
 
 - [ ] Deploy the updated `check_cert_expiry.sh` to the server, `chmod +x` it,
       and schedule it — preferably off-host.
-- [ ] Find out why the automatic renewal in October did not deliver the new
-      certificate into `./ssl` (check `/var/log/letsencrypt/` around that date
-      for deploy-hook errors).
+- [ ] Run `certbot renew --dry-run` for **every** certificate on the host. The
+      other sites have their own `webroot_path` settings, and the same kind of
+      mismatch would take them down the same silent way.
 
 ---
 

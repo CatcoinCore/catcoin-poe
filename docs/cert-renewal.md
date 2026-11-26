@@ -83,6 +83,9 @@ Two non-obvious facts that have each caused an outage:
    at that same host directory, and `webroot_path` in
    `/etc/letsencrypt/renewal/poe.catcoin.in.conf` must match it. Pointing one
    directory too high or too low makes every challenge 404 and renewal fail silently.
+   **Whenever the nginx challenge location changes, update `webroot_path` for
+   every affected certificate and run `certbot renew --dry-run` in the same
+   change.** Skipping that step caused the Nov 2026 outage a month later.
 
 ## Cert ↔ filename map
 
@@ -125,9 +128,8 @@ and also inspects any `*fullchain.pem` in `./ssl`. It exits non-zero if a
 certificate is expired or within `WARN_DAYS` (default 14), **or if the host
 cannot be reached over TLS at all**, so it catches outages, not only expiry.
 
-Checking files alone is not enough: in Nov 2026 certbot held a valid certificate
-while nginx served an expired copy, and a file check of certbot's directory would
-have reported everything fine.
+Checking files alone is not enough: what nginx serves can differ from what is on
+disk where you are looking, and only the live probe sees what users actually get.
 
 The live probe needs no server access, so run it **from a machine other than the
 server** (a dead server cannot report itself), every few minutes:
@@ -143,10 +145,12 @@ Full write-ups for every outage are in [incidents.md](incidents.md).
 
 ### Nov 2026
 
-- The served certificate expired on Nov 20 while certbot already held a valid
-  newer one: renewal had worked, delivery into `./ssl` had not. Recovered with a
-  forced renewal plus a manual run of `poe.sh`; renewal config corrected to
-  `webroot` the same day and verified with `--dry-run`.
+- The certificate expired on Nov 20. Renewal had been failing silently since
+  Oct 21: nginx had been changed to serve poe's challenge files from
+  `./certbot-www`, but the renewal config still pointed at the previous webroot,
+  so every challenge 404'd. Fixed by setting
+  `webroot_path = /opt/catcoin-backend/certbot-www` and verifying with
+  `--dry-run`.
 - `check_cert_expiry.sh` now probes the live endpoint, since the file-only check
   could not see what users were actually served.
 
