@@ -7,11 +7,15 @@ backend — and how to recover when the app reports the server as unreachable.
 
 If the app can't reach the backend and `https://poe.catcoin.in/health` fails the
 TLS handshake (`SEC_E_CERT_EXPIRED` / `HandshakeException`), the cert has expired.
-On the host, from the `cat_poe_backend` checkout:
+On the host, in `/opt/catcoin-backend` (see *Production host layout* below):
 
 ```bash
+# 0. Is it actually the certificate? If certbot's copy is newer than what is
+#    served, renewal worked and only delivery to nginx failed: skip to step 2.
+sudo openssl x509 -noout -enddate -in /etc/letsencrypt/live/poe.catcoin.in/fullchain.pem
+
 # 1. Renew via the certbot webroot that nginx serves (see Architecture).
-sudo certbot certonly --webroot -w ./certbot-www -d poe.catcoin.in
+sudo certbot certonly --webroot -w /opt/catcoin-backend/certbot-www -d poe.catcoin.in
 
 # 2. Copy the new cert into the dir nginx serves, then reload.
 sudo /etc/letsencrypt/renewal-hooks/deploy/poe.sh
@@ -27,6 +31,30 @@ the TLS handshake** before sending any request — so an expired cert looks exac
 like "server down" even though FastAPI + nginx are up (port 80 still 301s). No app
 update or restart is needed once the cert is fixed; it reconnects immediately.
 
+**Do not use `certbot --standalone`** except as a last resort with nginx stopped:
+it rewrites the renewal config to `authenticator = standalone`, and the next
+automatic renewal then fails because nginx holds port 80. If you do use it,
+switch the config back to `webroot` afterwards and re-run `--dry-run`.
+
+If ports 80/443 *refuse* connections instead of failing TLS, this is not a
+certificate problem; see [incidents.md](incidents.md).
+
+## Production host layout
+
+- The backend is deployed as a package to **`/opt/catcoin-backend`**, which is
+  the contents of this repository's `cat_poe_backend/` directory placed at the
+  top level. It is **not a git checkout**; `git pull` does not apply there.
+- The host's `nginx.conf` is maintained on the server and differs from the copy
+  in this repository. `catcoin_nginx` is the front door for **every site on the
+  host**, not only Catcoin, so a change to it, or it being down, affects all of
+  them.
+- Renewal config: `/etc/letsencrypt/renewal/poe.catcoin.in.conf` with
+  `authenticator = webroot` and
+  `webroot_path = /opt/catcoin-backend/certbot-www`.
+- Each site on the host has its own deploy hook in
+  `/etc/letsencrypt/renewal-hooks/deploy/`. certbot runs all of them after any
+  renewal, so one renewal reloads nginx several times; that is harmless.
+
 ## Architecture
 
 ```
@@ -34,7 +62,7 @@ Let's Encrypt --(HTTP-01 challenge)--> catcoin_nginx :80
                                           location /.well-known/acme-challenge/
                                           root /var/www/certbot   <-- ./certbot-www (mount)
 
-certbot -w ./certbot-www   writes the challenge token into ./certbot-www/.well-known/acme-challenge/
+certbot -w /opt/catcoin-backend/certbot-www   writes the challenge token into .../certbot-www/.well-known/acme-challenge/
 certbot saves the cert to: /etc/letsencrypt/live/poe.catcoin.in/
 deploy hook copies it to:  ./ssl/            (the ./ssl mount)
 catcoin_nginx serves:      /etc/nginx/ssl/ == ./ssl   (read-only mount, COPIES)
@@ -75,10 +103,11 @@ sudo certbot renew --cert-name poe.catcoin.in --dry-run
 To prove the challenge path itself serves correctly:
 
 ```bash
-mkdir -p ./certbot-www/.well-known/acme-challenge
-echo ok > ./certbot-www/.well-known/acme-challenge/testfile
+W=/opt/catcoin-backend/certbot-www
+mkdir -p $W/.well-known/acme-challenge
+echo ok > $W/.well-known/acme-challenge/testfile
 curl -s http://poe.catcoin.in/.well-known/acme-challenge/testfile   # want: ok
-rm ./certbot-www/.well-known/acme-challenge/testfile
+rm $W/.well-known/acme-challenge/testfile
 ```
 
 Note: `--dry-run` does **not** run deploy hooks. Verify the hook separately by
@@ -91,16 +120,37 @@ sudo /etc/letsencrypt/renewal-hooks/deploy/poe.sh && echo OK
 ## Early warning
 
 [`cat_poe_backend/check_cert_expiry.sh`](../cat_poe_backend/check_cert_expiry.sh)
-inspects every `*fullchain.pem` nginx actually serves and exits non-zero if any is
-expired or within `WARN_DAYS` (default 14). Wire it into cron on the host so you
-hear about it weeks early instead of from a user report:
+connects to the live endpoint and checks the certificate **actually presented**,
+and also inspects any `*fullchain.pem` in `./ssl`. It exits non-zero if a
+certificate is expired or within `WARN_DAYS` (default 14), **or if the host
+cannot be reached over TLS at all**, so it catches outages, not only expiry.
+
+Checking files alone is not enough: in Nov 2026 certbot held a valid certificate
+while nginx served an expired copy, and a file check of certbot's directory would
+have reported everything fine.
+
+The live probe needs no server access, so run it **from a machine other than the
+server** (a dead server cannot report itself), every few minutes:
 
 ```cron
-0 7 * * *  cd /path/to/cat_poe_backend && ./check_cert_expiry.sh || \
-           mail -s "catcoin: TLS cert expiry warning" you@example.com
+*/10 * * * *  /path/to/check_cert_expiry.sh || \
+              mail -s "catcoin: poe.catcoin.in TLS problem" you@example.com
 ```
 
-## History — the Jun 2026 outage
+## History
+
+Full write-ups for every outage are in [incidents.md](incidents.md).
+
+### Nov 2026
+
+- The served certificate expired on Nov 20 while certbot already held a valid
+  newer one: renewal had worked, delivery into `./ssl` had not. Recovered with a
+  forced renewal plus a manual run of `poe.sh`; renewal config corrected to
+  `webroot` the same day and verified with `--dry-run`.
+- `check_cert_expiry.sh` now probes the live endpoint, since the file-only check
+  could not see what users were actually served.
+
+### Jun 2026
 
 - The `poe.catcoin.in` cert expired on Jun 21; the app went dark for ~2 days.
 - Root cause #1: `renewal/poe.catcoin.in.conf` had a `webroot_path` one directory
